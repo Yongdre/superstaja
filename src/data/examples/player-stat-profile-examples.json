@@ -1,0 +1,54 @@
+{
+  "note": "입력 형식 예시이며 공식 기록 데이터가 아닙니다. 각 연도 리그 JSON의 hitters 또는 pitchers 배열에 맞게 복사해 사용하세요.",
+  "hitters": [
+    {
+      "id": "EXAMPLE-CHOI-HYUNG-WOO",
+      "name": "최형우",
+      "position": "LF,DH",
+      "bats": "L",
+      "statProfile": {
+        "games": 144,
+        "avg": 0.37,
+        "homeRuns": 30,
+        "eye": 9,
+        "speed": 3
+      }
+    },
+    {
+      "id": "EXAMPLE-RENES",
+      "name": "레나스",
+      "position": "2B,3B,SS",
+      "bats": "R",
+      "availability": "INJURY",
+      "statProfile": {
+        "games": 100,
+        "avg": 0.324,
+        "homeRuns": 20,
+        "eye": 6,
+        "speed": 8
+      }
+    }
+  ],
+  "pitchers": [
+    {
+      "id": "EXAMPLE-CHO-JUNG-HOON",
+      "name": "조정훈",
+      "throws": "R",
+      "role": "SP",
+      "stuff": 82,
+      "movement": 78,
+      "control": 76,
+      "stamina": 88
+    },
+    {
+      "id": "EXAMPLE-OH-SEUNG-HWAN",
+      "name": "오승환",
+      "throws": "R",
+      "role": "CP",
+      "stuff": 95,
+      "movement": 91,
+      "control": 88,
+      "stamina": 52
+    }
+  ]
+}

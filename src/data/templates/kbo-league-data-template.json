@@ -1,0 +1,2497 @@
+{
+  "schemaVersion": 1,
+  "label": "2099 KBO 타자 성적·투수 능력치 입력 템플릿",
+  "sourceSeason": 2099,
+  "teams": {
+    "KIA": {
+      "id": "KIA",
+      "name": "KIA 타이거즈",
+      "shortName": "KIA",
+      "city": "광주",
+      "primary": "#ea0029",
+      "accent": "#ffffff",
+      "strength": 70,
+      "hitters": [
+        {
+          "id": "KIA-TEMPLATE-H01",
+          "name": "KIA 타자 1",
+          "position": "CF,LF,RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.295,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 9
+          }
+        },
+        {
+          "id": "KIA-TEMPLATE-H02",
+          "name": "KIA 타자 2",
+          "position": "2B,SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "KIA-TEMPLATE-H03",
+          "name": "KIA 타자 3",
+          "position": "RF,LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.31,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "KIA-TEMPLATE-H04",
+          "name": "KIA 타자 4",
+          "position": "1B,DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.32,
+            "homeRuns": 35,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "KIA-TEMPLATE-H05",
+          "name": "KIA 타자 5",
+          "position": "LF,RF,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "KIA-TEMPLATE-H06",
+          "name": "KIA 타자 6",
+          "position": "3B,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "KIA-TEMPLATE-H07",
+          "name": "KIA 타자 7",
+          "position": "SS,2B,3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.27,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "KIA-TEMPLATE-H08",
+          "name": "KIA 타자 8",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.255,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "KIA-TEMPLATE-H09",
+          "name": "KIA 타자 9",
+          "position": "DH,1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.28,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "KIA-TEMPLATE-P01",
+          "grade": "S",
+          "name": "KIA 투수 1",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 84,
+          "control": 83,
+          "stamina": 92
+        },
+        {
+          "id": "KIA-TEMPLATE-P02",
+          "grade": "A",
+          "name": "KIA 투수 2",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 79,
+          "control": 80,
+          "stamina": 88
+        },
+        {
+          "id": "KIA-TEMPLATE-P03",
+          "grade": "B",
+          "name": "KIA 투수 3",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 76,
+          "control": 75,
+          "stamina": 84
+        },
+        {
+          "id": "KIA-TEMPLATE-P04",
+          "grade": "B",
+          "name": "KIA 투수 4",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 70,
+          "stamina": 78
+        },
+        {
+          "id": "KIA-TEMPLATE-P05",
+          "grade": "C",
+          "name": "KIA 투수 5",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 69,
+          "control": 66,
+          "stamina": 74
+        },
+        {
+          "id": "KIA-TEMPLATE-P06",
+          "grade": "A",
+          "name": "KIA 투수 6",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 80,
+          "control": 78,
+          "stamina": 58
+        },
+        {
+          "id": "KIA-TEMPLATE-P07",
+          "grade": "B",
+          "name": "KIA 투수 7",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 82,
+          "control": 72,
+          "stamina": 55
+        },
+        {
+          "id": "KIA-TEMPLATE-P08",
+          "grade": "B",
+          "name": "KIA 투수 8",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 73,
+          "control": 75,
+          "stamina": 52
+        },
+        {
+          "id": "KIA-TEMPLATE-P09",
+          "grade": "B",
+          "name": "KIA 투수 9",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 68,
+          "stamina": 50
+        },
+        {
+          "id": "KIA-TEMPLATE-P10",
+          "grade": "S",
+          "name": "KIA 투수 10",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 88,
+          "control": 85,
+          "stamina": 55
+        }
+      ]
+    },
+    "DOO": {
+      "id": "DOO",
+      "name": "두산 베어스",
+      "shortName": "두산",
+      "city": "서울",
+      "primary": "#131230",
+      "accent": "#ed1c24",
+      "strength": 70,
+      "hitters": [
+        {
+          "id": "DOO-TEMPLATE-H01",
+          "name": "두산 타자 1",
+          "position": "CF,LF,RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.295,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 9
+          }
+        },
+        {
+          "id": "DOO-TEMPLATE-H02",
+          "name": "두산 타자 2",
+          "position": "2B,SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "DOO-TEMPLATE-H03",
+          "name": "두산 타자 3",
+          "position": "RF,LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.31,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "DOO-TEMPLATE-H04",
+          "name": "두산 타자 4",
+          "position": "1B,DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.32,
+            "homeRuns": 35,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "DOO-TEMPLATE-H05",
+          "name": "두산 타자 5",
+          "position": "LF,RF,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "DOO-TEMPLATE-H06",
+          "name": "두산 타자 6",
+          "position": "3B,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "DOO-TEMPLATE-H07",
+          "name": "두산 타자 7",
+          "position": "SS,2B,3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.27,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "DOO-TEMPLATE-H08",
+          "name": "두산 타자 8",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.255,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "DOO-TEMPLATE-H09",
+          "name": "두산 타자 9",
+          "position": "DH,1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.28,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "DOO-TEMPLATE-P01",
+          "grade": "S",
+          "name": "두산 투수 1",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 84,
+          "control": 83,
+          "stamina": 92
+        },
+        {
+          "id": "DOO-TEMPLATE-P02",
+          "grade": "A",
+          "name": "두산 투수 2",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 79,
+          "control": 80,
+          "stamina": 88
+        },
+        {
+          "id": "DOO-TEMPLATE-P03",
+          "grade": "B",
+          "name": "두산 투수 3",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 76,
+          "control": 75,
+          "stamina": 84
+        },
+        {
+          "id": "DOO-TEMPLATE-P04",
+          "grade": "B",
+          "name": "두산 투수 4",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 70,
+          "stamina": 78
+        },
+        {
+          "id": "DOO-TEMPLATE-P05",
+          "grade": "C",
+          "name": "두산 투수 5",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 69,
+          "control": 66,
+          "stamina": 74
+        },
+        {
+          "id": "DOO-TEMPLATE-P06",
+          "grade": "A",
+          "name": "두산 투수 6",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 80,
+          "control": 78,
+          "stamina": 58
+        },
+        {
+          "id": "DOO-TEMPLATE-P07",
+          "grade": "B",
+          "name": "두산 투수 7",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 82,
+          "control": 72,
+          "stamina": 55
+        },
+        {
+          "id": "DOO-TEMPLATE-P08",
+          "grade": "B",
+          "name": "두산 투수 8",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 73,
+          "control": 75,
+          "stamina": 52
+        },
+        {
+          "id": "DOO-TEMPLATE-P09",
+          "grade": "B",
+          "name": "두산 투수 9",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 68,
+          "stamina": 50
+        },
+        {
+          "id": "DOO-TEMPLATE-P10",
+          "grade": "S",
+          "name": "두산 투수 10",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 88,
+          "control": 85,
+          "stamina": 55
+        }
+      ]
+    },
+    "LOT": {
+      "id": "LOT",
+      "name": "롯데 자이언츠",
+      "shortName": "롯데",
+      "city": "부산",
+      "primary": "#041e42",
+      "accent": "#d00f31",
+      "strength": 70,
+      "hitters": [
+        {
+          "id": "LOT-TEMPLATE-H01",
+          "name": "롯데 타자 1",
+          "position": "CF,LF,RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.295,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 9
+          }
+        },
+        {
+          "id": "LOT-TEMPLATE-H02",
+          "name": "롯데 타자 2",
+          "position": "2B,SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "LOT-TEMPLATE-H03",
+          "name": "롯데 타자 3",
+          "position": "RF,LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.31,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LOT-TEMPLATE-H04",
+          "name": "롯데 타자 4",
+          "position": "1B,DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.32,
+            "homeRuns": 35,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "LOT-TEMPLATE-H05",
+          "name": "롯데 타자 5",
+          "position": "LF,RF,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "LOT-TEMPLATE-H06",
+          "name": "롯데 타자 6",
+          "position": "3B,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "LOT-TEMPLATE-H07",
+          "name": "롯데 타자 7",
+          "position": "SS,2B,3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.27,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "LOT-TEMPLATE-H08",
+          "name": "롯데 타자 8",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.255,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LOT-TEMPLATE-H09",
+          "name": "롯데 타자 9",
+          "position": "DH,1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.28,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "LOT-TEMPLATE-P01",
+          "grade": "S",
+          "name": "롯데 투수 1",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 84,
+          "control": 83,
+          "stamina": 92
+        },
+        {
+          "id": "LOT-TEMPLATE-P02",
+          "grade": "A",
+          "name": "롯데 투수 2",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 79,
+          "control": 80,
+          "stamina": 88
+        },
+        {
+          "id": "LOT-TEMPLATE-P03",
+          "grade": "B",
+          "name": "롯데 투수 3",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 76,
+          "control": 75,
+          "stamina": 84
+        },
+        {
+          "id": "LOT-TEMPLATE-P04",
+          "grade": "B",
+          "name": "롯데 투수 4",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 70,
+          "stamina": 78
+        },
+        {
+          "id": "LOT-TEMPLATE-P05",
+          "grade": "C",
+          "name": "롯데 투수 5",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 69,
+          "control": 66,
+          "stamina": 74
+        },
+        {
+          "id": "LOT-TEMPLATE-P06",
+          "grade": "A",
+          "name": "롯데 투수 6",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 80,
+          "control": 78,
+          "stamina": 58
+        },
+        {
+          "id": "LOT-TEMPLATE-P07",
+          "grade": "B",
+          "name": "롯데 투수 7",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 82,
+          "control": 72,
+          "stamina": 55
+        },
+        {
+          "id": "LOT-TEMPLATE-P08",
+          "grade": "B",
+          "name": "롯데 투수 8",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 73,
+          "control": 75,
+          "stamina": 52
+        },
+        {
+          "id": "LOT-TEMPLATE-P09",
+          "grade": "B",
+          "name": "롯데 투수 9",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 68,
+          "stamina": 50
+        },
+        {
+          "id": "LOT-TEMPLATE-P10",
+          "grade": "S",
+          "name": "롯데 투수 10",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 88,
+          "control": 85,
+          "stamina": 55
+        }
+      ]
+    },
+    "NC": {
+      "id": "NC",
+      "name": "NC 다이노스",
+      "shortName": "NC",
+      "city": "창원",
+      "primary": "#071d49",
+      "accent": "#c8a977",
+      "strength": 70,
+      "hitters": [
+        {
+          "id": "NC-TEMPLATE-H01",
+          "name": "NC 타자 1",
+          "position": "CF,LF,RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.295,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 9
+          }
+        },
+        {
+          "id": "NC-TEMPLATE-H02",
+          "name": "NC 타자 2",
+          "position": "2B,SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "NC-TEMPLATE-H03",
+          "name": "NC 타자 3",
+          "position": "RF,LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.31,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "NC-TEMPLATE-H04",
+          "name": "NC 타자 4",
+          "position": "1B,DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.32,
+            "homeRuns": 35,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "NC-TEMPLATE-H05",
+          "name": "NC 타자 5",
+          "position": "LF,RF,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "NC-TEMPLATE-H06",
+          "name": "NC 타자 6",
+          "position": "3B,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "NC-TEMPLATE-H07",
+          "name": "NC 타자 7",
+          "position": "SS,2B,3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.27,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "NC-TEMPLATE-H08",
+          "name": "NC 타자 8",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.255,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NC-TEMPLATE-H09",
+          "name": "NC 타자 9",
+          "position": "DH,1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.28,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "NC-TEMPLATE-P01",
+          "grade": "S",
+          "name": "NC 투수 1",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 84,
+          "control": 83,
+          "stamina": 92
+        },
+        {
+          "id": "NC-TEMPLATE-P02",
+          "grade": "A",
+          "name": "NC 투수 2",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 79,
+          "control": 80,
+          "stamina": 88
+        },
+        {
+          "id": "NC-TEMPLATE-P03",
+          "grade": "B",
+          "name": "NC 투수 3",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 76,
+          "control": 75,
+          "stamina": 84
+        },
+        {
+          "id": "NC-TEMPLATE-P04",
+          "grade": "B",
+          "name": "NC 투수 4",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 70,
+          "stamina": 78
+        },
+        {
+          "id": "NC-TEMPLATE-P05",
+          "grade": "C",
+          "name": "NC 투수 5",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 69,
+          "control": 66,
+          "stamina": 74
+        },
+        {
+          "id": "NC-TEMPLATE-P06",
+          "grade": "A",
+          "name": "NC 투수 6",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 80,
+          "control": 78,
+          "stamina": 58
+        },
+        {
+          "id": "NC-TEMPLATE-P07",
+          "grade": "B",
+          "name": "NC 투수 7",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 82,
+          "control": 72,
+          "stamina": 55
+        },
+        {
+          "id": "NC-TEMPLATE-P08",
+          "grade": "B",
+          "name": "NC 투수 8",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 73,
+          "control": 75,
+          "stamina": 52
+        },
+        {
+          "id": "NC-TEMPLATE-P09",
+          "grade": "B",
+          "name": "NC 투수 9",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 68,
+          "stamina": 50
+        },
+        {
+          "id": "NC-TEMPLATE-P10",
+          "grade": "S",
+          "name": "NC 투수 10",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 88,
+          "control": 85,
+          "stamina": 55
+        }
+      ]
+    },
+    "SK": {
+      "id": "SK",
+      "name": "SK 와이번스",
+      "shortName": "SK",
+      "city": "인천",
+      "primary": "#e31837",
+      "accent": "#ffb81c",
+      "strength": 70,
+      "hitters": [
+        {
+          "id": "SK-TEMPLATE-H01",
+          "name": "SK 타자 1",
+          "position": "CF,LF,RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.295,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 9
+          }
+        },
+        {
+          "id": "SK-TEMPLATE-H02",
+          "name": "SK 타자 2",
+          "position": "2B,SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "SK-TEMPLATE-H03",
+          "name": "SK 타자 3",
+          "position": "RF,LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.31,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SK-TEMPLATE-H04",
+          "name": "SK 타자 4",
+          "position": "1B,DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.32,
+            "homeRuns": 35,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "SK-TEMPLATE-H05",
+          "name": "SK 타자 5",
+          "position": "LF,RF,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SK-TEMPLATE-H06",
+          "name": "SK 타자 6",
+          "position": "3B,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SK-TEMPLATE-H07",
+          "name": "SK 타자 7",
+          "position": "SS,2B,3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.27,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "SK-TEMPLATE-H08",
+          "name": "SK 타자 8",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.255,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SK-TEMPLATE-H09",
+          "name": "SK 타자 9",
+          "position": "DH,1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.28,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SK-TEMPLATE-P01",
+          "grade": "S",
+          "name": "SK 투수 1",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 84,
+          "control": 83,
+          "stamina": 92
+        },
+        {
+          "id": "SK-TEMPLATE-P02",
+          "grade": "A",
+          "name": "SK 투수 2",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 79,
+          "control": 80,
+          "stamina": 88
+        },
+        {
+          "id": "SK-TEMPLATE-P03",
+          "grade": "B",
+          "name": "SK 투수 3",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 76,
+          "control": 75,
+          "stamina": 84
+        },
+        {
+          "id": "SK-TEMPLATE-P04",
+          "grade": "B",
+          "name": "SK 투수 4",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 70,
+          "stamina": 78
+        },
+        {
+          "id": "SK-TEMPLATE-P05",
+          "grade": "C",
+          "name": "SK 투수 5",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 69,
+          "control": 66,
+          "stamina": 74
+        },
+        {
+          "id": "SK-TEMPLATE-P06",
+          "grade": "A",
+          "name": "SK 투수 6",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 80,
+          "control": 78,
+          "stamina": 58
+        },
+        {
+          "id": "SK-TEMPLATE-P07",
+          "grade": "B",
+          "name": "SK 투수 7",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 82,
+          "control": 72,
+          "stamina": 55
+        },
+        {
+          "id": "SK-TEMPLATE-P08",
+          "grade": "B",
+          "name": "SK 투수 8",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 73,
+          "control": 75,
+          "stamina": 52
+        },
+        {
+          "id": "SK-TEMPLATE-P09",
+          "grade": "B",
+          "name": "SK 투수 9",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 68,
+          "stamina": 50
+        },
+        {
+          "id": "SK-TEMPLATE-P10",
+          "grade": "S",
+          "name": "SK 투수 10",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 88,
+          "control": 85,
+          "stamina": 55
+        }
+      ]
+    },
+    "LG": {
+      "id": "LG",
+      "name": "LG 트윈스",
+      "shortName": "LG",
+      "city": "서울",
+      "primary": "#c30452",
+      "accent": "#ffffff",
+      "strength": 70,
+      "hitters": [
+        {
+          "id": "LG-TEMPLATE-H01",
+          "name": "LG 타자 1",
+          "position": "CF,LF,RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.295,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 9
+          }
+        },
+        {
+          "id": "LG-TEMPLATE-H02",
+          "name": "LG 타자 2",
+          "position": "2B,SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "LG-TEMPLATE-H03",
+          "name": "LG 타자 3",
+          "position": "RF,LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.31,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LG-TEMPLATE-H04",
+          "name": "LG 타자 4",
+          "position": "1B,DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.32,
+            "homeRuns": 35,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "LG-TEMPLATE-H05",
+          "name": "LG 타자 5",
+          "position": "LF,RF,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "LG-TEMPLATE-H06",
+          "name": "LG 타자 6",
+          "position": "3B,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "LG-TEMPLATE-H07",
+          "name": "LG 타자 7",
+          "position": "SS,2B,3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.27,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "LG-TEMPLATE-H08",
+          "name": "LG 타자 8",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.255,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LG-TEMPLATE-H09",
+          "name": "LG 타자 9",
+          "position": "DH,1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.28,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "LG-TEMPLATE-P01",
+          "grade": "S",
+          "name": "LG 투수 1",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 84,
+          "control": 83,
+          "stamina": 92
+        },
+        {
+          "id": "LG-TEMPLATE-P02",
+          "grade": "A",
+          "name": "LG 투수 2",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 79,
+          "control": 80,
+          "stamina": 88
+        },
+        {
+          "id": "LG-TEMPLATE-P03",
+          "grade": "B",
+          "name": "LG 투수 3",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 76,
+          "control": 75,
+          "stamina": 84
+        },
+        {
+          "id": "LG-TEMPLATE-P04",
+          "grade": "B",
+          "name": "LG 투수 4",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 70,
+          "stamina": 78
+        },
+        {
+          "id": "LG-TEMPLATE-P05",
+          "grade": "C",
+          "name": "LG 투수 5",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 69,
+          "control": 66,
+          "stamina": 74
+        },
+        {
+          "id": "LG-TEMPLATE-P06",
+          "grade": "A",
+          "name": "LG 투수 6",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 80,
+          "control": 78,
+          "stamina": 58
+        },
+        {
+          "id": "LG-TEMPLATE-P07",
+          "grade": "B",
+          "name": "LG 투수 7",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 82,
+          "control": 72,
+          "stamina": 55
+        },
+        {
+          "id": "LG-TEMPLATE-P08",
+          "grade": "B",
+          "name": "LG 투수 8",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 73,
+          "control": 75,
+          "stamina": 52
+        },
+        {
+          "id": "LG-TEMPLATE-P09",
+          "grade": "B",
+          "name": "LG 투수 9",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 68,
+          "stamina": 50
+        },
+        {
+          "id": "LG-TEMPLATE-P10",
+          "grade": "S",
+          "name": "LG 투수 10",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 88,
+          "control": 85,
+          "stamina": 55
+        }
+      ]
+    },
+    "NEX": {
+      "id": "NEX",
+      "name": "넥센 히어로즈",
+      "shortName": "넥센",
+      "city": "서울",
+      "primary": "#570514",
+      "accent": "#f5b335",
+      "strength": 70,
+      "hitters": [
+        {
+          "id": "NEX-TEMPLATE-H01",
+          "name": "넥센 타자 1",
+          "position": "CF,LF,RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.295,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 9
+          }
+        },
+        {
+          "id": "NEX-TEMPLATE-H02",
+          "name": "넥센 타자 2",
+          "position": "2B,SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "NEX-TEMPLATE-H03",
+          "name": "넥센 타자 3",
+          "position": "RF,LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.31,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "NEX-TEMPLATE-H04",
+          "name": "넥센 타자 4",
+          "position": "1B,DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.32,
+            "homeRuns": 35,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "NEX-TEMPLATE-H05",
+          "name": "넥센 타자 5",
+          "position": "LF,RF,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "NEX-TEMPLATE-H06",
+          "name": "넥센 타자 6",
+          "position": "3B,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "NEX-TEMPLATE-H07",
+          "name": "넥센 타자 7",
+          "position": "SS,2B,3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.27,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "NEX-TEMPLATE-H08",
+          "name": "넥센 타자 8",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.255,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NEX-TEMPLATE-H09",
+          "name": "넥센 타자 9",
+          "position": "DH,1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.28,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "NEX-TEMPLATE-P01",
+          "grade": "S",
+          "name": "넥센 투수 1",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 84,
+          "control": 83,
+          "stamina": 92
+        },
+        {
+          "id": "NEX-TEMPLATE-P02",
+          "grade": "A",
+          "name": "넥센 투수 2",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 79,
+          "control": 80,
+          "stamina": 88
+        },
+        {
+          "id": "NEX-TEMPLATE-P03",
+          "grade": "B",
+          "name": "넥센 투수 3",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 76,
+          "control": 75,
+          "stamina": 84
+        },
+        {
+          "id": "NEX-TEMPLATE-P04",
+          "grade": "B",
+          "name": "넥센 투수 4",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 70,
+          "stamina": 78
+        },
+        {
+          "id": "NEX-TEMPLATE-P05",
+          "grade": "C",
+          "name": "넥센 투수 5",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 69,
+          "control": 66,
+          "stamina": 74
+        },
+        {
+          "id": "NEX-TEMPLATE-P06",
+          "grade": "A",
+          "name": "넥센 투수 6",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 80,
+          "control": 78,
+          "stamina": 58
+        },
+        {
+          "id": "NEX-TEMPLATE-P07",
+          "grade": "B",
+          "name": "넥센 투수 7",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 82,
+          "control": 72,
+          "stamina": 55
+        },
+        {
+          "id": "NEX-TEMPLATE-P08",
+          "grade": "B",
+          "name": "넥센 투수 8",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 73,
+          "control": 75,
+          "stamina": 52
+        },
+        {
+          "id": "NEX-TEMPLATE-P09",
+          "grade": "B",
+          "name": "넥센 투수 9",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 68,
+          "stamina": 50
+        },
+        {
+          "id": "NEX-TEMPLATE-P10",
+          "grade": "S",
+          "name": "넥센 투수 10",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 88,
+          "control": 85,
+          "stamina": 55
+        }
+      ]
+    },
+    "HAN": {
+      "id": "HAN",
+      "name": "한화 이글스",
+      "shortName": "한화",
+      "city": "대전",
+      "primary": "#f37321",
+      "accent": "#111111",
+      "strength": 70,
+      "hitters": [
+        {
+          "id": "HAN-TEMPLATE-H01",
+          "name": "한화 타자 1",
+          "position": "CF,LF,RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.295,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 9
+          }
+        },
+        {
+          "id": "HAN-TEMPLATE-H02",
+          "name": "한화 타자 2",
+          "position": "2B,SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "HAN-TEMPLATE-H03",
+          "name": "한화 타자 3",
+          "position": "RF,LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.31,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "HAN-TEMPLATE-H04",
+          "name": "한화 타자 4",
+          "position": "1B,DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.32,
+            "homeRuns": 35,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "HAN-TEMPLATE-H05",
+          "name": "한화 타자 5",
+          "position": "LF,RF,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "HAN-TEMPLATE-H06",
+          "name": "한화 타자 6",
+          "position": "3B,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "HAN-TEMPLATE-H07",
+          "name": "한화 타자 7",
+          "position": "SS,2B,3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.27,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "HAN-TEMPLATE-H08",
+          "name": "한화 타자 8",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.255,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "HAN-TEMPLATE-H09",
+          "name": "한화 타자 9",
+          "position": "DH,1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.28,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "HAN-TEMPLATE-P01",
+          "grade": "S",
+          "name": "한화 투수 1",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 84,
+          "control": 83,
+          "stamina": 92
+        },
+        {
+          "id": "HAN-TEMPLATE-P02",
+          "grade": "A",
+          "name": "한화 투수 2",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 79,
+          "control": 80,
+          "stamina": 88
+        },
+        {
+          "id": "HAN-TEMPLATE-P03",
+          "grade": "B",
+          "name": "한화 투수 3",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 76,
+          "control": 75,
+          "stamina": 84
+        },
+        {
+          "id": "HAN-TEMPLATE-P04",
+          "grade": "B",
+          "name": "한화 투수 4",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 70,
+          "stamina": 78
+        },
+        {
+          "id": "HAN-TEMPLATE-P05",
+          "grade": "C",
+          "name": "한화 투수 5",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 69,
+          "control": 66,
+          "stamina": 74
+        },
+        {
+          "id": "HAN-TEMPLATE-P06",
+          "grade": "A",
+          "name": "한화 투수 6",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 80,
+          "control": 78,
+          "stamina": 58
+        },
+        {
+          "id": "HAN-TEMPLATE-P07",
+          "grade": "B",
+          "name": "한화 투수 7",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 82,
+          "control": 72,
+          "stamina": 55
+        },
+        {
+          "id": "HAN-TEMPLATE-P08",
+          "grade": "B",
+          "name": "한화 투수 8",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 73,
+          "control": 75,
+          "stamina": 52
+        },
+        {
+          "id": "HAN-TEMPLATE-P09",
+          "grade": "B",
+          "name": "한화 투수 9",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 68,
+          "stamina": 50
+        },
+        {
+          "id": "HAN-TEMPLATE-P10",
+          "grade": "S",
+          "name": "한화 투수 10",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 88,
+          "control": 85,
+          "stamina": 55
+        }
+      ]
+    },
+    "KT": {
+      "id": "KT",
+      "name": "kt wiz",
+      "shortName": "kt",
+      "city": "수원",
+      "primary": "#000000",
+      "accent": "#ed1c24",
+      "strength": 70,
+      "hitters": [
+        {
+          "id": "KT-TEMPLATE-H01",
+          "name": "kt 타자 1",
+          "position": "CF,LF,RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.295,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 9
+          }
+        },
+        {
+          "id": "KT-TEMPLATE-H02",
+          "name": "kt 타자 2",
+          "position": "2B,SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "KT-TEMPLATE-H03",
+          "name": "kt 타자 3",
+          "position": "RF,LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.31,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "KT-TEMPLATE-H04",
+          "name": "kt 타자 4",
+          "position": "1B,DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.32,
+            "homeRuns": 35,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "KT-TEMPLATE-H05",
+          "name": "kt 타자 5",
+          "position": "LF,RF,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "KT-TEMPLATE-H06",
+          "name": "kt 타자 6",
+          "position": "3B,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "KT-TEMPLATE-H07",
+          "name": "kt 타자 7",
+          "position": "SS,2B,3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.27,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "KT-TEMPLATE-H08",
+          "name": "kt 타자 8",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.255,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "KT-TEMPLATE-H09",
+          "name": "kt 타자 9",
+          "position": "DH,1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.28,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "KT-TEMPLATE-P01",
+          "grade": "S",
+          "name": "kt 투수 1",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 84,
+          "control": 83,
+          "stamina": 92
+        },
+        {
+          "id": "KT-TEMPLATE-P02",
+          "grade": "A",
+          "name": "kt 투수 2",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 79,
+          "control": 80,
+          "stamina": 88
+        },
+        {
+          "id": "KT-TEMPLATE-P03",
+          "grade": "B",
+          "name": "kt 투수 3",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 76,
+          "control": 75,
+          "stamina": 84
+        },
+        {
+          "id": "KT-TEMPLATE-P04",
+          "grade": "B",
+          "name": "kt 투수 4",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 70,
+          "stamina": 78
+        },
+        {
+          "id": "KT-TEMPLATE-P05",
+          "grade": "C",
+          "name": "kt 투수 5",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 69,
+          "control": 66,
+          "stamina": 74
+        },
+        {
+          "id": "KT-TEMPLATE-P06",
+          "grade": "A",
+          "name": "kt 투수 6",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 80,
+          "control": 78,
+          "stamina": 58
+        },
+        {
+          "id": "KT-TEMPLATE-P07",
+          "grade": "B",
+          "name": "kt 투수 7",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 82,
+          "control": 72,
+          "stamina": 55
+        },
+        {
+          "id": "KT-TEMPLATE-P08",
+          "grade": "B",
+          "name": "kt 투수 8",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 73,
+          "control": 75,
+          "stamina": 52
+        },
+        {
+          "id": "KT-TEMPLATE-P09",
+          "grade": "B",
+          "name": "kt 투수 9",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 68,
+          "stamina": 50
+        },
+        {
+          "id": "KT-TEMPLATE-P10",
+          "grade": "S",
+          "name": "kt 투수 10",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 88,
+          "control": 85,
+          "stamina": 55
+        }
+      ]
+    },
+    "SAM": {
+      "id": "SAM",
+      "name": "삼성 라이온즈",
+      "shortName": "삼성",
+      "city": "대구",
+      "primary": "#074ca1",
+      "accent": "#ffffff",
+      "strength": 70,
+      "hitters": [
+        {
+          "id": "SAM-TEMPLATE-H01",
+          "name": "삼성 타자 1",
+          "position": "CF,LF,RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.295,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 9
+          }
+        },
+        {
+          "id": "SAM-TEMPLATE-H02",
+          "name": "삼성 타자 2",
+          "position": "2B,SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "SAM-TEMPLATE-H03",
+          "name": "삼성 타자 3",
+          "position": "RF,LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.31,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SAM-TEMPLATE-H04",
+          "name": "삼성 타자 4",
+          "position": "1B,DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.32,
+            "homeRuns": 35,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "SAM-TEMPLATE-H05",
+          "name": "삼성 타자 5",
+          "position": "LF,RF,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SAM-TEMPLATE-H06",
+          "name": "삼성 타자 6",
+          "position": "3B,1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SAM-TEMPLATE-H07",
+          "name": "삼성 타자 7",
+          "position": "SS,2B,3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.27,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "SAM-TEMPLATE-H08",
+          "name": "삼성 타자 8",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.255,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SAM-TEMPLATE-H09",
+          "name": "삼성 타자 9",
+          "position": "DH,1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.28,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SAM-TEMPLATE-P01",
+          "grade": "S",
+          "name": "삼성 투수 1",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 84,
+          "control": 83,
+          "stamina": 92
+        },
+        {
+          "id": "SAM-TEMPLATE-P02",
+          "grade": "A",
+          "name": "삼성 투수 2",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 79,
+          "control": 80,
+          "stamina": 88
+        },
+        {
+          "id": "SAM-TEMPLATE-P03",
+          "grade": "B",
+          "name": "삼성 투수 3",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 76,
+          "control": 75,
+          "stamina": 84
+        },
+        {
+          "id": "SAM-TEMPLATE-P04",
+          "grade": "B",
+          "name": "삼성 투수 4",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 70,
+          "stamina": 78
+        },
+        {
+          "id": "SAM-TEMPLATE-P05",
+          "grade": "C",
+          "name": "삼성 투수 5",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 69,
+          "control": 66,
+          "stamina": 74
+        },
+        {
+          "id": "SAM-TEMPLATE-P06",
+          "grade": "A",
+          "name": "삼성 투수 6",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 80,
+          "control": 78,
+          "stamina": 58
+        },
+        {
+          "id": "SAM-TEMPLATE-P07",
+          "grade": "B",
+          "name": "삼성 투수 7",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 82,
+          "control": 72,
+          "stamina": 55
+        },
+        {
+          "id": "SAM-TEMPLATE-P08",
+          "grade": "B",
+          "name": "삼성 투수 8",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 73,
+          "control": 75,
+          "stamina": 52
+        },
+        {
+          "id": "SAM-TEMPLATE-P09",
+          "grade": "B",
+          "name": "삼성 투수 9",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 68,
+          "stamina": 50
+        },
+        {
+          "id": "SAM-TEMPLATE-P10",
+          "grade": "S",
+          "name": "삼성 투수 10",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 88,
+          "control": 85,
+          "stamina": 55
+        }
+      ]
+    }
+  }
+}

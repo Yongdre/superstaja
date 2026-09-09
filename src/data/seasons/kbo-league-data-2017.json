@@ -1,0 +1,1487 @@
+{
+  "schemaVersion": 1,
+  "label": "2017 KBO 근사 데이터",
+  "sourceSeason": 2017,
+  "teams": {
+    "KIA": {
+      "id": "KIA",
+      "name": "KIA 타이거즈",
+      "shortName": "KIA",
+      "city": "광주",
+      "primary": "#ea0029",
+      "accent": "#ffffff",
+      "strength": 88,
+      "hitters": [
+        {
+          "id": "KIA-LMJ",
+          "name": "이명기",
+          "position": "RF",
+          "contact": 78,
+          "power": 42,
+          "discipline": 58,
+          "speed": 74,
+          "bats": "L"
+        },
+        {
+          "id": "KIA-KSH",
+          "name": "김선빈",
+          "position": "SS",
+          "contact": 84,
+          "power": 39,
+          "discipline": 70,
+          "speed": 71,
+          "bats": "R"
+        },
+        {
+          "id": "KIA-BHY",
+          "name": "버나디나",
+          "position": "CF",
+          "contact": 78,
+          "power": 79,
+          "discipline": 61,
+          "speed": 87,
+          "bats": "L"
+        },
+        {
+          "id": "KIA-CHJ",
+          "name": "최형우",
+          "position": "LF",
+          "contact": 88,
+          "power": 88,
+          "discipline": 86,
+          "speed": 40,
+          "bats": "L"
+        },
+        {
+          "id": "KIA-NJH",
+          "name": "나지완",
+          "position": "DH",
+          "contact": 73,
+          "power": 79,
+          "discipline": 82,
+          "speed": 35,
+          "bats": "R"
+        },
+        {
+          "id": "KIA-ASP",
+          "name": "안치홍",
+          "position": "2B",
+          "contact": 76,
+          "power": 65,
+          "discipline": 59,
+          "speed": 63,
+          "bats": "R"
+        },
+        {
+          "id": "KIA-LBM",
+          "name": "이범호",
+          "position": "3B",
+          "contact": 68,
+          "power": 74,
+          "discipline": 74,
+          "speed": 28,
+          "bats": "R"
+        },
+        {
+          "id": "KIA-KMJ",
+          "name": "김민식",
+          "position": "C",
+          "contact": 48,
+          "power": 29,
+          "discipline": 51,
+          "speed": 45,
+          "bats": "L"
+        },
+        {
+          "id": "KIA-KJH",
+          "name": "김주형",
+          "position": "1B",
+          "contact": 54,
+          "power": 57,
+          "discipline": 43,
+          "speed": 38,
+          "bats": "R"
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "KIA-HHG",
+          "name": "헥터 노에시",
+          "role": "SP",
+          "stuff": 84,
+          "control": 81,
+          "stamina": 91,
+          "throws": "R"
+        },
+        {
+          "id": "KIA-YH",
+          "name": "양현종",
+          "role": "SP",
+          "stuff": 88,
+          "control": 79,
+          "stamina": 90,
+          "throws": "L"
+        },
+        {
+          "id": "KIA-PHJ",
+          "name": "팻딘",
+          "role": "SP",
+          "stuff": 73,
+          "control": 70,
+          "stamina": 83,
+          "throws": "L"
+        },
+        {
+          "id": "KIA-KYR",
+          "name": "김윤동",
+          "role": "RP",
+          "stuff": 76,
+          "control": 58,
+          "stamina": 48,
+          "throws": "R"
+        },
+        {
+          "id": "KIA-IMS",
+          "name": "임창용",
+          "role": "CP",
+          "stuff": 78,
+          "control": 69,
+          "stamina": 42,
+          "throws": "R"
+        }
+      ]
+    },
+    "DOO": {
+      "id": "DOO",
+      "name": "두산 베어스",
+      "shortName": "두산",
+      "city": "서울",
+      "primary": "#131230",
+      "accent": "#ed1c24",
+      "strength": 86,
+      "hitters": [
+        {
+          "id": "DOO-MGJ",
+          "name": "민병헌",
+          "position": "RF",
+          "contact": 79,
+          "power": 59,
+          "discipline": 62,
+          "speed": 72,
+          "bats": "R"
+        },
+        {
+          "id": "DOO-OJG",
+          "name": "오재원",
+          "position": "2B",
+          "contact": 61,
+          "power": 48,
+          "discipline": 64,
+          "speed": 73,
+          "bats": "L"
+        },
+        {
+          "id": "DOO-PGW",
+          "name": "박건우",
+          "position": "CF",
+          "contact": 88,
+          "power": 72,
+          "discipline": 70,
+          "speed": 82,
+          "bats": "R"
+        },
+        {
+          "id": "DOO-KJH",
+          "name": "김재환",
+          "position": "LF",
+          "contact": 83,
+          "power": 92,
+          "discipline": 82,
+          "speed": 48,
+          "bats": "L"
+        },
+        {
+          "id": "DOO-NKE",
+          "name": "닉 에반스",
+          "position": "1B",
+          "contact": 72,
+          "power": 79,
+          "discipline": 66,
+          "speed": 34,
+          "bats": "R"
+        },
+        {
+          "id": "DOO-YEJ",
+          "name": "양의지",
+          "position": "C",
+          "contact": 81,
+          "power": 78,
+          "discipline": 73,
+          "speed": 41,
+          "bats": "R"
+        },
+        {
+          "id": "DOO-HKM",
+          "name": "허경민",
+          "position": "3B",
+          "contact": 73,
+          "power": 38,
+          "discipline": 63,
+          "speed": 69,
+          "bats": "R"
+        },
+        {
+          "id": "DOO-KJW",
+          "name": "김재호",
+          "position": "SS",
+          "contact": 66,
+          "power": 36,
+          "discipline": 75,
+          "speed": 55,
+          "bats": "R"
+        },
+        {
+          "id": "DOO-CJS",
+          "name": "최주환",
+          "position": "DH",
+          "contact": 75,
+          "power": 67,
+          "discipline": 58,
+          "speed": 44,
+          "bats": "L"
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "DOO-NIP",
+          "name": "더스틴 니퍼트",
+          "role": "SP",
+          "stuff": 90,
+          "control": 78,
+          "stamina": 92,
+          "throws": "R"
+        },
+        {
+          "id": "DOO-JMN",
+          "name": "장원준",
+          "role": "SP",
+          "stuff": 82,
+          "control": 83,
+          "stamina": 88,
+          "throws": "L"
+        },
+        {
+          "id": "DOO-YHJ",
+          "name": "유희관",
+          "role": "SP",
+          "stuff": 69,
+          "control": 87,
+          "stamina": 88,
+          "throws": "L"
+        },
+        {
+          "id": "DOO-KKM",
+          "name": "김강률",
+          "role": "RP",
+          "stuff": 84,
+          "control": 64,
+          "stamina": 46,
+          "throws": "R"
+        },
+        {
+          "id": "DOO-LYH",
+          "name": "이용찬",
+          "role": "CP",
+          "stuff": 82,
+          "control": 73,
+          "stamina": 45,
+          "throws": "R"
+        }
+      ]
+    },
+    "LOT": {
+      "id": "LOT",
+      "name": "롯데 자이언츠",
+      "shortName": "롯데",
+      "city": "부산",
+      "primary": "#041e42",
+      "accent": "#d00f31",
+      "strength": 80,
+      "hitters": [
+        {
+          "id": "LOT-JJH",
+          "name": "전준우",
+          "position": "LF",
+          "contact": 78,
+          "power": 72,
+          "discipline": 58,
+          "speed": 68,
+          "bats": "R"
+        },
+        {
+          "id": "LOT-SSB",
+          "name": "손아섭",
+          "position": "RF",
+          "contact": 90,
+          "power": 69,
+          "discipline": 84,
+          "speed": 79,
+          "bats": "L"
+        },
+        {
+          "id": "LOT-CJS",
+          "name": "최준석",
+          "position": "DH",
+          "contact": 69,
+          "power": 75,
+          "discipline": 84,
+          "speed": 18,
+          "bats": "R"
+        },
+        {
+          "id": "LOT-LDJ",
+          "name": "이대호",
+          "position": "1B",
+          "contact": 84,
+          "power": 88,
+          "discipline": 77,
+          "speed": 22,
+          "bats": "R"
+        },
+        {
+          "id": "LOT-GAH",
+          "name": "강민호",
+          "position": "C",
+          "contact": 71,
+          "power": 79,
+          "discipline": 68,
+          "speed": 32,
+          "bats": "R"
+        },
+        {
+          "id": "LOT-KMW",
+          "name": "김문호",
+          "position": "CF",
+          "contact": 68,
+          "power": 37,
+          "discipline": 62,
+          "speed": 69,
+          "bats": "L"
+        },
+        {
+          "id": "LOT-BCD",
+          "name": "번즈",
+          "position": "2B",
+          "contact": 66,
+          "power": 72,
+          "discipline": 48,
+          "speed": 71,
+          "bats": "R"
+        },
+        {
+          "id": "LOT-SAS",
+          "name": "신본기",
+          "position": "SS",
+          "contact": 60,
+          "power": 40,
+          "discipline": 55,
+          "speed": 58,
+          "bats": "R"
+        },
+        {
+          "id": "LOT-HIL",
+          "name": "황진수",
+          "position": "3B",
+          "contact": 58,
+          "power": 42,
+          "discipline": 47,
+          "speed": 61,
+          "bats": "L"
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "LOT-LDL",
+          "name": "린드블럼",
+          "role": "SP",
+          "stuff": 83,
+          "control": 77,
+          "stamina": 89,
+          "throws": "R"
+        },
+        {
+          "id": "LOT-RYJ",
+          "name": "레일리",
+          "role": "SP",
+          "stuff": 79,
+          "control": 80,
+          "stamina": 89,
+          "throws": "L"
+        },
+        {
+          "id": "LOT-PSW",
+          "name": "박세웅",
+          "role": "SP",
+          "stuff": 77,
+          "control": 65,
+          "stamina": 80,
+          "throws": "R"
+        },
+        {
+          "id": "LOT-JYK",
+          "name": "조정훈",
+          "role": "RP",
+          "stuff": 81,
+          "control": 68,
+          "stamina": 42,
+          "throws": "R"
+        },
+        {
+          "id": "LOT-ST",
+          "name": "손승락",
+          "role": "CP",
+          "stuff": 84,
+          "control": 76,
+          "stamina": 43,
+          "throws": "R"
+        }
+      ]
+    },
+    "NC": {
+      "id": "NC",
+      "name": "NC 다이노스",
+      "shortName": "NC",
+      "city": "창원",
+      "primary": "#071d49",
+      "accent": "#c8a977",
+      "strength": 83,
+      "hitters": [
+        {
+          "id": "NC-LJS",
+          "name": "이종욱",
+          "position": "CF",
+          "contact": 68,
+          "power": 30,
+          "discipline": 64,
+          "speed": 73,
+          "bats": "L"
+        },
+        {
+          "id": "NC-PMS",
+          "name": "박민우",
+          "position": "2B",
+          "contact": 85,
+          "power": 35,
+          "discipline": 74,
+          "speed": 88,
+          "bats": "L"
+        },
+        {
+          "id": "NC-NBH",
+          "name": "나성범",
+          "position": "RF",
+          "contact": 84,
+          "power": 86,
+          "discipline": 61,
+          "speed": 76,
+          "bats": "L"
+        },
+        {
+          "id": "NC-SNC",
+          "name": "스크럭스",
+          "position": "1B",
+          "contact": 72,
+          "power": 91,
+          "discipline": 67,
+          "speed": 51,
+          "bats": "R"
+        },
+        {
+          "id": "NC-MBG",
+          "name": "모창민",
+          "position": "3B",
+          "contact": 76,
+          "power": 72,
+          "discipline": 51,
+          "speed": 61,
+          "bats": "R"
+        },
+        {
+          "id": "NC-KSK",
+          "name": "권희동",
+          "position": "LF",
+          "contact": 67,
+          "power": 65,
+          "discipline": 70,
+          "speed": 53,
+          "bats": "R"
+        },
+        {
+          "id": "NC-SJM",
+          "name": "손시헌",
+          "position": "SS",
+          "contact": 65,
+          "power": 37,
+          "discipline": 59,
+          "speed": 39,
+          "bats": "R"
+        },
+        {
+          "id": "NC-KTG",
+          "name": "김태군",
+          "position": "C",
+          "contact": 52,
+          "power": 31,
+          "discipline": 37,
+          "speed": 44,
+          "bats": "R"
+        },
+        {
+          "id": "NC-LHT",
+          "name": "이호준",
+          "position": "DH",
+          "contact": 66,
+          "power": 71,
+          "discipline": 75,
+          "speed": 17,
+          "bats": "R"
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "NC-HCR",
+          "name": "해커",
+          "role": "SP",
+          "stuff": 84,
+          "control": 81,
+          "stamina": 88,
+          "throws": "R"
+        },
+        {
+          "id": "NC-MEN",
+          "name": "맨쉽",
+          "role": "SP",
+          "stuff": 82,
+          "control": 72,
+          "stamina": 83,
+          "throws": "R"
+        },
+        {
+          "id": "NC-CSS",
+          "name": "최성영",
+          "role": "SP",
+          "stuff": 65,
+          "control": 61,
+          "stamina": 75,
+          "throws": "L"
+        },
+        {
+          "id": "NC-WJC",
+          "name": "원종현",
+          "role": "RP",
+          "stuff": 80,
+          "control": 68,
+          "stamina": 50,
+          "throws": "R"
+        },
+        {
+          "id": "NC-IMS",
+          "name": "임창민",
+          "role": "CP",
+          "stuff": 84,
+          "control": 73,
+          "stamina": 45,
+          "throws": "R"
+        }
+      ]
+    },
+    "SK": {
+      "id": "SK",
+      "name": "SK 와이번스",
+      "shortName": "SK",
+      "city": "인천",
+      "primary": "#e31837",
+      "accent": "#ffb81c",
+      "strength": 78,
+      "hitters": [
+        {
+          "id": "SK-NJW",
+          "name": "노수광",
+          "position": "CF",
+          "contact": 68,
+          "power": 34,
+          "discipline": 57,
+          "speed": 88,
+          "bats": "L"
+        },
+        {
+          "id": "SK-HDG",
+          "name": "한동민",
+          "position": "RF",
+          "contact": 70,
+          "power": 85,
+          "discipline": 77,
+          "speed": 52,
+          "bats": "L"
+        },
+        {
+          "id": "SK-CJG",
+          "name": "최정",
+          "position": "3B",
+          "contact": 82,
+          "power": 97,
+          "discipline": 91,
+          "speed": 55,
+          "bats": "R"
+        },
+        {
+          "id": "SK-RMG",
+          "name": "로맥",
+          "position": "1B",
+          "contact": 67,
+          "power": 91,
+          "discipline": 75,
+          "speed": 49,
+          "bats": "R"
+        },
+        {
+          "id": "SK-KDH",
+          "name": "김동엽",
+          "position": "LF",
+          "contact": 65,
+          "power": 84,
+          "discipline": 43,
+          "speed": 66,
+          "bats": "R"
+        },
+        {
+          "id": "SK-PLW",
+          "name": "박정권",
+          "position": "DH",
+          "contact": 61,
+          "power": 68,
+          "discipline": 58,
+          "speed": 32,
+          "bats": "L"
+        },
+        {
+          "id": "SK-NYS",
+          "name": "나주환",
+          "position": "SS",
+          "contact": 64,
+          "power": 55,
+          "discipline": 48,
+          "speed": 55,
+          "bats": "R"
+        },
+        {
+          "id": "SK-LJS",
+          "name": "이재원",
+          "position": "C",
+          "contact": 61,
+          "power": 56,
+          "discipline": 66,
+          "speed": 25,
+          "bats": "R"
+        },
+        {
+          "id": "SK-KSJ",
+          "name": "김성현",
+          "position": "2B",
+          "contact": 63,
+          "power": 31,
+          "discipline": 52,
+          "speed": 51,
+          "bats": "R"
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SK-KGL",
+          "name": "켈리",
+          "role": "SP",
+          "stuff": 87,
+          "control": 81,
+          "stamina": 92,
+          "throws": "R"
+        },
+        {
+          "id": "SK-DL",
+          "name": "다이아몬드",
+          "role": "SP",
+          "stuff": 73,
+          "control": 70,
+          "stamina": 82,
+          "throws": "L"
+        },
+        {
+          "id": "SK-PJG",
+          "name": "박종훈",
+          "role": "SP",
+          "stuff": 75,
+          "control": 61,
+          "stamina": 80,
+          "throws": "R"
+        },
+        {
+          "id": "SK-BKJ",
+          "name": "박희수",
+          "role": "RP",
+          "stuff": 78,
+          "control": 73,
+          "stamina": 45,
+          "throws": "L"
+        },
+        {
+          "id": "SK-BSL",
+          "name": "박정배",
+          "role": "CP",
+          "stuff": 79,
+          "control": 72,
+          "stamina": 43,
+          "throws": "R"
+        }
+      ]
+    },
+    "LG": {
+      "id": "LG",
+      "name": "LG 트윈스",
+      "shortName": "LG",
+      "city": "서울",
+      "primary": "#c30452",
+      "accent": "#ffffff",
+      "strength": 76,
+      "hitters": [
+        {
+          "id": "LG-LHC",
+          "name": "이형종",
+          "position": "CF",
+          "contact": 71,
+          "power": 55,
+          "discipline": 58,
+          "speed": 68,
+          "bats": "R"
+        },
+        {
+          "id": "LG-KYS",
+          "name": "김용의",
+          "position": "1B",
+          "contact": 62,
+          "power": 24,
+          "discipline": 57,
+          "speed": 83,
+          "bats": "L"
+        },
+        {
+          "id": "LG-PYG",
+          "name": "박용택",
+          "position": "DH",
+          "contact": 85,
+          "power": 61,
+          "discipline": 76,
+          "speed": 48,
+          "bats": "L"
+        },
+        {
+          "id": "LG-JSP",
+          "name": "정성훈",
+          "position": "3B",
+          "contact": 72,
+          "power": 52,
+          "discipline": 77,
+          "speed": 31,
+          "bats": "R"
+        },
+        {
+          "id": "LG-CES",
+          "name": "채은성",
+          "position": "RF",
+          "contact": 68,
+          "power": 63,
+          "discipline": 47,
+          "speed": 55,
+          "bats": "R"
+        },
+        {
+          "id": "LG-OBH",
+          "name": "오지환",
+          "position": "SS",
+          "contact": 67,
+          "power": 70,
+          "discipline": 67,
+          "speed": 79,
+          "bats": "L"
+        },
+        {
+          "id": "LG-LCG",
+          "name": "이천웅",
+          "position": "LF",
+          "contact": 70,
+          "power": 34,
+          "discipline": 70,
+          "speed": 72,
+          "bats": "L"
+        },
+        {
+          "id": "LG-YGY",
+          "name": "유강남",
+          "position": "C",
+          "contact": 61,
+          "power": 60,
+          "discipline": 44,
+          "speed": 27,
+          "bats": "R"
+        },
+        {
+          "id": "LG-SSJ",
+          "name": "손주인",
+          "position": "2B",
+          "contact": 62,
+          "power": 34,
+          "discipline": 48,
+          "speed": 49,
+          "bats": "R"
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "LG-SOS",
+          "name": "소사",
+          "role": "SP",
+          "stuff": 87,
+          "control": 78,
+          "stamina": 91,
+          "throws": "R"
+        },
+        {
+          "id": "LG-CTW",
+          "name": "차우찬",
+          "role": "SP",
+          "stuff": 82,
+          "control": 72,
+          "stamina": 87,
+          "throws": "L"
+        },
+        {
+          "id": "LG-HJM",
+          "name": "허프",
+          "role": "SP",
+          "stuff": 86,
+          "control": 84,
+          "stamina": 86,
+          "throws": "L"
+        },
+        {
+          "id": "LG-JCJ",
+          "name": "진해수",
+          "role": "RP",
+          "stuff": 77,
+          "control": 71,
+          "stamina": 43,
+          "throws": "L"
+        },
+        {
+          "id": "LG-JCS",
+          "name": "정찬헌",
+          "role": "CP",
+          "stuff": 75,
+          "control": 68,
+          "stamina": 43,
+          "throws": "R"
+        }
+      ]
+    },
+    "NEX": {
+      "id": "NEX",
+      "name": "넥센 히어로즈",
+      "shortName": "넥센",
+      "city": "서울",
+      "primary": "#570514",
+      "accent": "#f5b335",
+      "strength": 74,
+      "hitters": [
+        {
+          "id": "NEX-LJG",
+          "name": "이정후",
+          "position": "CF",
+          "contact": 88,
+          "power": 48,
+          "discipline": 69,
+          "speed": 79,
+          "bats": "L"
+        },
+        {
+          "id": "NEX-SJC",
+          "name": "서건창",
+          "position": "2B",
+          "contact": 80,
+          "power": 55,
+          "discipline": 76,
+          "speed": 82,
+          "bats": "L"
+        },
+        {
+          "id": "NEX-CYS",
+          "name": "초이스",
+          "position": "RF",
+          "contact": 70,
+          "power": 83,
+          "discipline": 64,
+          "speed": 54,
+          "bats": "R"
+        },
+        {
+          "id": "NEX-KHM",
+          "name": "김하성",
+          "position": "SS",
+          "contact": 79,
+          "power": 79,
+          "discipline": 72,
+          "speed": 83,
+          "bats": "R"
+        },
+        {
+          "id": "NEX-YTK",
+          "name": "윤석민",
+          "position": "1B",
+          "contact": 72,
+          "power": 66,
+          "discipline": 52,
+          "speed": 36,
+          "bats": "R"
+        },
+        {
+          "id": "NEX-GJI",
+          "name": "고종욱",
+          "position": "LF",
+          "contact": 74,
+          "power": 42,
+          "discipline": 41,
+          "speed": 91,
+          "bats": "L"
+        },
+        {
+          "id": "NEX-KMW",
+          "name": "김민성",
+          "position": "3B",
+          "contact": 72,
+          "power": 65,
+          "discipline": 75,
+          "speed": 52,
+          "bats": "R"
+        },
+        {
+          "id": "NEX-CMH",
+          "name": "채태인",
+          "position": "DH",
+          "contact": 72,
+          "power": 62,
+          "discipline": 69,
+          "speed": 27,
+          "bats": "L"
+        },
+        {
+          "id": "NEX-BDH",
+          "name": "박동원",
+          "position": "C",
+          "contact": 59,
+          "power": 61,
+          "discipline": 49,
+          "speed": 36,
+          "bats": "R"
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "NEX-BR",
+          "name": "브리검",
+          "role": "SP",
+          "stuff": 81,
+          "control": 77,
+          "stamina": 87,
+          "throws": "R"
+        },
+        {
+          "id": "NEX-BST",
+          "name": "밴헤켄",
+          "role": "SP",
+          "stuff": 83,
+          "control": 80,
+          "stamina": 84,
+          "throws": "L"
+        },
+        {
+          "id": "NEX-SJW",
+          "name": "신재영",
+          "role": "SP",
+          "stuff": 73,
+          "control": 83,
+          "stamina": 82,
+          "throws": "R"
+        },
+        {
+          "id": "NEX-LBJ",
+          "name": "이보근",
+          "role": "RP",
+          "stuff": 76,
+          "control": 66,
+          "stamina": 45,
+          "throws": "R"
+        },
+        {
+          "id": "NEX-KSY",
+          "name": "김상수",
+          "role": "CP",
+          "stuff": 78,
+          "control": 67,
+          "stamina": 44,
+          "throws": "R"
+        }
+      ]
+    },
+    "HAN": {
+      "id": "HAN",
+      "name": "한화 이글스",
+      "shortName": "한화",
+      "city": "대전",
+      "primary": "#f37321",
+      "accent": "#111111",
+      "strength": 68,
+      "hitters": [
+        {
+          "id": "HAN-JGH",
+          "name": "정근우",
+          "position": "2B",
+          "contact": 75,
+          "power": 52,
+          "discipline": 71,
+          "speed": 75,
+          "bats": "R"
+        },
+        {
+          "id": "HAN-YYS",
+          "name": "이용규",
+          "position": "CF",
+          "contact": 74,
+          "power": 25,
+          "discipline": 82,
+          "speed": 81,
+          "bats": "L"
+        },
+        {
+          "id": "HAN-SK",
+          "name": "송광민",
+          "position": "3B",
+          "contact": 77,
+          "power": 70,
+          "discipline": 44,
+          "speed": 51,
+          "bats": "R"
+        },
+        {
+          "id": "HAN-WSB",
+          "name": "윌린 로사리오",
+          "position": "1B",
+          "contact": 82,
+          "power": 92,
+          "discipline": 50,
+          "speed": 58,
+          "bats": "R"
+        },
+        {
+          "id": "HAN-KTK",
+          "name": "김태균",
+          "position": "DH",
+          "contact": 86,
+          "power": 70,
+          "discipline": 91,
+          "speed": 20,
+          "bats": "R"
+        },
+        {
+          "id": "HAN-CJW",
+          "name": "최진행",
+          "position": "LF",
+          "contact": 63,
+          "power": 74,
+          "discipline": 67,
+          "speed": 35,
+          "bats": "R"
+        },
+        {
+          "id": "HAN-YGS",
+          "name": "양성우",
+          "position": "RF",
+          "contact": 63,
+          "power": 38,
+          "discipline": 59,
+          "speed": 65,
+          "bats": "L"
+        },
+        {
+          "id": "HAN-CJH",
+          "name": "최재훈",
+          "position": "C",
+          "contact": 61,
+          "power": 31,
+          "discipline": 70,
+          "speed": 48,
+          "bats": "R"
+        },
+        {
+          "id": "HAN-HGH",
+          "name": "하주석",
+          "position": "SS",
+          "contact": 66,
+          "power": 58,
+          "discipline": 35,
+          "speed": 76,
+          "bats": "L"
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "HAN-OK",
+          "name": "오간도",
+          "role": "SP",
+          "stuff": 86,
+          "control": 69,
+          "stamina": 84,
+          "throws": "R"
+        },
+        {
+          "id": "HAN-BCG",
+          "name": "비야누에바",
+          "role": "SP",
+          "stuff": 78,
+          "control": 77,
+          "stamina": 80,
+          "throws": "R"
+        },
+        {
+          "id": "HAN-BJS",
+          "name": "배영수",
+          "role": "SP",
+          "stuff": 66,
+          "control": 74,
+          "stamina": 75,
+          "throws": "R"
+        },
+        {
+          "id": "HAN-KBK",
+          "name": "권혁",
+          "role": "RP",
+          "stuff": 73,
+          "control": 58,
+          "stamina": 43,
+          "throws": "L"
+        },
+        {
+          "id": "HAN-JWS",
+          "name": "정우람",
+          "role": "CP",
+          "stuff": 87,
+          "control": 85,
+          "stamina": 46,
+          "throws": "L"
+        }
+      ]
+    },
+    "KT": {
+      "id": "KT",
+      "name": "kt wiz",
+      "shortName": "kt",
+      "city": "수원",
+      "primary": "#000000",
+      "accent": "#ed1c24",
+      "strength": 62,
+      "hitters": [
+        {
+          "id": "KT-LDH",
+          "name": "이대형",
+          "position": "CF",
+          "contact": 69,
+          "power": 17,
+          "discipline": 42,
+          "speed": 92,
+          "bats": "L"
+        },
+        {
+          "id": "KT-JHS",
+          "name": "전민수",
+          "position": "LF",
+          "contact": 65,
+          "power": 39,
+          "discipline": 55,
+          "speed": 67,
+          "bats": "L"
+        },
+        {
+          "id": "KT-ROJ",
+          "name": "로하스",
+          "position": "RF",
+          "contact": 73,
+          "power": 77,
+          "discipline": 60,
+          "speed": 74,
+          "bats": "R"
+        },
+        {
+          "id": "KT-YSH",
+          "name": "윤석민",
+          "position": "1B",
+          "contact": 70,
+          "power": 67,
+          "discipline": 57,
+          "speed": 38,
+          "bats": "R"
+        },
+        {
+          "id": "KT-PEH",
+          "name": "박경수",
+          "position": "2B",
+          "contact": 69,
+          "power": 76,
+          "discipline": 75,
+          "speed": 55,
+          "bats": "R"
+        },
+        {
+          "id": "KT-YBK",
+          "name": "유한준",
+          "position": "DH",
+          "contact": 76,
+          "power": 67,
+          "discipline": 71,
+          "speed": 42,
+          "bats": "R"
+        },
+        {
+          "id": "KT-OBS",
+          "name": "오태곤",
+          "position": "3B",
+          "contact": 61,
+          "power": 55,
+          "discipline": 43,
+          "speed": 76,
+          "bats": "R"
+        },
+        {
+          "id": "KT-JHS2",
+          "name": "장성우",
+          "position": "C",
+          "contact": 56,
+          "power": 52,
+          "discipline": 46,
+          "speed": 31,
+          "bats": "R"
+        },
+        {
+          "id": "KT-SSH",
+          "name": "심우준",
+          "position": "SS",
+          "contact": 58,
+          "power": 28,
+          "discipline": 38,
+          "speed": 87,
+          "bats": "R"
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "KT-PSE",
+          "name": "피어밴드",
+          "role": "SP",
+          "stuff": 84,
+          "control": 83,
+          "stamina": 89,
+          "throws": "L"
+        },
+        {
+          "id": "KT-LDG",
+          "name": "로치",
+          "role": "SP",
+          "stuff": 67,
+          "control": 62,
+          "stamina": 80,
+          "throws": "R"
+        },
+        {
+          "id": "KT-GHJ",
+          "name": "고영표",
+          "role": "SP",
+          "stuff": 75,
+          "control": 79,
+          "stamina": 83,
+          "throws": "R"
+        },
+        {
+          "id": "KT-OSG",
+          "name": "엄상백",
+          "role": "RP",
+          "stuff": 71,
+          "control": 58,
+          "stamina": 44,
+          "throws": "R"
+        },
+        {
+          "id": "KT-KJC",
+          "name": "김재윤",
+          "role": "CP",
+          "stuff": 82,
+          "control": 70,
+          "stamina": 44,
+          "throws": "R"
+        }
+      ]
+    },
+    "SAM": {
+      "id": "SAM",
+      "name": "삼성 라이온즈",
+      "shortName": "삼성",
+      "city": "대구",
+      "primary": "#074ca1",
+      "accent": "#ffffff",
+      "strength": 70,
+      "hitters": [
+        {
+          "id": "SAM-BYH",
+          "name": "박해민",
+          "position": "CF",
+          "contact": 73,
+          "power": 36,
+          "discipline": 62,
+          "speed": 94,
+          "bats": "L"
+        },
+        {
+          "id": "SAM-KHW",
+          "name": "강한울",
+          "position": "2B",
+          "contact": 70,
+          "power": 19,
+          "discipline": 51,
+          "speed": 75,
+          "bats": "L"
+        },
+        {
+          "id": "SAM-KJW",
+          "name": "구자욱",
+          "position": "RF",
+          "contact": 87,
+          "power": 78,
+          "discipline": 71,
+          "speed": 85,
+          "bats": "L"
+        },
+        {
+          "id": "SAM-RUF",
+          "name": "다린 러프",
+          "position": "1B",
+          "contact": 82,
+          "power": 91,
+          "discipline": 86,
+          "speed": 45,
+          "bats": "R"
+        },
+        {
+          "id": "SAM-LWS",
+          "name": "이승엽",
+          "position": "DH",
+          "contact": 74,
+          "power": 80,
+          "discipline": 78,
+          "speed": 24,
+          "bats": "L"
+        },
+        {
+          "id": "SAM-LWK",
+          "name": "이원석",
+          "position": "3B",
+          "contact": 67,
+          "power": 65,
+          "discipline": 68,
+          "speed": 37,
+          "bats": "R"
+        },
+        {
+          "id": "SAM-BHJ",
+          "name": "배영섭",
+          "position": "LF",
+          "contact": 64,
+          "power": 35,
+          "discipline": 63,
+          "speed": 68,
+          "bats": "R"
+        },
+        {
+          "id": "SAM-LJG",
+          "name": "이지영",
+          "position": "C",
+          "contact": 58,
+          "power": 27,
+          "discipline": 39,
+          "speed": 41,
+          "bats": "R"
+        },
+        {
+          "id": "SAM-KSS",
+          "name": "김상수",
+          "position": "SS",
+          "contact": 61,
+          "power": 37,
+          "discipline": 62,
+          "speed": 70,
+          "bats": "R"
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SAM-UGM",
+          "name": "우규민",
+          "role": "SP",
+          "stuff": 76,
+          "control": 85,
+          "stamina": 81,
+          "throws": "R"
+        },
+        {
+          "id": "SAM-RJ",
+          "name": "레나도",
+          "role": "SP",
+          "stuff": 70,
+          "control": 59,
+          "stamina": 75,
+          "throws": "R"
+        },
+        {
+          "id": "SAM-YC",
+          "name": "윤성환",
+          "role": "SP",
+          "stuff": 72,
+          "control": 84,
+          "stamina": 86,
+          "throws": "R"
+        },
+        {
+          "id": "SAM-JIK",
+          "name": "장필준",
+          "role": "RP",
+          "stuff": 79,
+          "control": 63,
+          "stamina": 45,
+          "throws": "R"
+        },
+        {
+          "id": "SAM-SSR",
+          "name": "심창민",
+          "role": "CP",
+          "stuff": 82,
+          "control": 69,
+          "stamina": 43,
+          "throws": "R"
+        }
+      ]
+    }
+  }
+}
