@@ -1,0 +1,93 @@
+{
+  "label": "2017 KBO 팀 체급 조정판",
+  "teams": {
+    "KIA": {
+      "avg": 0.014,
+      "homeRuns": 1.12,
+      "eye": 1,
+      "pitching": 9,
+      "stamina": 3,
+      "strength": 95
+    },
+    "DOO": {
+      "avg": 0.01,
+      "homeRuns": 1.1,
+      "eye": 1,
+      "pitching": 10,
+      "stamina": 3,
+      "strength": 95
+    },
+    "LOT": {
+      "avg": 0.012,
+      "homeRuns": 1.08,
+      "eye": 1,
+      "pitching": 6,
+      "stamina": 2,
+      "strength": 86
+    },
+    "NC": {
+      "avg": 0.003,
+      "homeRuns": 1.02,
+      "eye": 0,
+      "pitching": 5,
+      "stamina": 2,
+      "strength": 86
+    },
+    "SK": {
+      "avg": 0,
+      "homeRuns": 1.1,
+      "eye": 0,
+      "pitching": 4,
+      "stamina": 0,
+      "strength": 74
+    },
+    "LG": {
+      "avg": 0.003,
+      "homeRuns": 1.1,
+      "eye": 0,
+      "pitching": -2,
+      "stamina": 0,
+      "strength": 66
+    },
+    "NEX": {
+      "avg": -0.01,
+      "homeRuns": 0.97,
+      "eye": 0,
+      "pitching": -4,
+      "stamina": 0,
+      "strength": 66
+    },
+    "HAN": {
+      "avg": -0.025,
+      "homeRuns": 0.88,
+      "eye": -1,
+      "pitching": -9,
+      "stamina": -2,
+      "strength": 54
+    },
+    "SAM": {
+      "avg": -0.015,
+      "homeRuns": 0.9,
+      "eye": -1,
+      "pitching": -13,
+      "stamina": -3,
+      "strength": 45,
+      "pitcherBonuses": {
+        "윤성환": 8,
+        "백정현": 4
+      }
+    },
+    "KT": {
+      "avg": -0.02,
+      "homeRuns": 0.85,
+      "eye": -1,
+      "pitching": -17,
+      "stamina": -4,
+      "strength": 35,
+      "pitcherBonuses": {
+        "피어밴드": 14,
+        "고영표": 9
+      }
+    }
+  }
+}
