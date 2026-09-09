@@ -1,0 +1,109 @@
+{
+  "dataset": "2017 KBO 팀 체급 조정판",
+  "seasons": 100,
+  "seedStart": 5000,
+  "games": 72000,
+  "mode": "all-AI; actual engine; 144-game regular seasons; no user player; no postseason",
+  "summary": [
+    {
+      "id": "DOO",
+      "wins": 99.1,
+      "losses": 43.47,
+      "ties": 1.43,
+      "pct": 0.6951,
+      "runsForPerGame": 7.044,
+      "runsAgainstPerGame": 4.472,
+      "winMean95HalfWidth": 0.96
+    },
+    {
+      "id": "KIA",
+      "wins": 98.08,
+      "losses": 44.75,
+      "ties": 1.17,
+      "pct": 0.6867,
+      "runsForPerGame": 7.053,
+      "runsAgainstPerGame": 4.542,
+      "winMean95HalfWidth": 1.09
+    },
+    {
+      "id": "NC",
+      "wins": 87.49,
+      "losses": 55.04,
+      "ties": 1.47,
+      "pct": 0.6138,
+      "runsForPerGame": 6.33,
+      "runsAgainstPerGame": 4.897,
+      "winMean95HalfWidth": 1.14
+    },
+    {
+      "id": "LOT",
+      "wins": 86.44,
+      "losses": 55.78,
+      "ties": 1.78,
+      "pct": 0.6078,
+      "runsForPerGame": 6.209,
+      "runsAgainstPerGame": 4.866,
+      "winMean95HalfWidth": 1
+    },
+    {
+      "id": "SK",
+      "wins": 76.4,
+      "losses": 65.95,
+      "ties": 1.65,
+      "pct": 0.5367,
+      "runsForPerGame": 5.794,
+      "runsAgainstPerGame": 5.418,
+      "winMean95HalfWidth": 1.27
+    },
+    {
+      "id": "NEX",
+      "wins": 66.97,
+      "losses": 75.34,
+      "ties": 1.69,
+      "pct": 0.4706,
+      "runsForPerGame": 5.282,
+      "runsAgainstPerGame": 5.626,
+      "winMean95HalfWidth": 1.1
+    },
+    {
+      "id": "LG",
+      "wins": 66.22,
+      "losses": 76.22,
+      "ties": 1.56,
+      "pct": 0.4649,
+      "runsForPerGame": 5.076,
+      "runsAgainstPerGame": 5.46,
+      "winMean95HalfWidth": 1.12
+    },
+    {
+      "id": "HAN",
+      "wins": 54.45,
+      "losses": 88.02,
+      "ties": 1.53,
+      "pct": 0.3822,
+      "runsForPerGame": 4.967,
+      "runsAgainstPerGame": 6.467,
+      "winMean95HalfWidth": 1.05
+    },
+    {
+      "id": "SAM",
+      "wins": 43.31,
+      "losses": 99.09,
+      "ties": 1.6,
+      "pct": 0.3041,
+      "runsForPerGame": 4.397,
+      "runsAgainstPerGame": 6.924,
+      "winMean95HalfWidth": 1.12
+    },
+    {
+      "id": "KT",
+      "wins": 33.93,
+      "losses": 108.73,
+      "ties": 1.34,
+      "pct": 0.2378,
+      "runsForPerGame": 3.923,
+      "runsAgainstPerGame": 7.404,
+      "winMean95HalfWidth": 0.95
+    }
+  ]
+}
