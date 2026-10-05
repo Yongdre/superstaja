@@ -13,20 +13,20 @@ const runner = (id: string, name: string): Baserunner => ({ playerId: id, name, 
 function resolveForced(state: SeasonState, choice: UserChoice, seed = 17) {
   return resolvePlateAppearance({
     game: state.game!, batter: { id: "USER-PLAYER", name: "이용호", position: "2B", bats: "R", contact: 70, power: 68, discipline: 66, speed: 76 },
-    pitcher: defaultLeagueDataset.teams.DOO.pitchers.find((pitcher) => pitcher.id === "DOO-NIP")!, battingTeam: "SAM", stats: state.playerStats, rng: new SeededRng(seed), userChoice: choice,
+    pitcher: defaultLeagueDataset.teams.DOO.pitchers[0], battingTeam: "SAM", stats: state.playerStats, rng: new SeededRng(seed), userChoice: choice,
   });
 }
 
 describe("주자 진루", () => {
   it("홈런이면 모든 주자와 타자가 득점한다", () => {
-    const bases: [Baserunner, Baserunner, Baserunner] = [runner("SAM-BYH", "박해민"), runner("SAM-KJW", "구자욱"), runner("SAM-RUF", "러프")];
+    const bases: [Baserunner, Baserunner, Baserunner] = [runner(defaultLeagueDataset.teams.SAM.hitters[0].id, "박해민"), runner(defaultLeagueDataset.teams.SAM.hitters[1].id, "구자욱"), runner(defaultLeagueDataset.teams.SAM.hitters[2].id, "러프")];
     const result = advanceOnHomeRun(bases, user());
     expect(result.scored).toHaveLength(4);
     expect(result.bases).toEqual([null, null, null]);
   });
 
   it("만루 볼넷과 몸에 맞는 공은 1점을 낸다", () => {
-    const bases: [Baserunner, Baserunner, Baserunner] = [runner("SAM-BYH", "박해민"), runner("SAM-KJW", "구자욱"), runner("SAM-RUF", "러프")];
+    const bases: [Baserunner, Baserunner, Baserunner] = [runner(defaultLeagueDataset.teams.SAM.hitters[0].id, "박해민"), runner(defaultLeagueDataset.teams.SAM.hitters[1].id, "구자욱"), runner(defaultLeagueDataset.teams.SAM.hitters[2].id, "러프")];
     const result = advanceOnForcedWalk(bases, user());
     expect(result.scored.map((item) => item.name)).toEqual(["러프"]);
     expect(result.bases.every(Boolean)).toBe(true);
@@ -51,7 +51,7 @@ describe("주자 진루", () => {
 
   it("강제 HR 선택의 안타 기록은 주루 결과와 무관하게 유지된다", () => {
     const state = createExampleSave();
-    state.game!.bases = [runner("SAM-BYH", "박해민"), runner("SAM-KJW", "구자욱"), runner("SAM-RUF", "러프")];
+    state.game!.bases = [runner(defaultLeagueDataset.teams.SAM.hitters[0].id, "박해민"), runner(defaultLeagueDataset.teams.SAM.hitters[1].id, "구자욱"), runner(defaultLeagueDataset.teams.SAM.hitters[2].id, "러프")];
     resolveForced(state, "HR");
     expect(state.playerStats["USER-PLAYER"].hr).toBe(15);
     expect(state.playerStats["USER-PLAYER"].h).toBe(54);
@@ -65,7 +65,7 @@ describe("NO HIT 세부 결과", () => {
     for (let seed = 1; seed < 20000; seed += 1) {
       const state = createExampleSave();
       state.game!.outs = 0;
-      state.game!.bases = target === "SF" ? [null, null, runner("SAM-BYH", "박해민")] : target === "GIDP" ? [runner("SAM-BYH", "박해민"), null, null] : [null, null, null];
+      state.game!.bases = target === "SF" ? [null, null, runner(defaultLeagueDataset.teams.SAM.hitters[0].id, "박해민")] : target === "GIDP" ? [runner(defaultLeagueDataset.teams.SAM.hitters[0].id, "박해민"), null, null] : [null, null, null];
       const result = resolveForced(state, "OUT", seed);
       if (result.outcome === target) return state;
     }
@@ -98,7 +98,7 @@ describe("희생타 결과 선택", () => {
     const state = createExampleSave();
     const game = state.game!;
     game.outs = 1;
-    game.bases = [runner("SAM-BYH", "박해민"), runner("SAM-KJW", "구자욱"), null];
+    game.bases = [runner(defaultLeagueDataset.teams.SAM.hitters[0].id, "박해민"), runner(defaultLeagueDataset.teams.SAM.hitters[1].id, "구자욱"), null];
     const before = { ...state.playerStats["USER-PLAYER"] };
     const result = resolveForced(state, "SH");
     const stats = state.playerStats["USER-PLAYER"];
@@ -117,7 +117,7 @@ describe("희생타 결과 선택", () => {
   it("희생플라이 선택은 3루 주자를 득점시키고 타수 없이 타점과 SF를 기록한다", () => {
     const state = createExampleSave();
     state.game!.outs = 1;
-    state.game!.bases = [null, null, runner("SAM-BYH", "박해민")];
+    state.game!.bases = [null, null, runner(defaultLeagueDataset.teams.SAM.hitters[0].id, "박해민")];
     const before = { ...state.playerStats["USER-PLAYER"] };
     expect(resolveForced(state, "SF").outcome).toBe("SF");
     const stats = state.playerStats["USER-PLAYER"];
@@ -132,7 +132,7 @@ describe("희생타 결과 선택", () => {
     for (const choice of ["SF", "SH"] as const) {
       const state = createExampleSave();
       state.game!.outs = 2;
-      state.game!.bases = [runner("SAM-BYH", "박해민"), null, runner("SAM-KJW", "구자욱")];
+      state.game!.bases = [runner(defaultLeagueDataset.teams.SAM.hitters[0].id, "박해민"), null, runner(defaultLeagueDataset.teams.SAM.hitters[1].id, "구자욱")];
       const before = structuredClone(state);
       expect(canChooseSacrifice(state.game!, choice)).toBe(false);
       expect(() => resolveForced(state, choice)).toThrow(/희생타/);
@@ -150,7 +150,7 @@ describe("희생타 결과 선택", () => {
     state.game!.inning = 7;
     state.game!.outs = 0;
     state.game!.score.DOO = state.game!.score.SAM;
-    state.game!.bases = [runner("SAM-BYH", "박해민"), null, null];
+    state.game!.bases = [runner(defaultLeagueDataset.teams.SAM.hitters[0].id, "박해민"), null, null];
     const batter = { ...defaultLeagueDataset.teams.SAM.hitters[1], power: 40 };
     const result = resolvePlateAppearance({ game: state.game!, batter, pitcher: defaultLeagueDataset.teams.DOO.pitchers[0], battingTeam: "SAM", stats: state.playerStats, rng });
     expect(result.outcome).toBe("SH");
@@ -161,7 +161,7 @@ describe("희생타 결과 선택", () => {
 
 describe("도루", () => {
   it("주루 등급별 자동 도루 성공률과 시즌 최대 시도 수를 반환한다", () => {
-    expect(automaticStealPlan(6)).toBeUndefined();
+    expect(automaticStealPlan(6)).toMatchObject({ successProbability: 0.67, maxAttempts: 20 });
     expect(automaticStealPlan(7)).toMatchObject({ successProbability: 0.72, maxAttempts: 30 });
     expect(automaticStealPlan(8)).toMatchObject({ successProbability: 0.78, maxAttempts: 40 });
     expect(automaticStealPlan(9)).toMatchObject({ successProbability: 0.84, maxAttempts: 50 });
@@ -170,7 +170,7 @@ describe("도루", () => {
 
   it("시즌 최대 도루 시도 수에 도달한 선수는 더 시도하지 않는다", () => {
     const state = createExampleSave();
-    const fastRunner: Baserunner = { playerId: "SAM-BYH", name: "박해민", teamId: "SAM", speed: 95, isUser: false };
+    const fastRunner: Baserunner = { playerId: defaultLeagueDataset.teams.SAM.hitters[0].id, name: "박해민", teamId: "SAM", speed: 95, isUser: false };
     state.game!.bases = [fastRunner, null, null];
     state.game!.outs = 0;
     state.playerStats[fastRunner.playerId].sb = 48;

@@ -2,7 +2,6 @@ import type { LeagueDataset, TeamId } from "../engine/types";
 import { pitcherGrades } from "../engine/types";
 import { canFieldTeam } from "../engine/lineup";
 import { estimateHitterRatings, estimatePitcherRatings, parsePositions } from "../engine/playerProfiles";
-import season2017 from "./seasons/kbo-league-data-2017.json";
 import templateJson from "./templates/kbo-league-data-template.json";
 
 export const supportedTeamIds: TeamId[] = ["KIA", "DOO", "LOT", "NC", "SK", "LG", "NEX", "HAN", "KT", "SAM"];
@@ -94,17 +93,57 @@ export function validateLeagueDataset(value: unknown): LeagueDataset {
   return dataset as LeagueDataset;
 }
 
-export const defaultLeagueDataset = validateLeagueDataset(season2017);
+
+export interface LeagueDatasetEntry {
+  id: string;
+  filename: string;
+  dataset: LeagueDataset;
+}
+
+/** 파일의 첫 번째 4자리 연도를 사용하고 ver/version 등 후속 숫자는 무시합니다. */
+export function seasonYearFromFilename(filename: string): number | undefined {
+  const match = filename.match(/(?:^|[^0-9])((?:19|20|21)\d{2})(?!\d)/);
+  const year = match ? Number(match[1]) : undefined;
+  return year !== undefined && year >= 1982 && year <= 2199 ? year : undefined;
+}
+
+export function validateSeasonDataset(value: unknown, filename: string): LeagueDataset {
+  const year = seasonYearFromFilename(filename);
+  const normalized = value && typeof value === "object" && year !== undefined
+    ? { ...value, sourceSeason: year } : value;
+  return validateLeagueDataset(normalized);
+}
+
+export function buildLeagueCatalog(modules: Record<string, { default: unknown }>): { entries: LeagueDatasetEntry[]; issues: string[] } {
+  const entries: LeagueDatasetEntry[] = [], issues: string[] = [];
+  for (const [path, module] of Object.entries(modules)) {
+    try {
+      entries.push({ id: "builtin:" + path, filename: path.split("/").pop()!, dataset: validateSeasonDataset(module.default, path.split("/").pop()!) });
+    } catch (error) {
+      issues.push(`${path}: ${error instanceof Error ? error.message : "JSON 검증 실패"}`);
+    }
+  }
+  entries.sort((left, right) => (left.dataset.sourceSeason ?? 0) - (right.dataset.sourceSeason ?? 0) || left.filename.localeCompare(right.filename));
+  return { entries, issues };
+}
+
+// 파일명 형식에 관계없이 시즌 폴더에 있는 모든 리그 JSON을 등록합니다.
+const seasonModules = import.meta.glob<{ default: unknown }>("./seasons/*.json", { eager: true });
+const seasonCatalog = buildLeagueCatalog(seasonModules);
+export const builtInLeagueEntries = seasonCatalog.entries;
+export const builtInLeagueIssues = seasonCatalog.issues;
+export const builtInLeagueDatasets = builtInLeagueEntries.map(entry => entry.dataset);
+
+// 특정 옛 파일명을 import하지 않으므로 파일을 교체해도 앱을 실행할 수 있습니다.
+const defaultEntry = builtInLeagueEntries.find(entry => entry.dataset.sourceSeason === 2017) ?? builtInLeagueEntries[0];
+if (!defaultEntry) throw new Error("사용 가능한 시즌 JSON이 없습니다. " + builtInLeagueIssues.join(" / "));
+export const defaultLeagueDataset = defaultEntry.dataset;
 export const leagueDataTemplate = validateLeagueDataset(templateJson);
 
-const seasonModules = import.meta.glob<{ default: unknown }>("./seasons/kbo-league-data-*.json", { eager: true });
-
-export const builtInLeagueDatasets = Object.values(seasonModules)
-  .map((module) => validateLeagueDataset(module.default))
-  .sort((left, right) => (left.sourceSeason ?? 0) - (right.sourceSeason ?? 0));
 
 export function getBuiltInLeagueDataset(season: number): LeagueDataset | undefined {
-  return builtInLeagueDatasets.find((dataset) => dataset.sourceSeason === season);
+  const matching = builtInLeagueEntries.filter(entry => entry.dataset.sourceSeason === season);
+  return (matching.find(entry => entry.filename === `kbo-league-data-${season}.json`) ?? matching[0])?.dataset;
 }
 
 export const leagueTeamIds = (dataset: LeagueDataset) => Object.keys(dataset.teams) as TeamId[];

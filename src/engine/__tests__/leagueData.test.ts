@@ -18,7 +18,7 @@ describe("사용자 리그 데이터", () => {
 
   it("연도별 JSON 파일을 내장 데이터로 자동 등록한다", () => {
     expect(builtInLeagueDatasets.map((dataset) => dataset.sourceSeason)).toContain(2017);
-    expect(getBuiltInLeagueDataset(2017)?.label).toBe("2017 KBO 근사 데이터");
+    expect(getBuiltInLeagueDataset(2017)?.label).toBe(defaultLeagueDataset.label);
     expect(getBuiltInLeagueDataset(2099)).toBeUndefined();
   });
 
@@ -37,7 +37,7 @@ describe("사용자 리그 데이터", () => {
 
   it("잘못된 능력치 범위를 거부한다", () => {
     const dataset = structuredClone(defaultLeagueDataset);
-    dataset.teams.KIA.hitters[0].power = 101;
+    dataset.teams.KIA.hitters[0].ratingOverrides = {power: 101};
     expect(() => validateLeagueDataset(dataset)).toThrow(/0–100/);
   });
 

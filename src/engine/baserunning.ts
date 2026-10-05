@@ -42,6 +42,12 @@ export interface AutomaticStealPlan {
 }
 
 const automaticStealPlans: Partial<Record<number, AutomaticStealPlan>> = {
+  1: { successProbability: 0.45, maxAttempts: 1, attemptChance: 0.003 },
+  2: { successProbability: 0.48, maxAttempts: 2, attemptChance: 0.006 },
+  3: { successProbability: 0.52, maxAttempts: 4, attemptChance: 0.012 },
+  4: { successProbability: 0.57, maxAttempts: 7, attemptChance: 0.022 },
+  5: { successProbability: 0.62, maxAttempts: 12, attemptChance: 0.04 },
+  6: { successProbability: 0.67, maxAttempts: 20, attemptChance: 0.075 },
   7: { successProbability: 0.72, maxAttempts: 30, attemptChance: 0.14 },
   8: { successProbability: 0.78, maxAttempts: 40, attemptChance: 0.19 },
   9: { successProbability: 0.84, maxAttempts: 50, attemptChance: 0.25 },

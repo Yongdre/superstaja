@@ -1,0 +1,2497 @@
+{
+  "schemaVersion": 1,
+  "label": "2024 KBO · 사용자 입력 성적 기준 · 10팀 반영 완료",
+  "sourceSeason": 2024,
+  "teams": {
+    "KIA": {
+      "id": "KIA",
+      "name": "KIA 타이거즈",
+      "shortName": "KIA",
+      "city": "광주",
+      "primary": "#ea0029",
+      "accent": "#ffffff",
+      "strength": 88,
+      "hitters": [
+        {
+          "id": "KIA-2017-H01",
+          "name": "박찬호",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.307,
+            "homeRuns": 5,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "KIA-2017-H02",
+          "name": "최원준",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.292,
+            "homeRuns": 9,
+            "eye": 6,
+            "speed": 7
+          }
+        },
+        {
+          "id": "KIA-2017-H03",
+          "name": "김도영",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.347,
+            "homeRuns": 38,
+            "eye": 6,
+            "speed": 9
+          }
+        },
+        {
+          "id": "KIA-2017-H04",
+          "name": "최형우",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.28,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "KIA-2017-H05",
+          "name": "나성범",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.291,
+            "homeRuns": 21,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "KIA-2017-H06",
+          "name": "소크라테스",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.31,
+            "homeRuns": 26,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "KIA-2017-H07",
+          "name": "김선빈",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.329,
+            "homeRuns": 9,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "KIA-2017-H08",
+          "name": "이우성",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.288,
+            "homeRuns": 10,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "KIA-2017-H09",
+          "name": "한준수",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.274,
+            "homeRuns": 13,
+            "eye": 5,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "KIA-2017-P01",
+          "name": "네일",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 90,
+          "movement": 91,
+          "control": 94,
+          "stamina": 83,
+          "grade": "S"
+        },
+        {
+          "id": "KIA-2017-P02",
+          "name": "양현종",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 84,
+          "movement": 75,
+          "control": 94,
+          "stamina": 95,
+          "grade": "B"
+        },
+        {
+          "id": "KIA-2017-P03",
+          "name": "알드레드",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 94,
+          "movement": 73,
+          "control": 91,
+          "stamina": 67,
+          "grade": "A"
+        },
+        {
+          "id": "KIA-2017-P04",
+          "name": "윤영철",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 75,
+          "control": 91,
+          "stamina": 67,
+          "grade": "B"
+        },
+        {
+          "id": "KIA-2017-P05",
+          "name": "황동하",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 73,
+          "control": 90,
+          "stamina": 69,
+          "grade": "C"
+        },
+        {
+          "id": "KIA-2017-P06",
+          "name": "전상현",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 92,
+          "movement": 75,
+          "control": 92,
+          "stamina": 61,
+          "grade": "A"
+        },
+        {
+          "id": "KIA-2017-P07",
+          "name": "곽도규",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 94,
+          "movement": 82,
+          "control": 88,
+          "stamina": 58,
+          "grade": "A"
+        },
+        {
+          "id": "KIA-2017-P08",
+          "name": "이준영",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 91,
+          "movement": 85,
+          "control": 90,
+          "stamina": 56,
+          "grade": "A"
+        },
+        {
+          "id": "KIA-2017-P09",
+          "name": "장현식",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 93,
+          "movement": 80,
+          "control": 88,
+          "stamina": 58,
+          "grade": "A"
+        },
+        {
+          "id": "KIA-2017-P10",
+          "name": "정해영",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 91,
+          "control": 93,
+          "stamina": 67,
+          "grade": "S"
+        }
+      ]
+    },
+    "DOO": {
+      "id": "DOO",
+      "name": "두산 베어스",
+      "shortName": "두산",
+      "city": "서울",
+      "primary": "#131230",
+      "accent": "#ed1c24",
+      "strength": 86,
+      "hitters": [
+        {
+          "id": "DOO-2017-H01",
+          "name": "정수빈",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.284,
+            "homeRuns": 4,
+            "eye": 8,
+            "speed": 10
+          }
+        },
+        {
+          "id": "DOO-2017-H02",
+          "name": "허경민",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.309,
+            "homeRuns": 7,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "DOO-2017-H03",
+          "name": "양의지",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.314,
+            "homeRuns": 17,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "DOO-2017-H04",
+          "name": "김재환",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.283,
+            "homeRuns": 29,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "DOO-2017-H05",
+          "name": "양석환",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.246,
+            "homeRuns": 34,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "DOO-2017-H06",
+          "name": "강승호",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.28,
+            "homeRuns": 18,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "DOO-2017-H07",
+          "name": "제러드",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.326,
+            "homeRuns": 10,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "DOO-2017-H08",
+          "name": "박준영",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.266,
+            "homeRuns": 9,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "DOO-2017-H09",
+          "name": "조수행",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.265,
+            "homeRuns": 4,
+            "eye": 5,
+            "speed": 10
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "DOO-2017-P01",
+          "name": "곽빈",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 90,
+          "movement": 75,
+          "control": 88,
+          "stamina": 93,
+          "grade": "B"
+        },
+        {
+          "id": "DOO-2017-P02",
+          "name": "브랜든",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 93,
+          "movement": 84,
+          "control": 92,
+          "stamina": 69,
+          "grade": "A"
+        },
+        {
+          "id": "DOO-2017-P03",
+          "name": "발라조빅",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 95,
+          "movement": 74,
+          "control": 91,
+          "stamina": 61,
+          "grade": "A"
+        },
+        {
+          "id": "DOO-2017-P04",
+          "name": "최원준",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 85,
+          "movement": 63,
+          "control": 90,
+          "stamina": 64,
+          "grade": "C"
+        },
+        {
+          "id": "DOO-2017-P05",
+          "name": "최승용",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 87,
+          "movement": 70,
+          "control": 90,
+          "stamina": 61,
+          "grade": "C"
+        },
+        {
+          "id": "DOO-2017-P06",
+          "name": "이병헌",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 95,
+          "movement": 90,
+          "control": 88,
+          "stamina": 61,
+          "grade": "S"
+        },
+        {
+          "id": "DOO-2017-P07",
+          "name": "홍건희",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 89,
+          "movement": 90,
+          "control": 92,
+          "stamina": 58,
+          "grade": "A"
+        },
+        {
+          "id": "DOO-2017-P08",
+          "name": "이영하",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 90,
+          "movement": 80,
+          "control": 87,
+          "stamina": 58,
+          "grade": "A"
+        },
+        {
+          "id": "DOO-2017-P09",
+          "name": "김강률",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 91,
+          "movement": 85,
+          "control": 90,
+          "stamina": 53,
+          "grade": "A"
+        },
+        {
+          "id": "DOO-2017-P10",
+          "name": "김택연",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 100,
+          "movement": 93,
+          "control": 87,
+          "stamina": 67,
+          "grade": "S"
+        }
+      ]
+    },
+    "LOT": {
+      "id": "LOT",
+      "name": "롯데 자이언츠",
+      "shortName": "롯데",
+      "city": "부산",
+      "primary": "#041e42",
+      "accent": "#d00f31",
+      "strength": 80,
+      "hitters": [
+        {
+          "id": "LOT-2017-H01",
+          "name": "황성빈",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.32,
+            "homeRuns": 4,
+            "eye": 5,
+            "speed": 10
+          }
+        },
+        {
+          "id": "LOT-2017-H02",
+          "name": "고승민",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.308,
+            "homeRuns": 14,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "LOT-2017-H03",
+          "name": "손호영",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.317,
+            "homeRuns": 18,
+            "eye": 3,
+            "speed": 4
+          }
+        },
+        {
+          "id": "LOT-2017-H04",
+          "name": "레이예스",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.352,
+            "homeRuns": 15,
+            "eye": 3,
+            "speed": 3
+          }
+        },
+        {
+          "id": "LOT-2017-H05",
+          "name": "전준우",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.293,
+            "homeRuns": 17,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "LOT-2017-H06",
+          "name": "나승엽",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.312,
+            "homeRuns": 7,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "LOT-2017-H07",
+          "name": "윤동희",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.293,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "LOT-2017-H08",
+          "name": "박승욱",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.262,
+            "homeRuns": 7,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LOT-2017-H09",
+          "name": "손성빈",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.215,
+            "homeRuns": 12,
+            "eye": 7,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "LOT-2017-P01",
+          "name": "윌커슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 87,
+          "movement": 81,
+          "control": 96,
+          "stamina": 100,
+          "grade": "A"
+        },
+        {
+          "id": "LOT-2017-P02",
+          "name": "반즈",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 98,
+          "movement": 83,
+          "control": 93,
+          "stamina": 83,
+          "grade": "S"
+        },
+        {
+          "id": "LOT-2017-P03",
+          "name": "박세웅",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 91,
+          "movement": 71,
+          "control": 90,
+          "stamina": 96,
+          "grade": "B"
+        },
+        {
+          "id": "LOT-2017-P04",
+          "name": "김진욱",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 89,
+          "movement": 68,
+          "control": 87,
+          "stamina": 67,
+          "grade": "C"
+        },
+        {
+          "id": "LOT-2017-P05",
+          "name": "나균안",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 85,
+          "movement": 61,
+          "control": 88,
+          "stamina": 61,
+          "grade": "C"
+        },
+        {
+          "id": "LOT-2017-P06",
+          "name": "구승민",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 95,
+          "movement": 71,
+          "control": 87,
+          "stamina": 61,
+          "grade": "A"
+        },
+        {
+          "id": "LOT-2017-P07",
+          "name": "전미르",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 93,
+          "movement": 65,
+          "control": 87,
+          "stamina": 56,
+          "grade": "B"
+        },
+        {
+          "id": "LOT-2017-P08",
+          "name": "김상수",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 87,
+          "movement": 75,
+          "control": 91,
+          "stamina": 58,
+          "grade": "B"
+        },
+        {
+          "id": "LOT-2017-P09",
+          "name": "한현희",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 86,
+          "movement": 69,
+          "control": 91,
+          "stamina": 56,
+          "grade": "C"
+        },
+        {
+          "id": "LOT-2017-P10",
+          "name": "김원중",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 95,
+          "movement": 82,
+          "control": 91,
+          "stamina": 67,
+          "grade": "A"
+        }
+      ]
+    },
+    "NC": {
+      "id": "NC",
+      "name": "NC 다이노스",
+      "shortName": "NC",
+      "city": "창원",
+      "primary": "#071d49",
+      "accent": "#c8a977",
+      "strength": 83,
+      "hitters": [
+        {
+          "id": "NC-2017-H01",
+          "name": "박민우",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.328,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "NC-2017-H02",
+          "name": "손아섭",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 7,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "NC-2017-H03",
+          "name": "박건우",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.344,
+            "homeRuns": 13,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NC-2017-H04",
+          "name": "데이비슨",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.306,
+            "homeRuns": 46,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NC-2017-H05",
+          "name": "권희동",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.3,
+            "homeRuns": 13,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "NC-2017-H06",
+          "name": "서호철",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.285,
+            "homeRuns": 10,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NC-2017-H07",
+          "name": "김주원",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.252,
+            "homeRuns": 9,
+            "eye": 9,
+            "speed": 6
+          }
+        },
+        {
+          "id": "NC-2017-H08",
+          "name": "김형준",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.195,
+            "homeRuns": 17,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NC-2017-H09",
+          "name": "김성욱",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.204,
+            "homeRuns": 17,
+            "eye": 7,
+            "speed": 5
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "NC-2017-P01",
+          "name": "하트",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 99,
+          "movement": 91,
+          "control": 93,
+          "stamina": 87,
+          "grade": "S"
+        },
+        {
+          "id": "NC-2017-P02",
+          "name": "카스타노",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 86,
+          "movement": 74,
+          "control": 93,
+          "stamina": 62,
+          "grade": "B"
+        },
+        {
+          "id": "NC-2017-P03",
+          "name": "신민혁",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 70,
+          "control": 94,
+          "stamina": 67,
+          "grade": "C"
+        },
+        {
+          "id": "NC-2017-P04",
+          "name": "이재학",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 89,
+          "movement": 67,
+          "control": 90,
+          "stamina": 61,
+          "grade": "C"
+        },
+        {
+          "id": "NC-2017-P05",
+          "name": "김시훈",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 85,
+          "movement": 70,
+          "control": 88,
+          "stamina": 61,
+          "grade": "C"
+        },
+        {
+          "id": "NC-2017-P06",
+          "name": "김재열",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 95,
+          "movement": 91,
+          "control": 91,
+          "stamina": 61,
+          "grade": "S"
+        },
+        {
+          "id": "NC-2017-P07",
+          "name": "류진욱",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 93,
+          "movement": 82,
+          "control": 87,
+          "stamina": 58,
+          "grade": "A"
+        },
+        {
+          "id": "NC-2017-P08",
+          "name": "김영규",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 90,
+          "movement": 76,
+          "control": 91,
+          "stamina": 56,
+          "grade": "A"
+        },
+        {
+          "id": "NC-2017-P09",
+          "name": "임정호",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 89,
+          "movement": 75,
+          "control": 90,
+          "stamina": 56,
+          "grade": "B"
+        },
+        {
+          "id": "NC-2017-P10",
+          "name": "이용찬",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 88,
+          "movement": 63,
+          "control": 90,
+          "stamina": 67,
+          "grade": "C"
+        }
+      ]
+    },
+    "SK": {
+      "id": "SK",
+      "name": "SSG 랜더스",
+      "shortName": "SSG",
+      "city": "인천",
+      "primary": "#e31837",
+      "accent": "#ffb81c",
+      "strength": 78,
+      "hitters": [
+        {
+          "id": "SK-2017-H01",
+          "name": "최지훈",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 11,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "SK-2017-H02",
+          "name": "정준재",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.307,
+            "homeRuns": 1,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "SK-2017-H03",
+          "name": "최정",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.291,
+            "homeRuns": 37,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "SK-2017-H04",
+          "name": "에레디아",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.36,
+            "homeRuns": 21,
+            "eye": 3,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SK-2017-H05",
+          "name": "한유섬",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.253,
+            "homeRuns": 24,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "SK-2017-H06",
+          "name": "박성한",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.301,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SK-2017-H07",
+          "name": "고명준",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.25,
+            "homeRuns": 11,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SK-2017-H08",
+          "name": "이지영",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.279,
+            "homeRuns": 5,
+            "eye": 3,
+            "speed": 4
+          }
+        },
+        {
+          "id": "SK-2017-H09",
+          "name": "추신수",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.281,
+            "homeRuns": 5,
+            "eye": 9,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SK-2017-P01",
+          "name": "앤더슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 100,
+          "movement": 81,
+          "control": 90,
+          "stamina": 64,
+          "grade": "S"
+        },
+        {
+          "id": "SK-2017-P02",
+          "name": "엘리아스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 93,
+          "movement": 76,
+          "control": 92,
+          "stamina": 68,
+          "grade": "A"
+        },
+        {
+          "id": "SK-2017-P03",
+          "name": "김광현",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 89,
+          "movement": 70,
+          "control": 91,
+          "stamina": 90,
+          "grade": "B"
+        },
+        {
+          "id": "SK-2017-P04",
+          "name": "오원석",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 70,
+          "control": 88,
+          "stamina": 67,
+          "grade": "C"
+        },
+        {
+          "id": "SK-2017-P05",
+          "name": "송영진",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 86,
+          "movement": 67,
+          "control": 87,
+          "stamina": 70,
+          "grade": "C"
+        },
+        {
+          "id": "SK-2017-P06",
+          "name": "노경은",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 87,
+          "movement": 90,
+          "control": 93,
+          "stamina": 61,
+          "grade": "A"
+        },
+        {
+          "id": "SK-2017-P07",
+          "name": "조병현",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 95,
+          "movement": 82,
+          "control": 90,
+          "stamina": 58,
+          "grade": "A"
+        },
+        {
+          "id": "SK-2017-P08",
+          "name": "서진용",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 90,
+          "movement": 72,
+          "control": 87,
+          "stamina": 56,
+          "grade": "B"
+        },
+        {
+          "id": "SK-2017-P09",
+          "name": "한두솔",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 89,
+          "movement": 81,
+          "control": 89,
+          "stamina": 53,
+          "grade": "A"
+        },
+        {
+          "id": "SK-2017-P10",
+          "name": "문승원",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 89,
+          "movement": 73,
+          "control": 89,
+          "stamina": 64,
+          "grade": "B"
+        }
+      ]
+    },
+    "LG": {
+      "id": "LG",
+      "name": "LG 트윈스",
+      "shortName": "LG",
+      "city": "서울",
+      "primary": "#c30452",
+      "accent": "#ffffff",
+      "strength": 76,
+      "hitters": [
+        {
+          "id": "LG-2017-H01",
+          "name": "홍창기",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.336,
+            "homeRuns": 5,
+            "eye": 9,
+            "speed": 5
+          }
+        },
+        {
+          "id": "LG-2017-H02",
+          "name": "신민재",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.297,
+            "homeRuns": 0,
+            "eye": 9,
+            "speed": 8
+          }
+        },
+        {
+          "id": "LG-2017-H03",
+          "name": "오스틴",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.319,
+            "homeRuns": 32,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LG-2017-H04",
+          "name": "문보경",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.301,
+            "homeRuns": 22,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "LG-2017-H05",
+          "name": "김현수",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.294,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "LG-2017-H06",
+          "name": "오지환",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.254,
+            "homeRuns": 10,
+            "eye": 8,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LG-2017-H07",
+          "name": "문성주",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.315,
+            "homeRuns": 0,
+            "eye": 8,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LG-2017-H08",
+          "name": "박동원",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.272,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "LG-2017-H09",
+          "name": "박해민",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.263,
+            "homeRuns": 6,
+            "eye": 6,
+            "speed": 10
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "LG-2017-P01",
+          "name": "엔스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 91,
+          "movement": 75,
+          "control": 92,
+          "stamina": 93,
+          "grade": "A"
+        },
+        {
+          "id": "LG-2017-P02",
+          "name": "손주영",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 87,
+          "movement": 81,
+          "control": 91,
+          "stamina": 80,
+          "grade": "A"
+        },
+        {
+          "id": "LG-2017-P03",
+          "name": "임찬규",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 90,
+          "movement": 81,
+          "control": 90,
+          "stamina": 74,
+          "grade": "A"
+        },
+        {
+          "id": "LG-2017-P04",
+          "name": "최원태",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 91,
+          "movement": 74,
+          "control": 89,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "LG-2017-P05",
+          "name": "켈리",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 85,
+          "movement": 73,
+          "control": 94,
+          "stamina": 69,
+          "grade": "B"
+        },
+        {
+          "id": "LG-2017-P06",
+          "name": "김진성",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 94,
+          "movement": 80,
+          "control": 94,
+          "stamina": 61,
+          "grade": "A"
+        },
+        {
+          "id": "LG-2017-P07",
+          "name": "정우영",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 85,
+          "movement": 71,
+          "control": 88,
+          "stamina": 56,
+          "grade": "C"
+        },
+        {
+          "id": "LG-2017-P08",
+          "name": "이지강",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 84,
+          "movement": 80,
+          "control": 90,
+          "stamina": 56,
+          "grade": "B"
+        },
+        {
+          "id": "LG-2017-P09",
+          "name": "백승현",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 89,
+          "movement": 75,
+          "control": 87,
+          "stamina": 53,
+          "grade": "B"
+        },
+        {
+          "id": "LG-2017-P10",
+          "name": "유영찬",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 93,
+          "movement": 90,
+          "control": 90,
+          "stamina": 67,
+          "grade": "S"
+        }
+      ]
+    },
+    "NEX": {
+      "id": "NEX",
+      "name": "키움 히어로즈",
+      "shortName": "키움",
+      "city": "서울",
+      "primary": "#570514",
+      "accent": "#f5b335",
+      "strength": 74,
+      "hitters": [
+        {
+          "id": "NEX-2017-H01",
+          "name": "이주형",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.266,
+            "homeRuns": 13,
+            "eye": 7,
+            "speed": 3
+          }
+        },
+        {
+          "id": "NEX-2017-H02",
+          "name": "김혜성",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.326,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "NEX-2017-H03",
+          "name": "도슨",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.33,
+            "homeRuns": 11,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NEX-2017-H04",
+          "name": "송성문",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.34,
+            "homeRuns": 19,
+            "eye": 6,
+            "speed": 7
+          }
+        },
+        {
+          "id": "NEX-2017-H05",
+          "name": "최주환",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.257,
+            "homeRuns": 13,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NEX-2017-H06",
+          "name": "김건희",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.257,
+            "homeRuns": 9,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NEX-2017-H07",
+          "name": "이용규",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.306,
+            "homeRuns": 1,
+            "eye": 10,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NEX-2017-H08",
+          "name": "이형종",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.216,
+            "homeRuns": 4,
+            "eye": 10,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NEX-2017-H09",
+          "name": "김휘집",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.23,
+            "homeRuns": 8,
+            "eye": 7,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "NEX-2017-P01",
+          "name": "후라도",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 89,
+          "movement": 83,
+          "control": 96,
+          "stamina": 100,
+          "grade": "A"
+        },
+        {
+          "id": "NEX-2017-P02",
+          "name": "헤이수스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 95,
+          "movement": 82,
+          "control": 93,
+          "stamina": 95,
+          "grade": "A"
+        },
+        {
+          "id": "NEX-2017-P03",
+          "name": "하영민",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 74,
+          "control": 91,
+          "stamina": 83,
+          "grade": "C"
+        },
+        {
+          "id": "NEX-2017-P04",
+          "name": "김인범",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 80,
+          "movement": 70,
+          "control": 91,
+          "stamina": 64,
+          "grade": "C"
+        },
+        {
+          "id": "NEX-2017-P05",
+          "name": "김선기",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 61,
+          "control": 87,
+          "stamina": 61,
+          "grade": "D"
+        },
+        {
+          "id": "NEX-2017-P06",
+          "name": "김성민",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 91,
+          "movement": 80,
+          "control": 90,
+          "stamina": 61,
+          "grade": "A"
+        },
+        {
+          "id": "NEX-2017-P07",
+          "name": "문성현",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 83,
+          "movement": 71,
+          "control": 91,
+          "stamina": 56,
+          "grade": "C"
+        },
+        {
+          "id": "NEX-2017-P08",
+          "name": "김동욱",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 87,
+          "movement": 75,
+          "control": 90,
+          "stamina": 56,
+          "grade": "B"
+        },
+        {
+          "id": "NEX-2017-P09",
+          "name": "조상우",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 93,
+          "movement": 84,
+          "control": 91,
+          "stamina": 58,
+          "grade": "A"
+        },
+        {
+          "id": "NEX-2017-P10",
+          "name": "주승우",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 74,
+          "control": 91,
+          "stamina": 64,
+          "grade": "A"
+        }
+      ]
+    },
+    "HAN": {
+      "id": "HAN",
+      "name": "한화 이글스",
+      "shortName": "한화",
+      "city": "대전",
+      "primary": "#f37321",
+      "accent": "#111111",
+      "strength": 68,
+      "hitters": [
+        {
+          "id": "HAN-2017-H01",
+          "name": "황영묵",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.301,
+            "homeRuns": 3,
+            "eye": 4,
+            "speed": 5
+          }
+        },
+        {
+          "id": "HAN-2017-H02",
+          "name": "안치홍",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.3,
+            "homeRuns": 13,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "HAN-2017-H03",
+          "name": "페라자",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 24,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "HAN-2017-H04",
+          "name": "노시환",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.272,
+            "homeRuns": 24,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "HAN-2017-H05",
+          "name": "채은성",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.271,
+            "homeRuns": 20,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "HAN-2017-H06",
+          "name": "김태연",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.291,
+            "homeRuns": 12,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "HAN-2017-H07",
+          "name": "문현빈",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.277,
+            "homeRuns": 5,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "HAN-2017-H08",
+          "name": "최재훈",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.257,
+            "homeRuns": 3,
+            "eye": 9,
+            "speed": 1
+          }
+        },
+        {
+          "id": "HAN-2017-H09",
+          "name": "장진혁",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.263,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "HAN-2017-P01",
+          "name": "류현진",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 81,
+          "control": 95,
+          "stamina": 88,
+          "grade": "A"
+        },
+        {
+          "id": "HAN-2017-P02",
+          "name": "와이스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 97,
+          "movement": 81,
+          "control": 92,
+          "stamina": 67,
+          "grade": "A"
+        },
+        {
+          "id": "HAN-2017-P03",
+          "name": "바리아",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 91,
+          "movement": 69,
+          "control": 90,
+          "stamina": 67,
+          "grade": "B"
+        },
+        {
+          "id": "HAN-2017-P04",
+          "name": "문동주",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 91,
+          "movement": 69,
+          "control": 90,
+          "stamina": 62,
+          "grade": "B"
+        },
+        {
+          "id": "HAN-2017-P05",
+          "name": "김기중",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 66,
+          "control": 87,
+          "stamina": 64,
+          "grade": "C"
+        },
+        {
+          "id": "HAN-2017-P06",
+          "name": "이민우",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 88,
+          "movement": 91,
+          "control": 92,
+          "stamina": 58,
+          "grade": "A"
+        },
+        {
+          "id": "HAN-2017-P07",
+          "name": "박상원",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 92,
+          "movement": 75,
+          "control": 90,
+          "stamina": 58,
+          "grade": "A"
+        },
+        {
+          "id": "HAN-2017-P08",
+          "name": "김범수",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 94,
+          "movement": 69,
+          "control": 86,
+          "stamina": 56,
+          "grade": "B"
+        },
+        {
+          "id": "HAN-2017-P09",
+          "name": "한승혁",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 91,
+          "movement": 69,
+          "control": 87,
+          "stamina": 56,
+          "grade": "B"
+        },
+        {
+          "id": "HAN-2017-P10",
+          "name": "주현상",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 89,
+          "movement": 91,
+          "control": 97,
+          "stamina": 67,
+          "grade": "S"
+        }
+      ]
+    },
+    "KT": {
+      "id": "KT",
+      "name": "kt wiz",
+      "shortName": "kt",
+      "city": "수원",
+      "primary": "#000000",
+      "accent": "#ed1c24",
+      "strength": 62,
+      "hitters": [
+        {
+          "id": "KT-2017-H01",
+          "name": "김민혁",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.353,
+            "homeRuns": 1,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "KT-2017-H02",
+          "name": "로하스",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.329,
+            "homeRuns": 32,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "KT-2017-H03",
+          "name": "강백호",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.289,
+            "homeRuns": 26,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "KT-2017-H04",
+          "name": "장성우",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.268,
+            "homeRuns": 19,
+            "eye": 7,
+            "speed": 3
+          }
+        },
+        {
+          "id": "KT-2017-H05",
+          "name": "황재균",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.26,
+            "homeRuns": 13,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "KT-2017-H06",
+          "name": "오재일",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.236,
+            "homeRuns": 14,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "KT-2017-H07",
+          "name": "배정대",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.275,
+            "homeRuns": 7,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "KT-2017-H08",
+          "name": "김상수",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.267,
+            "homeRuns": 4,
+            "eye": 8,
+            "speed": 4
+          }
+        },
+        {
+          "id": "KT-2017-H09",
+          "name": "천성호",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.292,
+            "homeRuns": 1,
+            "eye": 4,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "KT-2017-P01",
+          "name": "쿠에바스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 89,
+          "movement": 75,
+          "control": 94,
+          "stamina": 96,
+          "grade": "B"
+        },
+        {
+          "id": "KT-2017-P02",
+          "name": "벤자민",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 94,
+          "movement": 72,
+          "control": 92,
+          "stamina": 83,
+          "grade": "A"
+        },
+        {
+          "id": "KT-2017-P03",
+          "name": "엄상백",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 93,
+          "movement": 71,
+          "control": 90,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "KT-2017-P04",
+          "name": "고영표",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 70,
+          "control": 96,
+          "stamina": 56,
+          "grade": "C"
+        },
+        {
+          "id": "KT-2017-P05",
+          "name": "김민",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 85,
+          "movement": 62,
+          "control": 88,
+          "stamina": 64,
+          "grade": "C"
+        },
+        {
+          "id": "KT-2017-P06",
+          "name": "손동현",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 90,
+          "movement": 75,
+          "control": 91,
+          "stamina": 58,
+          "grade": "B"
+        },
+        {
+          "id": "KT-2017-P07",
+          "name": "김민수",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 87,
+          "movement": 74,
+          "control": 92,
+          "stamina": 58,
+          "grade": "B"
+        },
+        {
+          "id": "KT-2017-P08",
+          "name": "우규민",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 83,
+          "movement": 91,
+          "control": 96,
+          "stamina": 53,
+          "grade": "A"
+        },
+        {
+          "id": "KT-2017-P09",
+          "name": "이상동",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 88,
+          "movement": 73,
+          "control": 90,
+          "stamina": 53,
+          "grade": "B"
+        },
+        {
+          "id": "KT-2017-P10",
+          "name": "박영현",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 99,
+          "movement": 82,
+          "control": 93,
+          "stamina": 67,
+          "grade": "S"
+        }
+      ]
+    },
+    "SAM": {
+      "id": "SAM",
+      "name": "삼성 라이온즈",
+      "shortName": "삼성",
+      "city": "대구",
+      "primary": "#074ca1",
+      "accent": "#ffffff",
+      "strength": 70,
+      "hitters": [
+        {
+          "id": "SAM-2017-H01",
+          "name": "김지찬",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.316,
+            "homeRuns": 3,
+            "eye": 7,
+            "speed": 9
+          }
+        },
+        {
+          "id": "SAM-2017-H02",
+          "name": "이재현",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.26,
+            "homeRuns": 14,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SAM-2017-H03",
+          "name": "구자욱",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.343,
+            "homeRuns": 33,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SAM-2017-H04",
+          "name": "박병호",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.231,
+            "homeRuns": 23,
+            "eye": 9,
+            "speed": 1
+          }
+        },
+        {
+          "id": "SAM-2017-H05",
+          "name": "강민호",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.303,
+            "homeRuns": 19,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SAM-2017-H06",
+          "name": "김영웅",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.252,
+            "homeRuns": 28,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SAM-2017-H07",
+          "name": "이성규",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.258,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SAM-2017-H08",
+          "name": "디아즈",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.272,
+            "homeRuns": 15,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "SAM-2017-H09",
+          "name": "류지혁",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 144,
+            "avg": 0.258,
+            "homeRuns": 3,
+            "eye": 7,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SAM-2017-P01",
+          "name": "코너",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 93,
+          "movement": 83,
+          "control": 92,
+          "stamina": 89,
+          "grade": "A"
+        },
+        {
+          "id": "SAM-2017-P02",
+          "name": "레예스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 86,
+          "movement": 81,
+          "control": 94,
+          "stamina": 80,
+          "grade": "A"
+        },
+        {
+          "id": "SAM-2017-P03",
+          "name": "원태인",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 84,
+          "movement": 82,
+          "control": 93,
+          "stamina": 88,
+          "grade": "A"
+        },
+        {
+          "id": "SAM-2017-P04",
+          "name": "이승현",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 85,
+          "movement": 75,
+          "control": 90,
+          "stamina": 67,
+          "grade": "B"
+        },
+        {
+          "id": "SAM-2017-P05",
+          "name": "백정현",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 65,
+          "control": 91,
+          "stamina": 64,
+          "grade": "C"
+        },
+        {
+          "id": "SAM-2017-P06",
+          "name": "임창민",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 89,
+          "movement": 80,
+          "control": 93,
+          "stamina": 58,
+          "grade": "A"
+        },
+        {
+          "id": "SAM-2017-P07",
+          "name": "김재윤",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 91,
+          "movement": 75,
+          "control": 94,
+          "stamina": 58,
+          "grade": "A"
+        },
+        {
+          "id": "SAM-2017-P08",
+          "name": "이승현",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 91,
+          "movement": 75,
+          "control": 88,
+          "stamina": 56,
+          "grade": "A"
+        },
+        {
+          "id": "SAM-2017-P09",
+          "name": "김태훈",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 90,
+          "movement": 81,
+          "control": 90,
+          "stamina": 56,
+          "grade": "A"
+        },
+        {
+          "id": "SAM-2017-P10",
+          "name": "오승환",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 87,
+          "movement": 71,
+          "control": 95,
+          "stamina": 67,
+          "grade": "B"
+        }
+      ]
+    }
+  }
+}

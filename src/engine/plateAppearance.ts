@@ -1,3 +1,4 @@
+import { ensurePitchingHistory } from "./pitching";
 import { simulationConfig } from "../data/simulationConfig";
 import { advanceOnForcedWalk, advanceOnHomeRun } from "./baserunning";
 import { SeededRng } from "./rng";
@@ -41,23 +42,36 @@ const addRun = (context: PlateAppearanceContext, runner: Baserunner) => {
   stats[runner.playerId].runs += 1;
   if (runner.isUser) game.userGameStats.runs += 1;
   const fieldingTeam = battingTeam === game.fixture.away ? game.fixture.home : game.fixture.away;
-  game.pitchers[fieldingTeam].runsAllowed += 1;
+  const current = game.pitchers[fieldingTeam];
+  const responsibleId = runner.responsiblePitcherId ?? current.pitcherId;
+  const history = ensurePitchingHistory(game);
+  (history[responsibleId] ?? current).runsAllowed += 1;
+  if (game.score[battingTeam] >= game.score[fieldingTeam]) current.leadLost = true;
+  if (game.score[battingTeam] === game.score[fieldingTeam] + 1) game.goAheadPitcherId = responsibleId;
 };
 
-const creditRuns = (context: PlateAppearanceContext, runners: Baserunner[], creditRbi = true) => {
-  runners.forEach((runner) => addRun(context, runner));
-  if (creditRbi && runners.length) {
-    context.stats[context.batter.id].rbi += runners.length;
-    if (isUser(context.batter.id)) context.game.userGameStats.rbi += runners.length;
+const creditRuns = (context: PlateAppearanceContext, runners: Baserunner[], creditRbi = true, homeRun = false) => {
+  let count = 0;
+  for (const runner of runners) {
+    const g = context.game;
+    if (!homeRun && g.inning >= 9 && g.half === "BOTTOM" && g.score[g.fixture.home] > g.score[g.fixture.away]) break;
+    addRun(context, runner);
+    count++;
   }
+  if (creditRbi && count) {
+    context.stats[context.batter.id].rbi += count;
+    if (isUser(context.batter.id)) context.game.userGameStats.rbi += count;
+  }
+  return count;
 };
 
-const runnerFrom = (batter: HitterProfile, teamId: TeamId): Baserunner => ({
+const runnerFrom = (batter: HitterProfile, teamId: TeamId, game: GameState): Baserunner => ({
   playerId: batter.id,
   name: batter.name,
   teamId,
   speed: batter.speed,
   isUser: isUser(batter.id),
+  responsiblePitcherId: game.pitchers[teamId === game.fixture.away ? game.fixture.home : game.fixture.away].pitcherId,
 });
 
 const addCommonPa = (context: PlateAppearanceContext) => {
@@ -65,7 +79,6 @@ const addCommonPa = (context: PlateAppearanceContext) => {
   if (isUser(context.batter.id)) context.game.userGameStats.pa += 1;
   const pitcher = context.game.pitchers[context.battingTeam === context.game.fixture.away ? context.game.fixture.home : context.game.fixture.away];
   pitcher.battersFaced += 1;
-  pitcher.pitchCount += context.rng.int(3, 7);
 };
 
 const addAtBat = (context: PlateAppearanceContext) => {
@@ -218,7 +231,7 @@ function resolveOut(context: PlateAppearanceContext): PlateAppearanceResult {
     addAtBat(context);
     batterStats.roe += 1;
     if (isUser(batter.id)) game.userGameStats.roe += 1;
-    const advance = advanceOnForcedWalk(game.bases, runnerFrom(batter, context.battingTeam));
+    const advance = advanceOnForcedWalk(game.bases, runnerFrom(batter, context.battingTeam, game));
     game.bases = advance.bases;
     creditRuns(context, advance.scored, false);
     addLog(game, `${batter.name}, 내야 실책으로 출루.`, true);
@@ -233,11 +246,21 @@ function resolveOut(context: PlateAppearanceContext): PlateAppearanceResult {
       game.outs += 2;
       batterStats.gidp += 1;
       if (isUser(batter.id)) game.userGameStats.gidp += 1;
-      addLog(game, `${batter.name}, 유격수-2루수-1루수 병살타. ${retired.name}도 아웃.`, true);
+      let scored = 0;
+      if (game.outs < 3) {
+        const second = game.bases[1], third = game.bases[2];
+        game.bases[1] = null;
+        game.bases[2] = second;
+        if (third) scored = creditRuns(context, [third], false);
+      }
+      addLog(game, `${batter.name}, 유격수-2루수-1루수 병살타. ${retired.name}도 아웃.${scored ? " 3루 주자 득점(타점 없음)." : ""}`, scored > 0);
       return { outcome: "GIDP", batterReached: false };
     }
     if (game.bases[0] && game.outs < 2 && rng.chance(0.1)) {
-      game.bases[0] = runnerFrom(batter, context.battingTeam);
+      const responsiblePitcherId = game.bases[0].responsiblePitcherId;
+      game.bases[0] = runnerFrom(batter, context.battingTeam, game);
+      // 승계주자를 야수선택으로 바꾼 대체 주자도 원래 투수의 책임을 이어갑니다.
+      game.bases[0].responsiblePitcherId = responsiblePitcherId ?? game.bases[0].responsiblePitcherId;
       game.outs += 1;
       addLog(game, `${batter.name}, 야수선택으로 1루 출루.`);
       return { outcome: "FC", batterReached: true };
@@ -270,14 +293,15 @@ function resolveOut(context: PlateAppearanceContext): PlateAppearanceResult {
   return { outcome: "LO", batterReached: false };
 }
 
-export function resolvePlateAppearance(context: PlateAppearanceContext): PlateAppearanceResult {
+function resolvePlateAppearancePlay(context: PlateAppearanceContext): PlateAppearanceResult {
   if ((context.userChoice === "SF" || context.userChoice === "SH") && !canChooseSacrifice(context.game, context.userChoice)) {
     throw new Error("현재 주자·아웃 상황에서는 해당 희생타를 선택할 수 없습니다.");
   }
   addCommonPa(context);
   const { game, batter, stats, rng } = context;
   const choice = context.userChoice ?? (shouldAutoBunt(context) ? "SH" : chooseAutoOutcome(batter, context.pitcher, rng));
-  const runner = runnerFrom(batter, context.battingTeam);
+  const runner = runnerFrom(batter, context.battingTeam, game);
+  const originalBases = [...game.bases];
 
   if (choice === "OUT") return resolveOut(context);
   if (choice === "SF" || choice === "SH") return resolveSacrifice(context, choice);
@@ -301,24 +325,26 @@ export function resolvePlateAppearance(context: PlateAppearanceContext): PlateAp
   }
 
   addAtBat(context);
-  addHit(context, choice);
   if (choice === "HR") {
+    addHit(context, "HR");
     const advance = advanceOnHomeRun(game.bases, runner);
     game.bases = advance.bases;
-    creditRuns(context, advance.scored);
+    creditRuns(context, advance.scored, true, true);
     addLog(game, `${batter.name}, ${advance.scored.length}점 홈런!`, true);
     return { outcome: choice, batterReached: false };
   }
 
   const scored: Baserunner[] = [];
+  const winningRunsNeeded = game.inning >= 9 && game.half === "BOTTOM"
+    ? game.score[game.fixture.away] - game.score[game.fixture.home] + 1 : Infinity;
   if (choice === "3B") {
-    game.bases.forEach((baseRunner) => { if (baseRunner) scored.push(baseRunner); });
+    [...game.bases].reverse().forEach((baseRunner) => { if (baseRunner) scored.push(baseRunner); });
     game.bases = [null, null, runner];
   } else if (choice === "2B") {
     if (game.bases[2]) scored.push(game.bases[2]);
     if (game.bases[1]) scored.push(game.bases[1]);
     const first = game.bases[0];
-    if (first && rng.chance(0.58 + (first.speed - 50) / 250)) scored.push(first);
+    if (first && scored.length < winningRunsNeeded && rng.chance(0.58 + (first.speed - 50) / 250)) scored.push(first);
     game.bases = [null, runner, first && !scored.includes(first) ? first : null];
   } else {
     if (game.bases[2]) scored.push(game.bases[2]);
@@ -326,7 +352,7 @@ export function resolvePlateAppearance(context: PlateAppearanceContext): PlateAp
     const first = game.bases[0];
     let third: Baserunner | null = null;
     let secondBase: Baserunner | null = null;
-    if (second) {
+    if (second && scored.length < winningRunsNeeded) {
       const scoreChance = 0.69 + (second.speed - 50) / 220 + (game.outs === 2 ? 0.1 : 0);
       if (rng.chance(scoreChance)) scored.push(second);
       else if (rng.chance(0.08)) {
@@ -334,14 +360,37 @@ export function resolvePlateAppearance(context: PlateAppearanceContext): PlateAp
         addLog(game, `${second.name}, 외야 송구에 홈에서 아웃.`, true);
       } else third = second;
     }
-    if (first) {
+    if (first && scored.length < winningRunsNeeded) {
       if (!third && rng.chance(0.37 + (first.speed - 50) / 250)) third = first;
       else secondBase = first;
     }
     game.bases = [runner, secondBase, third];
   }
-  creditRuns(context, scored);
-  const label = choice === "1B" ? rng.pick(["좌전 안타", "중전 안타", "우전 안타"]) : choice === "2B" ? "2루타" : "3루타";
-  addLog(game, `${batter.name}, ${label}.${scored.length ? ` ${scored.length}명 득점.` : ""}`, scored.length > 0 || choice !== "1B");
-  return { outcome: choice, batterReached: true };
+  const credited = creditRuns(context, scored);
+  let hit: "1B" | "2B" | "3B" = choice;
+  if (game.inning >= 9 && game.half === "BOTTOM" && game.score[game.fixture.home] > game.score[game.fixture.away] && credited) {
+    const winningRunner = scored[credited - 1];
+    const distance = 3 - originalBases.indexOf(winningRunner);
+    const bases = Math.min(choice === "3B" ? 3 : choice === "2B" ? 2 : 1, distance);
+    hit = bases === 3 ? "3B" : bases === 2 ? "2B" : "1B";
+  }
+  addHit(context, hit);
+  const label = hit === "1B" ? rng.pick(["좌전 안타", "중전 안타", "우전 안타"]) : hit === "2B" ? "2루타" : "3루타";
+  addLog(game, `${batter.name}, ${label}.${credited ? ` ${credited}명 득점.` : ""}`, credited > 0 || hit !== "1B");
+  return { outcome: hit, batterReached: true };
+}
+
+export function resolvePlateAppearance(context: PlateAppearanceContext): PlateAppearanceResult {
+  if ((context.userChoice === "SF" || context.userChoice === "SH") && !canChooseSacrifice(context.game, context.userChoice)) {
+    throw new Error("현재 주자·아웃 상황에서는 해당 희생타를 선택할 수 없습니다.");
+  }
+  ensurePitchingHistory(context.game);
+  const defense = context.battingTeam === context.game.fixture.away ? context.game.fixture.home : context.game.fixture.away;
+  const pitcher = context.game.pitchers[defense];
+  for (const runner of context.game.bases) if (runner) runner.responsiblePitcherId ??= pitcher.pitcherId;
+  const result = resolvePlateAppearancePlay(context);
+  // 타석 결과별 투구 수. 자동 고의사구는 투구 없이 처리합니다.
+  pitcher.pitchCount += result.outcome === "IBB" ? 0 : result.outcome === "BB" ? context.rng.int(4, 7)
+    : result.outcome === "SO" ? context.rng.int(3, 7) : context.rng.int(1, 5);
+  return result;
 }

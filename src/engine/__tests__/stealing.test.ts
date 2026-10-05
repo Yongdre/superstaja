@@ -41,7 +41,7 @@ describe("고정 확률 도루", () => {
               state.game!.phase = "WAITING_FOR_STEAL";
               state.game!.outs = 0;
               state.game!.bases = [user(speed), null, null];
-              state.leagueData.teams.DOO.pitchers.find((p) => p.id === "DOO-NIP")!.control = control;
+              state.leagueData.teams.DOO.pitchers.find((p) => p.id === state.game!.pitchers.DOO.pitcherId)!.control = control;
               const stats = state.playerStats["USER-PLAYER"];
               stats.sb = previousSuccesses;
               stats.cs = 30 - previousSuccesses;
@@ -67,7 +67,7 @@ describe("고정 확률 도루", () => {
   it("자동 도루도 주루 등급별 최종 성공률을 추가 보정 없이 사용한다", () => {
     for (const [grade, probability] of [[7, 0.72], [8, 0.78], [9, 0.84], [10, 0.90]]) {
       const state = createExampleSave();
-      const profile = state.leagueData.teams.SAM.hitters.find((h) => h.id === "SAM-BYH")!;
+      const profile = state.leagueData.teams.SAM.hitters[0];
       profile.statProfile = { games: 144, avg: 0.3, homeRuns: 5, speed: grade };
       const runner: Baserunner = { playerId: profile.id, name: profile.name, teamId: "SAM", speed: 95, isUser: false };
       state.game!.bases = [runner, null, null];

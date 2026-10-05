@@ -1,3 +1,8 @@
+import { LeagueDataPicker } from "./components/LeagueDataPicker";
+import { LeagueSwitch } from "./batting/LeagueSwitch";
+import type { BattingAppProps } from "./batting/LeagueSwitch";
+import { newCareerSeed } from "./engine/rng";
+import { CycleCelebration } from "./components/CycleCelebration";
 import { useEffect, useRef, useState } from "react";
 import { BatterPanel } from "./components/BatterPanel";
 import { GameEnd } from "./components/GameEnd";
@@ -9,7 +14,7 @@ import { Scoreboard } from "./components/Scoreboard";
 import { Standings } from "./components/Standings";
 import { Navigation, navigationItems as nav } from "./components/Navigation";
 import type { AppTab as Tab } from "./components/Navigation";
-import { builtInLeagueDatasets, defaultLeagueDataset, getBuiltInLeagueDataset, leagueDataTemplate } from "./data/leagueDataset";
+import { defaultLeagueDataset, leagueDataTemplate } from "./data/leagueDataset";
 import {
   applyUserChoice,
   createNewSeason,
@@ -24,7 +29,7 @@ import {
 } from "./engine/gameEngine";
 import { userFieldPositionLabels, userFieldPositions } from "./engine/types";
 import type { LeagueDataset, SeasonConfig, SeasonGoals, SeasonState, UserChoice } from "./engine/types";
-import { exportGame, exportLeagueData, getManualSaveSlotSummary, hasSavedGame, importGame, importLeagueData, loadGame, loadGameFromSlot, manualSaveSlots, saveGame, saveGameToSlot } from "./store/gameStore";
+import { exportGame, exportLeagueData, getManualSaveSlotSummary, hasSavedGame, importGame, loadGame, loadGameFromSlot, manualSaveSlots, saveGame, saveGameToSlot } from "./store/gameStore";
 import type { ManualSaveSlot } from "./store/gameStore";
 import { postseasonStageLabel } from "./engine/postseason";
 
@@ -32,36 +37,26 @@ const formatSlotTime = (savedAt?: string) => savedAt
   ? new Intl.DateTimeFormat("ko-KR", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" }).format(new Date(savedAt))
   : "저장 시각 없음";
 
-function MainMenu({ onStart, onLoad, onLoadSlot, onImport }: {
+function MainMenu({ onStart, onLoad, onLoadSlot, onImport, onLeagueChange }: {
   onStart: (config: Partial<SeasonConfig>, dataset: LeagueDataset) => void;
   onLoad: () => void;
   onLoadSlot: (slot: ManualSaveSlot) => void;
   onImport: (file: File) => void;
-}) {
+} & BattingAppProps) {
   const [setup, setSetup] = useState(false);
-  const [config, setConfig] = useState(defaultSeasonConfig);
+  const [config, setConfig] = useState(() => ({ ...defaultSeasonConfig, seed: newCareerSeed() }));
   const [dataset, setDataset] = useState<LeagueDataset>(() => structuredClone(defaultLeagueDataset));
   const [dataMessage, setDataMessage] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
-  const dataInputRef = useRef<HTMLInputElement>(null);
   const slotSummaries = manualSaveSlots.map(getManualSaveSlotSummary);
   const update = <K extends keyof SeasonConfig>(key: K, value: SeasonConfig[K]) => setConfig((current) => ({ ...current, [key]: value }));
-  const updateDebutYear = (year: number) => {
-    update("debutYear", year);
-    const builtIn = getBuiltInLeagueDataset(year);
-    if (builtIn) {
-      setDataset(structuredClone(builtIn));
-      setDataMessage(`${year}년 내장 JSON 자동 선택`);
-    } else {
-      setDataMessage(`${year}년 내장 JSON 없음 · ${dataset.label} 유지`);
-    }
-  };
   return (
     <main className="menu-shell">
       <div className="menu-noise" />
       <section className="menu-card">
         <div className="menu-brand"><span className="brand-ball">K</span><div><strong>KBO CAREER SIM</strong><small>TRUE TALENT · INDEPENDENT SEASONS</small></div></div>
-        <div className="menu-copy"><span className="season-badge">KBO CAREER</span><h1>슈퍼스타자</h1><p>편집 가능한 예상 성적을 기반으로 독립적으로 흘러가는 KBO 세계.<br />데뷔부터 은퇴까지, 오직 한 선수의 타석 결과만 결정합니다.</p></div>
+        <div className="menu-copy"><span className="season-badge">KBO & MLB · BATTER CAREER</span><h1>슈퍼스타자</h1><p>리그를 선택하고, 오직 한 선수의 타석 결과를 결정합니다.<br />데뷔부터 은퇴까지 당신만의 타자 커리어.</p></div>
+        <LeagueSwitch league="KBO" onChange={onLeagueChange} />
 
         {!setup ? <div className="menu-actions">
           <button className="menu-primary" onClick={() => setSetup(true)}><span>새 시즌 시작</span><b>→</b></button>
@@ -71,10 +66,12 @@ function MainMenu({ onStart, onLoad, onLoadSlot, onImport }: {
         </div> : <div className="season-setup">
           <div className="setup-heading"><button onClick={() => setSetup(false)}>←</button><div><span className="eyebrow">NEW SEASON</span><h2>선수와 목표 설정</h2></div></div>
           <div className="form-row"><label><span>선수 이름</span><input value={config.playerName} placeholder="이름 입력" onChange={(event) => update("playerName", event.target.value)} /></label><label><span>포지션</span><select value={config.position} onChange={(event) => update("position", event.target.value as SeasonConfig["position"])}>{userFieldPositions.map((position) => <option value={position} key={position}>{userFieldPositionLabels[position]}</option>)}</select></label></div>
-          <div className="form-row"><label><span>데뷔 연도</span><input type="number" min="1982" max="2199" value={config.debutYear} onChange={(event) => updateDebutYear(Number(event.target.value))} /></label><label><span>리그 데이터</span><input value={dataset.label} readOnly /></label></div>
-          <div className="league-data-box"><div><strong>리그 데이터 JSON</strong><span>{dataMessage || `현재 ${dataset.label} 사용 중`}</span></div><div><button type="button" onClick={() => exportLeagueData(leagueDataTemplate, "kbo-league-data-template.json")}>최신 입력 템플릿</button><button type="button" onClick={() => exportLeagueData(dataset)}>현재 데이터 내려받기</button><button type="button" onClick={() => dataInputRef.current?.click()}>수정한 JSON 가져오기</button></div></div>
-          <p className="data-note">내장 JSON: {builtInLeagueDatasets.map((item) => item.sourceSeason).join(", ")}년 · 새 파일은 <code>src/data/seasons/kbo-league-data-YYYY.json</code>에 추가하세요. 파일이 없는 연도는 현재 데이터를 유지하거나 수정한 JSON을 가져올 수 있습니다.</p>
+          <div className="form-row"><label><span>데뷔 연도</span><input type="number" min="1982" max="2199" value={config.debutYear} onChange={(event) => update("debutYear", Number(event.target.value))} /></label><LeagueDataPicker value={dataset} onChange={(next, message) => { setDataset(next); setDataMessage(message); }} /></div>
+          <div className="form-row"><label><span>소속 구단</span><select value={config.userTeam} onChange={(event) => update("userTeam", event.target.value as SeasonConfig["userTeam"])}>{Object.values(dataset.teams).map((team) => <option key={team.id} value={team.id}>{team.name}</option>)}</select></label></div>
+          <div className="league-data-box"><div><strong>리그 데이터 JSON</strong><span>{dataMessage || `현재 ${dataset.label} 사용 중`}</span></div><div><button type="button" onClick={() => exportLeagueData(leagueDataTemplate, "kbo-league-data-template.json")}>최신 입력 템플릿</button><button type="button" onClick={() => exportLeagueData(dataset)}>현재 데이터 내려받기</button></div></div>
+          <p className="data-note">데뷔 연도와 데이터 기준 연도는 별개입니다. 시즌 폴더의 모든 JSON을 목록에서 선택하거나, 여러 JSON을 가져와 이 브라우저의 목록에 추가할 수 있습니다.</p>
           <div className="form-row"><label><span>타순</span><select value={config.battingOrder} onChange={(event) => update("battingOrder", Number(event.target.value))}>{Array.from({ length: 9 }, (_, index) => <option value={index + 1} key={index}>{index + 1}번</option>)}</select></label><label><span>RNG Seed</span><input type="number" value={config.seed} onChange={(event) => update("seed", Number(event.target.value))} /></label></div>
+          <p className="data-note">새 커리어마다 Seed를 자동 생성합니다. 같은 시즌·Seed를 직접 입력하면 같은 일정과 선택 결과를 재현할 수 있습니다. 다음 시즌에는 상대 순서를 다시 편성합니다.</p>
           <div className="form-row"><label><span>목표 타율 하한</span><input type="number" min="0" max="1" step="0.001" value={config.targetAvgMin} onChange={(event) => update("targetAvgMin", Number(event.target.value))} /></label><label><span>목표 타율 상한</span><input type="number" min="0" max="1" step="0.001" value={config.targetAvgMax} onChange={(event) => update("targetAvgMax", Number(event.target.value))} /></label></div>
           <div className="form-row"><label><span>목표 홈런(최대)</span><input type="number" min="0" value={config.homeRunCap} onChange={(event) => update("homeRunCap", Number(event.target.value))} /></label><label><span>도루 성공률 (%)</span><input type="number" min="25" max="95" value={Math.round(config.stealSuccess * 100)} onChange={(event) => update("stealSuccess", Number(event.target.value) / 100)} /></label></div>
           <p className="data-note">입력한 도루 성공률을 매 시도 그대로 적용합니다. 투수·포수·주루 능력과 이전 성공·실패는 확률을 바꾸지 않습니다.</p>
@@ -83,8 +80,8 @@ function MainMenu({ onStart, onLoad, onLoadSlot, onImport }: {
           <button className="menu-primary" disabled={!config.playerName.trim()} onClick={() => onStart(config, dataset)}><span>{config.debutYear}년 커리어 시작</span><b>{config.isFinalSeason ? "FINAL SEASON" : "PLAY BALL"}</b></button>
         </div>}
         <input className="hidden-input" ref={inputRef} type="file" accept="application/json,.json" onChange={(event) => event.target.files?.[0] && onImport(event.target.files[0])} />
-        <input className="hidden-input" ref={dataInputRef} type="file" accept="application/json,.json" onChange={(event) => { const file = event.target.files?.[0]; if (!file) return; void importLeagueData(file).then((next) => { setDataset(next); if (next.sourceSeason) update("debutYear", next.sourceSeason); setDataMessage(`${next.label} 불러오기 완료`); }).catch((error: unknown) => setDataMessage(error instanceof Error ? error.message : "리그 데이터를 읽지 못했습니다.")); event.target.value = ""; }} />
         <footer><span>10 TEAMS</span><span>144 GAMES</span><span>SEEDED RNG</span><span>AUTOSAVE</span></footer>
+        <a className="batting-hub-link" href="/">← 게임 선택 화면</a>
       </section>
     </main>
   );
@@ -133,7 +130,7 @@ function GamePage({ state, onChoice, onSteal, onReveal, onNext, onNavigate }: {
   );
 }
 
-export default function App() {
+export default function App({ onLeagueChange }: BattingAppProps = {}) {
   const [state, setState] = useState<SeasonState | null>(null);
   const [tab, setTab] = useState<Tab>("game");
   const [toast, setToast] = useState("");
@@ -176,11 +173,11 @@ export default function App() {
     }
   };
 
-  if (!state) return <><MainMenu onStart={(config, dataset) => { setState(createNewSeason(config, dataset)); setTab("game"); }} onLoad={loadAutoSave} onLoadSlot={loadManualSlot} onImport={loadJson} />{toast && <div className="toast">{toast}</div>}</>;
+  if (!state) return <><MainMenu onLeagueChange={onLeagueChange} onStart={(config, dataset) => { setState(createNewSeason(config, dataset)); setTab("game"); }} onLoad={loadAutoSave} onLoadSlot={loadManualSlot} onImport={loadJson} />{toast && <div className="toast">{toast}</div>}</>;
 
   const renderTab = () => {
     switch (tab) {
-      case "game": return <GamePage state={state} onChoice={(choice) => setState((current) => current ? applyUserChoice(current, choice) : current)} onSteal={(attempt) => setState((current) => current ? resolveUserSteal(current, attempt) : current)} onReveal={() => setState((current) => current ? revealGameResult(current) : current)} onNext={(settings, dataset) => setState((current) => current ? (current.game?.phase === "SEASON_END" && settings ? startNextSeason(current, settings, dataset ?? getBuiltInLeagueDataset(current.season + 1) ?? current.leagueData) : startNextGame(current)) : current)} onNavigate={setTab} />;
+      case "game": return <GamePage state={state} onChoice={(choice) => setState((current) => current ? applyUserChoice(current, choice) : current)} onSteal={(attempt) => setState((current) => current ? resolveUserSteal(current, attempt) : current)} onReveal={() => setState((current) => current ? revealGameResult(current) : current)} onNext={(settings, dataset) => setState((current) => current ? (current.game?.phase === "SEASON_END" && settings ? startNextSeason(current, settings, dataset ?? current.leagueData) : startNextGame(current)) : current)} onNavigate={setTab} />;
       case "schedule": return <ScheduleView state={state} />;
       case "standings": return <Standings state={state} />;
       case "leaders": return <Leaderboard state={state} />;
@@ -202,6 +199,7 @@ export default function App() {
         <div className="content-inner">{renderTab()}</div>
       </main>
       <Navigation tab={tab} onNavigate={setTab} mobile />
+      <CycleCelebration state={state} />
       {toast && <div className="toast">{toast}</div>}
     </div>
   );

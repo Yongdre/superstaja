@@ -15,7 +15,7 @@ export type GamePhase = "USER_AT_BAT" | "WAITING_FOR_STEAL" | "SIMULATING" | "GA
 export type UserChoice = "OUT" | "1B" | "2B" | "3B" | "HR" | "BB" | "HBP" | "IBB" | "SF" | "SH";
 export type Handedness = "L" | "R";
 export type FieldPosition = "C" | "1B" | "2B" | "3B" | "SS" | "LF" | "CF" | "RF" | "DH";
-export const userFieldPositions = ["LF", "CF", "RF", "1B", "2B", "3B", "SS", "C"] as const;
+export const userFieldPositions = ["LF", "CF", "RF", "1B", "2B", "3B", "SS", "C", "DH"] as const;
 export type UserFieldPosition = (typeof userFieldPositions)[number];
 export const userFieldPositionLabels: Record<UserFieldPosition, string> = {
   LF: "좌익수",
@@ -26,6 +26,7 @@ export const userFieldPositionLabels: Record<UserFieldPosition, string> = {
   "3B": "3루수",
   SS: "유격수",
   C: "포수",
+  DH: "지명타자",
 };
 export type AvailabilityPattern = "REGULAR" | "INJURY";
 export type CompetitionStage = "REGULAR_SEASON" | "WILD_CARD" | "SEMI_PLAYOFF" | "PLAYOFF" | "KOREAN_SERIES";
@@ -126,6 +127,8 @@ export interface BatterStats {
 }
 
 export interface TeamRecord {
+  /** 양수: 연승, 음수: 연패. 무승부는 연속 기록을 끊습니다. */
+  streak?: number;
   games: number;
   wins: number;
   losses: number;
@@ -143,6 +146,7 @@ export interface HeadToHeadRecord {
 }
 
 export interface GameFixture {
+  date?: string;
   id: string;
   day: number;
   series: number;
@@ -163,6 +167,7 @@ export interface Baserunner {
   teamId: TeamId;
   speed: number;
   isUser: boolean;
+  responsiblePitcherId?: string;
 }
 
 export interface PitcherGameState {
@@ -174,6 +179,11 @@ export interface PitcherGameState {
   battersFaced: number;
   bullpenIndex: number;
   isStarter: boolean;
+  /** 이 경기에서 이미 등판한 선수. 이전 세이브에는 없을 수 있습니다. */
+  usedPitcherIds?: string[];
+  entryLead?: number;
+  entryTyingRun?: boolean;
+  leadLost?: boolean;
 }
 
 export interface GameLogEntry {
@@ -222,8 +232,13 @@ export interface GameState {
   nextLogId: number;
   focusLogId?: number;
   userGameStats: BatterStats;
+  /** 9회말 이후 역전 득점을 만든 실제 타석 결과입니다. */
+  walkOff?: { batterId: string; batterName: string; outcome: string };
   /** 마지막으로 동점이 깨진 순간의 승리·패전 투수 후보입니다. */
   pitchingDecision?: PitchingDecisionState;
+  pitchingHistory?: Record<string, PitcherGameState>;
+  goAheadPitcherId?: string;
+  workloadRecorded?: boolean;
   finalized: boolean;
   summary?: GameSummary;
 }
@@ -244,7 +259,11 @@ export interface SeasonConfig {
 }
 
 export interface SeasonGoals {
+  /** 생략하면 직전 시즌 포지션을 유지합니다. */
+  position?: UserFieldPosition;
   battingOrder: number;
+  /** 생략하면 직전 시즌의 도루 성공률을 유지합니다. */
+  stealSuccess?: number;
   targetAvgMin: number;
   targetAvgMax: number;
   homeRunCap: number;
@@ -253,6 +272,8 @@ export interface SeasonGoals {
 }
 
 export interface CareerSeasonSummary {
+  dataSourceSeason?: number;
+  datasetLabel?: string;
   season: number;
   teamId: TeamId;
   playerStats: BatterStats;
@@ -266,11 +287,26 @@ export interface CareerSeasonSummary {
   };
 }
 
+export interface CareerMilestone {
+  stat: "h" | "hr";
+  value: number;
+  season: number;
+  fixtureId: string;
+  date?: string;
+  gameNumber: number;
+  inning: number;
+  half: Half;
+  opponentId: TeamId;
+  opponentName: string;
+}
+
 export interface CareerState {
   debutYear: number;
   status: "ACTIVE" | "RETIRED";
   finalSeason?: number;
   seasons: CareerSeasonSummary[];
+  /** 이전 세이브에는 달성 이력이 없을 수 있습니다. */
+  milestones?: CareerMilestone[];
 }
 
 export interface LeagueDataset {
@@ -321,6 +357,9 @@ export interface SeasonState {
   schemaVersion: 4;
   season: number;
   rngState: number;
+  battingRestriction?: { remaining: number; cooldownFixtureId?: string };
+  userGameHistory?: Array<{ fixtureId: string; competition: CompetitionStage; stats: BatterStats }>;
+  pitcherWorkloads?: Record<string, { day: number; load: number }>;
   config: SeasonConfig;
   career: CareerState;
   leagueData: LeagueDataset;
@@ -332,5 +371,6 @@ export interface SeasonState {
   progress: SeasonProgress;
   postseason?: PostseasonState;
   game: GameState | null;
+  regularResults?: Array<{ fixtureId: string; summary: GameSummary }>;
   lastResults: GameSummary[];
 }

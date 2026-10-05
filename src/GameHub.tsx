@@ -1,0 +1,9 @@
+import "./hub.css";
+
+function GameIllustration({ pitcher = false }: { pitcher?: boolean }) {
+  return <svg viewBox="0 0 260 150" aria-hidden="true"><path d="m130 125-83-83a118 118 0 0 1 166 0Z" fill="currentColor" opacity=".06" /><path d="m130 125-48-48 48-48 48 48Z" fill="none" stroke="currentColor" opacity=".5" /><path d="m130 125-83-83m83 83 83-83" fill="none" stroke="currentColor" opacity=".25" strokeDasharray="3 5" />{pitcher ? <><circle cx="130" cy="77" r="17" fill="currentColor" opacity=".13" /><rect x="119" y="75" width="22" height="4" rx="2" fill="currentColor" /></> : <><path d="m139 95-43-42q-3-3 2-8l4-4q5-5 8-2l42 43" fill="none" stroke="currentColor" strokeWidth="7" strokeLinecap="round" /><circle cx="169" cy="50" r="9" fill="none" stroke="currentColor" strokeWidth="2" /></>}</svg>;
+}
+
+export default function GameHub() {
+  return <main className="games-hub"><header><span className="hub-ball">B</span><div><strong>BASEBALL CAREER</strong><small>YOUR CHOICE. YOUR STORY.</small></div></header><section className="hub-intro"><span>CHOOSE YOUR GAME</span><h1>타석에서. 마운드에서.<br />당신만의 야구 커리어.</h1><p>두 개의 게임, 각자의 무대. 리그는 게임 안에서 선택하세요.</p></section><div className="hub-games"><a className="hub-game batter" href="/superstaja/"><div className="hub-game-meta"><span>01 / BATTER</span><b>KBO & MLB</b></div><GameIllustration /><h2>슈퍼스타자</h2><p>타석의 결과를 직접 정하는<br />타자 커리어 시뮬레이션.</p><div className="hub-game-action"><span>타자 커리어 시작</span><b>↗</b></div></a><a className="hub-game pitcher" href="/best-pitcher/"><div className="hub-game-meta"><span>02 / STARTER</span><b>KBO & MLB</b></div><GameIllustration pitcher /><h2>Best Pitcher</h2><p>한 타자씩 상대하며 만들어 가는<br />선발투수 커리어 시뮬레이션.</p><div className="hub-game-action"><span>투수 커리어 시작</span><b>↗</b></div></a></div><footer>슈퍼스타자 · Best Pitcher<span>CAREER SIMULATION</span></footer></main>;
+}

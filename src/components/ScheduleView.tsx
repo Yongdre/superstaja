@@ -1,23 +1,35 @@
+import { useState } from "react";
 import { opponentOf, userFixtures } from "../engine/gameEngine";
+import { scoreForTeam, teamResult } from "../engine/milestones";
 import { postseasonStageLabel } from "../engine/postseason";
-import type { SeasonState } from "../engine/types";
+import type { GameSummary, SeasonState } from "../engine/types";
 
 export function ScheduleView({ state }: { state: SeasonState }) {
   const fixtures = userFixtures(state.schedule, state.config.userTeam);
-  const start = Math.max(0, state.currentDay - 5);
-  const end = Math.min(fixtures.length, state.currentDay + 16);
-  return (
-    <section className="card schedule-view">
-      <header className="section-header"><div><span className="eyebrow">{state.season} · 144 GAME SCHEDULE</span><h2>삼성 일정</h2></div><small>상대별 16경기 · 홈/원정 8:8</small></header>
-      <div className="schedule-list">
-        {fixtures.slice(start, end).map((fixture, offset) => {
-          const index = start + offset;
-          const opponent = opponentOf(fixture, state.config.userTeam);
-          const current = index === state.currentDay;
-          return <div className={`schedule-row ${current ? "current" : ""} ${index < state.currentDay ? "played" : ""}`} key={fixture.id}><span>{index + 1}</span><div><small>{fixture.seriesLength}연전 · {fixture.gameInSeries}차전</small><strong>{fixture.home === state.config.userTeam ? "vs" : "@"} {state.leagueData.teams[opponent].name}</strong></div><em>{index < state.currentDay ? "완료" : current ? "진행 중" : `${index + 1}차전`}</em></div>;
-        })}
-      </div>
-      {state.postseason && <><header className="section-header"><div><span className="eyebrow">POSTSEASON</span><h2>포스트시즌 결과</h2></div><small>{state.postseason.champion ? `우승 · ${state.leagueData.teams[state.postseason.champion].name}` : "진행 중"}</small></header><div className="schedule-list">{state.postseason.games.map((record, index) => { const { summary } = record; return <div className="schedule-row played" key={`${record.stage}-${index}`}><span>{record.gameNumber}</span><div><small>{postseasonStageLabel[record.stage]}</small><strong>{state.leagueData.teams[summary.away].shortName} {summary.awayScore}–{summary.homeScore} {state.leagueData.teams[summary.home].shortName}</strong></div><em>완료</em></div>; })}</div></>}
-    </section>
-  );
+  const results = new Map((state.regularResults ?? []).map(result => [result.fixtureId, result.summary]));
+  // An older save may have only its latest completed game available.
+  if (state.game?.finalized && state.game.competition === "REGULAR_SEASON" && state.game.summary) results.set(state.game.fixture.id, state.game.summary);
+  const [all, setAll] = useState(false);
+  const start = all ? 0 : Math.max(0, state.teamRecords[state.config.userTeam].games - 5);
+  const resultLabel = (summary: GameSummary) => summary.away === state.config.userTeam || summary.home === state.config.userTeam
+    ? teamResult(summary, state.config.userTeam)
+    : summary.awayScore === summary.homeScore ? "무" : `${state.leagueData.teams[summary.awayScore > summary.homeScore ? summary.away : summary.home].shortName} 승`;
+  return <section className="card schedule-view">
+    <header className="section-header"><div><span className="eyebrow">{state.season} · 144 GAME SCHEDULE</span><h2>{state.leagueData.teams[state.config.userTeam].name} 일정</h2></div><button className="ghost-button" onClick={() => setAll(!all)}>{all ? "최근/예정만" : "전체 일정"}</button></header>
+    <p className="data-note">상대별 16경기 · 홈/원정 8:8 · 새 시즌은 2·3연전 순서를 무작위 편성합니다. 이전 세이브의 일정은 유지하며 점수는 우리 팀–상대 팀 순서입니다.</p>
+    <div className="schedule-list">{fixtures.slice(start, all ? undefined : start + 22).map((fixture, offset) => {
+      const index = start + offset;
+      const summary = results.get(fixture.id);
+      const current = fixture.id === state.game?.fixture.id;
+      const previouslyPlayed = index < state.teamRecords[state.config.userTeam].games;
+      return <div className={`schedule-row ${current ? "current" : ""} ${summary || previouslyPlayed ? "played" : ""}`} key={fixture.id}>
+        <span>{index + 1}</span><div><small>{fixture.gameInSeries}/{fixture.seriesLength}차전</small><strong>{fixture.home === state.config.userTeam ? "vs" : "@"} {state.leagueData.teams[opponentOf(fixture, state.config.userTeam)].name}</strong></div>
+        <em>{summary ? `${teamResult(summary, state.config.userTeam)} · ${scoreForTeam(summary, state.config.userTeam)}` : previouslyPlayed ? "완료 · 이전 기록 없음" : current ? "진행 중" : "예정"}</em>
+      </div>;
+    })}</div>
+    {state.postseason && <><h2 className="league-heading">포스트시즌 결과</h2><div className="schedule-list">{state.postseason.games.map((record, index) => {
+      const summary = record.summary;
+      return <div className="schedule-row played" key={index}><span>{record.gameNumber}</span><div><small>{postseasonStageLabel[record.stage]}</small><strong>{state.leagueData.teams[summary.away].shortName} {summary.awayScore}–{summary.homeScore} {state.leagueData.teams[summary.home].shortName}</strong></div><em>{resultLabel(summary)}</em></div>;
+    })}</div></>}
+  </section>;
 }

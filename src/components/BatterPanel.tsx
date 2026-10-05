@@ -1,3 +1,5 @@
+import { forcedNoHitRemaining } from "../engine/milestones";
+import { UserStreaks } from "./UserStreaks";
 import { avg, formatRate } from "../engine/statistics";
 import { activePlayerStats } from "../engine/gameEngine";
 import { canChooseSacrifice } from "../engine/plateAppearance";
@@ -29,6 +31,7 @@ export function BatterPanel({ state, onChoice, onSteal }: { state: SeasonState; 
   const pitcher = game.pitchers[pitchingTeam];
   const pitcherProfile = state.leagueData.teams[pitchingTeam].pitchers.find((player) => player.id === pitcher.pitcherId);
   const pitcherGrade = pitcherProfile ? getPitcherGrade(pitcherProfile) : undefined;
+  const forcedRemaining = forcedNoHitRemaining(state);
   const isAtBat = game.phase === "USER_AT_BAT";
   const waitingSteal = game.phase === "WAITING_FOR_STEAL";
   const gameFinished = game.phase === "GAME_END_TRANSITION";
@@ -44,11 +47,13 @@ export function BatterPanel({ state, onChoice, onSteal }: { state: SeasonState; 
       </div>
 
       <div className="today-strip"><span>오늘</span><TodayLine stats={game.userGameStats} /></div>
+      <UserStreaks state={state} />
 
       {isAtBat && <div className="decision-zone">
         <div className="decision-title"><div><span className="pulse" /><strong>결과를 선택하세요</strong></div><small>선택한 결과는 변경되지 않습니다</small></div>
+        {forcedRemaining > 0 && <p className="batting-restriction" role="alert"><strong>목표 타율에 크게 벗어납니다</strong><span>강제 NO HIT {forcedRemaining}타석 남음</span></p>}
         <div className="choice-grid">
-          {choices.map((choice) => <button key={choice.value} className={`choice-button ${choice.className ?? ""}`} disabled={(choice.value === "HR" && capReached) || ((choice.value === "SF" || choice.value === "SH") && !canChooseSacrifice(game, choice.value))} onClick={() => onChoice(choice.value)}><strong>{choice.label}</strong><span>{choice.value === "HR" && capReached ? "한도 도달" : choice.sub}</span></button>)}
+          {choices.map((choice) => <button key={choice.value} className={`choice-button ${choice.className ?? ""}`} disabled={(forcedRemaining > 0 && choice.value !== "OUT") || (choice.value === "HR" && capReached) || ((choice.value === "SF" || choice.value === "SH") && !canChooseSacrifice(game, choice.value))} onClick={() => onChoice(choice.value)}><strong>{choice.label}</strong><span>{choice.value === "HR" && capReached ? "한도 도달" : choice.sub}</span></button>)}
         </div>
         <p className="data-note">희생플라이: 0·1사 3루 주자 · 희생번트: 0·1사 1·2루 주자, 3루 비어 있음. 성공한 결과를 선택합니다.</p>
       </div>}

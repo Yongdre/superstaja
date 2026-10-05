@@ -8,53 +8,16 @@ const filename = resolve(process.argv[2] ?? "src/data/seasons/2017-season-data.j
 const count = Number(process.argv[3] ?? 20);
 const seedStart = Number(process.argv[4] ?? 1000);
 if (!Number.isInteger(count) || count < 1 || !Number.isInteger(seedStart)) throw new Error("Invalid audit arguments");
-const server = await createServer({
-  server: { middlewareMode: true }, appType: "custom", logLevel: "error",
-  plugins: [{
-    name: "audit-only-engine-export", enforce: "pre",
-    transform(code, id) {
-      if (id.replaceAll("\\", "/").endsWith("/src/engine/gameEngine.ts")) {
-        // Expose the existing private loop in this audit's memory only.
-        return code + "\nexport { runAutomaticGame as auditAutomaticGame };\n";
-      }
-    },
-  }],
-});
+const server = await createServer({ server: { middlewareMode: true }, appType: "custom", logLevel: "error" });
 try {
-  const { createGame, auditAutomaticGame, defaultSeasonConfig } = await server.ssrLoadModule("/src/engine/gameEngine.ts");
+  const { simulateRegularSeason } = await server.ssrLoadModule("/src/engine/gameEngine.ts");
   const { validateLeagueDataset } = await server.ssrLoadModule("/src/data/leagueDataset.ts");
-  const { generateSchedule } = await server.ssrLoadModule("/src/engine/schedule.ts");
-  const { SeededRng } = await server.ssrLoadModule("/src/engine/rng.ts");
-  const { emptyBatterStats } = await server.ssrLoadModule("/src/engine/statistics.ts");
   const dataset = validateLeagueDataset(JSON.parse(readFileSync(filename, "utf8")));
   const ids = Object.keys(dataset.teams);
   const seasonResults = [];
   for (let index = 0; index < count; index += 1) {
     const seed = seedStart + index;
-    const schedule = generateSchedule(ids, 2017);
-    const rng = new SeededRng(seed);
-    const results = Object.fromEntries(ids.map(id => [id, { games: 0, wins: 0, losses: 0, ties: 0, runsFor: 0, runsAgainst: 0 }]));
-    const state = {
-      // No roster is replaced by the user. This sentinel exists only in the audit.
-      config: { ...defaultSeasonConfig, userTeam: "AUDIT_NO_USER", seed },
-      season: 2017, progress: "REGULAR_SEASON", leagueData: dataset,
-      playerStats: Object.fromEntries(Object.values(dataset.teams).flatMap(t => t.hitters.map(h => [h.id, emptyBatterStats()]))),
-    };
-    for (const day of schedule) for (const fixture of day.games) {
-      const game = createGame(state, fixture);
-      state.game = game;
-      if (game.lineups[fixture.home].includes("USER-PLAYER") || game.lineups[fixture.away].includes("USER-PLAYER")) throw new Error("User leaked into all-AI audit");
-      auditAutomaticGame(state, game, rng, false);
-      if (game.phase !== "GAME_END_TRANSITION") throw new Error("Game did not finish");
-      const home = results[fixture.home], away = results[fixture.away];
-      const hs = game.score[fixture.home], as = game.score[fixture.away];
-      home.games++; away.games++;
-      home.runsFor += hs; home.runsAgainst += as;
-      away.runsFor += as; away.runsAgainst += hs;
-      if (hs === as) { home.ties++; away.ties++; }
-      else if (hs > as) { home.wins++; away.losses++; }
-      else { away.wins++; home.losses++; }
-    }
+    const results = simulateRegularSeason(seed, dataset).teams;
     for (const id of ids) if (results[id].games !== 144) throw new Error("Incomplete season " + id);
     seasonResults.push(results);
   }

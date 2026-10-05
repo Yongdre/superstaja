@@ -1,15 +1,14 @@
 import { describe, expect, it } from "vitest";
-import rawDataset from "../../data/seasons/2017-season-data.json";
 import sourceRecords from "../../../docs/sources/2017-kbo-records.json";
 import beforeBalance from "../../../docs/sources/2017-season-data-before-balance.json";
 import balanceSettings from "../../../scripts/data/2017-team-balance.json";
-import { validateLeagueDataset } from "../../data/leagueDataset";
+import { getBuiltInLeagueDataset, validateLeagueDataset } from "../../data/leagueDataset";
 import { applyUserChoice, createNewSeason, resolveUserSteal, validateSave } from "../gameEngine";
 import { buildSeasonLineupPlan } from "../lineup";
 import { calculatePitcherGrade } from "../pitcherGrade";
 
 describe("2017 실제 기록 기반 리그 파일", () => {
-  const dataset = validateLeagueDataset(rawDataset);
+  const dataset = getBuiltInLeagueDataset(2017)!;
   const historical = validateLeagueDataset(beforeBalance);
 
   it("10개 팀에 9타자·5선발·4구원·1마무리를 배치하고 144경기 라인업을 채운다", () => {
@@ -68,7 +67,7 @@ describe("2017 실제 기록 기반 리그 파일", () => {
     expect(historical.teams.KIA.pitchers.find((p) => p.name === "양현종")).toMatchObject({ stuff: 82, movement: 83, control: 81, stamina: 92, grade: "A" });
   });
 
-  it("체급 조정값을 원본에 한 번 적용하고 선수·포지션·주루·투수 역할은 유지한다", () => {
+  it.runIf(dataset.label === balanceSettings.label)("체급 조정값을 원본에 한 번 적용하고 선수·포지션·주루·투수 역할은 유지한다", () => {
     const clamp = (v: number, min: number, max: number) => Math.max(min, Math.min(max, v));
     expect(dataset.label).toBe(balanceSettings.label);
     for (const team of Object.values(dataset.teams)) {

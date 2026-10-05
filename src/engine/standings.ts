@@ -42,12 +42,18 @@ export function recordGame(
   h.runsFor += homeScore;
   h.runsAgainst += awayScore;
   if (awayScore === homeScore) {
+    a.streak = 0;
+    h.streak = 0;
     a.ties += 1;
     h.ties += 1;
   } else if (awayScore > homeScore) {
+    a.streak = Math.max(0, a.streak ?? 0) + 1;
+    h.streak = Math.min(0, h.streak ?? 0) - 1;
     a.wins += 1;
     h.losses += 1;
   } else {
+    h.streak = Math.max(0, h.streak ?? 0) + 1;
+    a.streak = Math.min(0, a.streak ?? 0) - 1;
     h.wins += 1;
     a.losses += 1;
   }

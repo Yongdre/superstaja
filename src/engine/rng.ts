@@ -1,3 +1,8 @@
+/** 새 커리어의 기본값만 무작위 생성합니다. 저장 복원·시즌 진행은 저장된 seed를 사용합니다. */
+export function newCareerSeed(): number {
+  return crypto.getRandomValues(new Uint32Array(1))[0] || 1;
+}
+
 export class SeededRng {
   state: number;
 

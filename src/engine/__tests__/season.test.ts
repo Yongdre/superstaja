@@ -9,6 +9,19 @@ const emptyRecord = (): TeamRecord => ({ games: 0, wins: 0, losses: 0, ties: 0, 
 const ids: TeamId[] = ["KIA", "DOO", "LOT", "NC", "SK", "LG", "NEX", "HAN", "KT", "SAM"];
 
 describe("시즌 상태", () => {
+  it("다음 시즌 도루 성공률을 변경하고 저장/복원한다", () => {
+    const state = createNewSeason({ stealSuccess: 0.72 });
+    state.game!.phase = "SEASON_END";
+    const next = startNextSeason(state, { ...state.config, stealSuccess: 0.85 });
+    expect(next.config.stealSuccess).toBe(0.85);
+    expect(validateSave(JSON.parse(JSON.stringify(next))).config.stealSuccess).toBe(0.85);
+    expect(state.config.stealSuccess).toBe(0.72);
+    const { stealSuccess: _old, ...settings } = state.config;
+    expect(startNextSeason(state, settings).config.stealSuccess).toBe(0.72);
+    for (const stealSuccess of [0.24, 0.96, NaN, Infinity]) {
+      expect(() => startNextSeason(state, { ...settings, stealSuccess })).toThrow("25~95%");
+    }
+  });
   it("승패와 홈/원정 경기 수를 기록한다", () => {
     const records = Object.fromEntries(ids.map((id) => [id, emptyRecord()])) as Record<TeamId, TeamRecord>;
     recordGame(records, "DOO", "SAM", 3, 5);
@@ -110,6 +123,8 @@ describe("시즌 상태", () => {
       isStarter: false,
     };
 
+    state.game!.pitchers.SAM.entryLead = 2;
+    state.game!.pitchers.SAM.entryTyingRun = true;
     const finished = applyUserChoice(state, "OUT");
 
     expect(finished.game!.summary?.winningPitcher).toBe("삼성 선발");

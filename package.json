@@ -12,6 +12,7 @@
     "build": "tsc -b && vite build",
     "generate:template": "node scripts/generate-league-template.mjs",
     "test": "vitest run",
+    "audit:season": "node scripts/audit-season.mjs",
     "test:watch": "vitest"
   },
   "dependencies": {

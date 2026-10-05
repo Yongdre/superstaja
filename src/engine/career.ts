@@ -8,10 +8,13 @@ export function careerSeasonsIncludingCurrent(state: SeasonState): CareerSeasonS
     ...completed,
     {
       season: state.season,
+      dataSourceSeason: state.leagueData.sourceSeason,
+      datasetLabel: state.leagueData.label,
       teamId: state.config.userTeam,
       playerStats: state.playerStats["USER-PLAYER"],
       teamRecord: state.teamRecords[state.config.userTeam],
       goals: {
+        position: state.config.position,
         battingOrder: state.config.battingOrder,
         targetAvgMin: state.config.targetAvgMin,
         targetAvgMax: state.config.targetAvgMax,

@@ -1,3 +1,7 @@
+import { recordCareerMilestones, validateCareerMilestones, walkOffText } from "./achievements";
+import { careerStats } from "./career";
+import { forcedNoHitRemaining, recordUserGame, restoreTeamStreaks, syncBattingRestriction } from "./milestones";
+import { effectivePitcher, ensurePitchingHistory, pitchingAwards, recordPitcherWorkload, remainingWorkload } from "./pitching";
 import { defaultLeagueDataset, supportedTeamIds, validateLeagueDataset } from "../data/leagueDataset";
 import { simulationConfig } from "../data/simulationConfig";
 import { attemptSteal, automaticStealPlan } from "./baserunning";
@@ -108,32 +112,21 @@ function makePitcherState(teamId: TeamId, day: number, leagueData: LeagueDataset
     battersFaced: 0,
     bullpenIndex: 0,
     isStarter: true,
+    usedPitcherIds: [starter.id],
   };
 }
 
-function workloadPitcherForIndex(pitchers: PitcherProfile[], index: number) {
-  if (pitchers.every((pitcher) => !pitcher.statProfile)) return pitchers[index % pitchers.length];
-  const weights = pitchers.map((pitcher) => Math.max(0.1, pitcher.statProfile?.games ?? pitcher.statProfile?.innings ?? 55));
-  const totalWeight = weights.reduce((sum, weight) => sum + weight, 0);
-  const appearances = pitchers.map(() => 0);
-  let selectedIndex = 0;
-  for (let use = 0; use <= index; use += 1) {
-    selectedIndex = weights.reduce((best, weight, pitcherIndex) => {
-      const deficit = weight / totalWeight * (use + 1) - appearances[pitcherIndex];
-      const bestDeficit = weights[best] / totalWeight * (use + 1) - appearances[best];
-      return deficit > bestDeficit ? pitcherIndex : best;
-    }, 0);
-    appearances[selectedIndex] += 1;
-  }
-  return pitchers[selectedIndex];
-}
-
-export function createGame(state: SeasonState, fixture: GameFixture, competition: CompetitionStage = "REGULAR_SEASON", rotationIndex = fixture.day): GameState {
+export function createGame(state: SeasonState, fixture: GameFixture, competition: CompetitionStage = "REGULAR_SEASON", rotationIndex?: number): GameState {
   const score = recordForAllTeams(() => 0);
   const lineScore = recordForAllTeams(() => [] as number[]);
   const battingIndex = recordForAllTeams(() => 0);
   const lineups = recordForAllTeams((teamId) => lineupFor(teamId, fixture.day, state.season, state.config, state.leagueData));
-  const pitchers = recordForAllTeams((teamId) => makePitcherState(teamId, rotationIndex, state.leagueData, competition));
+  const pitchers = recordForAllTeams((teamId) => {
+    // 대기 팀은 1선발부터, 이전 시리즈를 치른 팀은 자신의 누적 경기 수부터 순환합니다.
+    const teamGameCount = competition === "REGULAR_SEASON" ? fixture.day
+      : (state.postseason?.games.filter(({ summary }) => summary.away === teamId || summary.home === teamId).length ?? 0);
+    return makePitcherState(teamId, rotationIndex ?? teamGameCount, state.leagueData, competition);
+  });
   return {
     fixture,
     competition,
@@ -186,30 +179,54 @@ export function eligibleBullpenPitchers(teamId: TeamId, leagueData: LeagueDatase
   return teamPitchers.filter((pitcher) => pitcher.role !== "SP" || pitcher.id === fifthStarter?.id);
 }
 
-function checkPitchingChange(state: SeasonState, game: GameState, rng: SeededRng) {
+function usedPitchersFor(state: SeasonState, game: GameState, teamId: TeamId): string[] {
+  const current = game.pitchers[teamId];
+  if (current.usedPitcherIds) return current.usedPitcherIds;
+  const team = state.leagueData.teams[teamId];
+  const changes = game.log.filter((entry) => entry.text.startsWith(`${team.shortName}, 투수 교체: `));
+  const used = team.pitchers.filter((pitcher) => changes.some((entry) => entry.text === `${team.shortName}, 투수 교체: ${pitcher.name}.`));
+  // 오래된 세이브의 중계가 잘려 등판 이력을 복원할 수 없으면 재등판 방지를 우선합니다.
+  if (changes.length < current.bullpenIndex) used.push(...eligibleBullpenPitchers(teamId, state.leagueData, game.competition));
+  current.usedPitcherIds = [...new Set([current.pitcherId, ...used.map((pitcher) => pitcher.id)])];
+  return current.usedPitcherIds;
+}
+
+export function checkPitchingChange(state: SeasonState, game: GameState, rng: SeededRng) {
   const defense = fieldingTeam(game);
   const pitcherState = game.pitchers[defense];
   const pitcherProfile = currentPitcherProfile(state, game);
-  const inningOuts = (game.inning - 1) * 3 + (game.half === "BOTTOM" ? 3 : 0) + game.outs;
-  const minimumReached = inningOuts >= simulationConfig.starterMinInnings * 3;
-  const struggling = pitcherState.runsAllowed >= 5 && pitcherState.pitchCount >= 75;
-  const staminaAdjustment = (pitcherProfile.stamina - 70) * 0.55;
-  const tired = pitcherState.pitchCount >= simulationConfig.starterPitchLimit + staminaAdjustment - rng.int(0, 12);
-  const reliefOutLimit = Math.max(3, Math.min(7, Math.round(2 + pitcherProfile.stamina / 20)));
-  const shortRelief = !pitcherState.isStarter && pitcherState.outsRecorded >= reliefOutLimit && rng.chance(0.48);
-  if (!(pitcherState.isStarter && minimumReached && (struggling || tired)) && !shortRelief) return;
+  const minimumReached = pitcherState.outsRecorded >= simulationConfig.starterMinInnings * 3;
+  const staminaAdjustment = (pitcherProfile.stamina - 70) * .55;
+  const limit = simulationConfig.starterPitchLimit + staminaAdjustment;
+  const emergency = pitcherState.pitchCount >= limit + 10 || pitcherState.runsAllowed >= 8
+    || (pitcherState.runsAllowed >= 5 && pitcherState.pitchCount >= 40);
+  const tired = pitcherState.pitchCount >= limit - rng.int(0, 12);
+  const lead = game.score[defense] - game.score[battingTeam(game)];
+  const closeGame = Math.abs(lead) <= 3;
+  const freshCloser = game.inning >= 9 && lead > 0 && lead <= 3 && game.outs === 0 && pitcherProfile.role !== "CP";
+  const reliefLimit = Math.max(20, 24 + (pitcherProfile.stamina - 45) * .6);
+  const shortRelief = !pitcherState.isStarter && (pitcherState.pitchCount >= reliefLimit
+    || pitcherState.outsRecorded >= 6 || pitcherState.runsAllowed >= 3
+    || (game.outs === 0 && pitcherState.outsRecorded >= 3 && game.inning >= 7 && closeGame));
+  if (!(pitcherState.isStarter && (emergency || (minimumReached && tired))) && !shortRelief && !freshCloser) return;
 
-  const teamPitchers = state.leagueData.teams[defense].pitchers;
-  const fifthStarter = game.competition === "REGULAR_SEASON"
-    ? undefined
-    : teamPitchers.filter((pitcher) => pitcher.role === "SP")[4];
-  const bullpen = eligibleBullpenPitchers(defense, state.leagueData, game.competition);
-  const closeGame = Math.abs(game.score[game.fixture.home] - game.score[game.fixture.away]) <= 3;
-  const useCloser = game.inning >= 9 && closeGame;
-  const middleRelievers = bullpen.filter((pitcher) => pitcher.role === "RP" || pitcher.id === fifthStarter?.id);
-  const next = useCloser
-    ? bullpen.find((pitcher) => pitcher.role === "CP") ?? bullpen[0]
-    : workloadPitcherForIndex(middleRelievers.length ? middleRelievers : bullpen, game.fixture.day * 3 + pitcherState.bullpenIndex);
+  const usedPitcherIds = usedPitchersFor(state, game, defense);
+  const bullpen = eligibleBullpenPitchers(defense, state.leagueData, game.competition)
+    .filter(p => !usedPitcherIds.includes(p.id) && p.id !== pitcherState.pitcherId);
+  if (!bullpen.length) return;
+  const restedCloser = bullpen.find(p => p.role === "CP" && remainingWorkload(state, game, p.id) < 25);
+  const useCloser = game.inning >= 9 && lead >= 0 && lead <= 3 && restedCloser;
+  if (freshCloser && !useCloser && !emergency && !shortRelief && !(pitcherState.isStarter && minimumReached && tired)) return;
+  const middle = bullpen.filter(p => p.role !== "CP");
+  const candidates = middle.length ? middle : bullpen;
+  const leverage = game.inning >= 7 && closeGame;
+  const quality = (p: PitcherProfile) => (p.stuff + p.movement + p.control) / 3;
+  candidates.sort((a, b) => {
+    const score = (p: PitcherProfile) => (leverage ? quality(p) : -quality(p) * .2) - remainingWorkload(state, game, p.id) * 1.2;
+    return score(b) - score(a);
+  });
+  const next = useCloser || candidates[0];
+  ensurePitchingHistory(game);
   game.pitchers[defense] = {
     pitcherId: next.id,
     name: next.name,
@@ -219,7 +236,12 @@ function checkPitchingChange(state: SeasonState, game: GameState, rng: SeededRng
     battersFaced: 0,
     bullpenIndex: pitcherState.bullpenIndex + 1,
     isStarter: false,
+    usedPitcherIds: [...usedPitcherIds, next.id],
+    entryLead: lead,
+    entryTyingRun: lead > 0 && lead <= game.bases.filter(Boolean).length + 2,
+    leadLost: false,
   };
+  ensurePitchingHistory(game);
   addEngineLog(game, `${state.leagueData.teams[defense].shortName}, 투수 교체: ${next.name}.`, true);
 }
 
@@ -262,7 +284,7 @@ function transitionAfterPlay(game: GameState) {
 
 export function maybeAutoSteal(state: SeasonState, game: GameState, rng: SeededRng) {
   const runner = game.bases[0];
-  if (!runner || game.bases[1] || game.outs >= 2 || runner.isUser) return;
+  if (!runner || game.bases[1] || game.outs >= 3 || runner.isUser) return;
   const runnerProfile = getHitter(runner.playerId, state.config, state.leagueData);
   const speedGrade = runnerProfile.statProfile?.speed ?? Math.round((runner.speed - 15) / 8);
   const stealPlan = automaticStealPlan(speedGrade);
@@ -277,6 +299,7 @@ export function maybeAutoSteal(state: SeasonState, game: GameState, rng: SeededR
   } else {
     stats.cs += 1;
     game.outs += result.outsAdded;
+    game.pitchers[fieldingTeam(game)].outsRecorded += result.outsAdded;
     addEngineLog(game, `${runner.name}, 2루 도루 실패.`, true);
     transitionAfterPlay(game);
   }
@@ -286,18 +309,25 @@ function playOne(state: SeasonState, game: GameState, rng: SeededRng, userChoice
   const offense = battingTeam(game);
   const defense = fieldingTeam(game);
   const batter = currentBatter(state, game);
+  ensurePitchingHistory(game);
+  const beforeCareer = batter.id === "USER-PLAYER" && game.competition === "REGULAR_SEASON" ? careerStats(state) : undefined;
   const beforeOuts = game.outs;
   const beforeAwayScore = game.score[game.fixture.away];
   const beforeHomeScore = game.score[game.fixture.home];
-  resolvePlateAppearance({
+  const result = resolvePlateAppearance({
     game,
     batter,
-    pitcher: currentPitcherProfile(state, game),
+    pitcher: effectivePitcher(state, game, currentPitcherProfile(state, game)),
     battingTeam: offense,
     stats: activePlayerStats(state),
     rng,
     userChoice,
   });
+  if (beforeCareer) recordCareerMilestones(state, game, beforeCareer);
+  if (game.half === "BOTTOM" && game.inning >= 9 && beforeHomeScore <= beforeAwayScore && game.score[game.fixture.home] > game.score[game.fixture.away]) {
+    game.walkOff = { batterId: batter.id, batterName: batter.name, outcome: result.outcome };
+    addEngineLog(game, `${walkOffText(result.outcome)} ${batter.name}, ${state.leagueData.teams[game.fixture.home].shortName} 승리!`, true);
+  }
   updatePitchingDecision(game, beforeAwayScore, beforeHomeScore);
   game.pitchers[defense].outsRecorded += Math.max(0, game.outs - beforeOuts);
   game.battingIndex[offense] = (game.battingIndex[offense] + 1) % 9;
@@ -310,7 +340,7 @@ function leaderForScore(game: GameState, awayScore: number, homeScore: number): 
   return awayScore > homeScore ? game.fixture.away : game.fixture.home;
 }
 
-function updatePitchingDecision(game: GameState, beforeAwayScore: number, beforeHomeScore: number) {
+export function updatePitchingDecision(game: GameState, beforeAwayScore: number, beforeHomeScore: number) {
   const awayScore = game.score[game.fixture.away];
   const homeScore = game.score[game.fixture.home];
   const previousLeader = leaderForScore(game, beforeAwayScore, beforeHomeScore);
@@ -330,8 +360,8 @@ function updatePitchingDecision(game: GameState, beforeAwayScore: number, before
       name: game.pitchers[newLeader].name,
     },
     losingPitcher: {
-      pitcherId: game.pitchers[trailingTeam].pitcherId,
-      name: game.pitchers[trailingTeam].name,
+      pitcherId: game.goAheadPitcherId ?? game.pitchers[trailingTeam].pitcherId,
+      name: ensurePitchingHistory(game)[game.goAheadPitcherId ?? game.pitchers[trailingTeam].pitcherId]?.name ?? game.pitchers[trailingTeam].name,
     },
   };
 }
@@ -346,6 +376,7 @@ function runAutomaticGame(state: SeasonState, game: GameState, rng: SeededRng, p
     const batter = currentBatter(state, game);
     if (pauseForUser && batter.id === "USER-PLAYER") {
       game.phase = "USER_AT_BAT";
+      syncBattingRestriction(state);
       break;
     }
     playOne(state, game, rng);
@@ -353,23 +384,16 @@ function runAutomaticGame(state: SeasonState, game: GameState, rng: SeededRng, p
   if (safety >= 1000) throw new Error("경기 시뮬레이션 안전 한도를 초과했습니다.");
 }
 
-function makeSummary(game: GameState): GameSummary {
+export function makeSummary(game: GameState): GameSummary {
   const awayScore = game.score[game.fixture.away];
   const homeScore = game.score[game.fixture.home];
   const winner = awayScore === homeScore ? null : awayScore > homeScore ? game.fixture.away : game.fixture.home;
   const loser = winner === game.fixture.away ? game.fixture.home : game.fixture.away;
-  const margin = Math.abs(awayScore - homeScore);
   const decision = winner && game.pitchingDecision?.leadingTeam === winner ? game.pitchingDecision : undefined;
-  const winningPitcher = winner ? decision?.winningPitcher.name ?? game.pitchers[winner].name : "-";
+  const awards = winner ? pitchingAwards(game, winner) : { winningPitcher: "-", savePitcher: undefined };
+  const winningPitcher = awards.winningPitcher;
+  const savePitcher = awards.savePitcher;
   const losingPitcher = winner ? decision?.losingPitcher.name ?? game.pitchers[loser].name : "-";
-  const finalPitcher = winner ? game.pitchers[winner] : undefined;
-  const winningPitcherId = decision?.winningPitcher.pitcherId ?? finalPitcher?.pitcherId;
-  const savePitcher = finalPitcher
-    && margin <= 3
-    && !finalPitcher.isStarter
-    && finalPitcher.pitcherId !== winningPitcherId
-    ? finalPitcher.name
-    : undefined;
   return { away: game.fixture.away, home: game.fixture.home, awayScore, homeScore, winningPitcher, losingPitcher, savePitcher };
 }
 
@@ -399,9 +423,12 @@ function updateHeadToHead(state: SeasonState, game: GameState) {
 }
 
 function recordCompletedGame(state: SeasonState, game: GameState) {
+  recordPitcherWorkload(state, game);
   const summary = makeSummary(game);
   recordGame(state.teamRecords, summary.away, summary.home, summary.awayScore, summary.homeScore);
   updateHeadToHead(state, game);
+  recordUserGame(state, game);
+  (state.regularResults ??= []).push({ fixtureId: game.fixture.id, summary });
   game.summary = summary;
   addEngineLog(game, `${state.leagueData.teams[summary.away].shortName} ${summary.awayScore}–${summary.homeScore} ${state.leagueData.teams[summary.home].shortName}, 경기 종료.`, true);
   return summary;
@@ -411,11 +438,15 @@ function archiveRegularSeason(state: SeasonState) {
   if (state.career.seasons.some((summary) => summary.season === state.season)) return;
   state.career.seasons.push({
     season: state.season,
+    dataSourceSeason: state.leagueData.sourceSeason,
+    datasetLabel: state.leagueData.label,
     teamId: state.config.userTeam,
     playerStats: clone(state.playerStats["USER-PLAYER"]),
     teamRecord: clone(state.teamRecords[state.config.userTeam]),
     goals: {
+      position: state.config.position,
       battingOrder: state.config.battingOrder,
+      stealSuccess: state.config.stealSuccess,
       targetAvgMin: state.config.targetAvgMin,
       targetAvgMax: state.config.targetAvgMax,
       homeRunCap: state.config.homeRunCap,
@@ -448,7 +479,9 @@ function finalizePostseasonGame(state: SeasonState) {
   const game = state.game;
   const postseason = state.postseason;
   if (!game || !postseason || game.finalized) return;
+  recordPitcherWorkload(state, game);
   const summary = makeSummary(game);
+  recordUserGame(state, game);
   game.summary = summary;
   addEngineLog(game, `${state.leagueData.teams[summary.away].shortName} ${summary.awayScore}–${summary.homeScore} ${state.leagueData.teams[summary.home].shortName}, 경기 종료.`, true);
   game.finalized = true;
@@ -491,7 +524,7 @@ function advancePostseasonUntilUserGame(state: SeasonState, rng: SeededRng) {
     safety += 1;
     const series = postseason.series;
     const fixture = postseasonFixture(series, postseason.games.length);
-    const game = createGame(state, fixture, series.stage, series.gamesPlayed);
+    const game = createGame(state, fixture, series.stage);
     state.game = game;
     const userGame = seriesIncludes(series, state.config.userTeam);
     runAutomaticGame(state, game, rng, userGame);
@@ -513,6 +546,54 @@ function startCurrentDay(state: SeasonState, rng: SeededRng) {
   state.game = createGame(state, fixture);
   runAutomaticGame(state, state.game, rng, true);
   if (state.game.phase === "GAME_END_TRANSITION") finalizeDay(state, rng);
+}
+
+/** 진단용: 사용자 개입 없이 정규시즌 전체 실행. 저장/원본 JSON은 변경하지 않습니다. */
+export function simulateRegularSeason(seed = 1, dataset: LeagueDataset = defaultLeagueDataset) {
+  const state = createNewSeason({ seed, debutYear: dataset.sourceSeason ?? defaultSeasonConfig.debutYear }, dataset);
+  state.teamRecords = recordForAllTeams(() => blankRecord());
+  state.playerStats = initialPlayerStats(state.leagueData);
+  state.headToHead = {};
+  state.pitcherWorkloads = {};
+  state.postseason = undefined;
+  state.progress = "REGULAR_SEASON";
+  if ("regularResults" in state) (state as SeasonState & { regularResults: unknown[] }).regularResults = [];
+  const rng = new SeededRng(seed);
+  let starterOuts = 0, pitches = 0, appearances = 0;
+  for (const day of state.schedule) for (const fixture of day.games) {
+    const game = createGame(state, fixture);
+    for (const team of [fixture.away, fixture.home]) {
+      const plan = buildSeasonLineupPlan(state.leagueData.teams[team], state.season);
+      game.lineups[team] = [...plan[state.teamRecords[team].games % plan.length]];
+    }
+    state.game = game;
+    runAutomaticGame(state, game, rng, false);
+    recordCompletedGame(state, game);
+    for (const pitcher of Object.values(ensurePitchingHistory(game))) {
+      pitches += pitcher.pitchCount;
+      appearances += pitcher.battersFaced;
+      if (pitcher.isStarter) starterOuts += pitcher.outsRecorded;
+    }
+  }
+  const totals = emptyBatterStats();
+  for (const line of Object.values(state.playerStats)) for (const key of Object.keys(totals) as (keyof BatterStats)[]) totals[key] += line[key];
+  const games = Object.values(state.teamRecords).reduce((sum, team) => sum + team.games, 0) / 2;
+  const runs = Object.values(state.teamRecords).reduce((sum, team) => sum + team.runsFor, 0);
+  if (totals.runs !== runs || totals.pa !== appearances || totals.pa !== totals.ab + totals.bb + totals.hbp + totals.sf + totals.sh) {
+    throw new Error("진단 실패: 득점·타석·투수 상대 타자 수가 일치하지 않습니다.");
+  }
+  const profiles = Object.values(state.leagueData.teams).flatMap(team => team.hitters).filter(h => h.statProfile && state.playerStats[h.id].pa > 0);
+  const expectedHits = profiles.reduce((sum, h) => sum + h.statProfile!.avg * state.playerStats[h.id].ab, 0);
+  const expectedHr = profiles.reduce((sum, h) => sum + h.statProfile!.homeRuns / Math.max(1, h.statProfile!.plateAppearances ?? h.statProfile!.games * 4.1) * state.playerStats[h.id].pa, 0);
+  const profiledAB = profiles.reduce((sum, h) => sum + state.playerStats[h.id].ab, 0);
+  return {
+    seed, games, avg: totals.h / Math.max(1, totals.ab), homeRuns: totals.hr,
+    runsPerTeamGame: runs / Math.max(1, games * 2), walksPerPA: totals.bb / Math.max(1, totals.pa),
+    strikeoutsPerPA: totals.so / Math.max(1, totals.pa), pitchesPerPA: pitches / Math.max(1, appearances),
+    starterInnings: starterOuts / Math.max(1, games * 6), stolenBases: totals.sb, caughtStealing: totals.cs,
+    inputWeightedAvg: profiledAB ? expectedHits / profiledAB : null, inputExpectedHomeRuns: profiles.length ? expectedHr : null,
+    teams: state.teamRecords,
+  };
 }
 
 export const defaultSeasonConfig: SeasonConfig = {
@@ -544,9 +625,9 @@ export function createNewSeason(input: Partial<SeasonConfig> = {}, dataset: Leag
     season: config.debutYear,
     rngState: config.seed >>> 0,
     config,
-    career: { debutYear: config.debutYear, status: "ACTIVE", finalSeason: config.isFinalSeason ? config.debutYear : undefined, seasons: [] },
+    career: { debutYear: config.debutYear, status: "ACTIVE", finalSeason: config.isFinalSeason ? config.debutYear : undefined, seasons: [], milestones: [] },
     leagueData,
-    schedule: generateSchedule(supportedTeamIds, config.debutYear),
+    schedule: generateSchedule(supportedTeamIds, config.debutYear, config.seed),
     currentDay: 0,
     teamRecords: recordForAllTeams(() => blankRecord()),
     headToHead: {},
@@ -565,7 +646,13 @@ export function applyUserChoice(source: SeasonState, choice: UserChoice): Season
   if (!source.game || source.game.phase !== "USER_AT_BAT") return source;
   if ((choice === "SF" || choice === "SH") && !canChooseSacrifice(source.game, choice)) return source;
   if (choice === "HR" && source.progress === "REGULAR_SEASON" && source.config.enforceHomeRunCap && source.playerStats["USER-PLAYER"].hr >= source.config.homeRunCap) return source;
+  if (forcedNoHitRemaining(source) > 0 && choice !== "OUT") return source;
   const state = clone(source);
+  syncBattingRestriction(state);
+  if (state.battingRestriction && state.battingRestriction.remaining > 0) {
+    state.battingRestriction.remaining -= 1;
+    if (state.battingRestriction.remaining === 0) state.battingRestriction.cooldownFixtureId = state.game!.fixture.id;
+  }
   const game = state.game!;
   const rng = new SeededRng(state.rngState);
   game.focusLogId = game.nextLogId;
@@ -605,6 +692,7 @@ export function resolveUserSteal(source: SeasonState, shouldAttempt: boolean): S
       activePlayerStats(state)[runner.playerId].cs += 1;
       game.userGameStats.cs += 1;
       game.outs += result.outsAdded;
+      game.pitchers[fieldingTeam(game)].outsRecorded += result.outsAdded;
       addEngineLog(game, `${runner.name}, 2루에서 태그 아웃. 도루 실패.`, true);
       transitionAfterPlay(game);
     }
@@ -646,14 +734,24 @@ export function startNextSeason(source: SeasonState, settings: SeasonGoals, data
   if (!source.game || source.game.phase !== "SEASON_END" || source.career.status === "RETIRED") return source;
   const state = clone(source);
   const nextSeason = state.season + 1;
-  state.config = { ...state.config, ...settings };
+  const stealSuccess = settings.stealSuccess ?? state.config.stealSuccess;
+  if (!Number.isFinite(stealSuccess) || stealSuccess < 0.25 || stealSuccess > 0.95) {
+    throw new Error("도루 성공률은 25~95%로 입력해 주세요.");
+  }
+  const position = settings.position ?? state.config.position;
+  if (!userFieldPositions.includes(position)) throw new Error("올바른 포지션을 선택해 주세요.");
+  state.config = { ...state.config, ...settings, stealSuccess, position };
+  state.battingRestriction = undefined;
+  state.userGameHistory = [];
   state.career.finalSeason = settings.isFinalSeason ? nextSeason : undefined;
   state.leagueData = clone(validateLeagueDataset(dataset));
+  state.pitcherWorkloads = {};
   state.season = nextSeason;
   state.currentDay = 0;
-  state.schedule = generateSchedule(supportedTeamIds, nextSeason);
+  state.schedule = generateSchedule(supportedTeamIds, nextSeason, state.config.seed);
   state.teamRecords = recordForAllTeams(() => blankRecord());
   state.headToHead = {};
+  state.regularResults = [];
   state.playerStats = initialPlayerStats(state.leagueData);
   state.progress = "REGULAR_SEASON";
   state.postseason = undefined;
@@ -727,15 +825,15 @@ export function createExampleSave(): SeasonState {
   game.inning = 3;
   game.half = "BOTTOM";
   game.outs = 2;
-  game.bases = [{ playerId: "SAM-BYH", name: "박해민", teamId: "SAM", speed: 94, isUser: false }, null, null];
+  const runner = state.leagueData.teams.SAM.hitters[0];
+  game.bases = [{ playerId: runner.id, name: runner.name, teamId: "SAM", speed: runner.speed, isUser: false }, null, null];
   game.bases = [null, game.bases[0], null];
   game.score.SAM = 3;
   game.score.DOO = 1;
   game.lineScore.SAM = [3, 0, 0];
   game.lineScore.DOO = [0, 1, 0];
   game.battingIndex.SAM = samsungLineup.indexOf("USER-PLAYER");
-  game.pitchers.SAM = { ...game.pitchers.SAM, pitcherId: "SAM-UGM", name: "우규민" };
-  game.pitchers.DOO = { ...game.pitchers.DOO, pitcherId: "DOO-NIP", name: "더스틴 니퍼트", pitchCount: 43, runsAllowed: 3, outsRecorded: 8, battersFaced: 11 };
+  game.pitchers.DOO = { ...game.pitchers.DOO, pitchCount: 43, runsAllowed: 3, outsRecorded: 8, battersFaced: 11 };
   game.userGameStats = { ...emptyBatterStats(), pa: 1, ab: 1, h: 1, hr: 1, rbi: 3, runs: 1 };
   game.phase = "USER_AT_BAT";
   game.log = [
@@ -762,7 +860,9 @@ function normalizeSeasonConfig(config: Partial<SeasonConfig>): SeasonConfig {
 
 function normalizeSeasonGoals(goals: Partial<SeasonGoals> | undefined, config: SeasonConfig, isFinalSeason = false): SeasonGoals {
   return {
+    position: goals?.position ?? config.position,
     battingOrder: goals?.battingOrder ?? config.battingOrder,
+    stealSuccess: goals?.stealSuccess ?? config.stealSuccess,
     targetAvgMin: goals?.targetAvgMin ?? config.targetAvgMin,
     targetAvgMax: goals?.targetAvgMax ?? config.targetAvgMax,
     homeRunCap: goals?.homeRunCap ?? config.homeRunCap,
@@ -839,6 +939,11 @@ function migrateSave(value: unknown): SeasonState {
 
 export function validateSave(value: unknown): SeasonState {
   const state = migrateSave(value);
+  validateCareerMilestones(state);
+  const restriction = state.battingRestriction;
+  if (restriction && (!Number.isInteger(restriction.remaining) || restriction.remaining < 0 || restriction.remaining > 10 || (restriction.cooldownFixtureId !== undefined && typeof restriction.cooldownFixtureId !== "string"))) {
+    throw new Error("강제 NO HIT 저장 기록이 올바르지 않습니다.");
+  }
   const normalizeStats = (stats: Partial<BatterStats> | undefined): BatterStats => {
     const normalized = emptyBatterStats();
     for (const key of Object.keys(normalized) as Array<keyof BatterStats>) {
@@ -853,7 +958,19 @@ export function validateSave(value: unknown): SeasonState {
     for (const id of Object.keys(stats)) stats[id] = normalizeStats(stats[id]);
   };
   normalizeMap(state.playerStats);
-  if (state.game) state.game.userGameStats = normalizeStats(state.game.userGameStats);
+  if (state.userGameHistory !== undefined) {
+    if (!Array.isArray(state.userGameHistory)) throw new Error("개인 경기 기록이 올바르지 않습니다.");
+    for (const record of state.userGameHistory) {
+      if (!record || typeof record.fixtureId !== "string" || typeof record.competition !== "string") throw new Error("개인 경기 기록이 올바르지 않습니다.");
+      record.stats = normalizeStats(record.stats);
+    }
+  }
+  restoreTeamStreaks(state);
+  if (state.game) {
+    state.game.userGameStats = normalizeStats(state.game.userGameStats);
+    ensurePitchingHistory(state.game);
+    for (const teamId of supportedTeamIds) usedPitchersFor(state, state.game, teamId);
+  }
   if (state.postseason) {
     normalizeMap(state.postseason.playerStats);
     for (const record of state.postseason.games) {

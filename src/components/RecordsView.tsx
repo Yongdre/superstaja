@@ -5,6 +5,7 @@ import type { SeasonState, TeamId } from "../engine/types";
 import { SeasonStatGrid } from "./StatLine";
 import { BattingRecordTable } from "./BattingRecordTable";
 import { PostseasonRecords } from "./PostseasonRecords";
+import { CareerMilestones } from "./CareerMilestones";
 
 export function RecordsView({ state }: { state: SeasonState }) {
   const team = state.teamRecords[state.config.userTeam];
@@ -21,9 +22,10 @@ export function RecordsView({ state }: { state: SeasonState }) {
         <BattingRecordTable rows={[...seasons].reverse().map((season) => ({
           id: String(season.season), label: String(season.season), games: season.teamRecord.games, stats: season.playerStats,
           current: season.season === state.season,
-          note: `${season.teamRecord.wins}승 ${season.teamRecord.losses}패 ${season.teamRecord.ties}무${season.season === state.season && state.progress === "REGULAR_SEASON" ? " · 진행 중" : ""}`,
+          note: `${season.datasetLabel ? `${season.dataSourceSeason ?? "연도 미지정"} 데이터 · ${season.datasetLabel} · ` : ""}${season.teamRecord.wins}승 ${season.teamRecord.losses}패 ${season.teamRecord.ties}무${season.season === state.season && state.progress === "REGULAR_SEASON" ? " · 진행 중" : ""}`,
         }))} />
       </section>
+      <CareerMilestones state={state} />
       <PostseasonRecords state={state} />
       <section className="card full-width"><header className="section-header"><div><span className="eyebrow">HEAD TO HEAD</span><h2>상대 전적</h2></div></header><div className="opponent-grid">{(Object.keys(state.leagueData.teams) as TeamId[]).filter((id) => id !== state.config.userTeam).map((id) => { const record = getHeadToHead(state, state.config.userTeam, id); return <div key={id}><i style={{ background: state.leagueData.teams[id].primary }} /><span>{state.leagueData.teams[id].shortName}</span><strong>{record.wins}승 {record.losses}패 {record.ties}무</strong></div>; })}</div></section>
     </div>

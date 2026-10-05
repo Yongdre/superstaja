@@ -56,7 +56,7 @@ describe("시리즈별 타격 기록", () => {
     state.game!.inning = 9;
     state.game!.outs = 0;
     state.game!.score.SAM = state.game!.score.DOO = 3;
-    state.game!.bases = [null, null, { playerId: "SAM-BYH", name: "박해민", teamId: "SAM", speed: 90, isUser: false }];
+    state.game!.bases = [null, null, { playerId: state.leagueData.teams.SAM.hitters[0].id, name: "박해민", teamId: "SAM", speed: 90, isUser: false }];
     state.career.seasons.push({ season: state.season, teamId: "SAM", playerStats: structuredClone(state.playerStats["USER-PLAYER"]), teamRecord: state.teamRecords.SAM, goals: state.config });
     const regularBefore = structuredClone(state.playerStats["USER-PLAYER"]);
     const finished = applyUserChoice(state, "SF");
