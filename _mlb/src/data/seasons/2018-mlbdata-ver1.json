@@ -1,0 +1,7477 @@
+{
+  "schemaVersion": 1,
+  "label": "2018 MLB · 사용자 입력 성적 기준 · 30팀 반영 완료",
+  "sourceSeason": 2018,
+  "teams": {
+    "BOS": {
+      "id": "BOS",
+      "name": "보스턴 레드삭스",
+      "shortName": "보스턴",
+      "city": "보스턴",
+      "primary": "#bd3039",
+      "accent": "#0c2340",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "BOS-2018-H01",
+          "name": "무키 베츠",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.312,
+            "homeRuns": 34,
+            "eye": 7,
+            "speed": 8
+          }
+        },
+        {
+          "id": "BOS-2018-H02",
+          "name": "앤드루 베닌텐디",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.288,
+            "homeRuns": 17,
+            "eye": 6,
+            "speed": 7
+          }
+        },
+        {
+          "id": "BOS-2018-H03",
+          "name": "J.D. 마르티네스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.319,
+            "homeRuns": 46,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "BOS-2018-H04",
+          "name": "잰더 보가츠",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.284,
+            "homeRuns": 26,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "BOS-2018-H05",
+          "name": "미치 모어랜드",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 26,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "BOS-2018-H06",
+          "name": "라파엘 데버스",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.246,
+            "homeRuns": 23,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "BOS-2018-H07",
+          "name": "에두아르도 누녜스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 12,
+            "eye": 3,
+            "speed": 6
+          }
+        },
+        {
+          "id": "BOS-2018-H08",
+          "name": "크리스티안 바스케스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.199,
+            "homeRuns": 10,
+            "eye": 4,
+            "speed": 5
+          }
+        },
+        {
+          "id": "BOS-2018-H09",
+          "name": "재키 브래들리 주니어",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 14,
+            "eye": 7,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "BOS-2018-P01",
+          "name": "크리스 세일",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 92,
+          "movement": 85,
+          "control": 91,
+          "stamina": 87,
+          "grade": "S"
+        },
+        {
+          "id": "BOS-2018-P02",
+          "name": "데이비드 프라이스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 74,
+          "movement": 76,
+          "control": 83,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2018-P03",
+          "name": "릭 포셀로",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 74,
+          "movement": 71,
+          "control": 91,
+          "stamina": 90,
+          "grade": "A"
+        },
+        {
+          "id": "BOS-2018-P04",
+          "name": "에두아르도 로드리게스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 73,
+          "control": 69,
+          "stamina": 85,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2018-P05",
+          "name": "네이선 이볼디",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 72,
+          "control": 71,
+          "stamina": 78,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2018-P06",
+          "name": "맷 반스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 84,
+          "movement": 74,
+          "control": 57,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2018-P07",
+          "name": "조 켈리",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 71,
+          "control": 57,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "BOS-2018-P08",
+          "name": "히스 헴브리",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 72,
+          "control": 61,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2018-P09",
+          "name": "라이언 브레이저",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 78,
+          "control": 75,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2018-P10",
+          "name": "크레이그 킴브럴",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 97,
+          "movement": 83,
+          "control": 49,
+          "stamina": 52,
+          "grade": "B"
+        }
+      ]
+    },
+    "STL": {
+      "id": "STL",
+      "name": "세인트루이스 카디널스",
+      "shortName": "세인트루이스",
+      "city": "세인트루이스",
+      "primary": "#c41e3a",
+      "accent": "#0c2340",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "STL-2018-H01",
+          "name": "맷 카펜터",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 38,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "STL-2018-H02",
+          "name": "야디어 몰리나",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.241,
+            "homeRuns": 22,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "STL-2018-H03",
+          "name": "호세 마르티네스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.289,
+            "homeRuns": 22,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "STL-2018-H04",
+          "name": "마르셀 오주나",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 28,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "STL-2018-H05",
+          "name": "폴 데용",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 25,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "STL-2018-H06",
+          "name": "제드 저코",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.259,
+            "homeRuns": 12,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "STL-2018-H07",
+          "name": "덱스터 파울러",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.203,
+            "homeRuns": 17,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "STL-2018-H08",
+          "name": "콜튼 웡",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 12,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "STL-2018-H09",
+          "name": "해리슨 베이더",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.257,
+            "homeRuns": 23,
+            "eye": 6,
+            "speed": 7
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "STL-2018-P01",
+          "name": "마일스 마이콜라스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 82,
+          "control": 100,
+          "stamina": 92,
+          "grade": "A"
+        },
+        {
+          "id": "STL-2018-P02",
+          "name": "잭 플래허티",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 78,
+          "control": 65,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "STL-2018-P03",
+          "name": "루크 위버",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 68,
+          "control": 65,
+          "stamina": 85,
+          "grade": "C"
+        },
+        {
+          "id": "STL-2018-P04",
+          "name": "존 갠트",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 77,
+          "control": 51,
+          "stamina": 83,
+          "grade": "C"
+        },
+        {
+          "id": "STL-2018-P05",
+          "name": "카를로스 마르티네스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 79,
+          "control": 49,
+          "stamina": 83,
+          "grade": "C"
+        },
+        {
+          "id": "STL-2018-P06",
+          "name": "조던 힉스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 73,
+          "control": 37,
+          "stamina": 69,
+          "grade": "D"
+        },
+        {
+          "id": "STL-2018-P07",
+          "name": "마이크 마이어스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 66,
+          "control": 61,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "STL-2018-P08",
+          "name": "존 브레비아",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 71,
+          "control": 59,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "STL-2018-P09",
+          "name": "다니엘 폰세 데 레온",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 70,
+          "control": 49,
+          "stamina": 72,
+          "grade": "C"
+        },
+        {
+          "id": "STL-2018-P10",
+          "name": "버드 노리스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 80,
+          "movement": 75,
+          "control": 69,
+          "stamina": 52,
+          "grade": "B"
+        }
+      ]
+    },
+    "MIL": {
+      "id": "MIL",
+      "name": "밀워키 브루어스",
+      "shortName": "밀워키",
+      "city": "밀워키",
+      "primary": "#12284b",
+      "accent": "#ffc52f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "MIL-2018-H01",
+          "name": "로렌조 케인",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.294,
+            "homeRuns": 14,
+            "eye": 7,
+            "speed": 8
+          }
+        },
+        {
+          "id": "MIL-2018-H02",
+          "name": "크리스티안 옐리치",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.305,
+            "homeRuns": 41,
+            "eye": 6,
+            "speed": 7
+          }
+        },
+        {
+          "id": "MIL-2018-H03",
+          "name": "헤수스 아길라",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.274,
+            "homeRuns": 35,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIL-2018-H04",
+          "name": "트래비스 쇼",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 40,
+            "eye": 8,
+            "speed": 4
+          }
+        },
+        {
+          "id": "MIL-2018-H05",
+          "name": "라이언 브론",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 22,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "MIL-2018-H06",
+          "name": "에르난 페레즈",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.241,
+            "homeRuns": 19,
+            "eye": 4,
+            "speed": 7
+          }
+        },
+        {
+          "id": "MIL-2018-H07",
+          "name": "에릭 테임즈",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.223,
+            "homeRuns": 20,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "MIL-2018-H08",
+          "name": "매니 피냐",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.238,
+            "homeRuns": 16,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIL-2018-H09",
+          "name": "올랜도 아르시아",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.226,
+            "homeRuns": 9,
+            "eye": 4,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "MIL-2018-P01",
+          "name": "줄리스 차신",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 77,
+          "control": 71,
+          "stamina": 90,
+          "grade": "B"
+        },
+        {
+          "id": "MIL-2018-P02",
+          "name": "체이스 앤더슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 73,
+          "control": 71,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "MIL-2018-P03",
+          "name": "주니어 게라",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 72,
+          "control": 67,
+          "stamina": 85,
+          "grade": "B"
+        },
+        {
+          "id": "MIL-2018-P04",
+          "name": "브렌트 수터",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 70,
+          "control": 89,
+          "stamina": 80,
+          "grade": "B"
+        },
+        {
+          "id": "MIL-2018-P05",
+          "name": "웨이드 마일리",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 79,
+          "control": 71,
+          "stamina": 78,
+          "grade": "B"
+        },
+        {
+          "id": "MIL-2018-P06",
+          "name": "조시 헤이더",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 96,
+          "movement": 80,
+          "control": 65,
+          "stamina": 72,
+          "grade": "A"
+        },
+        {
+          "id": "MIL-2018-P07",
+          "name": "제레미 제프리스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 84,
+          "control": 67,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "MIL-2018-P08",
+          "name": "댄 제닝스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 74,
+          "control": 63,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "MIL-2018-P09",
+          "name": "테일러 윌리엄스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 75,
+          "movement": 70,
+          "control": 55,
+          "stamina": 77,
+          "grade": "C"
+        },
+        {
+          "id": "MIL-2018-P10",
+          "name": "코리 크네블",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 97,
+          "movement": 76,
+          "control": 65,
+          "stamina": 52,
+          "grade": "A"
+        }
+      ]
+    },
+    "HOU": {
+      "id": "HOU",
+      "name": "휴스턴 애스트로스",
+      "shortName": "휴스턴",
+      "city": "휴스턴",
+      "primary": "#002d62",
+      "accent": "#eb6e1f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "HOU-2018-H01",
+          "name": "조지 스프링어",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 31,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "HOU-2018-H02",
+          "name": "알렉스 브레그먼",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 32,
+            "eye": 9,
+            "speed": 5
+          }
+        },
+        {
+          "id": "HOU-2018-H03",
+          "name": "호세 알투베",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.316,
+            "homeRuns": 13,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "HOU-2018-H04",
+          "name": "카를로스 코레아",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 15,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "HOU-2018-H05",
+          "name": "율리 구리엘",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.286,
+            "homeRuns": 22,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "HOU-2018-H06",
+          "name": "마윈 곤잘레스",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.238,
+            "homeRuns": 24,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "HOU-2018-H07",
+          "name": "조시 레딕",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.24,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "HOU-2018-H08",
+          "name": "에반 개티스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.228,
+            "homeRuns": 29,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "HOU-2018-H09",
+          "name": "맥스 스태시",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.221,
+            "homeRuns": 19,
+            "eye": 6,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "HOU-2018-P01",
+          "name": "저스틴 벌랜더",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 90,
+          "movement": 85,
+          "control": 100,
+          "stamina": 94,
+          "grade": "S"
+        },
+        {
+          "id": "HOU-2018-P02",
+          "name": "댈러스 카이클",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 75,
+          "control": 85,
+          "stamina": 92,
+          "grade": "B"
+        },
+        {
+          "id": "HOU-2018-P03",
+          "name": "게릿 콜",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 91,
+          "movement": 82,
+          "control": 79,
+          "stamina": 91,
+          "grade": "A"
+        },
+        {
+          "id": "HOU-2018-P04",
+          "name": "찰리 모튼",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 81,
+          "control": 67,
+          "stamina": 85,
+          "grade": "B"
+        },
+        {
+          "id": "HOU-2018-P05",
+          "name": "랜스 맥컬러스 주니어",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 79,
+          "movement": 76,
+          "control": 63,
+          "stamina": 78,
+          "grade": "B"
+        },
+        {
+          "id": "HOU-2018-P06",
+          "name": "콜린 맥휴",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 85,
+          "movement": 88,
+          "control": 83,
+          "stamina": 65,
+          "grade": "S"
+        },
+        {
+          "id": "HOU-2018-P07",
+          "name": "브래드 피콕",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 89,
+          "movement": 80,
+          "control": 81,
+          "stamina": 64,
+          "grade": "A"
+        },
+        {
+          "id": "HOU-2018-P08",
+          "name": "윌 해리스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 80,
+          "control": 89,
+          "stamina": 64,
+          "grade": "A"
+        },
+        {
+          "id": "HOU-2018-P09",
+          "name": "크리스 데벤스키",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 78,
+          "control": 85,
+          "stamina": 63,
+          "grade": "A"
+        },
+        {
+          "id": "HOU-2018-P10",
+          "name": "엑토르 론돈",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 77,
+          "movement": 78,
+          "control": 93,
+          "stamina": 64,
+          "grade": "A"
+        }
+      ]
+    },
+    "NYY": {
+      "id": "NYY",
+      "name": "뉴욕 양키스",
+      "shortName": "양키스",
+      "city": "뉴욕",
+      "primary": "#0c2340",
+      "accent": "#ffffff",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "NYY-2018-H01",
+          "name": "브렛 가드너",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.238,
+            "homeRuns": 12,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "NYY-2018-H02",
+          "name": "애런 저지",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 35,
+            "eye": 10,
+            "speed": 4
+          }
+        },
+        {
+          "id": "NYY-2018-H03",
+          "name": "디디 그레고리우스",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.262,
+            "homeRuns": 29,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "NYY-2018-H04",
+          "name": "지안카를로 스탠튼",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.266,
+            "homeRuns": 38,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "NYY-2018-H05",
+          "name": "애런 힉스",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.241,
+            "homeRuns": 28,
+            "eye": 9,
+            "speed": 6
+          }
+        },
+        {
+          "id": "NYY-2018-H06",
+          "name": "미겔 안두하르",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.287,
+            "homeRuns": 28,
+            "eye": 3,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYY-2018-H07",
+          "name": "게리 산체스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.206,
+            "homeRuns": 31,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYY-2018-H08",
+          "name": "그렉 버드",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 37,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NYY-2018-H09",
+          "name": "글레이버 토레스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 29,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "NYY-2018-P01",
+          "name": "루이스 세베리노",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 78,
+          "control": 93,
+          "stamina": 90,
+          "grade": "A"
+        },
+        {
+          "id": "NYY-2018-P02",
+          "name": "다나카 마사히로",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 74,
+          "control": 93,
+          "stamina": 87,
+          "grade": "A"
+        },
+        {
+          "id": "NYY-2018-P03",
+          "name": "CC 사바시아",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 74,
+          "control": 77,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "NYY-2018-P04",
+          "name": "소니 그레이",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 66,
+          "control": 61,
+          "stamina": 85,
+          "grade": "C"
+        },
+        {
+          "id": "NYY-2018-P05",
+          "name": "J.A. 햅",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 74,
+          "control": 81,
+          "stamina": 78,
+          "grade": "B"
+        },
+        {
+          "id": "NYY-2018-P06",
+          "name": "델린 베탄시스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 95,
+          "movement": 77,
+          "control": 63,
+          "stamina": 71,
+          "grade": "A"
+        },
+        {
+          "id": "NYY-2018-P07",
+          "name": "데이비드 로버트슨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 85,
+          "movement": 75,
+          "control": 65,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "NYY-2018-P08",
+          "name": "채드 그린",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 84,
+          "movement": 79,
+          "control": 85,
+          "stamina": 71,
+          "grade": "A"
+        },
+        {
+          "id": "NYY-2018-P09",
+          "name": "조너선 홀더",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 75,
+          "movement": 75,
+          "control": 73,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "NYY-2018-P10",
+          "name": "아롤디스 채프먼",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 96,
+          "movement": 84,
+          "control": 41,
+          "stamina": 56,
+          "grade": "B"
+        }
+      ]
+    },
+    "KC": {
+      "id": "KC",
+      "name": "캔자스시티 로열스",
+      "shortName": "캔자스시티",
+      "city": "캔자스시티",
+      "primary": "#004687",
+      "accent": "#bd9b60",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "KC-2018-H01",
+          "name": "위트 메리필드",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.286,
+            "homeRuns": 13,
+            "eye": 5,
+            "speed": 10
+          }
+        },
+        {
+          "id": "KC-2018-H02",
+          "name": "아달베르토 몬데시",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 17,
+            "eye": 3,
+            "speed": 9
+          }
+        },
+        {
+          "id": "KC-2018-H03",
+          "name": "마이크 무스타커스",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.236,
+            "homeRuns": 22,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "KC-2018-H04",
+          "name": "살바도르 페레즈",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.224,
+            "homeRuns": 30,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "KC-2018-H05",
+          "name": "호르헤 솔레어",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.256,
+            "homeRuns": 14,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "KC-2018-H06",
+          "name": "루카스 두다",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.24,
+            "homeRuns": 32,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "KC-2018-H07",
+          "name": "알렉스 고든",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 15,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "KC-2018-H08",
+          "name": "호르헤 보니파시오",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.225,
+            "homeRuns": 5,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "KC-2018-H09",
+          "name": "로셀 에레라",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.222,
+            "homeRuns": 7,
+            "eye": 5,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "KC-2018-P01",
+          "name": "제이콥 주니스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 70,
+          "control": 91,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "KC-2018-P02",
+          "name": "대니 더피",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 65,
+          "control": 59,
+          "stamina": 88,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2018-P03",
+          "name": "이안 케네디",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 66,
+          "control": 75,
+          "stamina": 86,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2018-P04",
+          "name": "브래드 켈러",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 76,
+          "control": 73,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "KC-2018-P05",
+          "name": "제이슨 해멀",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 58,
+          "control": 79,
+          "stamina": 86,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2018-P06",
+          "name": "브라이언 플린",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 61,
+          "movement": 64,
+          "control": 47,
+          "stamina": 67,
+          "grade": "D"
+        },
+        {
+          "id": "KC-2018-P07",
+          "name": "케빈 맥카시",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 62,
+          "movement": 67,
+          "control": 67,
+          "stamina": 67,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2018-P08",
+          "name": "팀 힐",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 55,
+          "control": 53,
+          "stamina": 68,
+          "grade": "D"
+        },
+        {
+          "id": "KC-2018-P09",
+          "name": "글렌 스파크맨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 66,
+          "movement": 54,
+          "control": 45,
+          "stamina": 68,
+          "grade": "D"
+        },
+        {
+          "id": "KC-2018-P10",
+          "name": "켈빈 에레라",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 72,
+          "movement": 82,
+          "control": 59,
+          "stamina": 52,
+          "grade": "B"
+        }
+      ]
+    },
+    "ATH": {
+      "id": "ATH",
+      "name": "오클랜드 애슬레틱스",
+      "shortName": "오클랜드",
+      "city": "오클랜드",
+      "primary": "#003831",
+      "accent": "#efb21e",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "ATH-2018-H01",
+          "name": "마커스 세미엔",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 16,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "ATH-2018-H02",
+          "name": "맷 채프먼",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.277,
+            "homeRuns": 25,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ATH-2018-H03",
+          "name": "제드 라우리",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 26,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ATH-2018-H04",
+          "name": "크리스 데이비스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.246,
+            "homeRuns": 49,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ATH-2018-H05",
+          "name": "맷 올슨",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.247,
+            "homeRuns": 29,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "ATH-2018-H06",
+          "name": "스티븐 피스코티",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.263,
+            "homeRuns": 29,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "ATH-2018-H07",
+          "name": "마크 캐나",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 26,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "ATH-2018-H08",
+          "name": "채드 핀더",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 20,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "ATH-2018-H09",
+          "name": "조너선 루크로이",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.229,
+            "homeRuns": 7,
+            "eye": 4,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "ATH-2018-P01",
+          "name": "션 머나야",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 60,
+          "movement": 75,
+          "control": 97,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "ATH-2018-P02",
+          "name": "트레버 케이힐",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 72,
+          "control": 71,
+          "stamina": 83,
+          "grade": "B"
+        },
+        {
+          "id": "ATH-2018-P03",
+          "name": "다니엘 멩덴",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 60,
+          "movement": 71,
+          "control": 89,
+          "stamina": 84,
+          "grade": "B"
+        },
+        {
+          "id": "ATH-2018-P04",
+          "name": "에드윈 잭슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 64,
+          "movement": 73,
+          "control": 69,
+          "stamina": 82,
+          "grade": "C"
+        },
+        {
+          "id": "ATH-2018-P05",
+          "name": "브렛 앤더슨",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 68,
+          "control": 91,
+          "stamina": 81,
+          "grade": "B"
+        },
+        {
+          "id": "ATH-2018-P06",
+          "name": "유스메이로 페티트",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 67,
+          "movement": 79,
+          "control": 91,
+          "stamina": 70,
+          "grade": "A"
+        },
+        {
+          "id": "ATH-2018-P07",
+          "name": "루 트리비노",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 75,
+          "movement": 77,
+          "control": 59,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "ATH-2018-P08",
+          "name": "에밀리오 파간",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 71,
+          "control": 67,
+          "stamina": 75,
+          "grade": "B"
+        },
+        {
+          "id": "ATH-2018-P09",
+          "name": "라이언 부처",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 75,
+          "control": 59,
+          "stamina": 78,
+          "grade": "C"
+        },
+        {
+          "id": "ATH-2018-P10",
+          "name": "블레이크 트레이넨",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 85,
+          "movement": 99,
+          "control": 89,
+          "stamina": 57,
+          "grade": "S"
+        }
+      ]
+    },
+    "LAD": {
+      "id": "LAD",
+      "name": "LA 다저스",
+      "shortName": "다저스",
+      "city": "로스앤젤레스",
+      "primary": "#005a9c",
+      "accent": "#ffffff",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "LAD-2018-H01",
+          "name": "작 피더슨",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.248,
+            "homeRuns": 28,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAD-2018-H02",
+          "name": "저스틴 터너",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.286,
+            "homeRuns": 15,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAD-2018-H03",
+          "name": "맥스 먼시",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 41,
+            "eye": 9,
+            "speed": 5
+          }
+        },
+        {
+          "id": "LAD-2018-H04",
+          "name": "매니 마차도",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.259,
+            "homeRuns": 16,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "LAD-2018-H05",
+          "name": "코디 벨린저",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.267,
+            "homeRuns": 27,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LAD-2018-H06",
+          "name": "맷 켐프",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.286,
+            "homeRuns": 21,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAD-2018-H07",
+          "name": "야스마니 그랜달",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.229,
+            "homeRuns": 28,
+            "eye": 9,
+            "speed": 3
+          }
+        },
+        {
+          "id": "LAD-2018-H08",
+          "name": "야시엘 푸이그",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.263,
+            "homeRuns": 27,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LAD-2018-H09",
+          "name": "크리스 테일러",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 32,
+            "eye": 6,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "LAD-2018-P01",
+          "name": "클레이튼 커쇼",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 82,
+          "control": 100,
+          "stamina": 88,
+          "grade": "S"
+        },
+        {
+          "id": "LAD-2018-P02",
+          "name": "워커 뷸러",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 83,
+          "control": 89,
+          "stamina": 86,
+          "grade": "A"
+        },
+        {
+          "id": "LAD-2018-P03",
+          "name": "류현진",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 83,
+          "control": 99,
+          "stamina": 82,
+          "grade": "S"
+        },
+        {
+          "id": "LAD-2018-P04",
+          "name": "리치 힐",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 78,
+          "movement": 76,
+          "control": 85,
+          "stamina": 86,
+          "grade": "A"
+        },
+        {
+          "id": "LAD-2018-P05",
+          "name": "마에다 겐타",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 75,
+          "control": 81,
+          "stamina": 85,
+          "grade": "A"
+        },
+        {
+          "id": "LAD-2018-P06",
+          "name": "스콧 알렉산더",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 74,
+          "control": 69,
+          "stamina": 72,
+          "grade": "B"
+        },
+        {
+          "id": "LAD-2018-P07",
+          "name": "페드로 바에즈",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 77,
+          "control": 71,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "LAD-2018-P08",
+          "name": "케일럽 퍼거슨",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 80,
+          "movement": 74,
+          "control": 83,
+          "stamina": 73,
+          "grade": "A"
+        },
+        {
+          "id": "LAD-2018-P09",
+          "name": "다니엘 허드슨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 72,
+          "control": 73,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "LAD-2018-P10",
+          "name": "켄리 잰슨",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 81,
+          "movement": 81,
+          "control": 95,
+          "stamina": 54,
+          "grade": "S"
+        }
+      ]
+    },
+    "MIA": {
+      "id": "MIA",
+      "name": "마이애미 말린스",
+      "shortName": "마이애미",
+      "city": "마이애미",
+      "primary": "#000000",
+      "accent": "#f9423a",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "MIA-2018-H01",
+          "name": "데릭 디트리치",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.247,
+            "homeRuns": 21,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "MIA-2018-H02",
+          "name": "브라이언 앤더슨",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.262,
+            "homeRuns": 12,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIA-2018-H03",
+          "name": "J.T. 리얼무토",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 23,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIA-2018-H04",
+          "name": "저스틴 보어",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 22,
+            "eye": 9,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIA-2018-H05",
+          "name": "스탈린 카스트로",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.271,
+            "homeRuns": 12,
+            "eye": 4,
+            "speed": 4
+          }
+        },
+        {
+          "id": "MIA-2018-H06",
+          "name": "카메론 메이빈",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.234,
+            "homeRuns": 4,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "MIA-2018-H07",
+          "name": "JT 리들",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.221,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIA-2018-H08",
+          "name": "미겔 로하스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 11,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "MIA-2018-H09",
+          "name": "루이스 브린슨",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.199,
+            "homeRuns": 12,
+            "eye": 3,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "MIA-2018-P01",
+          "name": "호세 우레냐",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 73,
+          "control": 81,
+          "stamina": 88,
+          "grade": "B"
+        },
+        {
+          "id": "MIA-2018-P02",
+          "name": "천웨이인",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 67,
+          "control": 69,
+          "stamina": 83,
+          "grade": "C"
+        },
+        {
+          "id": "MIA-2018-P03",
+          "name": "트레버 리처즈",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 69,
+          "control": 59,
+          "stamina": 82,
+          "grade": "C"
+        },
+        {
+          "id": "MIA-2018-P04",
+          "name": "댄 스트레일리",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 71,
+          "control": 59,
+          "stamina": 82,
+          "grade": "C"
+        },
+        {
+          "id": "MIA-2018-P05",
+          "name": "케일럽 스미스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 69,
+          "control": 57,
+          "stamina": 77,
+          "grade": "C"
+        },
+        {
+          "id": "MIA-2018-P06",
+          "name": "드류 스테켄라이더",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 66,
+          "control": 59,
+          "stamina": 74,
+          "grade": "C"
+        },
+        {
+          "id": "MIA-2018-P07",
+          "name": "타이론 게레로",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 60,
+          "control": 51,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "MIA-2018-P08",
+          "name": "카일 배라클로",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 63,
+          "control": 45,
+          "stamina": 75,
+          "grade": "D"
+        },
+        {
+          "id": "MIA-2018-P09",
+          "name": "애덤 콘리",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 63,
+          "control": 63,
+          "stamina": 76,
+          "grade": "C"
+        },
+        {
+          "id": "MIA-2018-P10",
+          "name": "브래드 지글러",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 62,
+          "movement": 70,
+          "control": 73,
+          "stamina": 52,
+          "grade": "C"
+        }
+      ]
+    },
+    "SF": {
+      "id": "SF",
+      "name": "샌프란시스코 자이언츠",
+      "shortName": "샌프란시스코",
+      "city": "샌프란시스코",
+      "primary": "#fd5a1e",
+      "accent": "#27251f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "SF-2018-H01",
+          "name": "조 패닉",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.241,
+            "homeRuns": 6,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "SF-2018-H02",
+          "name": "앤드루 맥커친",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 16,
+            "eye": 8,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SF-2018-H03",
+          "name": "버스터 포지",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.266,
+            "homeRuns": 15,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "SF-2018-H04",
+          "name": "브랜든 벨트",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.257,
+            "homeRuns": 17,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SF-2018-H05",
+          "name": "에반 롱고리아",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 24,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SF-2018-H06",
+          "name": "브랜든 크로포드",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 15,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SF-2018-H07",
+          "name": "알렌 핸슨",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 12,
+            "eye": 3,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SF-2018-H08",
+          "name": "헌터 펜스",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.228,
+            "homeRuns": 10,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SF-2018-H09",
+          "name": "고키스 에르난데스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SF-2018-P01",
+          "name": "데릭 홀랜드",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 76,
+          "control": 67,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "SF-2018-P02",
+          "name": "앤드루 수아레즈",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 69,
+          "control": 85,
+          "stamina": 85,
+          "grade": "B"
+        },
+        {
+          "id": "SF-2018-P03",
+          "name": "크리스 스트래튼",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 64,
+          "movement": 65,
+          "control": 69,
+          "stamina": 83,
+          "grade": "C"
+        },
+        {
+          "id": "SF-2018-P04",
+          "name": "매디슨 범가너",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 77,
+          "control": 75,
+          "stamina": 81,
+          "grade": "B"
+        },
+        {
+          "id": "SF-2018-P05",
+          "name": "데릭 로드리게스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 79,
+          "control": 77,
+          "stamina": 79,
+          "grade": "B"
+        },
+        {
+          "id": "SF-2018-P06",
+          "name": "샘 다이슨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 74,
+          "control": 77,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "SF-2018-P07",
+          "name": "토니 왓슨",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 74,
+          "control": 81,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "SF-2018-P08",
+          "name": "레이예스 모론타",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 74,
+          "control": 49,
+          "stamina": 74,
+          "grade": "C"
+        },
+        {
+          "id": "SF-2018-P09",
+          "name": "타이 블락",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 59,
+          "movement": 70,
+          "control": 73,
+          "stamina": 74,
+          "grade": "C"
+        },
+        {
+          "id": "SF-2018-P10",
+          "name": "윌 스미스",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 79,
+          "movement": 80,
+          "control": 71,
+          "stamina": 64,
+          "grade": "B"
+        }
+      ]
+    },
+    "BAL": {
+      "id": "BAL",
+      "name": "볼티모어 오리올스",
+      "shortName": "볼티모어",
+      "city": "볼티모어",
+      "primary": "#df4601",
+      "accent": "#000000",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "BAL-2018-H01",
+          "name": "애덤 존스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.271,
+            "homeRuns": 19,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "BAL-2018-H02",
+          "name": "조너선 스쿱",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.242,
+            "homeRuns": 24,
+            "eye": 4,
+            "speed": 7
+          }
+        },
+        {
+          "id": "BAL-2018-H03",
+          "name": "매니 마차도",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.297,
+            "homeRuns": 27,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "BAL-2018-H04",
+          "name": "마크 트럼보",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 26,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "BAL-2018-H05",
+          "name": "트레이 만시니",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.238,
+            "homeRuns": 28,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "BAL-2018-H06",
+          "name": "크리스 데이비스",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.184,
+            "homeRuns": 22,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "BAL-2018-H07",
+          "name": "팀 베컴",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.24,
+            "homeRuns": 22,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "BAL-2018-H08",
+          "name": "조이 리카드",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.228,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "BAL-2018-H09",
+          "name": "케일럽 조셉",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.21,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "BAL-2018-P01",
+          "name": "딜런 번디",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 60,
+          "control": 77,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "BAL-2018-P02",
+          "name": "케빈 가우스먼",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 64,
+          "control": 77,
+          "stamina": 81,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2018-P03",
+          "name": "알렉스 콥",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 60,
+          "movement": 63,
+          "control": 79,
+          "stamina": 85,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2018-P04",
+          "name": "앤드루 캐시너",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 59,
+          "movement": 61,
+          "control": 57,
+          "stamina": 85,
+          "grade": "D"
+        },
+        {
+          "id": "BAL-2018-P05",
+          "name": "데이비드 헤스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 60,
+          "control": 61,
+          "stamina": 79,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2018-P06",
+          "name": "미겔 카스트로",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 62,
+          "movement": 70,
+          "control": 35,
+          "stamina": 69,
+          "grade": "D"
+        },
+        {
+          "id": "BAL-2018-P07",
+          "name": "리처드 블라이어",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 65,
+          "movement": 69,
+          "control": 61,
+          "stamina": 73,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2018-P08",
+          "name": "태너 스콧",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 80,
+          "movement": 62,
+          "control": 43,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2018-P09",
+          "name": "마이크 라이트 주니어",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 61,
+          "control": 55,
+          "stamina": 69,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2018-P10",
+          "name": "마이컬 기븐스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 75,
+          "movement": 73,
+          "control": 61,
+          "stamina": 63,
+          "grade": "C"
+        }
+      ]
+    },
+    "PHI": {
+      "id": "PHI",
+      "name": "필라델피아 필리스",
+      "shortName": "필라델피아",
+      "city": "필라델피아",
+      "primary": "#e81828",
+      "accent": "#002d72",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "PHI-2018-H01",
+          "name": "세자르 에르난데스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.246,
+            "homeRuns": 18,
+            "eye": 8,
+            "speed": 7
+          }
+        },
+        {
+          "id": "PHI-2018-H02",
+          "name": "리스 호스킨스",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 35,
+            "eye": 9,
+            "speed": 4
+          }
+        },
+        {
+          "id": "PHI-2018-H03",
+          "name": "오두벨 에레라",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 24,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "PHI-2018-H04",
+          "name": "카를로스 산타나",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.229,
+            "homeRuns": 24,
+            "eye": 10,
+            "speed": 2
+          }
+        },
+        {
+          "id": "PHI-2018-H05",
+          "name": "마이켈 프랑코",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 23,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "PHI-2018-H06",
+          "name": "닉 윌리엄스",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 19,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "PHI-2018-H07",
+          "name": "애런 알테어",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.182,
+            "homeRuns": 10,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "PHI-2018-H08",
+          "name": "호르헤 알파로",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 15,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "PHI-2018-H09",
+          "name": "스콧 킹어리",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.225,
+            "homeRuns": 16,
+            "eye": 4,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "PHI-2018-P01",
+          "name": "애런 놀라",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 86,
+          "control": 87,
+          "stamina": 94,
+          "grade": "A"
+        },
+        {
+          "id": "PHI-2018-P02",
+          "name": "닉 피베타",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 80,
+          "movement": 66,
+          "control": 81,
+          "stamina": 85,
+          "grade": "B"
+        },
+        {
+          "id": "PHI-2018-P03",
+          "name": "제이크 아리에타",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 73,
+          "control": 77,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "PHI-2018-P04",
+          "name": "빈스 벨라스케스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 78,
+          "movement": 66,
+          "control": 65,
+          "stamina": 82,
+          "grade": "C"
+        },
+        {
+          "id": "PHI-2018-P05",
+          "name": "잭 에플린",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 68,
+          "control": 83,
+          "stamina": 78,
+          "grade": "B"
+        },
+        {
+          "id": "PHI-2018-P06",
+          "name": "토미 헌터",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 70,
+          "control": 77,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "PHI-2018-P07",
+          "name": "빅터 아라노",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 74,
+          "control": 69,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "PHI-2018-P08",
+          "name": "애덤 모건",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 68,
+          "control": 55,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "PHI-2018-P09",
+          "name": "엑토르 네리스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 84,
+          "movement": 64,
+          "control": 63,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "PHI-2018-P10",
+          "name": "세란토니 도밍게스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 78,
+          "movement": 82,
+          "control": 77,
+          "stamina": 58,
+          "grade": "A"
+        }
+      ]
+    },
+    "NYM": {
+      "id": "NYM",
+      "name": "뉴욕 메츠",
+      "shortName": "메츠",
+      "city": "뉴욕",
+      "primary": "#002d72",
+      "accent": "#ff5910",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "NYM-2018-H01",
+          "name": "브랜든 니모",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 24,
+            "eye": 10,
+            "speed": 6
+          }
+        },
+        {
+          "id": "NYM-2018-H02",
+          "name": "아스드루발 카브레라",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.283,
+            "homeRuns": 21,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "NYM-2018-H03",
+          "name": "마이클 콘포토",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.238,
+            "homeRuns": 36,
+            "eye": 8,
+            "speed": 4
+          }
+        },
+        {
+          "id": "NYM-2018-H04",
+          "name": "윌머 플로레스",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 20,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NYM-2018-H05",
+          "name": "토드 프레이저",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.218,
+            "homeRuns": 19,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "NYM-2018-H06",
+          "name": "제이 브루스",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.214,
+            "homeRuns": 15,
+            "eye": 7,
+            "speed": 3
+          }
+        },
+        {
+          "id": "NYM-2018-H07",
+          "name": "케빈 플라웨키",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.202,
+            "homeRuns": 19,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NYM-2018-H08",
+          "name": "오스틴 잭슨",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.246,
+            "homeRuns": 5,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYM-2018-H09",
+          "name": "아메드 로사리오",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.26,
+            "homeRuns": 9,
+            "eye": 3,
+            "speed": 8
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "NYM-2018-P01",
+          "name": "제이콥 디그롬",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 85,
+          "movement": 91,
+          "control": 99,
+          "stamina": 95,
+          "grade": "S"
+        },
+        {
+          "id": "NYM-2018-P02",
+          "name": "스티븐 마츠",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 71,
+          "control": 69,
+          "stamina": 84,
+          "grade": "B"
+        },
+        {
+          "id": "NYM-2018-P03",
+          "name": "잭 휠러",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 78,
+          "control": 83,
+          "stamina": 88,
+          "grade": "A"
+        },
+        {
+          "id": "NYM-2018-P04",
+          "name": "노아 신더가드",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 78,
+          "control": 89,
+          "stamina": 85,
+          "grade": "A"
+        },
+        {
+          "id": "NYM-2018-P05",
+          "name": "제이슨 바르가스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 57,
+          "control": 77,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "NYM-2018-P06",
+          "name": "로버트 그셀만",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 66,
+          "control": 69,
+          "stamina": 70,
+          "grade": "C"
+        },
+        {
+          "id": "NYM-2018-P07",
+          "name": "폴 시월드",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 57,
+          "control": 61,
+          "stamina": 73,
+          "grade": "C"
+        },
+        {
+          "id": "NYM-2018-P08",
+          "name": "제리 블레빈스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 60,
+          "control": 53,
+          "stamina": 74,
+          "grade": "C"
+        },
+        {
+          "id": "NYM-2018-P09",
+          "name": "세스 루고",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 75,
+          "movement": 81,
+          "control": 83,
+          "stamina": 69,
+          "grade": "A"
+        },
+        {
+          "id": "NYM-2018-P10",
+          "name": "쥬리스 파밀리아",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 75,
+          "movement": 73,
+          "control": 69,
+          "stamina": 52,
+          "grade": "B"
+        }
+      ]
+    },
+    "CIN": {
+      "id": "CIN",
+      "name": "신시내티 레즈",
+      "shortName": "신시내티",
+      "city": "신시내티",
+      "primary": "#c6011f",
+      "accent": "#ffffff",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "CIN-2018-H01",
+          "name": "호세 페라자",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.286,
+            "homeRuns": 14,
+            "eye": 3,
+            "speed": 7
+          }
+        },
+        {
+          "id": "CIN-2018-H02",
+          "name": "제시 윙커",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 12,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CIN-2018-H03",
+          "name": "조이 보토",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.267,
+            "homeRuns": 16,
+            "eye": 10,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CIN-2018-H04",
+          "name": "에우헤니오 수아레즈",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.272,
+            "homeRuns": 35,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CIN-2018-H05",
+          "name": "스쿠터 제넷",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.302,
+            "homeRuns": 24,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CIN-2018-H06",
+          "name": "스콧 셰블러",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.256,
+            "homeRuns": 21,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CIN-2018-H07",
+          "name": "애덤 듀발",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.219,
+            "homeRuns": 22,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CIN-2018-H08",
+          "name": "터커 반하트",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 17,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CIN-2018-H09",
+          "name": "빌리 해밀턴",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.238,
+            "homeRuns": 6,
+            "eye": 5,
+            "speed": 9
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "CIN-2018-P01",
+          "name": "루이스 카스티요",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 83,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2018-P02",
+          "name": "살 로마노",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 62,
+          "control": 69,
+          "stamina": 84,
+          "grade": "C"
+        },
+        {
+          "id": "CIN-2018-P03",
+          "name": "맷 하비",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 66,
+          "control": 89,
+          "stamina": 82,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2018-P04",
+          "name": "타일러 말리",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 63,
+          "control": 55,
+          "stamina": 80,
+          "grade": "C"
+        },
+        {
+          "id": "CIN-2018-P05",
+          "name": "앤서니 데스클라파니",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 63,
+          "control": 83,
+          "stamina": 81,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2018-P06",
+          "name": "마이클 로렌젠",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 62,
+          "movement": 72,
+          "control": 55,
+          "stamina": 72,
+          "grade": "C"
+        },
+        {
+          "id": "CIN-2018-P07",
+          "name": "재러드 휴즈",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 64,
+          "movement": 77,
+          "control": 69,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2018-P08",
+          "name": "데이비드 에르난데스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 70,
+          "control": 65,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "CIN-2018-P09",
+          "name": "아미르 개럿",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 63,
+          "control": 55,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "CIN-2018-P10",
+          "name": "라이셀 이글레시아스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 79,
+          "movement": 86,
+          "control": 75,
+          "stamina": 54,
+          "grade": "A"
+        }
+      ]
+    },
+    "ATL": {
+      "id": "ATL",
+      "name": "애틀랜타 브레이브스",
+      "shortName": "애틀랜타",
+      "city": "애틀랜타",
+      "primary": "#ce1141",
+      "accent": "#13274f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "ATL-2018-H01",
+          "name": "로날드 아쿠냐 주니어",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.278,
+            "homeRuns": 28,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "ATL-2018-H02",
+          "name": "아지 알비스",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 25,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "ATL-2018-H03",
+          "name": "프레디 프리먼",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.309,
+            "homeRuns": 23,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "ATL-2018-H04",
+          "name": "닉 마카키스",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.291,
+            "homeRuns": 15,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ATL-2018-H05",
+          "name": "요한 카마르고",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 23,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "ATL-2018-H06",
+          "name": "커트 스즈키",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.246,
+            "homeRuns": 20,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ATL-2018-H07",
+          "name": "찰리 컬버슨",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 16,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "ATL-2018-H08",
+          "name": "댄스비 스완슨",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "ATL-2018-H09",
+          "name": "엔더 인시아테",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.263,
+            "homeRuns": 10,
+            "eye": 5,
+            "speed": 8
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "ATL-2018-P01",
+          "name": "마이크 폴티뉴비치",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 78,
+          "movement": 82,
+          "control": 69,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "ATL-2018-P02",
+          "name": "훌리오 테헤란",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 74,
+          "control": 51,
+          "stamina": 88,
+          "grade": "C"
+        },
+        {
+          "id": "ATL-2018-P03",
+          "name": "션 뉴컴",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 74,
+          "control": 49,
+          "stamina": 87,
+          "grade": "C"
+        },
+        {
+          "id": "ATL-2018-P04",
+          "name": "아니발 산체스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 81,
+          "control": 77,
+          "stamina": 85,
+          "grade": "B"
+        },
+        {
+          "id": "ATL-2018-P05",
+          "name": "브랜든 맥카시",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 70,
+          "control": 75,
+          "stamina": 79,
+          "grade": "B"
+        },
+        {
+          "id": "ATL-2018-P06",
+          "name": "제시 비들",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 75,
+          "movement": 73,
+          "control": 43,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "ATL-2018-P07",
+          "name": "셰인 칼",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 67,
+          "movement": 74,
+          "control": 47,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "ATL-2018-P08",
+          "name": "A.J. 민터",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 72,
+          "control": 53,
+          "stamina": 72,
+          "grade": "C"
+        },
+        {
+          "id": "ATL-2018-P09",
+          "name": "댄 윙클러",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 72,
+          "control": 55,
+          "stamina": 72,
+          "grade": "C"
+        },
+        {
+          "id": "ATL-2018-P10",
+          "name": "아로디스 비스카이노",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 75,
+          "movement": 79,
+          "control": 53,
+          "stamina": 52,
+          "grade": "C"
+        }
+      ]
+    },
+    "TB": {
+      "id": "TB",
+      "name": "탬파베이 레이스",
+      "shortName": "탬파베이",
+      "city": "세인트피터즈버그",
+      "primary": "#092c5c",
+      "accent": "#8fbce6",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "TB-2018-H01",
+          "name": "말렉스 스미스",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.286,
+            "homeRuns": 11,
+            "eye": 7,
+            "speed": 10
+          }
+        },
+        {
+          "id": "TB-2018-H02",
+          "name": "맷 더피",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.287,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TB-2018-H03",
+          "name": "조이 웬들",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.289,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TB-2018-H04",
+          "name": "C.J. 크론",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 36,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "TB-2018-H05",
+          "name": "윌슨 라모스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.26,
+            "homeRuns": 18,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "TB-2018-H06",
+          "name": "최지만",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.239,
+            "homeRuns": 19,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "TB-2018-H07",
+          "name": "윌리 아다메스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.268,
+            "homeRuns": 17,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "TB-2018-H08",
+          "name": "카를로스 고메스",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.22,
+            "homeRuns": 19,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TB-2018-H09",
+          "name": "케빈 키어마이어",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.218,
+            "homeRuns": 10,
+            "eye": 5,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "TB-2018-P01",
+          "name": "블레이크 스넬",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 88,
+          "control": 73,
+          "stamina": 90,
+          "grade": "A"
+        },
+        {
+          "id": "TB-2018-P02",
+          "name": "크리스 아처",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 77,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2018-P03",
+          "name": "라이언 야브로",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 73,
+          "control": 75,
+          "stamina": 88,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2018-P04",
+          "name": "요니 치리노스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 73,
+          "control": 81,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2018-P05",
+          "name": "타일러 글래스노우",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 70,
+          "control": 75,
+          "stamina": 85,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2018-P06",
+          "name": "호세 알바라도",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 79,
+          "control": 63,
+          "stamina": 67,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2018-P07",
+          "name": "라인 스타넥",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 76,
+          "control": 67,
+          "stamina": 67,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2018-P08",
+          "name": "디에고 카스티요",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 75,
+          "control": 77,
+          "stamina": 67,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2018-P09",
+          "name": "채즈 로",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 72,
+          "control": 77,
+          "stamina": 67,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2018-P10",
+          "name": "세르히오 로모",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 79,
+          "movement": 72,
+          "control": 81,
+          "stamina": 61,
+          "grade": "B"
+        }
+      ]
+    },
+    "CWS": {
+      "id": "CWS",
+      "name": "시카고 화이트삭스",
+      "shortName": "화이트삭스",
+      "city": "시카고",
+      "primary": "#27251f",
+      "accent": "#c4ced4",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "CWS-2018-H01",
+          "name": "요안 몬카다",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 17,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CWS-2018-H02",
+          "name": "욜머 산체스",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.242,
+            "homeRuns": 8,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CWS-2018-H03",
+          "name": "호세 아브레우",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.265,
+            "homeRuns": 22,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CWS-2018-H04",
+          "name": "아비사일 가르시아",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.214,
+            "homeRuns": 23,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CWS-2018-H05",
+          "name": "다니엘 팔카",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.242,
+            "homeRuns": 37,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CWS-2018-H06",
+          "name": "맷 데이비슨",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.229,
+            "homeRuns": 29,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CWS-2018-H07",
+          "name": "팀 앤더슨",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.24,
+            "homeRuns": 20,
+            "eye": 3,
+            "speed": 8
+          }
+        },
+        {
+          "id": "CWS-2018-H08",
+          "name": "오마 나르바에즈",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.274,
+            "homeRuns": 18,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CWS-2018-H09",
+          "name": "애덤 엥겔",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 8,
+            "eye": 4,
+            "speed": 7
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "CWS-2018-P01",
+          "name": "제임스 실즈",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 69,
+          "control": 69,
+          "stamina": 92,
+          "grade": "C"
+        },
+        {
+          "id": "CWS-2018-P02",
+          "name": "레이날도 로페즈",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 73,
+          "control": 65,
+          "stamina": 89,
+          "grade": "C"
+        },
+        {
+          "id": "CWS-2018-P03",
+          "name": "루카스 지올리토",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 55,
+          "control": 43,
+          "stamina": 86,
+          "grade": "D"
+        },
+        {
+          "id": "CWS-2018-P04",
+          "name": "딜런 코비",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 60,
+          "control": 57,
+          "stamina": 78,
+          "grade": "C"
+        },
+        {
+          "id": "CWS-2018-P05",
+          "name": "카를로스 로돈",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 66,
+          "control": 53,
+          "stamina": 77,
+          "grade": "C"
+        },
+        {
+          "id": "CWS-2018-P06",
+          "name": "제이스 프라이",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 65,
+          "control": 57,
+          "stamina": 72,
+          "grade": "C"
+        },
+        {
+          "id": "CWS-2018-P07",
+          "name": "엑토르 산티아고",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 69,
+          "control": 33,
+          "stamina": 68,
+          "grade": "D"
+        },
+        {
+          "id": "CWS-2018-P08",
+          "name": "후안 미나야",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 68,
+          "control": 41,
+          "stamina": 72,
+          "grade": "C"
+        },
+        {
+          "id": "CWS-2018-P09",
+          "name": "루이스 아빌란",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 65,
+          "control": 59,
+          "stamina": 73,
+          "grade": "C"
+        },
+        {
+          "id": "CWS-2018-P10",
+          "name": "호아킴 소리아",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 82,
+          "movement": 83,
+          "control": 71,
+          "stamina": 53,
+          "grade": "A"
+        }
+      ]
+    },
+    "WSH": {
+      "id": "WSH",
+      "name": "워싱턴 내셔널스",
+      "shortName": "워싱턴",
+      "city": "워싱턴 D.C.",
+      "primary": "#ab0003",
+      "accent": "#14225a",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "WSH-2018-H01",
+          "name": "애덤 이튼",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.28,
+            "homeRuns": 13,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "WSH-2018-H02",
+          "name": "트레이 터너",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 10
+          }
+        },
+        {
+          "id": "WSH-2018-H03",
+          "name": "브라이스 하퍼",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.248,
+            "homeRuns": 35,
+            "eye": 10,
+            "speed": 6
+          }
+        },
+        {
+          "id": "WSH-2018-H04",
+          "name": "앤서니 렌던",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.304,
+            "homeRuns": 26,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "WSH-2018-H05",
+          "name": "후안 소토",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.277,
+            "homeRuns": 23,
+            "eye": 9,
+            "speed": 4
+          }
+        },
+        {
+          "id": "WSH-2018-H06",
+          "name": "라이언 짐머맨",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 38,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "WSH-2018-H07",
+          "name": "윌머 디포",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.257,
+            "homeRuns": 15,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "WSH-2018-H08",
+          "name": "맷 위터스",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.209,
+            "homeRuns": 12,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "WSH-2018-H09",
+          "name": "마이클 테일러",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.231,
+            "homeRuns": 8,
+            "eye": 5,
+            "speed": 8
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "WSH-2018-P01",
+          "name": "맥스 슈어저",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 90,
+          "movement": 84,
+          "control": 95,
+          "stamina": 96,
+          "grade": "S"
+        },
+        {
+          "id": "WSH-2018-P02",
+          "name": "태너 로어크",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 70,
+          "control": 85,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "WSH-2018-P03",
+          "name": "지오 곤잘레스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 66,
+          "control": 51,
+          "stamina": 85,
+          "grade": "C"
+        },
+        {
+          "id": "WSH-2018-P04",
+          "name": "스티븐 스트라스버그",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 79,
+          "movement": 71,
+          "control": 77,
+          "stamina": 84,
+          "grade": "B"
+        },
+        {
+          "id": "WSH-2018-P05",
+          "name": "제레미 헬릭슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 69,
+          "control": 81,
+          "stamina": 79,
+          "grade": "B"
+        },
+        {
+          "id": "WSH-2018-P06",
+          "name": "맷 그레이스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 67,
+          "movement": 76,
+          "control": 79,
+          "stamina": 68,
+          "grade": "B"
+        },
+        {
+          "id": "WSH-2018-P07",
+          "name": "저스틴 밀러",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 72,
+          "control": 67,
+          "stamina": 69,
+          "grade": "B"
+        },
+        {
+          "id": "WSH-2018-P08",
+          "name": "완더 수에로",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 72,
+          "control": 67,
+          "stamina": 69,
+          "grade": "B"
+        },
+        {
+          "id": "WSH-2018-P09",
+          "name": "라이언 매드슨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 67,
+          "control": 65,
+          "stamina": 69,
+          "grade": "C"
+        },
+        {
+          "id": "WSH-2018-P10",
+          "name": "션 두리틀",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 83,
+          "movement": 85,
+          "control": 95,
+          "stamina": 52,
+          "grade": "S"
+        }
+      ]
+    },
+    "PIT": {
+      "id": "PIT",
+      "name": "피츠버그 파이리츠",
+      "shortName": "피츠버그",
+      "city": "피츠버그",
+      "primary": "#27251f",
+      "accent": "#fdb827",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "PIT-2018-H01",
+          "name": "애덤 프레이저",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.268,
+            "homeRuns": 13,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "PIT-2018-H02",
+          "name": "스탈링 마르테",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.278,
+            "homeRuns": 24,
+            "eye": 4,
+            "speed": 9
+          }
+        },
+        {
+          "id": "PIT-2018-H03",
+          "name": "그레고리 폴랑코",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.256,
+            "homeRuns": 27,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "PIT-2018-H04",
+          "name": "조시 벨",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 12,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "PIT-2018-H05",
+          "name": "코리 디커슨",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.285,
+            "homeRuns": 17,
+            "eye": 3,
+            "speed": 5
+          }
+        },
+        {
+          "id": "PIT-2018-H06",
+          "name": "프란시스코 서벨리",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.267,
+            "homeRuns": 22,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "PIT-2018-H07",
+          "name": "콜린 모란",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.272,
+            "homeRuns": 19,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "PIT-2018-H08",
+          "name": "조시 해리슨",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.226,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "PIT-2018-H09",
+          "name": "조디 머서",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.242,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "PIT-2018-P01",
+          "name": "제임슨 타이욘",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 79,
+          "control": 93,
+          "stamina": 90,
+          "grade": "A"
+        },
+        {
+          "id": "PIT-2018-P02",
+          "name": "트레버 윌리엄스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 79,
+          "control": 77,
+          "stamina": 88,
+          "grade": "B"
+        },
+        {
+          "id": "PIT-2018-P03",
+          "name": "이반 노바",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 71,
+          "control": 93,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "PIT-2018-P04",
+          "name": "조 머스그로브",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 70,
+          "control": 87,
+          "stamina": 83,
+          "grade": "B"
+        },
+        {
+          "id": "PIT-2018-P05",
+          "name": "채드 쿨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 67,
+          "control": 63,
+          "stamina": 80,
+          "grade": "C"
+        },
+        {
+          "id": "PIT-2018-P06",
+          "name": "리처드 로드리게스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 80,
+          "movement": 75,
+          "control": 69,
+          "stamina": 69,
+          "grade": "B"
+        },
+        {
+          "id": "PIT-2018-P07",
+          "name": "에드가 산타나",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 71,
+          "control": 77,
+          "stamina": 69,
+          "grade": "B"
+        },
+        {
+          "id": "PIT-2018-P08",
+          "name": "카일 크릭",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 75,
+          "movement": 73,
+          "control": 55,
+          "stamina": 70,
+          "grade": "C"
+        },
+        {
+          "id": "PIT-2018-P09",
+          "name": "타일러 글래스노우",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 65,
+          "control": 35,
+          "stamina": 70,
+          "grade": "D"
+        },
+        {
+          "id": "PIT-2018-P10",
+          "name": "펠리페 바스케스",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 86,
+          "movement": 84,
+          "control": 75,
+          "stamina": 54,
+          "grade": "A"
+        }
+      ]
+    },
+    "MIN": {
+      "id": "MIN",
+      "name": "미네소타 트윈스",
+      "shortName": "미네소타",
+      "city": "미니애폴리스",
+      "primary": "#002b5c",
+      "accent": "#d31145",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "MIN-2018-H01",
+          "name": "조 마우어",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.282,
+            "homeRuns": 6,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIN-2018-H02",
+          "name": "호르헤 폴랑코",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.267,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "MIN-2018-H03",
+          "name": "에디 로사리오",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.28,
+            "homeRuns": 27,
+            "eye": 3,
+            "speed": 5
+          }
+        },
+        {
+          "id": "MIN-2018-H04",
+          "name": "에두아르도 에스코바",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.248,
+            "homeRuns": 25,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIN-2018-H05",
+          "name": "브라이언 도저",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 17,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "MIN-2018-H06",
+          "name": "로건 모리슨",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.207,
+            "homeRuns": 27,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIN-2018-H07",
+          "name": "맥스 케플러",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.236,
+            "homeRuns": 23,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "MIN-2018-H08",
+          "name": "미치 가버",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.248,
+            "homeRuns": 15,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIN-2018-H09",
+          "name": "제이크 케이브",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 14,
+            "eye": 4,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "MIN-2018-P01",
+          "name": "카일 깁슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 76,
+          "control": 65,
+          "stamina": 91,
+          "grade": "B"
+        },
+        {
+          "id": "MIN-2018-P02",
+          "name": "호세 베리오스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 74,
+          "control": 79,
+          "stamina": 90,
+          "grade": "B"
+        },
+        {
+          "id": "MIN-2018-P03",
+          "name": "제이크 오도리지",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 69,
+          "control": 61,
+          "stamina": 87,
+          "grade": "C"
+        },
+        {
+          "id": "MIN-2018-P04",
+          "name": "랜스 린",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 64,
+          "control": 39,
+          "stamina": 81,
+          "grade": "D"
+        },
+        {
+          "id": "MIN-2018-P05",
+          "name": "페르난도 로메로",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 66,
+          "control": 65,
+          "stamina": 76,
+          "grade": "C"
+        },
+        {
+          "id": "MIN-2018-P06",
+          "name": "트레버 힐덴버거",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 61,
+          "control": 69,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "MIN-2018-P07",
+          "name": "테일러 로저스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 74,
+          "control": 81,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "MIN-2018-P08",
+          "name": "맷 매길",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 75,
+          "movement": 67,
+          "control": 63,
+          "stamina": 72,
+          "grade": "C"
+        },
+        {
+          "id": "MIN-2018-P09",
+          "name": "애디슨 리드",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 64,
+          "control": 75,
+          "stamina": 72,
+          "grade": "B"
+        },
+        {
+          "id": "MIN-2018-P10",
+          "name": "페르난도 로드니",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 79,
+          "movement": 74,
+          "control": 59,
+          "stamina": 52,
+          "grade": "B"
+        }
+      ]
+    },
+    "DET": {
+      "id": "DET",
+      "name": "디트로이트 타이거스",
+      "shortName": "디트로이트",
+      "city": "디트로이트",
+      "primary": "#0c2340",
+      "accent": "#fa4616",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "DET-2018-H01",
+          "name": "레오니스 마틴",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 11,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "DET-2018-H02",
+          "name": "제이머 칸델라리오",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.223,
+            "homeRuns": 19,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "DET-2018-H03",
+          "name": "닉 카스테야노스",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.29,
+            "homeRuns": 24,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "DET-2018-H04",
+          "name": "미겔 카브레라",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.272,
+            "homeRuns": 13,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "DET-2018-H05",
+          "name": "빅터 마르티네스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.245,
+            "homeRuns": 13,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "DET-2018-H06",
+          "name": "니코 구드럼",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.231,
+            "homeRuns": 19,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "DET-2018-H07",
+          "name": "제임스 맥캔",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.22,
+            "homeRuns": 8,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "DET-2018-H08",
+          "name": "호세 이글레시아스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 10,
+            "eye": 3,
+            "speed": 6
+          }
+        },
+        {
+          "id": "DET-2018-H09",
+          "name": "자코비 존스",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.205,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "DET-2018-P01",
+          "name": "매튜 보이드",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 70,
+          "control": 83,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "DET-2018-P02",
+          "name": "프란시스코 리리아노",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 68,
+          "control": 47,
+          "stamina": 83,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2018-P03",
+          "name": "조던 짐머맨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 68,
+          "control": 97,
+          "stamina": 83,
+          "grade": "B"
+        },
+        {
+          "id": "DET-2018-P04",
+          "name": "마이클 풀머",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 67,
+          "control": 77,
+          "stamina": 83,
+          "grade": "B"
+        },
+        {
+          "id": "DET-2018-P05",
+          "name": "마이크 파이어스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 64,
+          "movement": 74,
+          "control": 93,
+          "stamina": 81,
+          "grade": "B"
+        },
+        {
+          "id": "DET-2018-P06",
+          "name": "벅 파머",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 65,
+          "movement": 68,
+          "control": 47,
+          "stamina": 72,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2018-P07",
+          "name": "조 히메네스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 67,
+          "control": 69,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "DET-2018-P08",
+          "name": "알렉스 윌슨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 62,
+          "movement": 71,
+          "control": 79,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "DET-2018-P09",
+          "name": "드류 버헤이건",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 67,
+          "movement": 66,
+          "control": 71,
+          "stamina": 73,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2018-P10",
+          "name": "셰인 그린",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 75,
+          "movement": 64,
+          "control": 83,
+          "stamina": 52,
+          "grade": "B"
+        }
+      ]
+    },
+    "CHC": {
+      "id": "CHC",
+      "name": "시카고 컵스",
+      "shortName": "컵스",
+      "city": "시카고",
+      "primary": "#0e3386",
+      "accent": "#cc3433",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "CHC-2018-H01",
+          "name": "벤 조브리스트",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.297,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CHC-2018-H02",
+          "name": "크리스 브라이언트",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.265,
+            "homeRuns": 19,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CHC-2018-H03",
+          "name": "앤서니 리조",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.282,
+            "homeRuns": 25,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CHC-2018-H04",
+          "name": "하비에르 바에즈",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.29,
+            "homeRuns": 38,
+            "eye": 3,
+            "speed": 7
+          }
+        },
+        {
+          "id": "CHC-2018-H05",
+          "name": "윌슨 콘트레라스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.241,
+            "homeRuns": 12,
+            "eye": 7,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CHC-2018-H06",
+          "name": "카일 슈와버",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.239,
+            "homeRuns": 28,
+            "eye": 10,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CHC-2018-H07",
+          "name": "애디슨 러셀",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 7,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CHC-2018-H08",
+          "name": "제이슨 헤이워드",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.266,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CHC-2018-H09",
+          "name": "앨버트 알모라 주니어",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.266,
+            "homeRuns": 16,
+            "eye": 6,
+            "speed": 4
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "CHC-2018-P01",
+          "name": "카일 헨드릭스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 78,
+          "control": 97,
+          "stamina": 92,
+          "grade": "A"
+        },
+        {
+          "id": "CHC-2018-P02",
+          "name": "존 레스터",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 78,
+          "control": 73,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "CHC-2018-P03",
+          "name": "호세 퀸타나",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 73,
+          "control": 67,
+          "stamina": 88,
+          "grade": "B"
+        },
+        {
+          "id": "CHC-2018-P04",
+          "name": "타일러 챗우드",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 67,
+          "control": 3,
+          "stamina": 81,
+          "grade": "D"
+        },
+        {
+          "id": "CHC-2018-P05",
+          "name": "마이크 몽고메리",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 74,
+          "control": 75,
+          "stamina": 83,
+          "grade": "B"
+        },
+        {
+          "id": "CHC-2018-P06",
+          "name": "스티브 시섹",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 81,
+          "control": 61,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "CHC-2018-P07",
+          "name": "페드로 스트롭",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 80,
+          "control": 65,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "CHC-2018-P08",
+          "name": "저스틴 윌슨",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 75,
+          "control": 43,
+          "stamina": 72,
+          "grade": "C"
+        },
+        {
+          "id": "CHC-2018-P09",
+          "name": "칼 에드워즈 주니어",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 78,
+          "control": 43,
+          "stamina": 72,
+          "grade": "C"
+        },
+        {
+          "id": "CHC-2018-P10",
+          "name": "브랜든 모로우",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 71,
+          "movement": 82,
+          "control": 69,
+          "stamina": 52,
+          "grade": "B"
+        }
+      ]
+    },
+    "SD": {
+      "id": "SD",
+      "name": "샌디에이고 파드리스",
+      "shortName": "샌디에이고",
+      "city": "샌디에이고",
+      "primary": "#002d62",
+      "accent": "#ffffff",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "SD-2018-H01",
+          "name": "트래비스 잰코우스키",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 11,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "SD-2018-H02",
+          "name": "호세 피렐라",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 13,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SD-2018-H03",
+          "name": "에릭 호스머",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 18,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "SD-2018-H04",
+          "name": "헌터 렌프로",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 37,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SD-2018-H05",
+          "name": "윌 마이어스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.242,
+            "homeRuns": 14,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SD-2018-H06",
+          "name": "크리스티안 비야누에바",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.23,
+            "homeRuns": 22,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SD-2018-H07",
+          "name": "프레디 갈비스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.242,
+            "homeRuns": 15,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SD-2018-H08",
+          "name": "오스틴 헤지스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.228,
+            "homeRuns": 21,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SD-2018-H09",
+          "name": "마누엘 마고",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.247,
+            "homeRuns": 10,
+            "eye": 4,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SD-2018-P01",
+          "name": "클레이튼 리처드",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 60,
+          "movement": 62,
+          "control": 67,
+          "stamina": 87,
+          "grade": "C"
+        },
+        {
+          "id": "SD-2018-P02",
+          "name": "조이 루케시",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 68,
+          "control": 73,
+          "stamina": 84,
+          "grade": "B"
+        },
+        {
+          "id": "SD-2018-P03",
+          "name": "에릭 라우어",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 65,
+          "control": 61,
+          "stamina": 82,
+          "grade": "C"
+        },
+        {
+          "id": "SD-2018-P04",
+          "name": "타이슨 로스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 66,
+          "control": 59,
+          "stamina": 84,
+          "grade": "C"
+        },
+        {
+          "id": "SD-2018-P05",
+          "name": "로비 얼린",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 64,
+          "movement": 66,
+          "control": 97,
+          "stamina": 82,
+          "grade": "B"
+        },
+        {
+          "id": "SD-2018-P06",
+          "name": "크레이그 스태먼",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 78,
+          "control": 85,
+          "stamina": 72,
+          "grade": "A"
+        },
+        {
+          "id": "SD-2018-P07",
+          "name": "커비 예이츠",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 86,
+          "movement": 78,
+          "control": 75,
+          "stamina": 74,
+          "grade": "A"
+        },
+        {
+          "id": "SD-2018-P08",
+          "name": "애덤 심버",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 73,
+          "control": 75,
+          "stamina": 76,
+          "grade": "B"
+        },
+        {
+          "id": "SD-2018-P09",
+          "name": "맷 스트람",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 78,
+          "control": 69,
+          "stamina": 74,
+          "grade": "B"
+        },
+        {
+          "id": "SD-2018-P10",
+          "name": "브래드 핸드",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 90,
+          "movement": 77,
+          "control": 71,
+          "stamina": 52,
+          "grade": "A"
+        }
+      ]
+    },
+    "LAA": {
+      "id": "LAA",
+      "name": "LA 에인절스",
+      "shortName": "에인절스",
+      "city": "애너하임",
+      "primary": "#ba0021",
+      "accent": "#003263",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "LAA-2018-H01",
+          "name": "이안 킨슬러",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.247,
+            "homeRuns": 15,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LAA-2018-H02",
+          "name": "마이크 트라웃",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.287,
+            "homeRuns": 41,
+            "eye": 10,
+            "speed": 8
+          }
+        },
+        {
+          "id": "LAA-2018-H03",
+          "name": "저스틴 업튼",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 31,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "LAA-2018-H04",
+          "name": "오타니 쇼헤이",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 27,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LAA-2018-H05",
+          "name": "앨버트 푸홀스",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.242,
+            "homeRuns": 26,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAA-2018-H06",
+          "name": "안드렐톤 시몬스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.281,
+            "homeRuns": 13,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LAA-2018-H07",
+          "name": "콜 칼훈",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.199,
+            "homeRuns": 23,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "LAA-2018-H08",
+          "name": "잭 코자트",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.198,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "LAA-2018-H09",
+          "name": "마틴 말도나도",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.226,
+            "homeRuns": 20,
+            "eye": 4,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "LAA-2018-P01",
+          "name": "앤드루 히니",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 74,
+          "movement": 71,
+          "control": 91,
+          "stamina": 89,
+          "grade": "A"
+        },
+        {
+          "id": "LAA-2018-P02",
+          "name": "하이메 바리아",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 74,
+          "control": 69,
+          "stamina": 84,
+          "grade": "C"
+        },
+        {
+          "id": "LAA-2018-P03",
+          "name": "타일러 스캑스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 74,
+          "movement": 70,
+          "control": 75,
+          "stamina": 83,
+          "grade": "B"
+        },
+        {
+          "id": "LAA-2018-P04",
+          "name": "개럿 리처즈",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 69,
+          "control": 59,
+          "stamina": 78,
+          "grade": "C"
+        },
+        {
+          "id": "LAA-2018-P05",
+          "name": "오타니 쇼헤이",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 69,
+          "control": 63,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "LAA-2018-P06",
+          "name": "노에 라미레즈",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 69,
+          "control": 65,
+          "stamina": 72,
+          "grade": "B"
+        },
+        {
+          "id": "LAA-2018-P07",
+          "name": "캠 베드로시안",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 72,
+          "control": 57,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "LAA-2018-P08",
+          "name": "짐 존슨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 72,
+          "control": 61,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "LAA-2018-P09",
+          "name": "호세 알바레즈",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 76,
+          "control": 61,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "LAA-2018-P10",
+          "name": "블레이크 파커",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 75,
+          "movement": 81,
+          "control": 77,
+          "stamina": 59,
+          "grade": "B"
+        }
+      ]
+    },
+    "TEX": {
+      "id": "TEX",
+      "name": "텍사스 레인저스",
+      "shortName": "텍사스",
+      "city": "알링턴",
+      "primary": "#003278",
+      "accent": "#c0111f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "TEX-2018-H01",
+          "name": "추신수",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 23,
+            "eye": 9,
+            "speed": 4
+          }
+        },
+        {
+          "id": "TEX-2018-H02",
+          "name": "루그네드 오도어",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 23,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TEX-2018-H03",
+          "name": "엘비스 앤드루스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 21,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TEX-2018-H04",
+          "name": "아드리안 벨트레",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 19,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "TEX-2018-H05",
+          "name": "노마 마자라",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 21,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "TEX-2018-H06",
+          "name": "조이 갈로",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.206,
+            "homeRuns": 46,
+            "eye": 7,
+            "speed": 3
+          }
+        },
+        {
+          "id": "TEX-2018-H07",
+          "name": "로빈슨 치리노스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.209,
+            "homeRuns": 20,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "TEX-2018-H08",
+          "name": "로널드 구즈만",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 16,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "TEX-2018-H09",
+          "name": "델라이노 드실즈",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.212,
+            "homeRuns": 5,
+            "eye": 7,
+            "speed": 7
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "TEX-2018-P01",
+          "name": "마이크 마이너",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 70,
+          "control": 89,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2018-P02",
+          "name": "바톨로 콜론",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 55,
+          "movement": 59,
+          "control": 99,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2018-P03",
+          "name": "콜 해멀스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 65,
+          "control": 69,
+          "stamina": 84,
+          "grade": "C"
+        },
+        {
+          "id": "TEX-2018-P04",
+          "name": "요바니 가야르도",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 58,
+          "movement": 59,
+          "control": 59,
+          "stamina": 82,
+          "grade": "D"
+        },
+        {
+          "id": "TEX-2018-P05",
+          "name": "마틴 페레즈",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 58,
+          "movement": 58,
+          "control": 63,
+          "stamina": 82,
+          "grade": "D"
+        },
+        {
+          "id": "TEX-2018-P06",
+          "name": "알렉스 클라우디오",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 61,
+          "movement": 68,
+          "control": 85,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2018-P07",
+          "name": "호세 르클럭",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 80,
+          "movement": 78,
+          "control": 59,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2018-P08",
+          "name": "제시 차베스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 71,
+          "control": 77,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2018-P09",
+          "name": "크리스 마틴",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 67,
+          "movement": 67,
+          "control": 77,
+          "stamina": 72,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2018-P10",
+          "name": "키오니 켈라",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 76,
+          "movement": 72,
+          "control": 65,
+          "stamina": 52,
+          "grade": "B"
+        }
+      ]
+    },
+    "AZ": {
+      "id": "AZ",
+      "name": "애리조나 다이아몬드백스",
+      "shortName": "애리조나",
+      "city": "피닉스",
+      "primary": "#a71930",
+      "accent": "#e3d4ad",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "AZ-2018-H01",
+          "name": "AJ 폴락",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 23,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "AZ-2018-H02",
+          "name": "데이비드 페랄타",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.276,
+            "homeRuns": 32,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "AZ-2018-H03",
+          "name": "폴 골드슈미트",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.29,
+            "homeRuns": 33,
+            "eye": 8,
+            "speed": 4
+          }
+        },
+        {
+          "id": "AZ-2018-H04",
+          "name": "에두아르도 에스코바",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 13,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "AZ-2018-H05",
+          "name": "스티븐 수자 주니어",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.217,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "AZ-2018-H06",
+          "name": "케텔 마르테",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 15,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "AZ-2018-H07",
+          "name": "다니엘 데스칼소",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.229,
+            "homeRuns": 16,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "AZ-2018-H08",
+          "name": "닉 아메드",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 17,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "AZ-2018-H09",
+          "name": "제프 매티스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.189,
+            "homeRuns": 17,
+            "eye": 7,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "AZ-2018-P01",
+          "name": "잭 그레인키",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 79,
+          "control": 99,
+          "stamina": 93,
+          "grade": "A"
+        },
+        {
+          "id": "AZ-2018-P02",
+          "name": "패트릭 코빈",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 84,
+          "movement": 80,
+          "control": 93,
+          "stamina": 92,
+          "grade": "S"
+        },
+        {
+          "id": "AZ-2018-P03",
+          "name": "잭 고들리",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 67,
+          "control": 57,
+          "stamina": 88,
+          "grade": "C"
+        },
+        {
+          "id": "AZ-2018-P04",
+          "name": "로비 레이",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 70,
+          "control": 43,
+          "stamina": 82,
+          "grade": "C"
+        },
+        {
+          "id": "AZ-2018-P05",
+          "name": "클레이 벅홀츠",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 79,
+          "control": 87,
+          "stamina": 79,
+          "grade": "B"
+        },
+        {
+          "id": "AZ-2018-P06",
+          "name": "T.J. 맥팔랜드",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 60,
+          "movement": 81,
+          "control": 75,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "AZ-2018-P07",
+          "name": "아치 브래들리",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 73,
+          "control": 77,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "AZ-2018-P08",
+          "name": "히라노 요시히사",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 78,
+          "control": 69,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "AZ-2018-P09",
+          "name": "앤드루 셰이핀",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 74,
+          "control": 57,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "AZ-2018-P10",
+          "name": "브래드 박스버거",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 85,
+          "movement": 70,
+          "control": 35,
+          "stamina": 52,
+          "grade": "C"
+        }
+      ]
+    },
+    "TOR": {
+      "id": "TOR",
+      "name": "토론토 블루제이스",
+      "shortName": "토론토",
+      "city": "토론토",
+      "primary": "#134a8e",
+      "accent": "#e8291c",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "TOR-2018-H01",
+          "name": "데본 트래비스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 17,
+            "eye": 3,
+            "speed": 3
+          }
+        },
+        {
+          "id": "TOR-2018-H02",
+          "name": "양헤르비스 솔라르테",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.225,
+            "homeRuns": 23,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "TOR-2018-H03",
+          "name": "저스틴 스모크",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 29,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "TOR-2018-H04",
+          "name": "켄드리스 모랄레스",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.256,
+            "homeRuns": 27,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "TOR-2018-H05",
+          "name": "랜달 그리칙",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.247,
+            "homeRuns": 34,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "TOR-2018-H06",
+          "name": "테오스카 에르난데스",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 30,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "TOR-2018-H07",
+          "name": "러셀 마틴",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.224,
+            "homeRuns": 18,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "TOR-2018-H08",
+          "name": "케빈 필라",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 15,
+            "eye": 3,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TOR-2018-H09",
+          "name": "알레드미스 디아스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.263,
+            "homeRuns": 24,
+            "eye": 3,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "TOR-2018-P01",
+          "name": "J.A. 햅",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 70,
+          "control": 75,
+          "stamina": 83,
+          "grade": "B"
+        },
+        {
+          "id": "TOR-2018-P02",
+          "name": "마커스 스트로먼",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 63,
+          "control": 69,
+          "stamina": 81,
+          "grade": "C"
+        },
+        {
+          "id": "TOR-2018-P03",
+          "name": "애런 산체스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 66,
+          "control": 45,
+          "stamina": 82,
+          "grade": "D"
+        },
+        {
+          "id": "TOR-2018-P04",
+          "name": "마르코 에스트라다",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 61,
+          "control": 71,
+          "stamina": 85,
+          "grade": "C"
+        },
+        {
+          "id": "TOR-2018-P05",
+          "name": "샘 가비글리오",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 64,
+          "control": 75,
+          "stamina": 83,
+          "grade": "C"
+        },
+        {
+          "id": "TOR-2018-P06",
+          "name": "라이언 테페라",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 69,
+          "control": 65,
+          "stamina": 73,
+          "grade": "C"
+        },
+        {
+          "id": "TOR-2018-P07",
+          "name": "타일러 클리파드",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 70,
+          "control": 69,
+          "stamina": 72,
+          "grade": "B"
+        },
+        {
+          "id": "TOR-2018-P08",
+          "name": "오승환",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 70,
+          "control": 73,
+          "stamina": 75,
+          "grade": "B"
+        },
+        {
+          "id": "TOR-2018-P09",
+          "name": "팀 메이자",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 66,
+          "control": 61,
+          "stamina": 76,
+          "grade": "C"
+        },
+        {
+          "id": "TOR-2018-P10",
+          "name": "켄 자일스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 87,
+          "stamina": 52,
+          "grade": "B"
+        }
+      ]
+    },
+    "SEA": {
+      "id": "SEA",
+      "name": "시애틀 매리너스",
+      "shortName": "시애틀",
+      "city": "시애틀",
+      "primary": "#0c2c56",
+      "accent": "#005c5c",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "SEA-2018-H01",
+          "name": "디 고든",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 8,
+            "eye": 3,
+            "speed": 8
+          }
+        },
+        {
+          "id": "SEA-2018-H02",
+          "name": "진 세구라",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.303,
+            "homeRuns": 10,
+            "eye": 3,
+            "speed": 7
+          }
+        },
+        {
+          "id": "SEA-2018-H03",
+          "name": "로빈슨 카노",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.287,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "SEA-2018-H04",
+          "name": "넬슨 크루즈",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 39,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SEA-2018-H05",
+          "name": "미치 해니거",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.278,
+            "homeRuns": 27,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SEA-2018-H06",
+          "name": "카일 시거",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.222,
+            "homeRuns": 22,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SEA-2018-H07",
+          "name": "라이언 힐리",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 28,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "SEA-2018-H08",
+          "name": "디나드 스팬",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.263,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SEA-2018-H09",
+          "name": "마이크 주니노",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.204,
+            "homeRuns": 23,
+            "eye": 5,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SEA-2018-P01",
+          "name": "마이크 리크",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 58,
+          "movement": 70,
+          "control": 100,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "SEA-2018-P02",
+          "name": "마르코 곤잘레스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 72,
+          "control": 100,
+          "stamina": 86,
+          "grade": "A"
+        },
+        {
+          "id": "SEA-2018-P03",
+          "name": "제임스 팩스턴",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 85,
+          "movement": 74,
+          "control": 89,
+          "stamina": 85,
+          "grade": "A"
+        },
+        {
+          "id": "SEA-2018-P04",
+          "name": "펠릭스 에르난데스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 61,
+          "control": 71,
+          "stamina": 84,
+          "grade": "C"
+        },
+        {
+          "id": "SEA-2018-P05",
+          "name": "웨이드 르블랑",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 74,
+          "control": 91,
+          "stamina": 85,
+          "grade": "B"
+        },
+        {
+          "id": "SEA-2018-P06",
+          "name": "닉 빈센트",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 71,
+          "control": 81,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "SEA-2018-P07",
+          "name": "체이슨 브래드포드",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 67,
+          "movement": 72,
+          "control": 81,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "SEA-2018-P08",
+          "name": "로에니스 엘리아스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 67,
+          "movement": 75,
+          "control": 75,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "SEA-2018-P09",
+          "name": "제임스 파조스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 75,
+          "control": 77,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "SEA-2018-P10",
+          "name": "에드윈 디아즈",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 100,
+          "movement": 90,
+          "control": 95,
+          "stamina": 55,
+          "grade": "S"
+        }
+      ]
+    },
+    "COL": {
+      "id": "COL",
+      "name": "콜로라도 로키스",
+      "shortName": "콜로라도",
+      "city": "덴버",
+      "primary": "#33006f",
+      "accent": "#c4ced4",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "COL-2018-H01",
+          "name": "찰리 블랙몬",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.291,
+            "homeRuns": 29,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "COL-2018-H02",
+          "name": "DJ 르메이휴",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.262,
+            "homeRuns": 17,
+            "eye": 4,
+            "speed": 4
+          }
+        },
+        {
+          "id": "COL-2018-H03",
+          "name": "놀란 아레나도",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.285,
+            "homeRuns": 40,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "COL-2018-H04",
+          "name": "트레버 스토리",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.29,
+            "homeRuns": 37,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "COL-2018-H05",
+          "name": "카를로스 곤잘레스",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.266,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "COL-2018-H06",
+          "name": "데이비드 달",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 20,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "COL-2018-H07",
+          "name": "이안 데스몬드",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.236,
+            "homeRuns": 22,
+            "eye": 6,
+            "speed": 7
+          }
+        },
+        {
+          "id": "COL-2018-H08",
+          "name": "헤라르도 파라",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.272,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "COL-2018-H09",
+          "name": "크리스 아이아네타",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.207,
+            "homeRuns": 17,
+            "eye": 9,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "COL-2018-P01",
+          "name": "카일 프리랜드",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 82,
+          "control": 75,
+          "stamina": 92,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2018-P02",
+          "name": "헤르만 마르케스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 75,
+          "control": 85,
+          "stamina": 91,
+          "grade": "A"
+        },
+        {
+          "id": "COL-2018-P03",
+          "name": "타일러 앤더슨",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 69,
+          "control": 77,
+          "stamina": 88,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2018-P04",
+          "name": "존 그레이",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 64,
+          "control": 81,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2018-P05",
+          "name": "채드 베티스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 60,
+          "movement": 66,
+          "control": 67,
+          "stamina": 80,
+          "grade": "C"
+        },
+        {
+          "id": "COL-2018-P06",
+          "name": "애덤 오타비노",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 86,
+          "movement": 79,
+          "control": 55,
+          "stamina": 68,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2018-P07",
+          "name": "스콧 오버그",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 74,
+          "control": 81,
+          "stamina": 68,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2018-P08",
+          "name": "브라이언 쇼",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 60,
+          "control": 53,
+          "stamina": 68,
+          "grade": "C"
+        },
+        {
+          "id": "COL-2018-P09",
+          "name": "크리스 러신",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 59,
+          "control": 57,
+          "stamina": 68,
+          "grade": "C"
+        },
+        {
+          "id": "COL-2018-P10",
+          "name": "웨이드 데이비스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 83,
+          "movement": 72,
+          "control": 65,
+          "stamina": 52,
+          "grade": "B"
+        }
+      ]
+    },
+    "CLE": {
+      "id": "CLE",
+      "name": "클리블랜드 인디언스",
+      "shortName": "클리블랜드",
+      "city": "클리블랜드",
+      "primary": "#0c2340",
+      "accent": "#e31937",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "CLE-2018-H01",
+          "name": "프란시스코 린도어",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.277,
+            "homeRuns": 38,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "CLE-2018-H02",
+          "name": "마이클 브랜틀리",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.296,
+            "homeRuns": 20,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CLE-2018-H03",
+          "name": "호세 라미레즈",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.268,
+            "homeRuns": 42,
+            "eye": 9,
+            "speed": 9
+          }
+        },
+        {
+          "id": "CLE-2018-H04",
+          "name": "에드윈 엔카나시온",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 35,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CLE-2018-H05",
+          "name": "욘더 알론소",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 23,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CLE-2018-H06",
+          "name": "멜키 카브레라",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.26,
+            "homeRuns": 15,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "CLE-2018-H07",
+          "name": "제이슨 킵니스",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.234,
+            "homeRuns": 19,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CLE-2018-H08",
+          "name": "얀 곰스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CLE-2018-H09",
+          "name": "그렉 앨런",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 6,
+            "eye": 5,
+            "speed": 7
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "CLE-2018-P01",
+          "name": "코리 클루버",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 81,
+          "control": 100,
+          "stamina": 96,
+          "grade": "S"
+        },
+        {
+          "id": "CLE-2018-P02",
+          "name": "마이크 클레빈저",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 80,
+          "control": 77,
+          "stamina": 92,
+          "grade": "B"
+        },
+        {
+          "id": "CLE-2018-P03",
+          "name": "카를로스 카라스코",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 78,
+          "control": 97,
+          "stamina": 90,
+          "grade": "S"
+        },
+        {
+          "id": "CLE-2018-P04",
+          "name": "트레버 바우어",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 84,
+          "movement": 85,
+          "control": 79,
+          "stamina": 89,
+          "grade": "A"
+        },
+        {
+          "id": "CLE-2018-P05",
+          "name": "셰인 비버",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 66,
+          "control": 99,
+          "stamina": 86,
+          "grade": "A"
+        },
+        {
+          "id": "CLE-2018-P06",
+          "name": "댄 오테로",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 66,
+          "movement": 64,
+          "control": 100,
+          "stamina": 62,
+          "grade": "B"
+        },
+        {
+          "id": "CLE-2018-P07",
+          "name": "닐 라미레즈",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 67,
+          "control": 69,
+          "stamina": 61,
+          "grade": "B"
+        },
+        {
+          "id": "CLE-2018-P08",
+          "name": "잭 맥앨리스터",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 66,
+          "control": 85,
+          "stamina": 61,
+          "grade": "B"
+        },
+        {
+          "id": "CLE-2018-P09",
+          "name": "앤드루 밀러",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 68,
+          "control": 67,
+          "stamina": 60,
+          "grade": "B"
+        },
+        {
+          "id": "CLE-2018-P10",
+          "name": "코디 앨런",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 87,
+          "movement": 73,
+          "control": 49,
+          "stamina": 62,
+          "grade": "C"
+        }
+      ]
+    }
+  }
+}

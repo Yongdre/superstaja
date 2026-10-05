@@ -1,0 +1,7477 @@
+{
+  "schemaVersion": 1,
+  "label": "2010 MLB · 사용자 입력 성적 기준 · 30팀",
+  "sourceSeason": 2010,
+  "teams": {
+    "BOS": {
+      "id": "BOS",
+      "name": "보스턴 레드삭스",
+      "shortName": "보스턴",
+      "city": "보스턴",
+      "primary": "#bd3039",
+      "accent": "#0c2340",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "BOS-2010-H01",
+          "name": "마르코 스쿠타로",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.266,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "BOS-2010-H02",
+          "name": "케빈 유킬리스",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.275,
+            "homeRuns": 19,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "BOS-2010-H03",
+          "name": "아드리안 벨트레",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.321,
+            "homeRuns": 28,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "BOS-2010-H04",
+          "name": "데이비드 오티즈",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.27,
+            "homeRuns": 32,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "BOS-2010-H05",
+          "name": "더스틴 페드로이아",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.287,
+            "homeRuns": 12,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "BOS-2010-H06",
+          "name": "빅토르 마르티네스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 20,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "BOS-2010-H07",
+          "name": "J. D. 드루",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.248,
+            "homeRuns": 22,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "BOS-2010-H08",
+          "name": "빌 홀",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.234,
+            "homeRuns": 18,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "BOS-2010-H09",
+          "name": "다넬 맥도널드",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 8
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "BOS-2010-P01",
+          "name": "존 래키",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 68,
+          "control": 75,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2010-P02",
+          "name": "존 레스터",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 84,
+          "movement": 77,
+          "control": 63,
+          "stamina": 98,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2010-P03",
+          "name": "클레이 벅홀츠",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 84,
+          "control": 65,
+          "stamina": 90,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2010-P04",
+          "name": "마쓰자카 다이스케",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 65,
+          "control": 49,
+          "stamina": 84,
+          "grade": "C"
+        },
+        {
+          "id": "BOS-2010-P05",
+          "name": "조시 베켓",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 57,
+          "control": 71,
+          "stamina": 77,
+          "grade": "C"
+        },
+        {
+          "id": "BOS-2010-P06",
+          "name": "대니얼 바드",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 87,
+          "control": 63,
+          "stamina": 75,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2010-P07",
+          "name": "오카지마 히데키",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 67,
+          "control": 57,
+          "stamina": 59,
+          "grade": "C"
+        },
+        {
+          "id": "BOS-2010-P08",
+          "name": "매니 델카멘",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 65,
+          "control": 21,
+          "stamina": 57,
+          "grade": "D"
+        },
+        {
+          "id": "BOS-2010-P09",
+          "name": "라몬 라미레스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 67,
+          "control": 67,
+          "stamina": 56,
+          "grade": "C"
+        },
+        {
+          "id": "BOS-2010-P10",
+          "name": "조너선 파펠본",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 87,
+          "movement": 72,
+          "control": 59,
+          "stamina": 59,
+          "grade": "B"
+        }
+      ]
+    },
+    "BAL": {
+      "id": "BAL",
+      "name": "볼티모어 오리올스",
+      "shortName": "볼티모어",
+      "city": "볼티모어",
+      "primary": "#df4601",
+      "accent": "#000000",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "BAL-2010-H01",
+          "name": "닉 마케이키스",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.297,
+            "homeRuns": 12,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "BAL-2010-H02",
+          "name": "애덤 존스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.284,
+            "homeRuns": 19,
+            "eye": 3,
+            "speed": 4
+          }
+        },
+        {
+          "id": "BAL-2010-H03",
+          "name": "타이 위긴턴",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.241,
+            "homeRuns": 22,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "BAL-2010-H04",
+          "name": "루크 스캇",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.284,
+            "homeRuns": 27,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "BAL-2010-H05",
+          "name": "코리 패터슨",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 8,
+            "eye": 4,
+            "speed": 8
+          }
+        },
+        {
+          "id": "BAL-2010-H06",
+          "name": "맷 위터스",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "BAL-2010-H07",
+          "name": "미겔 테하다",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 7,
+            "eye": 3,
+            "speed": 1
+          }
+        },
+        {
+          "id": "BAL-2010-H08",
+          "name": "훌리오 루고",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 0,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "BAL-2010-H09",
+          "name": "세사르 이스투리스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.23,
+            "homeRuns": 1,
+            "eye": 4,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "BAL-2010-P01",
+          "name": "제러미 거스리",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 72,
+          "control": 93,
+          "stamina": 98,
+          "grade": "B"
+        },
+        {
+          "id": "BAL-2010-P02",
+          "name": "브라이언 마투스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 68,
+          "control": 71,
+          "stamina": 90,
+          "grade": "B"
+        },
+        {
+          "id": "BAL-2010-P03",
+          "name": "케빈 밀우드",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 62,
+          "control": 73,
+          "stamina": 94,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2010-P04",
+          "name": "브래드 버지슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 57,
+          "movement": 63,
+          "control": 81,
+          "stamina": 88,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2010-P05",
+          "name": "제이크 아리에타",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 59,
+          "movement": 66,
+          "control": 49,
+          "stamina": 68,
+          "grade": "D"
+        },
+        {
+          "id": "BAL-2010-P06",
+          "name": "맷 앨버스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 65,
+          "movement": 67,
+          "control": 55,
+          "stamina": 77,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2010-P07",
+          "name": "마크 헨드릭슨",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 61,
+          "control": 87,
+          "stamina": 77,
+          "grade": "B"
+        },
+        {
+          "id": "BAL-2010-P08",
+          "name": "윌 오먼",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 76,
+          "control": 27,
+          "stamina": 48,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2010-P09",
+          "name": "우에하라 고지",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 92,
+          "movement": 80,
+          "control": 100,
+          "stamina": 58,
+          "grade": "S"
+        },
+        {
+          "id": "BAL-2010-P10",
+          "name": "알프레도 시몬",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 70,
+          "movement": 63,
+          "control": 55,
+          "stamina": 51,
+          "grade": "C"
+        }
+      ]
+    },
+    "HOU": {
+      "id": "HOU",
+      "name": "휴스턴 애스트로스",
+      "shortName": "휴스턴",
+      "city": "휴스턴",
+      "primary": "#002d62",
+      "accent": "#eb6e1f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "HOU-2010-H01",
+          "name": "마이클 본",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.265,
+            "homeRuns": 2,
+            "eye": 6,
+            "speed": 10
+          }
+        },
+        {
+          "id": "HOU-2010-H02",
+          "name": "크리스 존슨",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.268,
+            "homeRuns": 11,
+            "eye": 2,
+            "speed": 2
+          }
+        },
+        {
+          "id": "HOU-2010-H03",
+          "name": "랜스 버크먼",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.238,
+            "homeRuns": 13,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "HOU-2010-H04",
+          "name": "헌터 펜스",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.282,
+            "homeRuns": 25,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "HOU-2010-H05",
+          "name": "제프 케핀저",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.27,
+            "homeRuns": 6,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "HOU-2010-H06",
+          "name": "카를로스 리",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.242,
+            "homeRuns": 24,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "HOU-2010-H07",
+          "name": "움베르토 킨테로",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.216,
+            "homeRuns": 4,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "HOU-2010-H08",
+          "name": "페드로 펠리스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.221,
+            "homeRuns": 4,
+            "eye": 2,
+            "speed": 1
+          }
+        },
+        {
+          "id": "HOU-2010-H09",
+          "name": "토미 만젤라",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 1,
+            "eye": 4,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "HOU-2010-P01",
+          "name": "브렛 마이어스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 78,
+          "control": 81,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "HOU-2010-P02",
+          "name": "완디 로드리게스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 74,
+          "control": 73,
+          "stamina": 99,
+          "grade": "B"
+        },
+        {
+          "id": "HOU-2010-P03",
+          "name": "버드 노리스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 63,
+          "control": 45,
+          "stamina": 88,
+          "grade": "C"
+        },
+        {
+          "id": "HOU-2010-P04",
+          "name": "로이 오스왈트",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 78,
+          "movement": 75,
+          "control": 87,
+          "stamina": 81,
+          "grade": "A"
+        },
+        {
+          "id": "HOU-2010-P05",
+          "name": "펠리페 파울리노",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 62,
+          "control": 45,
+          "stamina": 68,
+          "grade": "C"
+        },
+        {
+          "id": "HOU-2010-P06",
+          "name": "브랜던 라이언",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 67,
+          "movement": 78,
+          "control": 63,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "HOU-2010-P07",
+          "name": "윌튼 로페즈",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 79,
+          "control": 100,
+          "stamina": 69,
+          "grade": "A"
+        },
+        {
+          "id": "HOU-2010-P08",
+          "name": "팀 버닥",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 75,
+          "control": 41,
+          "stamina": 53,
+          "grade": "C"
+        },
+        {
+          "id": "HOU-2010-P09",
+          "name": "제프 풀치노",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 80,
+          "movement": 59,
+          "control": 51,
+          "stamina": 58,
+          "grade": "C"
+        },
+        {
+          "id": "HOU-2010-P10",
+          "name": "맷 린드스트롬",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 72,
+          "movement": 68,
+          "control": 67,
+          "stamina": 52,
+          "grade": "C"
+        }
+      ]
+    },
+    "SEA": {
+      "id": "SEA",
+      "name": "시애틀 매리너스",
+      "shortName": "시애틀",
+      "city": "시애틀",
+      "primary": "#0c2c56",
+      "accent": "#005c5c",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "SEA-2010-H01",
+          "name": "스즈키 이치로",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.315,
+            "homeRuns": 6,
+            "eye": 4,
+            "speed": 9
+          }
+        },
+        {
+          "id": "SEA-2010-H02",
+          "name": "프랭클린 구티에레스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.245,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "SEA-2010-H03",
+          "name": "마이클 샌더스",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.198,
+            "homeRuns": 10,
+            "eye": 7,
+            "speed": 7
+          }
+        },
+        {
+          "id": "SEA-2010-H04",
+          "name": "러셀 브래니언",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.219,
+            "homeRuns": 15,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SEA-2010-H05",
+          "name": "숀 피긴스",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.259,
+            "homeRuns": 1,
+            "eye": 7,
+            "speed": 9
+          }
+        },
+        {
+          "id": "SEA-2010-H06",
+          "name": "케이시 코치먼",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.22,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "SEA-2010-H07",
+          "name": "호세 셀레스티노 로페스",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.238,
+            "homeRuns": 10,
+            "eye": 3,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SEA-2010-H08",
+          "name": "조시 윌슨",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.232,
+            "homeRuns": 2,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "SEA-2010-H09",
+          "name": "애덤 무어",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.201,
+            "homeRuns": 4,
+            "eye": 5,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SEA-2010-P01",
+          "name": "펠릭스 에르난데스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 78,
+          "movement": 85,
+          "control": 85,
+          "stamina": 100,
+          "grade": "A"
+        },
+        {
+          "id": "SEA-2010-P02",
+          "name": "제이슨 바르가스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 73,
+          "control": 85,
+          "stamina": 98,
+          "grade": "B"
+        },
+        {
+          "id": "SEA-2010-P03",
+          "name": "더그 피스터",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 60,
+          "movement": 70,
+          "control": 100,
+          "stamina": 92,
+          "grade": "B"
+        },
+        {
+          "id": "SEA-2010-P04",
+          "name": "라이언 롤런드스미스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 56,
+          "movement": 49,
+          "control": 63,
+          "stamina": 74,
+          "grade": "D"
+        },
+        {
+          "id": "SEA-2010-P05",
+          "name": "데이비드 폴리",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 70,
+          "control": 75,
+          "stamina": 67,
+          "grade": "C"
+        },
+        {
+          "id": "SEA-2010-P06",
+          "name": "브랜든 리그",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 75,
+          "control": 73,
+          "stamina": 82,
+          "grade": "B"
+        },
+        {
+          "id": "SEA-2010-P07",
+          "name": "션 화이트",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 55,
+          "movement": 61,
+          "control": 77,
+          "stamina": 54,
+          "grade": "C"
+        },
+        {
+          "id": "SEA-2010-P08",
+          "name": "개릿 올슨",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 67,
+          "control": 63,
+          "stamina": 56,
+          "grade": "C"
+        },
+        {
+          "id": "SEA-2010-P09",
+          "name": "제이미 라이트",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 59,
+          "movement": 76,
+          "control": 57,
+          "stamina": 56,
+          "grade": "C"
+        },
+        {
+          "id": "SEA-2010-P10",
+          "name": "데이비드 아즈마",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 80,
+          "movement": 75,
+          "control": 45,
+          "stamina": 53,
+          "grade": "C"
+        }
+      ]
+    },
+    "TB": {
+      "id": "TB",
+      "name": "탬파베이 레이스",
+      "shortName": "탬파베이",
+      "city": "세인트피터즈버그",
+      "primary": "#092c5c",
+      "accent": "#8fbce6",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "TB-2010-H01",
+          "name": "벤 조브리스트",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 10,
+            "eye": 9,
+            "speed": 8
+          }
+        },
+        {
+          "id": "TB-2010-H02",
+          "name": "칼 크로퍼드",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.307,
+            "homeRuns": 19,
+            "eye": 4,
+            "speed": 10
+          }
+        },
+        {
+          "id": "TB-2010-H03",
+          "name": "존 제이소",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.232,
+            "homeRuns": 5,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "TB-2010-H04",
+          "name": "에번 롱고리아",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.294,
+            "homeRuns": 22,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TB-2010-H05",
+          "name": "멜빈 업턴 주니어",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 18,
+            "eye": 7,
+            "speed": 9
+          }
+        },
+        {
+          "id": "TB-2010-H06",
+          "name": "카를로스 페냐",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.196,
+            "homeRuns": 28,
+            "eye": 10,
+            "speed": 3
+          }
+        },
+        {
+          "id": "TB-2010-H07",
+          "name": "션 로드리게스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TB-2010-H08",
+          "name": "제이슨 바틀릿",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 4,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TB-2010-H09",
+          "name": "윌리 아이바",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.218,
+            "homeRuns": 6,
+            "eye": 8,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "TB-2010-P01",
+          "name": "제임스 실즈",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 61,
+          "control": 89,
+          "stamina": 93,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2010-P02",
+          "name": "맷 가자",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 72,
+          "control": 79,
+          "stamina": 94,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2010-P03",
+          "name": "데이비드 프라이스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 81,
+          "control": 67,
+          "stamina": 94,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2010-P04",
+          "name": "제프 니먼",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 68,
+          "control": 73,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2010-P05",
+          "name": "웨이드 데이비스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 70,
+          "control": 69,
+          "stamina": 85,
+          "grade": "C"
+        },
+        {
+          "id": "TB-2010-P06",
+          "name": "랜디 초트",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 69,
+          "control": 67,
+          "stamina": 57,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2010-P07",
+          "name": "댄 휠러",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 76,
+          "control": 75,
+          "stamina": 59,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2010-P08",
+          "name": "호아킨 베노아",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 92,
+          "movement": 92,
+          "control": 100,
+          "stamina": 66,
+          "grade": "S"
+        },
+        {
+          "id": "TB-2010-P09",
+          "name": "랜스 코미어",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 57,
+          "movement": 71,
+          "control": 37,
+          "stamina": 67,
+          "grade": "D"
+        },
+        {
+          "id": "TB-2010-P10",
+          "name": "라파엘 소리아노",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 77,
+          "movement": 89,
+          "control": 95,
+          "stamina": 56,
+          "grade": "S"
+        }
+      ]
+    },
+    "CWS": {
+      "id": "CWS",
+      "name": "시카고 화이트삭스",
+      "shortName": "화이트삭스",
+      "city": "시카고",
+      "primary": "#27251f",
+      "accent": "#c4ced4",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "CWS-2010-H01",
+          "name": "후안 피에르",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.275,
+            "homeRuns": 1,
+            "eye": 5,
+            "speed": 10
+          }
+        },
+        {
+          "id": "CWS-2010-H02",
+          "name": "카를로스 쿠엔틴",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.238,
+            "homeRuns": 26,
+            "eye": 9,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CWS-2010-H03",
+          "name": "알렉스 리오스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.284,
+            "homeRuns": 21,
+            "eye": 4,
+            "speed": 8
+          }
+        },
+        {
+          "id": "CWS-2010-H04",
+          "name": "폴 코너코",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.312,
+            "homeRuns": 39,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CWS-2010-H05",
+          "name": "알렉세이 라미레즈",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.282,
+            "homeRuns": 18,
+            "eye": 3,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CWS-2010-H06",
+          "name": "고든 베컴",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CWS-2010-H07",
+          "name": "A. J. 피어진스키",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.27,
+            "homeRuns": 9,
+            "eye": 3,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CWS-2010-H08",
+          "name": "마크 캇세이",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.242,
+            "homeRuns": 8,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CWS-2010-H09",
+          "name": "오마 비스켈",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 2,
+            "eye": 5,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "CWS-2010-P01",
+          "name": "마크 벌리",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 57,
+          "movement": 69,
+          "control": 93,
+          "stamina": 98,
+          "grade": "B"
+        },
+        {
+          "id": "CWS-2010-P02",
+          "name": "존 댕크스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 73,
+          "control": 75,
+          "stamina": 99,
+          "grade": "B"
+        },
+        {
+          "id": "CWS-2010-P03",
+          "name": "개빈 플로이드",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 70,
+          "control": 79,
+          "stamina": 93,
+          "grade": "B"
+        },
+        {
+          "id": "CWS-2010-P04",
+          "name": "프레디 가르시아",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 66,
+          "control": 83,
+          "stamina": 85,
+          "grade": "B"
+        },
+        {
+          "id": "CWS-2010-P05",
+          "name": "제이크 피비",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 66,
+          "control": 77,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "CWS-2010-P06",
+          "name": "맷 손턴",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 96,
+          "movement": 81,
+          "control": 75,
+          "stamina": 67,
+          "grade": "A"
+        },
+        {
+          "id": "CWS-2010-P07",
+          "name": "J. J. 퍼츠",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 90,
+          "movement": 80,
+          "control": 85,
+          "stamina": 63,
+          "grade": "S"
+        },
+        {
+          "id": "CWS-2010-P08",
+          "name": "세르히오 산토스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 85,
+          "movement": 79,
+          "control": 45,
+          "stamina": 62,
+          "grade": "C"
+        },
+        {
+          "id": "CWS-2010-P09",
+          "name": "스콧 라인브링크",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 68,
+          "control": 81,
+          "stamina": 65,
+          "grade": "B"
+        },
+        {
+          "id": "CWS-2010-P10",
+          "name": "보비 젱크스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 88,
+          "movement": 67,
+          "control": 73,
+          "stamina": 52,
+          "grade": "B"
+        }
+      ]
+    },
+    "NYY": {
+      "id": "NYY",
+      "name": "뉴욕 양키스",
+      "shortName": "양키스",
+      "city": "뉴욕",
+      "primary": "#0c2340",
+      "accent": "#ffffff",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "NYY-2010-H01",
+          "name": "브렛 가드너",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 5,
+            "eye": 9,
+            "speed": 10
+          }
+        },
+        {
+          "id": "NYY-2010-H02",
+          "name": "닉 스위셔",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.278,
+            "homeRuns": 29,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NYY-2010-H03",
+          "name": "앨릭스 로드리게스",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 30,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "NYY-2010-H04",
+          "name": "로빈슨 카노",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.319,
+            "homeRuns": 29,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYY-2010-H05",
+          "name": "마크 테세이라",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.256,
+            "homeRuns": 33,
+            "eye": 9,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NYY-2010-H06",
+          "name": "마커스 팀스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 12,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NYY-2010-H07",
+          "name": "호르헤 포사다",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.256,
+            "homeRuns": 18,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYY-2010-H08",
+          "name": "커티스 그랜더슨",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.247,
+            "homeRuns": 24,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "NYY-2010-H09",
+          "name": "데릭 지터",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.27,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "NYY-2010-P01",
+          "name": "CC 사바시아",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 77,
+          "control": 79,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "NYY-2010-P02",
+          "name": "A. J. 버넷",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 61,
+          "control": 59,
+          "stamina": 92,
+          "grade": "C"
+        },
+        {
+          "id": "NYY-2010-P03",
+          "name": "필 휴스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 69,
+          "control": 75,
+          "stamina": 90,
+          "grade": "B"
+        },
+        {
+          "id": "NYY-2010-P04",
+          "name": "하비에르 바스케스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 60,
+          "control": 61,
+          "stamina": 85,
+          "grade": "C"
+        },
+        {
+          "id": "NYY-2010-P05",
+          "name": "앤디 페티트",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 77,
+          "control": 77,
+          "stamina": 76,
+          "grade": "B"
+        },
+        {
+          "id": "NYY-2010-P06",
+          "name": "조바 체임벌린",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 84,
+          "movement": 68,
+          "control": 79,
+          "stamina": 77,
+          "grade": "B"
+        },
+        {
+          "id": "NYY-2010-P07",
+          "name": "데이비드 로버트슨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 88,
+          "movement": 72,
+          "control": 39,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "NYY-2010-P08",
+          "name": "분 로건",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 79,
+          "control": 45,
+          "stamina": 57,
+          "grade": "C"
+        },
+        {
+          "id": "NYY-2010-P09",
+          "name": "다마소 마르테",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 66,
+          "movement": 70,
+          "control": 23,
+          "stamina": 38,
+          "grade": "D"
+        },
+        {
+          "id": "NYY-2010-P10",
+          "name": "마리아노 리베라",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 70,
+          "movement": 88,
+          "control": 100,
+          "stamina": 57,
+          "grade": "S"
+        }
+      ]
+    },
+    "LAA": {
+      "id": "LAA",
+      "name": "LA 에인절스",
+      "shortName": "에인절스",
+      "city": "애너하임",
+      "primary": "#ba0021",
+      "accent": "#003263",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "LAA-2010-H01",
+          "name": "보비 아브레우",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 20,
+            "eye": 8,
+            "speed": 7
+          }
+        },
+        {
+          "id": "LAA-2010-H02",
+          "name": "마쓰이 히데키",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.274,
+            "homeRuns": 21,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "LAA-2010-H03",
+          "name": "토리 헌터",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.262,
+            "homeRuns": 23,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "LAA-2010-H04",
+          "name": "마이크 나폴리",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 26,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "LAA-2010-H05",
+          "name": "후안 리베라",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 15,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAA-2010-H06",
+          "name": "하위 켄드릭",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.279,
+            "homeRuns": 10,
+            "eye": 3,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LAA-2010-H07",
+          "name": "에릭 아이바",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 5,
+            "eye": 4,
+            "speed": 7
+          }
+        },
+        {
+          "id": "LAA-2010-H08",
+          "name": "제프 매티스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.209,
+            "homeRuns": 3,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAA-2010-H09",
+          "name": "브랜던 우드",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.221,
+            "homeRuns": 4,
+            "eye": 4,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "LAA-2010-P01",
+          "name": "제레드 위버",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 79,
+          "control": 91,
+          "stamina": 100,
+          "grade": "A"
+        },
+        {
+          "id": "LAA-2010-P02",
+          "name": "어빈 산타나",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 71,
+          "control": 75,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "LAA-2010-P03",
+          "name": "스캇 카즈미어",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 64,
+          "movement": 55,
+          "control": 41,
+          "stamina": 84,
+          "grade": "D"
+        },
+        {
+          "id": "LAA-2010-P04",
+          "name": "조엘 피네이로",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 72,
+          "control": 95,
+          "stamina": 84,
+          "grade": "B"
+        },
+        {
+          "id": "LAA-2010-P05",
+          "name": "조 손더스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 60,
+          "movement": 66,
+          "control": 67,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "LAA-2010-P06",
+          "name": "페르난도 로드니",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 69,
+          "control": 43,
+          "stamina": 73,
+          "grade": "C"
+        },
+        {
+          "id": "LAA-2010-P07",
+          "name": "케빈 젭슨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 71,
+          "control": 47,
+          "stamina": 68,
+          "grade": "C"
+        },
+        {
+          "id": "LAA-2010-P08",
+          "name": "프란시스코 로드리게스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 68,
+          "control": 37,
+          "stamina": 61,
+          "grade": "D"
+        },
+        {
+          "id": "LAA-2010-P09",
+          "name": "스콧 실즈",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 61,
+          "control": 1,
+          "stamina": 59,
+          "grade": "D"
+        },
+        {
+          "id": "LAA-2010-P10",
+          "name": "브라이언 푸엔테스",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 82,
+          "movement": 75,
+          "control": 51,
+          "stamina": 45,
+          "grade": "C"
+        }
+      ]
+    },
+    "ARI": {
+      "id": "ARI",
+      "name": "애리조나 다이아몬드백스",
+      "shortName": "애리조나",
+      "city": "피닉스",
+      "primary": "#a71930",
+      "accent": "#e3d4ad",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "ARI-2010-H01",
+          "name": "저스틴 업턴",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 17,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "ARI-2010-H02",
+          "name": "스티븐 드루",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.278,
+            "homeRuns": 15,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "ARI-2010-H03",
+          "name": "크리스 영",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.257,
+            "homeRuns": 27,
+            "eye": 7,
+            "speed": 8
+          }
+        },
+        {
+          "id": "ARI-2010-H04",
+          "name": "켈리 존슨",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.284,
+            "homeRuns": 26,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "ARI-2010-H05",
+          "name": "애덤 라로시",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ARI-2010-H06",
+          "name": "크리스 스나이더",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.231,
+            "homeRuns": 10,
+            "eye": 10,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ARI-2010-H07",
+          "name": "미겔 몬테로",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 9,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ARI-2010-H08",
+          "name": "마크 레이놀즈",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.198,
+            "homeRuns": 32,
+            "eye": 10,
+            "speed": 4
+          }
+        },
+        {
+          "id": "ARI-2010-H09",
+          "name": "헤라르도 파라",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 3,
+            "eye": 5,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "ARI-2010-P01",
+          "name": "로드리고 로페스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 63,
+          "control": 85,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "ARI-2010-P02",
+          "name": "이언 케네디",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 72,
+          "control": 71,
+          "stamina": 99,
+          "grade": "B"
+        },
+        {
+          "id": "ARI-2010-P03",
+          "name": "대니 하렌",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 66,
+          "control": 97,
+          "stamina": 85,
+          "grade": "A"
+        },
+        {
+          "id": "ARI-2010-P04",
+          "name": "에드윈 잭슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 62,
+          "control": 55,
+          "stamina": 83,
+          "grade": "C"
+        },
+        {
+          "id": "ARI-2010-P05",
+          "name": "배리 엔라이트",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 58,
+          "movement": 72,
+          "control": 83,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "ARI-2010-P06",
+          "name": "에런 힐먼",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 67,
+          "control": 71,
+          "stamina": 74,
+          "grade": "C"
+        },
+        {
+          "id": "ARI-2010-P07",
+          "name": "에스메를링 바스케스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 61,
+          "control": 7,
+          "stamina": 64,
+          "grade": "D"
+        },
+        {
+          "id": "ARI-2010-P08",
+          "name": "블레인 보이어",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 59,
+          "movement": 69,
+          "control": 43,
+          "stamina": 66,
+          "grade": "D"
+        },
+        {
+          "id": "ARI-2010-P09",
+          "name": "채드 퀄스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 37,
+          "control": 65,
+          "stamina": 54,
+          "grade": "D"
+        },
+        {
+          "id": "ARI-2010-P10",
+          "name": "후안 구티에레스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 73,
+          "movement": 62,
+          "control": 63,
+          "stamina": 54,
+          "grade": "C"
+        }
+      ]
+    },
+    "OAK": {
+      "id": "OAK",
+      "name": "오클랜드 애슬레틱스",
+      "shortName": "오클랜드",
+      "city": "오클랜드",
+      "primary": "#003831",
+      "accent": "#efb21e",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "OAK-2010-H01",
+          "name": "라제이 데이비스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.282,
+            "homeRuns": 5,
+            "eye": 4,
+            "speed": 10
+          }
+        },
+        {
+          "id": "OAK-2010-H02",
+          "name": "다릭 바튼",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 10,
+            "eye": 10,
+            "speed": 4
+          }
+        },
+        {
+          "id": "OAK-2010-H03",
+          "name": "마크 엘리스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.285,
+            "homeRuns": 5,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "OAK-2010-H04",
+          "name": "잭 커스트",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.263,
+            "homeRuns": 13,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "OAK-2010-H05",
+          "name": "라이언 스위니",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.257,
+            "homeRuns": 1,
+            "eye": 4,
+            "speed": 5
+          }
+        },
+        {
+          "id": "OAK-2010-H06",
+          "name": "클리프 페닝턴",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 6,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "OAK-2010-H07",
+          "name": "케빈 쿠즈마노프",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.241,
+            "homeRuns": 16,
+            "eye": 3,
+            "speed": 2
+          }
+        },
+        {
+          "id": "OAK-2010-H08",
+          "name": "커트 스즈키",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 13,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "OAK-2010-H09",
+          "name": "에릭 패터슨",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.199,
+            "homeRuns": 4,
+            "eye": 7,
+            "speed": 5
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "OAK-2010-P01",
+          "name": "지오 곤살레스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 74,
+          "movement": 77,
+          "control": 53,
+          "stamina": 99,
+          "grade": "C"
+        },
+        {
+          "id": "OAK-2010-P02",
+          "name": "트레버 케이힐",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 79,
+          "control": 77,
+          "stamina": 98,
+          "grade": "B"
+        },
+        {
+          "id": "OAK-2010-P03",
+          "name": "댈러스 브레이든",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 75,
+          "control": 95,
+          "stamina": 97,
+          "grade": "B"
+        },
+        {
+          "id": "OAK-2010-P04",
+          "name": "벤 시츠",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 67,
+          "control": 71,
+          "stamina": 76,
+          "grade": "C"
+        },
+        {
+          "id": "OAK-2010-P05",
+          "name": "브렛 앤더슨",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 80,
+          "control": 99,
+          "stamina": 74,
+          "grade": "A"
+        },
+        {
+          "id": "OAK-2010-P06",
+          "name": "크레이그 브레솔로우",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 79,
+          "control": 65,
+          "stamina": 74,
+          "grade": "B"
+        },
+        {
+          "id": "OAK-2010-P07",
+          "name": "브래드 지글러",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 66,
+          "movement": 77,
+          "control": 51,
+          "stamina": 67,
+          "grade": "C"
+        },
+        {
+          "id": "OAK-2010-P08",
+          "name": "제리 블레빈스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 73,
+          "control": 69,
+          "stamina": 59,
+          "grade": "B"
+        },
+        {
+          "id": "OAK-2010-P09",
+          "name": "마이클 워츠",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 81,
+          "movement": 68,
+          "control": 39,
+          "stamina": 54,
+          "grade": "C"
+        },
+        {
+          "id": "OAK-2010-P10",
+          "name": "앤드루 베일리",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 74,
+          "movement": 91,
+          "control": 87,
+          "stamina": 50,
+          "grade": "A"
+        }
+      ]
+    },
+    "TOR": {
+      "id": "TOR",
+      "name": "토론토 블루제이스",
+      "shortName": "토론토",
+      "city": "토론토",
+      "primary": "#134a8e",
+      "accent": "#e8291c",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "TOR-2010-H01",
+          "name": "프레드 루이스",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.256,
+            "homeRuns": 8,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "TOR-2010-H02",
+          "name": "버넌 웰스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 31,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "TOR-2010-H03",
+          "name": "존 벅",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 20,
+            "eye": 3,
+            "speed": 1
+          }
+        },
+        {
+          "id": "TOR-2010-H04",
+          "name": "호세 바우티스타",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.26,
+            "homeRuns": 54,
+            "eye": 10,
+            "speed": 5
+          }
+        },
+        {
+          "id": "TOR-2010-H05",
+          "name": "알렉스 곤살레스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.266,
+            "homeRuns": 17,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "TOR-2010-H06",
+          "name": "에드윈 엥카르나시온",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.24,
+            "homeRuns": 21,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "TOR-2010-H07",
+          "name": "라일 오버베이",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 20,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "TOR-2010-H08",
+          "name": "애덤 린드",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.232,
+            "homeRuns": 23,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "TOR-2010-H09",
+          "name": "에런 힐",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.213,
+            "homeRuns": 26,
+            "eye": 5,
+            "speed": 5
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "TOR-2010-P01",
+          "name": "리키 로메로",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 73,
+          "control": 65,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "TOR-2010-P02",
+          "name": "숀 마컴",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 74,
+          "movement": 74,
+          "control": 95,
+          "stamina": 99,
+          "grade": "A"
+        },
+        {
+          "id": "TOR-2010-P03",
+          "name": "브렛 세실",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 69,
+          "control": 79,
+          "stamina": 93,
+          "grade": "B"
+        },
+        {
+          "id": "TOR-2010-P04",
+          "name": "브랜던 모로",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 90,
+          "movement": 67,
+          "control": 53,
+          "stamina": 85,
+          "grade": "B"
+        },
+        {
+          "id": "TOR-2010-P05",
+          "name": "마크 접친스키",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 63,
+          "control": 51,
+          "stamina": 56,
+          "grade": "C"
+        },
+        {
+          "id": "TOR-2010-P06",
+          "name": "숀 캠프",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 64,
+          "movement": 79,
+          "control": 91,
+          "stamina": 68,
+          "grade": "A"
+        },
+        {
+          "id": "TOR-2010-P07",
+          "name": "제이슨 프레이저",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 73,
+          "control": 59,
+          "stamina": 64,
+          "grade": "B"
+        },
+        {
+          "id": "TOR-2010-P08",
+          "name": "스콧 다운스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 82,
+          "control": 95,
+          "stamina": 63,
+          "grade": "A"
+        },
+        {
+          "id": "TOR-2010-P09",
+          "name": "케이시 얀센",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 73,
+          "control": 79,
+          "stamina": 66,
+          "grade": "B"
+        },
+        {
+          "id": "TOR-2010-P10",
+          "name": "케빈 그레그",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 80,
+          "movement": 75,
+          "control": 43,
+          "stamina": 54,
+          "grade": "C"
+        }
+      ]
+    },
+    "PIT": {
+      "id": "PIT",
+      "name": "피츠버그 파이리츠",
+      "shortName": "피츠버그",
+      "city": "피츠버그",
+      "primary": "#27251f",
+      "accent": "#fdb827",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "PIT-2010-H01",
+          "name": "앤드류 맥커친",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.286,
+            "homeRuns": 16,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "PIT-2010-H02",
+          "name": "닐 워커",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 12,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "PIT-2010-H03",
+          "name": "호세 타바타",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.288,
+            "homeRuns": 4,
+            "eye": 4,
+            "speed": 7
+          }
+        },
+        {
+          "id": "PIT-2010-H04",
+          "name": "페드로 알바레스",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.236,
+            "homeRuns": 16,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "PIT-2010-H05",
+          "name": "라이언 두밋",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.215,
+            "homeRuns": 13,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "PIT-2010-H06",
+          "name": "개릿 존스",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.239,
+            "homeRuns": 21,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "PIT-2010-H07",
+          "name": "래스팅스 밀리지",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.277,
+            "homeRuns": 4,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "PIT-2010-H08",
+          "name": "로니 세데뇨",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.248,
+            "homeRuns": 8,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "PIT-2010-H09",
+          "name": "라이언 처치",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.202,
+            "homeRuns": 3,
+            "eye": 5,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "PIT-2010-P01",
+          "name": "폴 마홈",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 62,
+          "control": 75,
+          "stamina": 100,
+          "grade": "C"
+        },
+        {
+          "id": "PIT-2010-P02",
+          "name": "잭 듀크",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 57,
+          "control": 77,
+          "stamina": 93,
+          "grade": "C"
+        },
+        {
+          "id": "PIT-2010-P03",
+          "name": "로스 올렌도프",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 70,
+          "control": 61,
+          "stamina": 77,
+          "grade": "C"
+        },
+        {
+          "id": "PIT-2010-P04",
+          "name": "제프 카스텐스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 63,
+          "control": 95,
+          "stamina": 82,
+          "grade": "B"
+        },
+        {
+          "id": "PIT-2010-P05",
+          "name": "찰리 모턴",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 42,
+          "control": 77,
+          "stamina": 66,
+          "grade": "C"
+        },
+        {
+          "id": "PIT-2010-P06",
+          "name": "조엘 핸라핸",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 100,
+          "movement": 74,
+          "control": 67,
+          "stamina": 76,
+          "grade": "A"
+        },
+        {
+          "id": "PIT-2010-P07",
+          "name": "에반 믹",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 75,
+          "movement": 86,
+          "control": 65,
+          "stamina": 81,
+          "grade": "B"
+        },
+        {
+          "id": "PIT-2010-P08",
+          "name": "하비에르 로페스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 61,
+          "movement": 81,
+          "control": 51,
+          "stamina": 56,
+          "grade": "C"
+        },
+        {
+          "id": "PIT-2010-P09",
+          "name": "D.J. 카라스코",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 63,
+          "stamina": 68,
+          "grade": "C"
+        },
+        {
+          "id": "PIT-2010-P10",
+          "name": "옥타비오 도텔",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 90,
+          "movement": 69,
+          "control": 59,
+          "stamina": 47,
+          "grade": "B"
+        }
+      ]
+    },
+    "CIN": {
+      "id": "CIN",
+      "name": "신시내티 레즈",
+      "shortName": "신시내티",
+      "city": "신시내티",
+      "primary": "#c6011f",
+      "accent": "#ffffff",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "CIN-2010-H01",
+          "name": "드류 스텁스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 22,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "CIN-2010-H02",
+          "name": "스콧 롤렌",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.285,
+            "homeRuns": 20,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CIN-2010-H03",
+          "name": "제이 브루스",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.281,
+            "homeRuns": 25,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CIN-2010-H04",
+          "name": "조이 보토",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.324,
+            "homeRuns": 37,
+            "eye": 8,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CIN-2010-H05",
+          "name": "라이언 해니건",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.3,
+            "homeRuns": 5,
+            "eye": 9,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CIN-2010-H06",
+          "name": "라몬 에르난데스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.292,
+            "homeRuns": 7,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CIN-2010-H07",
+          "name": "브랜든 필립스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.276,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CIN-2010-H08",
+          "name": "조니 고메스",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.265,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "CIN-2010-H09",
+          "name": "오를란도 카브레라",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.262,
+            "homeRuns": 4,
+            "eye": 4,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "CIN-2010-P01",
+          "name": "브론슨 아로요",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 72,
+          "control": 85,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2010-P02",
+          "name": "호니 쿠에토",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 74,
+          "control": 81,
+          "stamina": 97,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2010-P03",
+          "name": "마이크 리크",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 69,
+          "control": 71,
+          "stamina": 84,
+          "grade": "C"
+        },
+        {
+          "id": "CIN-2010-P04",
+          "name": "애런 하랑",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 60,
+          "control": 73,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "CIN-2010-P05",
+          "name": "호머 베일리",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 67,
+          "control": 69,
+          "stamina": 75,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2010-P06",
+          "name": "닉 마셋",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 86,
+          "movement": 76,
+          "control": 57,
+          "stamina": 75,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2010-P07",
+          "name": "아서 로즈",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 85,
+          "control": 75,
+          "stamina": 64,
+          "grade": "A"
+        },
+        {
+          "id": "CIN-2010-P08",
+          "name": "로건 온드루섹",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 66,
+          "movement": 73,
+          "control": 73,
+          "stamina": 66,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2010-P09",
+          "name": "조던 스미스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 64,
+          "movement": 72,
+          "control": 87,
+          "stamina": 56,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2010-P10",
+          "name": "프란시스코 코데로",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 45,
+          "stamina": 61,
+          "grade": "C"
+        }
+      ]
+    },
+    "LAD": {
+      "id": "LAD",
+      "name": "LA 다저스",
+      "shortName": "다저스",
+      "city": "로스앤젤레스",
+      "primary": "#005a9c",
+      "accent": "#ffffff",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "LAD-2010-H01",
+          "name": "안드레 이시어",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.292,
+            "homeRuns": 23,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAD-2010-H02",
+          "name": "매니 라미레스",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.271,
+            "homeRuns": 8,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LAD-2010-H03",
+          "name": "라파엘 퍼칼",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.289,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 9
+          }
+        },
+        {
+          "id": "LAD-2010-H04",
+          "name": "맷 켐프",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 28,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "LAD-2010-H05",
+          "name": "케이시 블레이크",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.24,
+            "homeRuns": 17,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "LAD-2010-H06",
+          "name": "제임스 로니",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.267,
+            "homeRuns": 10,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "LAD-2010-H07",
+          "name": "블레이크 드윗",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 1,
+            "eye": 7,
+            "speed": 3
+          }
+        },
+        {
+          "id": "LAD-2010-H08",
+          "name": "제이미 캐럴",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.291,
+            "homeRuns": 0,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LAD-2010-H09",
+          "name": "러셀 마틴",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.256,
+            "homeRuns": 5,
+            "eye": 8,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "LAD-2010-P01",
+          "name": "클레이튼 커쇼",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 80,
+          "control": 63,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "LAD-2010-P02",
+          "name": "구로다 히로키",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 76,
+          "control": 91,
+          "stamina": 99,
+          "grade": "A"
+        },
+        {
+          "id": "LAD-2010-P03",
+          "name": "채드 빌링슬리",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 74,
+          "control": 71,
+          "stamina": 98,
+          "grade": "B"
+        },
+        {
+          "id": "LAD-2010-P04",
+          "name": "존 엘리",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 59,
+          "control": 63,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "LAD-2010-P05",
+          "name": "비센테 파디야",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 70,
+          "control": 89,
+          "stamina": 69,
+          "grade": "A"
+        },
+        {
+          "id": "LAD-2010-P06",
+          "name": "조지 셰릴",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 67,
+          "movement": 49,
+          "control": 17,
+          "stamina": 54,
+          "grade": "D"
+        },
+        {
+          "id": "LAD-2010-P07",
+          "name": "로날드 벨리사리오",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 67,
+          "movement": 63,
+          "control": 73,
+          "stamina": 67,
+          "grade": "C"
+        },
+        {
+          "id": "LAD-2010-P08",
+          "name": "궈훙즈",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 90,
+          "movement": 93,
+          "control": 81,
+          "stamina": 69,
+          "grade": "S"
+        },
+        {
+          "id": "LAD-2010-P09",
+          "name": "라몬 트론코소",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 64,
+          "movement": 68,
+          "control": 75,
+          "stamina": 66,
+          "grade": "C"
+        },
+        {
+          "id": "LAD-2010-P10",
+          "name": "조너선 브록스턴",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 88,
+          "movement": 71,
+          "control": 55,
+          "stamina": 58,
+          "grade": "B"
+        }
+      ]
+    },
+    "TEX": {
+      "id": "TEX",
+      "name": "텍사스 레인저스",
+      "shortName": "텍사스",
+      "city": "알링턴",
+      "primary": "#003278",
+      "accent": "#c0111f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "TEX-2010-H01",
+          "name": "엘비스 앤드러스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.265,
+            "homeRuns": 0,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "TEX-2010-H02",
+          "name": "넬손 크루스",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.316,
+            "homeRuns": 22,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TEX-2010-H03",
+          "name": "블라디미르 게레로",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.3,
+            "homeRuns": 29,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "TEX-2010-H04",
+          "name": "조시 해밀턴",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.329,
+            "homeRuns": 32,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "TEX-2010-H05",
+          "name": "이언 킨슬러",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.274,
+            "homeRuns": 9,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TEX-2010-H06",
+          "name": "마이클 영",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.284,
+            "homeRuns": 21,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "TEX-2010-H07",
+          "name": "저스틴 스모크",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.214,
+            "homeRuns": 8,
+            "eye": 8,
+            "speed": 4
+          }
+        },
+        {
+          "id": "TEX-2010-H08",
+          "name": "훌리오 보본",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.272,
+            "homeRuns": 3,
+            "eye": 3,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TEX-2010-H09",
+          "name": "맷 트레이너",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.214,
+            "homeRuns": 5,
+            "eye": 6,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "TEX-2010-P01",
+          "name": "C. J. 윌슨",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 76,
+          "control": 53,
+          "stamina": 100,
+          "grade": "C"
+        },
+        {
+          "id": "TEX-2010-P02",
+          "name": "콜비 루이스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 80,
+          "movement": 73,
+          "control": 77,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2010-P03",
+          "name": "스콧 펠드먼",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 60,
+          "movement": 59,
+          "control": 77,
+          "stamina": 84,
+          "grade": "C"
+        },
+        {
+          "id": "TEX-2010-P04",
+          "name": "토미 헌터",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 60,
+          "movement": 73,
+          "control": 89,
+          "stamina": 80,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2010-P05",
+          "name": "리치 하든",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 58,
+          "control": 13,
+          "stamina": 68,
+          "grade": "D"
+        },
+        {
+          "id": "TEX-2010-P06",
+          "name": "대런 오데이",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 87,
+          "control": 100,
+          "stamina": 71,
+          "grade": "S"
+        },
+        {
+          "id": "TEX-2010-P07",
+          "name": "대런 올리버",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 83,
+          "movement": 83,
+          "control": 91,
+          "stamina": 70,
+          "grade": "S"
+        },
+        {
+          "id": "TEX-2010-P08",
+          "name": "프랭크 프란시스코",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 87,
+          "movement": 73,
+          "control": 73,
+          "stamina": 65,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2010-P09",
+          "name": "알렉시 오간도",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 92,
+          "control": 65,
+          "stamina": 58,
+          "grade": "A"
+        },
+        {
+          "id": "TEX-2010-P10",
+          "name": "네프탈리 펠리스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 82,
+          "movement": 81,
+          "control": 89,
+          "stamina": 61,
+          "grade": "A"
+        }
+      ]
+    },
+    "PHI": {
+      "id": "PHI",
+      "name": "필라델피아 필리스",
+      "shortName": "필라델피아",
+      "city": "필라델피아",
+      "primary": "#e81828",
+      "accent": "#002d72",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "PHI-2010-H01",
+          "name": "체이스 어틀리",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.275,
+            "homeRuns": 16,
+            "eye": 9,
+            "speed": 6
+          }
+        },
+        {
+          "id": "PHI-2010-H02",
+          "name": "제이슨 워스",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.296,
+            "homeRuns": 27,
+            "eye": 8,
+            "speed": 6
+          }
+        },
+        {
+          "id": "PHI-2010-H03",
+          "name": "카를로스 루이스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.278,
+            "homeRuns": 8,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "PHI-2010-H04",
+          "name": "라이언 하워드",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.272,
+            "homeRuns": 31,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "PHI-2010-H05",
+          "name": "라울 이바녜스",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.275,
+            "homeRuns": 16,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "PHI-2010-H06",
+          "name": "셰인 빅토리노",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.259,
+            "homeRuns": 18,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "PHI-2010-H07",
+          "name": "플라시도 폴랑코",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.29,
+            "homeRuns": 6,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "PHI-2010-H08",
+          "name": "지미 롤린스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.241,
+            "homeRuns": 8,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "PHI-2010-H09",
+          "name": "윌슨 발데스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 4,
+            "eye": 4,
+            "speed": 4
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "PHI-2010-P01",
+          "name": "로이 할러데이",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 83,
+          "control": 100,
+          "stamina": 100,
+          "grade": "S"
+        },
+        {
+          "id": "PHI-2010-P02",
+          "name": "콜 해멀스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 78,
+          "control": 83,
+          "stamina": 97,
+          "grade": "A"
+        },
+        {
+          "id": "PHI-2010-P03",
+          "name": "카일 켄드릭",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 57,
+          "movement": 65,
+          "control": 87,
+          "stamina": 90,
+          "grade": "C"
+        },
+        {
+          "id": "PHI-2010-P04",
+          "name": "조 블랜턴",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 64,
+          "control": 91,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "PHI-2010-P05",
+          "name": "제이미 모이어",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 64,
+          "control": 100,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "PHI-2010-P06",
+          "name": "호세 콘트레라스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 81,
+          "movement": 76,
+          "control": 85,
+          "stamina": 64,
+          "grade": "A"
+        },
+        {
+          "id": "PHI-2010-P07",
+          "name": "채드 더빈",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 72,
+          "control": 65,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "PHI-2010-P08",
+          "name": "J. C. 로메로",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 73,
+          "control": 1,
+          "stamina": 52,
+          "grade": "D"
+        },
+        {
+          "id": "PHI-2010-P09",
+          "name": "라이언 매드슨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 90,
+          "movement": 82,
+          "control": 91,
+          "stamina": 62,
+          "grade": "S"
+        },
+        {
+          "id": "PHI-2010-P10",
+          "name": "브래드 리지",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 87,
+          "movement": 79,
+          "control": 41,
+          "stamina": 48,
+          "grade": "C"
+        }
+      ]
+    },
+    "SF": {
+      "id": "SF",
+      "name": "샌프란시스코 자이언츠",
+      "shortName": "샌프란시스코",
+      "city": "샌프란시스코",
+      "primary": "#fd5a1e",
+      "accent": "#27251f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "SF-2010-H01",
+          "name": "안드레스 토레스",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 16,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "SF-2010-H02",
+          "name": "팻 버렐",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.245,
+            "homeRuns": 18,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "SF-2010-H03",
+          "name": "버스터 포지",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.281,
+            "homeRuns": 18,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "SF-2010-H04",
+          "name": "오브리 허프",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.285,
+            "homeRuns": 26,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "SF-2010-H05",
+          "name": "후안 우리베",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.257,
+            "homeRuns": 24,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SF-2010-H06",
+          "name": "프레디 산체스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.285,
+            "homeRuns": 7,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SF-2010-H07",
+          "name": "파블로 산도발",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.268,
+            "homeRuns": 13,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SF-2010-H08",
+          "name": "네이트 쉬어홀츠",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 3,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SF-2010-H09",
+          "name": "에런 로언드",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.23,
+            "homeRuns": 11,
+            "eye": 4,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SF-2010-P01",
+          "name": "맷 케인",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 78,
+          "control": 85,
+          "stamina": 99,
+          "grade": "A"
+        },
+        {
+          "id": "SF-2010-P02",
+          "name": "팀 린스컴",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 85,
+          "movement": 75,
+          "control": 71,
+          "stamina": 96,
+          "grade": "B"
+        },
+        {
+          "id": "SF-2010-P03",
+          "name": "배리 지토",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 70,
+          "control": 59,
+          "stamina": 93,
+          "grade": "C"
+        },
+        {
+          "id": "SF-2010-P04",
+          "name": "조너선 산체스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 78,
+          "control": 45,
+          "stamina": 92,
+          "grade": "C"
+        },
+        {
+          "id": "SF-2010-P05",
+          "name": "매디슨 범가너",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 79,
+          "control": 93,
+          "stamina": 70,
+          "grade": "A"
+        },
+        {
+          "id": "SF-2010-P06",
+          "name": "세르지오 로모",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 87,
+          "movement": 85,
+          "control": 95,
+          "stamina": 65,
+          "grade": "S"
+        },
+        {
+          "id": "SF-2010-P07",
+          "name": "기예르모 모타",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 67,
+          "movement": 68,
+          "control": 61,
+          "stamina": 61,
+          "grade": "C"
+        },
+        {
+          "id": "SF-2010-P08",
+          "name": "제러미 애펠트",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 75,
+          "movement": 70,
+          "control": 49,
+          "stamina": 58,
+          "grade": "C"
+        },
+        {
+          "id": "SF-2010-P09",
+          "name": "산티아고 카시야",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 81,
+          "movement": 87,
+          "control": 51,
+          "stamina": 62,
+          "grade": "B"
+        },
+        {
+          "id": "SF-2010-P10",
+          "name": "브라이언 윌슨",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 92,
+          "movement": 88,
+          "control": 73,
+          "stamina": 61,
+          "grade": "A"
+        }
+      ]
+    },
+    "SD": {
+      "id": "SD",
+      "name": "샌디에이고 파드리스",
+      "shortName": "샌디에이고",
+      "city": "샌디에이고",
+      "primary": "#002d62",
+      "accent": "#ffffff",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "SD-2010-H01",
+          "name": "데이비드 엑스타인",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.267,
+            "homeRuns": 1,
+            "eye": 4,
+            "speed": 4
+          }
+        },
+        {
+          "id": "SD-2010-H02",
+          "name": "크리스 데노피아",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.271,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "SD-2010-H03",
+          "name": "윌 베너블",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 13,
+            "eye": 7,
+            "speed": 8
+          }
+        },
+        {
+          "id": "SD-2010-H04",
+          "name": "아드리안 곤살레스",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.298,
+            "homeRuns": 31,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "SD-2010-H05",
+          "name": "요르빗 토레알바",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 7,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "SD-2010-H06",
+          "name": "체이스 헤들리",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SD-2010-H07",
+          "name": "제리 헤어스턴 주니어",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.242,
+            "homeRuns": 10,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "SD-2010-H08",
+          "name": "스콧 헤어스턴",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.219,
+            "homeRuns": 10,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "SD-2010-H09",
+          "name": "토니 그윈 주니어",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 3,
+            "eye": 7,
+            "speed": 8
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SD-2010-P01",
+          "name": "클레이턴 리처드",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 73,
+          "control": 65,
+          "stamina": 94,
+          "grade": "C"
+        },
+        {
+          "id": "SD-2010-P02",
+          "name": "존 갈런드",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 75,
+          "control": 57,
+          "stamina": 94,
+          "grade": "C"
+        },
+        {
+          "id": "SD-2010-P03",
+          "name": "맷 레이토스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 79,
+          "control": 87,
+          "stamina": 90,
+          "grade": "A"
+        },
+        {
+          "id": "SD-2010-P04",
+          "name": "케빈 코레이아",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 60,
+          "control": 55,
+          "stamina": 80,
+          "grade": "C"
+        },
+        {
+          "id": "SD-2010-P05",
+          "name": "웨이드 르블랑",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 69,
+          "control": 73,
+          "stamina": 80,
+          "grade": "B"
+        },
+        {
+          "id": "SD-2010-P06",
+          "name": "루크 그레거슨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 87,
+          "movement": 77,
+          "control": 93,
+          "stamina": 74,
+          "grade": "S"
+        },
+        {
+          "id": "SD-2010-P07",
+          "name": "마이크 애덤스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 85,
+          "movement": 89,
+          "control": 73,
+          "stamina": 68,
+          "grade": "A"
+        },
+        {
+          "id": "SD-2010-P08",
+          "name": "조 대처",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 94,
+          "movement": 93,
+          "control": 99,
+          "stamina": 49,
+          "grade": "S"
+        },
+        {
+          "id": "SD-2010-P09",
+          "name": "에드워드 무히카",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 74,
+          "control": 100,
+          "stamina": 70,
+          "grade": "S"
+        },
+        {
+          "id": "SD-2010-P10",
+          "name": "히스 벨",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 91,
+          "movement": 87,
+          "control": 63,
+          "stamina": 59,
+          "grade": "A"
+        }
+      ]
+    },
+    "NYM": {
+      "id": "NYM",
+      "name": "뉴욕 메츠",
+      "shortName": "메츠",
+      "city": "뉴욕",
+      "primary": "#002d72",
+      "accent": "#ff5910",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "NYM-2010-H01",
+          "name": "앙헬 파간",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.28,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 9
+          }
+        },
+        {
+          "id": "NYM-2010-H02",
+          "name": "아이크 데이비스",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 19,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYM-2010-H03",
+          "name": "카를로스 벨트란",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 7,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYM-2010-H04",
+          "name": "데이비드 라이트",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.283,
+            "homeRuns": 29,
+            "eye": 6,
+            "speed": 7
+          }
+        },
+        {
+          "id": "NYM-2010-H05",
+          "name": "호세 레예스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.282,
+            "homeRuns": 11,
+            "eye": 3,
+            "speed": 8
+          }
+        },
+        {
+          "id": "NYM-2010-H06",
+          "name": "제이슨 베이",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 6,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "NYM-2010-H07",
+          "name": "로드 바라하스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.24,
+            "homeRuns": 12,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYM-2010-H08",
+          "name": "제프 프랑코어",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "NYM-2010-H09",
+          "name": "루이스 카스티요",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.22,
+            "homeRuns": 0,
+            "eye": 7,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "NYM-2010-P01",
+          "name": "마이크 펠프리",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 74,
+          "control": 75,
+          "stamina": 99,
+          "grade": "B"
+        },
+        {
+          "id": "NYM-2010-P02",
+          "name": "조나단 니스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 74,
+          "movement": 69,
+          "control": 71,
+          "stamina": 92,
+          "grade": "B"
+        },
+        {
+          "id": "NYM-2010-P03",
+          "name": "요한 산타나",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 79,
+          "control": 85,
+          "stamina": 98,
+          "grade": "B"
+        },
+        {
+          "id": "NYM-2010-P04",
+          "name": "R. A. 디키",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 80,
+          "control": 91,
+          "stamina": 92,
+          "grade": "A"
+        },
+        {
+          "id": "NYM-2010-P05",
+          "name": "다카하시 히사노리",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 78,
+          "movement": 74,
+          "control": 71,
+          "stamina": 77,
+          "grade": "B"
+        },
+        {
+          "id": "NYM-2010-P06",
+          "name": "페드로 펠리시아노",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 76,
+          "control": 49,
+          "stamina": 70,
+          "grade": "C"
+        },
+        {
+          "id": "NYM-2010-P07",
+          "name": "엘머 데센스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 51,
+          "movement": 84,
+          "control": 73,
+          "stamina": 61,
+          "grade": "C"
+        },
+        {
+          "id": "NYM-2010-P08",
+          "name": "보비 파넬",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 80,
+          "control": 93,
+          "stamina": 52,
+          "grade": "A"
+        },
+        {
+          "id": "NYM-2010-P09",
+          "name": "매니 아코스타",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 83,
+          "movement": 79,
+          "control": 53,
+          "stamina": 56,
+          "grade": "B"
+        },
+        {
+          "id": "NYM-2010-P10",
+          "name": "프란시스코 로드리게스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 88,
+          "movement": 85,
+          "control": 69,
+          "stamina": 55,
+          "grade": "A"
+        }
+      ]
+    },
+    "STL": {
+      "id": "STL",
+      "name": "세인트루이스 카디널스",
+      "shortName": "세인트루이스",
+      "city": "세인트루이스",
+      "primary": "#c41e3a",
+      "accent": "#0c2340",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "STL-2010-H01",
+          "name": "스킵 슈마커",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.268,
+            "homeRuns": 5,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "STL-2010-H02",
+          "name": "맷 홀리데이",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.312,
+            "homeRuns": 28,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "STL-2010-H03",
+          "name": "콜비 라스무스",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.269,
+            "homeRuns": 23,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "STL-2010-H04",
+          "name": "앨버트 푸홀스",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.312,
+            "homeRuns": 42,
+            "eye": 8,
+            "speed": 6
+          }
+        },
+        {
+          "id": "STL-2010-H05",
+          "name": "라이언 루드윅",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.281,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "STL-2010-H06",
+          "name": "존 제이",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.283,
+            "homeRuns": 4,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "STL-2010-H07",
+          "name": "야디에르 몰리나",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 6,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "STL-2010-H08",
+          "name": "펠리페 로페스",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 7,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "STL-2010-H09",
+          "name": "브랜던 라이언",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.223,
+            "homeRuns": 2,
+            "eye": 5,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "STL-2010-P01",
+          "name": "크리스 카펜더",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 77,
+          "control": 87,
+          "stamina": 100,
+          "grade": "A"
+        },
+        {
+          "id": "STL-2010-P02",
+          "name": "애덤 웨인라이트",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 83,
+          "control": 91,
+          "stamina": 100,
+          "grade": "A"
+        },
+        {
+          "id": "STL-2010-P03",
+          "name": "하이메 가르시아",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 81,
+          "control": 65,
+          "stamina": 90,
+          "grade": "B"
+        },
+        {
+          "id": "STL-2010-P04",
+          "name": "카일 로시",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 50,
+          "control": 67,
+          "stamina": 68,
+          "grade": "D"
+        },
+        {
+          "id": "STL-2010-P05",
+          "name": "제프 수판",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 57,
+          "movement": 72,
+          "control": 71,
+          "stamina": 59,
+          "grade": "C"
+        },
+        {
+          "id": "STL-2010-P06",
+          "name": "카일 매클렐런",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 85,
+          "control": 79,
+          "stamina": 76,
+          "grade": "A"
+        },
+        {
+          "id": "STL-2010-P07",
+          "name": "미첼 보그스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 74,
+          "control": 63,
+          "stamina": 72,
+          "grade": "C"
+        },
+        {
+          "id": "STL-2010-P08",
+          "name": "데니스 레예스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 65,
+          "movement": 74,
+          "control": 35,
+          "stamina": 54,
+          "grade": "D"
+        },
+        {
+          "id": "STL-2010-P09",
+          "name": "트레버 밀러",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 63,
+          "movement": 71,
+          "control": 55,
+          "stamina": 53,
+          "grade": "C"
+        },
+        {
+          "id": "STL-2010-P10",
+          "name": "라이언 프랭클린",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 65,
+          "movement": 75,
+          "control": 100,
+          "stamina": 58,
+          "grade": "A"
+        }
+      ]
+    },
+    "DET": {
+      "id": "DET",
+      "name": "디트로이트 타이거스",
+      "shortName": "디트로이트",
+      "city": "디트로이트",
+      "primary": "#0c2340",
+      "accent": "#fa4616",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "DET-2010-H01",
+          "name": "오스틴 잭슨",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.293,
+            "homeRuns": 4,
+            "eye": 4,
+            "speed": 8
+          }
+        },
+        {
+          "id": "DET-2010-H02",
+          "name": "라이언 레이번",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 15,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "DET-2010-H03",
+          "name": "조니 데이먼",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.27,
+            "homeRuns": 8,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "DET-2010-H04",
+          "name": "미겔 카브레라",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.328,
+            "homeRuns": 38,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "DET-2010-H05",
+          "name": "카를로스 기옌",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.271,
+            "homeRuns": 6,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "DET-2010-H06",
+          "name": "브레넌 보슈",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.281,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "DET-2010-H07",
+          "name": "브랜던 인지",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.247,
+            "homeRuns": 13,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "DET-2010-H08",
+          "name": "라몬 산티아고",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 3,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "DET-2010-H09",
+          "name": "알렉스 아빌라",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.218,
+            "homeRuns": 7,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "DET-2010-P01",
+          "name": "저스틴 벌렌더",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 80,
+          "movement": 76,
+          "control": 77,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "DET-2010-P02",
+          "name": "맥스 셔저",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 78,
+          "movement": 75,
+          "control": 71,
+          "stamina": 93,
+          "grade": "B"
+        },
+        {
+          "id": "DET-2010-P03",
+          "name": "제러미 본더먼",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 59,
+          "control": 71,
+          "stamina": 87,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2010-P04",
+          "name": "릭 포셀로",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 59,
+          "movement": 63,
+          "control": 93,
+          "stamina": 85,
+          "grade": "B"
+        },
+        {
+          "id": "DET-2010-P05",
+          "name": "아르만도 갈라라가",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 59,
+          "movement": 67,
+          "control": 71,
+          "stamina": 80,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2010-P06",
+          "name": "필 코크",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 73,
+          "control": 63,
+          "stamina": 64,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2010-P07",
+          "name": "라이언 페리",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 74,
+          "control": 69,
+          "stamina": 63,
+          "grade": "B"
+        },
+        {
+          "id": "DET-2010-P08",
+          "name": "브래드 토머스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 55,
+          "movement": 72,
+          "control": 59,
+          "stamina": 66,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2010-P09",
+          "name": "에디 보나인",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 53,
+          "movement": 66,
+          "control": 77,
+          "stamina": 65,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2010-P10",
+          "name": "호세 발베르데",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 81,
+          "movement": 79,
+          "control": 43,
+          "stamina": 55,
+          "grade": "C"
+        }
+      ]
+    },
+    "KC": {
+      "id": "KC",
+      "name": "캔자스시티 로열스",
+      "shortName": "캔자스시티",
+      "city": "캔자스시티",
+      "primary": "#004687",
+      "accent": "#bd9b60",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "KC-2010-H01",
+          "name": "마이크 아빌레스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.281,
+            "homeRuns": 8,
+            "eye": 3,
+            "speed": 8
+          }
+        },
+        {
+          "id": "KC-2010-H02",
+          "name": "데이비드 데헤수스",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.307,
+            "homeRuns": 5,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "KC-2010-H03",
+          "name": "스콧 포드세드닉",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.274,
+            "homeRuns": 5,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "KC-2010-H04",
+          "name": "빌리 버틀러",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.294,
+            "homeRuns": 15,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "KC-2010-H05",
+          "name": "호세 기옌",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 16,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "KC-2010-H06",
+          "name": "알베르토 카야스포",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.286,
+            "homeRuns": 8,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "KC-2010-H07",
+          "name": "미치 마이어",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 5,
+            "eye": 6,
+            "speed": 7
+          }
+        },
+        {
+          "id": "KC-2010-H08",
+          "name": "유니에스키 베탄코트",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.259,
+            "homeRuns": 16,
+            "eye": 2,
+            "speed": 2
+          }
+        },
+        {
+          "id": "KC-2010-H09",
+          "name": "제이슨 켄달",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 0,
+            "eye": 5,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "KC-2010-P01",
+          "name": "잭 그레인키",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 69,
+          "control": 91,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "KC-2010-P02",
+          "name": "카일 데이비스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 60,
+          "control": 57,
+          "stamina": 96,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2010-P03",
+          "name": "브루스 첸",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 69,
+          "control": 61,
+          "stamina": 84,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2010-P04",
+          "name": "브라이언 배니스터",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 52,
+          "control": 65,
+          "stamina": 80,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2010-P05",
+          "name": "루크 호체버",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 64,
+          "control": 71,
+          "stamina": 72,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2010-P06",
+          "name": "더스티 휴스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 63,
+          "movement": 72,
+          "control": 59,
+          "stamina": 67,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2010-P07",
+          "name": "로빈손 테헤다",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 75,
+          "control": 59,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "KC-2010-P08",
+          "name": "블레이크 우드",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 64,
+          "movement": 62,
+          "control": 55,
+          "stamina": 63,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2010-P09",
+          "name": "카일 판즈워스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 83,
+          "control": 87,
+          "stamina": 59,
+          "grade": "A"
+        },
+        {
+          "id": "KC-2010-P10",
+          "name": "호아킴 소리아",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 84,
+          "movement": 89,
+          "control": 91,
+          "stamina": 59,
+          "grade": "S"
+        }
+      ]
+    },
+    "CHC": {
+      "id": "CHC",
+      "name": "시카고 컵스",
+      "shortName": "컵스",
+      "city": "시카고",
+      "primary": "#0e3386",
+      "accent": "#cc3433",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "CHC-2010-H01",
+          "name": "스탈린 카스트로",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.292,
+            "homeRuns": 3,
+            "eye": 4,
+            "speed": 5
+          }
+        },
+        {
+          "id": "CHC-2010-H02",
+          "name": "지오바니 소토",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 17,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CHC-2010-H03",
+          "name": "타일러 콜빈",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 20,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CHC-2010-H04",
+          "name": "알폰소 소리아노",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 24,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CHC-2010-H05",
+          "name": "후쿠도메 고스케",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.256,
+            "homeRuns": 13,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CHC-2010-H06",
+          "name": "말런 버드",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.293,
+            "homeRuns": 12,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CHC-2010-H07",
+          "name": "데릭 리",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.248,
+            "homeRuns": 16,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CHC-2010-H08",
+          "name": "아라미스 라미레스",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CHC-2010-H09",
+          "name": "라이언 테리엇",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.275,
+            "homeRuns": 1,
+            "eye": 4,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "CHC-2010-P01",
+          "name": "라이언 뎀스터",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 79,
+          "movement": 72,
+          "control": 63,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "CHC-2010-P02",
+          "name": "랜디 웰스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 69,
+          "control": 77,
+          "stamina": 98,
+          "grade": "B"
+        },
+        {
+          "id": "CHC-2010-P03",
+          "name": "톰 고젤라니",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 70,
+          "control": 45,
+          "stamina": 82,
+          "grade": "C"
+        },
+        {
+          "id": "CHC-2010-P04",
+          "name": "카를로스 실바",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 69,
+          "control": 97,
+          "stamina": 75,
+          "grade": "A"
+        },
+        {
+          "id": "CHC-2010-P05",
+          "name": "카를로스 잠브라노",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 76,
+          "control": 39,
+          "stamina": 80,
+          "grade": "C"
+        },
+        {
+          "id": "CHC-2010-P06",
+          "name": "숀 마셜",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 90,
+          "movement": 82,
+          "control": 75,
+          "stamina": 74,
+          "grade": "A"
+        },
+        {
+          "id": "CHC-2010-P07",
+          "name": "제임스 러셀",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 63,
+          "control": 95,
+          "stamina": 60,
+          "grade": "B"
+        },
+        {
+          "id": "CHC-2010-P08",
+          "name": "앤드루 캐슈너",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 64,
+          "control": 35,
+          "stamina": 63,
+          "grade": "D"
+        },
+        {
+          "id": "CHC-2010-P09",
+          "name": "저스틴 버그",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 51,
+          "movement": 61,
+          "control": 45,
+          "stamina": 54,
+          "grade": "D"
+        },
+        {
+          "id": "CHC-2010-P10",
+          "name": "카를로스 마몰",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 100,
+          "movement": 82,
+          "control": 15,
+          "stamina": 64,
+          "grade": "C"
+        }
+      ]
+    },
+    "COL": {
+      "id": "COL",
+      "name": "콜로라도 로키스",
+      "shortName": "콜로라도",
+      "city": "덴버",
+      "primary": "#33006f",
+      "accent": "#c4ced4",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "COL-2010-H01",
+          "name": "덱스터 파울러",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.26,
+            "homeRuns": 6,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "COL-2010-H02",
+          "name": "트로이 툴로위츠키",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.315,
+            "homeRuns": 27,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "COL-2010-H03",
+          "name": "라이언 스필보그스",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.268,
+            "homeRuns": 10,
+            "eye": 7,
+            "speed": 3
+          }
+        },
+        {
+          "id": "COL-2010-H04",
+          "name": "카를로스 곤살레스",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.302,
+            "homeRuns": 34,
+            "eye": 4,
+            "speed": 8
+          }
+        },
+        {
+          "id": "COL-2010-H05",
+          "name": "세스 스미스",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.246,
+            "homeRuns": 17,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "COL-2010-H06",
+          "name": "이안 스튜어트",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.269,
+            "homeRuns": 18,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "COL-2010-H07",
+          "name": "미겔 올리보",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.245,
+            "homeRuns": 14,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "COL-2010-H08",
+          "name": "토드 헬튼",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.256,
+            "homeRuns": 8,
+            "eye": 9,
+            "speed": 1
+          }
+        },
+        {
+          "id": "COL-2010-H09",
+          "name": "클린트 바메스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 7
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "COL-2010-P01",
+          "name": "우발도 히메네즈",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 79,
+          "movement": 80,
+          "control": 61,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2010-P02",
+          "name": "제이슨 해멀",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 64,
+          "control": 87,
+          "stamina": 94,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2010-P03",
+          "name": "에런 쿡",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 58,
+          "movement": 62,
+          "control": 61,
+          "stamina": 80,
+          "grade": "C"
+        },
+        {
+          "id": "COL-2010-P04",
+          "name": "줄리스 차신",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 77,
+          "control": 55,
+          "stamina": 83,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2010-P05",
+          "name": "호르헤 데라로사",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 78,
+          "movement": 69,
+          "control": 53,
+          "stamina": 78,
+          "grade": "C"
+        },
+        {
+          "id": "COL-2010-P06",
+          "name": "맷 벨라일",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 80,
+          "movement": 79,
+          "control": 100,
+          "stamina": 78,
+          "grade": "S"
+        },
+        {
+          "id": "COL-2010-P07",
+          "name": "라파엘 베탄코트",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 100,
+          "movement": 74,
+          "control": 100,
+          "stamina": 64,
+          "grade": "S"
+        },
+        {
+          "id": "COL-2010-P08",
+          "name": "조 바이멀",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 57,
+          "movement": 76,
+          "control": 75,
+          "stamina": 55,
+          "grade": "C"
+        },
+        {
+          "id": "COL-2010-P09",
+          "name": "매니 코파스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 66,
+          "control": 71,
+          "stamina": 64,
+          "grade": "C"
+        },
+        {
+          "id": "COL-2010-P10",
+          "name": "휴스턴 스트리트",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 79,
+          "movement": 74,
+          "control": 93,
+          "stamina": 48,
+          "grade": "A"
+        }
+      ]
+    },
+    "WSH": {
+      "id": "WSH",
+      "name": "워싱턴 내셔널스",
+      "shortName": "워싱턴",
+      "city": "워싱턴 D.C.",
+      "primary": "#ab0003",
+      "accent": "#14225a",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "WSH-2010-H01",
+          "name": "나이저 모건",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 0,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "WSH-2010-H02",
+          "name": "라이언 짐머맨",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.307,
+            "homeRuns": 25,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "WSH-2010-H03",
+          "name": "조시 윌링햄",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.268,
+            "homeRuns": 16,
+            "eye": 10,
+            "speed": 4
+          }
+        },
+        {
+          "id": "WSH-2010-H04",
+          "name": "애덤 던",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.26,
+            "homeRuns": 38,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "WSH-2010-H05",
+          "name": "이언 데즈먼드",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.269,
+            "homeRuns": 10,
+            "eye": 3,
+            "speed": 6
+          }
+        },
+        {
+          "id": "WSH-2010-H06",
+          "name": "로저 버나디나",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.245,
+            "homeRuns": 11,
+            "eye": 6,
+            "speed": 7
+          }
+        },
+        {
+          "id": "WSH-2010-H07",
+          "name": "크리스티안 구스만",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.282,
+            "homeRuns": 2,
+            "eye": 4,
+            "speed": 2
+          }
+        },
+        {
+          "id": "WSH-2010-H08",
+          "name": "애덤 케네디",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 3,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "WSH-2010-H09",
+          "name": "이반 로드리게스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 4,
+            "eye": 3,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "WSH-2010-P01",
+          "name": "리반 에르난데스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 60,
+          "movement": 74,
+          "control": 81,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "WSH-2010-P02",
+          "name": "존 래넌",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 58,
+          "movement": 66,
+          "control": 73,
+          "stamina": 90,
+          "grade": "C"
+        },
+        {
+          "id": "WSH-2010-P03",
+          "name": "크레이그 스태먼",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 62,
+          "control": 77,
+          "stamina": 86,
+          "grade": "C"
+        },
+        {
+          "id": "WSH-2010-P04",
+          "name": "루이스 아틸라노",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 57,
+          "movement": 62,
+          "control": 67,
+          "stamina": 70,
+          "grade": "C"
+        },
+        {
+          "id": "WSH-2010-P05",
+          "name": "스콧 올슨",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 58,
+          "control": 75,
+          "stamina": 68,
+          "grade": "C"
+        },
+        {
+          "id": "WSH-2010-P06",
+          "name": "타일러 클리파드",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 91,
+          "movement": 78,
+          "control": 55,
+          "stamina": 78,
+          "grade": "B"
+        },
+        {
+          "id": "WSH-2010-P07",
+          "name": "션 버넷",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 80,
+          "movement": 86,
+          "control": 77,
+          "stamina": 65,
+          "grade": "A"
+        },
+        {
+          "id": "WSH-2010-P08",
+          "name": "미겔 바티스타",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 66,
+          "movement": 73,
+          "control": 51,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "WSH-2010-P09",
+          "name": "드류 스토렌",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 74,
+          "control": 63,
+          "stamina": 61,
+          "grade": "B"
+        },
+        {
+          "id": "WSH-2010-P10",
+          "name": "맷 크랩스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 73,
+          "movement": 81,
+          "control": 99,
+          "stamina": 48,
+          "grade": "A"
+        }
+      ]
+    },
+    "MIL": {
+      "id": "MIL",
+      "name": "밀워키 브루어스",
+      "shortName": "밀워키",
+      "city": "밀워키",
+      "primary": "#12284b",
+      "accent": "#ffc52f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "MIL-2010-H01",
+          "name": "라이언 브라운",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.304,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "MIL-2010-H02",
+          "name": "프린스 필더",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 32,
+            "eye": 10,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIL-2010-H03",
+          "name": "짐 에드먼즈",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.286,
+            "homeRuns": 8,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIL-2010-H04",
+          "name": "코리 하트",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.283,
+            "homeRuns": 31,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "MIL-2010-H05",
+          "name": "리키 윅스 주니어",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.269,
+            "homeRuns": 29,
+            "eye": 8,
+            "speed": 6
+          }
+        },
+        {
+          "id": "MIL-2010-H06",
+          "name": "케이시 맥게히",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.285,
+            "homeRuns": 23,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIL-2010-H07",
+          "name": "카를로스 고메스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.268,
+            "homeRuns": 5,
+            "eye": 4,
+            "speed": 8
+          }
+        },
+        {
+          "id": "MIL-2010-H08",
+          "name": "조너선 루크로이",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 4,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "MIL-2010-H09",
+          "name": "알시데스 에스코바르",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 4,
+            "eye": 4,
+            "speed": 5
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "MIL-2010-P01",
+          "name": "랜디 울프",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 69,
+          "control": 63,
+          "stamina": 100,
+          "grade": "C"
+        },
+        {
+          "id": "MIL-2010-P02",
+          "name": "요바니 가야르도",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 84,
+          "movement": 72,
+          "control": 63,
+          "stamina": 93,
+          "grade": "B"
+        },
+        {
+          "id": "MIL-2010-P03",
+          "name": "데이브 부시",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 67,
+          "control": 67,
+          "stamina": 90,
+          "grade": "C"
+        },
+        {
+          "id": "MIL-2010-P04",
+          "name": "크리스 나베슨",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 63,
+          "control": 71,
+          "stamina": 88,
+          "grade": "C"
+        },
+        {
+          "id": "MIL-2010-P05",
+          "name": "매니 파라",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 63,
+          "control": 41,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "MIL-2010-P06",
+          "name": "토드 코피",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 65,
+          "control": 69,
+          "stamina": 68,
+          "grade": "B"
+        },
+        {
+          "id": "MIL-2010-P07",
+          "name": "카메론 로",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 81,
+          "control": 89,
+          "stamina": 65,
+          "grade": "A"
+        },
+        {
+          "id": "MIL-2010-P08",
+          "name": "카를로스 비야누에바",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 93,
+          "movement": 66,
+          "control": 59,
+          "stamina": 62,
+          "grade": "B"
+        },
+        {
+          "id": "MIL-2010-P09",
+          "name": "트레버 호프먼",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 64,
+          "movement": 56,
+          "control": 63,
+          "stamina": 59,
+          "grade": "C"
+        },
+        {
+          "id": "MIL-2010-P10",
+          "name": "존 액스포드",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 95,
+          "movement": 83,
+          "control": 51,
+          "stamina": 55,
+          "grade": "B"
+        }
+      ]
+    },
+    "CLE": {
+      "id": "CLE",
+      "name": "클리블랜드 가디언스",
+      "shortName": "클리블랜드",
+      "city": "클리블랜드",
+      "primary": "#0c2340",
+      "accent": "#e31937",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "CLE-2010-H01",
+          "name": "추신수",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.3,
+            "homeRuns": 22,
+            "eye": 8,
+            "speed": 7
+          }
+        },
+        {
+          "id": "CLE-2010-H02",
+          "name": "오스틴 컨스",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 8,
+            "eye": 7,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CLE-2010-H03",
+          "name": "조니 페랄타",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.238,
+            "homeRuns": 7,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CLE-2010-H04",
+          "name": "트래비스 해프너",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.269,
+            "homeRuns": 13,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CLE-2010-H05",
+          "name": "아스드루발 카브레라",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.262,
+            "homeRuns": 3,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CLE-2010-H06",
+          "name": "맷 러포타",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.234,
+            "homeRuns": 12,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CLE-2010-H07",
+          "name": "트레버 크로",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 2,
+            "eye": 4,
+            "speed": 8
+          }
+        },
+        {
+          "id": "CLE-2010-H08",
+          "name": "루 마슨",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.218,
+            "homeRuns": 3,
+            "eye": 8,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CLE-2010-H09",
+          "name": "루이스 발부에나",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.216,
+            "homeRuns": 2,
+            "eye": 6,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "CLE-2010-P01",
+          "name": "로베르토 에르난데스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 73,
+          "control": 73,
+          "stamina": 100,
+          "grade": "C"
+        },
+        {
+          "id": "CLE-2010-P02",
+          "name": "저스틴 매스터슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 65,
+          "control": 63,
+          "stamina": 96,
+          "grade": "C"
+        },
+        {
+          "id": "CLE-2010-P03",
+          "name": "미치 탤벗",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 68,
+          "control": 57,
+          "stamina": 90,
+          "grade": "C"
+        },
+        {
+          "id": "CLE-2010-P04",
+          "name": "제이크 웨스트브룩",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 66,
+          "control": 73,
+          "stamina": 81,
+          "grade": "C"
+        },
+        {
+          "id": "CLE-2010-P05",
+          "name": "데이비드 허프",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 57,
+          "movement": 53,
+          "control": 59,
+          "stamina": 64,
+          "grade": "D"
+        },
+        {
+          "id": "CLE-2010-P06",
+          "name": "토니 십",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 85,
+          "movement": 70,
+          "control": 23,
+          "stamina": 71,
+          "grade": "D"
+        },
+        {
+          "id": "CLE-2010-P07",
+          "name": "라파엘 페레스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 62,
+          "movement": 77,
+          "control": 61,
+          "stamina": 70,
+          "grade": "C"
+        },
+        {
+          "id": "CLE-2010-P08",
+          "name": "조 스미스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 72,
+          "control": 27,
+          "stamina": 57,
+          "grade": "D"
+        },
+        {
+          "id": "CLE-2010-P09",
+          "name": "프랭크 허먼",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 60,
+          "movement": 71,
+          "control": 99,
+          "stamina": 60,
+          "grade": "B"
+        },
+        {
+          "id": "CLE-2010-P10",
+          "name": "크리스 페레즈",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 79,
+          "movement": 89,
+          "control": 55,
+          "stamina": 58,
+          "grade": "B"
+        }
+      ]
+    },
+    "ATL": {
+      "id": "ATL",
+      "name": "애틀랜타 브레이브스",
+      "shortName": "애틀랜타",
+      "city": "애틀랜타",
+      "primary": "#ce1141",
+      "accent": "#13274f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "ATL-2010-H01",
+          "name": "제이슨 헤이워드",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.277,
+            "homeRuns": 18,
+            "eye": 10,
+            "speed": 6
+          }
+        },
+        {
+          "id": "ATL-2010-H02",
+          "name": "마르틴 프라도",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.313,
+            "homeRuns": 15,
+            "eye": 3,
+            "speed": 6
+          }
+        },
+        {
+          "id": "ATL-2010-H03",
+          "name": "치퍼 존스",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.265,
+            "homeRuns": 10,
+            "eye": 10,
+            "speed": 3
+          }
+        },
+        {
+          "id": "ATL-2010-H04",
+          "name": "브라이언 매캔",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 21,
+            "eye": 9,
+            "speed": 3
+          }
+        },
+        {
+          "id": "ATL-2010-H05",
+          "name": "오마 인판테",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.321,
+            "homeRuns": 8,
+            "eye": 3,
+            "speed": 4
+          }
+        },
+        {
+          "id": "ATL-2010-H06",
+          "name": "트로이 글로스",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.248,
+            "homeRuns": 16,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ATL-2010-H07",
+          "name": "멜키 카브레라",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 4,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "ATL-2010-H08",
+          "name": "네이트 맥라우스",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.212,
+            "homeRuns": 6,
+            "eye": 9,
+            "speed": 5
+          }
+        },
+        {
+          "id": "ATL-2010-H09",
+          "name": "유넬 에스코바르",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.239,
+            "homeRuns": 0,
+            "eye": 6,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "ATL-2010-P01",
+          "name": "팀 허드슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 80,
+          "control": 77,
+          "stamina": 100,
+          "grade": "B"
+        },
+        {
+          "id": "ATL-2010-P02",
+          "name": "토미 핸슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 74,
+          "movement": 76,
+          "control": 85,
+          "stamina": 98,
+          "grade": "A"
+        },
+        {
+          "id": "ATL-2010-P03",
+          "name": "데릭 로",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 71,
+          "control": 79,
+          "stamina": 96,
+          "grade": "B"
+        },
+        {
+          "id": "ATL-2010-P04",
+          "name": "자이어 저전스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 66,
+          "control": 71,
+          "stamina": 74,
+          "grade": "C"
+        },
+        {
+          "id": "ATL-2010-P05",
+          "name": "가와카미 겐신",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 62,
+          "control": 69,
+          "stamina": 64,
+          "grade": "C"
+        },
+        {
+          "id": "ATL-2010-P06",
+          "name": "피터 모일런",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 79,
+          "control": 31,
+          "stamina": 65,
+          "grade": "C"
+        },
+        {
+          "id": "ATL-2010-P07",
+          "name": "조니 벤터스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 86,
+          "movement": 87,
+          "control": 51,
+          "stamina": 75,
+          "grade": "B"
+        },
+        {
+          "id": "ATL-2010-P08",
+          "name": "사이토 다카시",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 93,
+          "movement": 80,
+          "control": 79,
+          "stamina": 60,
+          "grade": "A"
+        },
+        {
+          "id": "ATL-2010-P09",
+          "name": "에릭 오플래허티",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 83,
+          "control": 61,
+          "stamina": 54,
+          "grade": "B"
+        },
+        {
+          "id": "ATL-2010-P10",
+          "name": "빌리 와그너",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 100,
+          "movement": 91,
+          "control": 77,
+          "stamina": 59,
+          "grade": "S"
+        }
+      ]
+    },
+    "MIA": {
+      "id": "MIA",
+      "name": "마이애미 말린스",
+      "shortName": "마이애미",
+      "city": "마이애미",
+      "primary": "#000000",
+      "accent": "#f9423a",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "MIA-2010-H01",
+          "name": "헨리 라미레스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.302,
+            "homeRuns": 21,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "MIA-2010-H02",
+          "name": "로건 모리슨",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.283,
+            "homeRuns": 2,
+            "eye": 9,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIA-2010-H03",
+          "name": "장칼로 스탠턴",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.248,
+            "homeRuns": 22,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "MIA-2010-H04",
+          "name": "댄 어글라",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.287,
+            "homeRuns": 33,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIA-2010-H05",
+          "name": "개비 산체스",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 19,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "MIA-2010-H06",
+          "name": "코디 로스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "MIA-2010-H07",
+          "name": "호르헤 칸투",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 10,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIA-2010-H08",
+          "name": "크리스 코글란",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.274,
+            "homeRuns": 5,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "MIA-2010-H09",
+          "name": "로니 파울리노",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.23,
+            "homeRuns": 4,
+            "eye": 5,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "MIA-2010-P01",
+          "name": "아니발 산체스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 74,
+          "control": 71,
+          "stamina": 97,
+          "grade": "B"
+        },
+        {
+          "id": "MIA-2010-P02",
+          "name": "크리스 볼스테드",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 66,
+          "control": 73,
+          "stamina": 92,
+          "grade": "C"
+        },
+        {
+          "id": "MIA-2010-P03",
+          "name": "조시 존슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 84,
+          "control": 87,
+          "stamina": 94,
+          "grade": "A"
+        },
+        {
+          "id": "MIA-2010-P04",
+          "name": "리키 놀라스코",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 78,
+          "movement": 67,
+          "control": 97,
+          "stamina": 87,
+          "grade": "A"
+        },
+        {
+          "id": "MIA-2010-P05",
+          "name": "네이트 로버트슨",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 59,
+          "control": 63,
+          "stamina": 69,
+          "grade": "C"
+        },
+        {
+          "id": "MIA-2010-P06",
+          "name": "클레이 헨슬리",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 86,
+          "control": 65,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "MIA-2010-P07",
+          "name": "브라이언 산체스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 85,
+          "control": 59,
+          "stamina": 65,
+          "grade": "B"
+        },
+        {
+          "id": "MIA-2010-P08",
+          "name": "버크 베이든홉",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 67,
+          "movement": 71,
+          "control": 79,
+          "stamina": 67,
+          "grade": "B"
+        },
+        {
+          "id": "MIA-2010-P09",
+          "name": "호세 베라스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 86,
+          "movement": 73,
+          "control": 27,
+          "stamina": 56,
+          "grade": "C"
+        },
+        {
+          "id": "MIA-2010-P10",
+          "name": "후안 카를로스 오비에도",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 85,
+          "movement": 75,
+          "control": 77,
+          "stamina": 57,
+          "grade": "A"
+        }
+      ]
+    },
+    "MIN": {
+      "id": "MIN",
+      "name": "미네소타 트윈스",
+      "shortName": "미네소타",
+      "city": "미니애폴리스",
+      "primary": "#002b5c",
+      "accent": "#d31145",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "MIN-2010-H01",
+          "name": "데나드 스판",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.26,
+            "homeRuns": 3,
+            "eye": 5,
+            "speed": 8
+          }
+        },
+        {
+          "id": "MIN-2010-H02",
+          "name": "조 마우어",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.294,
+            "homeRuns": 9,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIN-2010-H03",
+          "name": "델먼 영",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.298,
+            "homeRuns": 21,
+            "eye": 3,
+            "speed": 3
+          }
+        },
+        {
+          "id": "MIN-2010-H04",
+          "name": "짐 토미",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.283,
+            "homeRuns": 25,
+            "eye": 10,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIN-2010-H05",
+          "name": "대니 발렌시아",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 7,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "MIN-2010-H06",
+          "name": "마이클 커다이어",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.295,
+            "homeRuns": 14,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "MIN-2010-H07",
+          "name": "제이슨 쿠벨",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.245,
+            "homeRuns": 21,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIN-2010-H08",
+          "name": "제임스 제리 하디",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.27,
+            "homeRuns": 6,
+            "eye": 4,
+            "speed": 4
+          }
+        },
+        {
+          "id": "MIN-2010-H09",
+          "name": "올랜도 허드슨",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.262,
+            "homeRuns": 6,
+            "eye": 6,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "MIN-2010-P01",
+          "name": "칼 파바노",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 60,
+          "movement": 73,
+          "control": 100,
+          "stamina": 96,
+          "grade": "B"
+        },
+        {
+          "id": "MIN-2010-P02",
+          "name": "프란시스코 리리아노",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 74,
+          "control": 81,
+          "stamina": 90,
+          "grade": "A"
+        },
+        {
+          "id": "MIN-2010-P03",
+          "name": "스콧 베이커",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 67,
+          "control": 89,
+          "stamina": 84,
+          "grade": "B"
+        },
+        {
+          "id": "MIN-2010-P04",
+          "name": "케빈 슬로위",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 67,
+          "control": 100,
+          "stamina": 81,
+          "grade": "A"
+        },
+        {
+          "id": "MIN-2010-P05",
+          "name": "닉 블랙번",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 55,
+          "movement": 59,
+          "control": 91,
+          "stamina": 82,
+          "grade": "C"
+        },
+        {
+          "id": "MIN-2010-P06",
+          "name": "맷 게리어",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 62,
+          "movement": 77,
+          "control": 79,
+          "stamina": 67,
+          "grade": "B"
+        },
+        {
+          "id": "MIN-2010-P07",
+          "name": "제시 크레인",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 79,
+          "control": 63,
+          "stamina": 66,
+          "grade": "B"
+        },
+        {
+          "id": "MIN-2010-P08",
+          "name": "브라이언 듀엔싱",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 63,
+          "movement": 82,
+          "control": 87,
+          "stamina": 91,
+          "grade": "B"
+        },
+        {
+          "id": "MIN-2010-P09",
+          "name": "호세 미하레스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 76,
+          "control": 85,
+          "stamina": 45,
+          "grade": "A"
+        },
+        {
+          "id": "MIN-2010-P10",
+          "name": "존 라우시",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 72,
+          "movement": 78,
+          "control": 91,
+          "stamina": 53,
+          "grade": "A"
+        }
+      ]
+    }
+  }
+}

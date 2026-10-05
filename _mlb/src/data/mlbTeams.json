@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ATH",
+    "mlbId": 133,
+    "name": "Athletics",
+    "city": "Sacramento",
+    "league": "AL",
+    "division": "West"
+  },
+  {
+    "id": "PIT",
+    "mlbId": 134,
+    "name": "Pittsburgh Pirates",
+    "city": "Pittsburgh",
+    "league": "NL",
+    "division": "Central"
+  },
+  {
+    "id": "SD",
+    "mlbId": 135,
+    "name": "San Diego Padres",
+    "city": "San Diego",
+    "league": "NL",
+    "division": "West"
+  },
+  {
+    "id": "SEA",
+    "mlbId": 136,
+    "name": "Seattle Mariners",
+    "city": "Seattle",
+    "league": "AL",
+    "division": "West"
+  },
+  {
+    "id": "SF",
+    "mlbId": 137,
+    "name": "San Francisco Giants",
+    "city": "San Francisco",
+    "league": "NL",
+    "division": "West"
+  },
+  {
+    "id": "STL",
+    "mlbId": 138,
+    "name": "St. Louis Cardinals",
+    "city": "St. Louis",
+    "league": "NL",
+    "division": "Central"
+  },
+  {
+    "id": "TB",
+    "mlbId": 139,
+    "name": "Tampa Bay Rays",
+    "city": "St. Petersburg",
+    "league": "AL",
+    "division": "East"
+  },
+  {
+    "id": "TEX",
+    "mlbId": 140,
+    "name": "Texas Rangers",
+    "city": "Arlington",
+    "league": "AL",
+    "division": "West"
+  },
+  {
+    "id": "TOR",
+    "mlbId": 141,
+    "name": "Toronto Blue Jays",
+    "city": "Toronto",
+    "league": "AL",
+    "division": "East"
+  },
+  {
+    "id": "MIN",
+    "mlbId": 142,
+    "name": "Minnesota Twins",
+    "city": "Minneapolis",
+    "league": "AL",
+    "division": "Central"
+  },
+  {
+    "id": "PHI",
+    "mlbId": 143,
+    "name": "Philadelphia Phillies",
+    "city": "Philadelphia",
+    "league": "NL",
+    "division": "East"
+  },
+  {
+    "id": "ATL",
+    "mlbId": 144,
+    "name": "Atlanta Braves",
+    "city": "Atlanta",
+    "league": "NL",
+    "division": "East"
+  },
+  {
+    "id": "CWS",
+    "mlbId": 145,
+    "name": "Chicago White Sox",
+    "city": "Chicago",
+    "league": "AL",
+    "division": "Central"
+  },
+  {
+    "id": "MIA",
+    "mlbId": 146,
+    "name": "Miami Marlins",
+    "city": "Miami",
+    "league": "NL",
+    "division": "East"
+  },
+  {
+    "id": "NYY",
+    "mlbId": 147,
+    "name": "New York Yankees",
+    "city": "Bronx",
+    "league": "AL",
+    "division": "East"
+  },
+  {
+    "id": "MIL",
+    "mlbId": 158,
+    "name": "Milwaukee Brewers",
+    "city": "Milwaukee",
+    "league": "NL",
+    "division": "Central"
+  },
+  {
+    "id": "LAA",
+    "mlbId": 108,
+    "name": "Los Angeles Angels",
+    "city": "Anaheim",
+    "league": "AL",
+    "division": "West"
+  },
+  {
+    "id": "AZ",
+    "mlbId": 109,
+    "name": "Arizona Diamondbacks",
+    "city": "Phoenix",
+    "league": "NL",
+    "division": "West"
+  },
+  {
+    "id": "BAL",
+    "mlbId": 110,
+    "name": "Baltimore Orioles",
+    "city": "Baltimore",
+    "league": "AL",
+    "division": "East"
+  },
+  {
+    "id": "BOS",
+    "mlbId": 111,
+    "name": "Boston Red Sox",
+    "city": "Boston",
+    "league": "AL",
+    "division": "East"
+  },
+  {
+    "id": "CHC",
+    "mlbId": 112,
+    "name": "Chicago Cubs",
+    "city": "Chicago",
+    "league": "NL",
+    "division": "Central"
+  },
+  {
+    "id": "CIN",
+    "mlbId": 113,
+    "name": "Cincinnati Reds",
+    "city": "Cincinnati",
+    "league": "NL",
+    "division": "Central"
+  },
+  {
+    "id": "CLE",
+    "mlbId": 114,
+    "name": "Cleveland Guardians",
+    "city": "Cleveland",
+    "league": "AL",
+    "division": "Central"
+  },
+  {
+    "id": "COL",
+    "mlbId": 115,
+    "name": "Colorado Rockies",
+    "city": "Denver",
+    "league": "NL",
+    "division": "West"
+  },
+  {
+    "id": "DET",
+    "mlbId": 116,
+    "name": "Detroit Tigers",
+    "city": "Detroit",
+    "league": "AL",
+    "division": "Central"
+  },
+  {
+    "id": "HOU",
+    "mlbId": 117,
+    "name": "Houston Astros",
+    "city": "Houston",
+    "league": "AL",
+    "division": "West"
+  },
+  {
+    "id": "KC",
+    "mlbId": 118,
+    "name": "Kansas City Royals",
+    "city": "Kansas City",
+    "league": "AL",
+    "division": "Central"
+  },
+  {
+    "id": "LAD",
+    "mlbId": 119,
+    "name": "Los Angeles Dodgers",
+    "city": "Los Angeles",
+    "league": "NL",
+    "division": "West"
+  },
+  {
+    "id": "WSH",
+    "mlbId": 120,
+    "name": "Washington Nationals",
+    "city": "Washington",
+    "league": "NL",
+    "division": "East"
+  },
+  {
+    "id": "NYM",
+    "mlbId": 121,
+    "name": "New York Mets",
+    "city": "Flushing",
+    "league": "NL",
+    "division": "East"
+  }
+]

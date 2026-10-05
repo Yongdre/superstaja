@@ -1,0 +1,7477 @@
+{
+  "schemaVersion": 1,
+  "label": "2021 MLB · 사용자 입력 성적 기준 · 30팀 · 투수 능력치 5% 상향",
+  "sourceSeason": 2021,
+  "teams": {
+    "BOS": {
+      "id": "BOS",
+      "name": "보스턴 레드삭스",
+      "shortName": "보스턴",
+      "city": "보스턴",
+      "primary": "#bd3039",
+      "accent": "#0c2340",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "BOS-2021-H01",
+          "name": "키케 에르난데스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.245,
+            "homeRuns": 20,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "BOS-2021-H02",
+          "name": "알렉스 버두고",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.276,
+            "homeRuns": 13,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "BOS-2021-H03",
+          "name": "잰더 보가츠",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.285,
+            "homeRuns": 23,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "BOS-2021-H04",
+          "name": "라파엘 데버스",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.272,
+            "homeRuns": 38,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "BOS-2021-H05",
+          "name": "J.D. 마르티네스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.279,
+            "homeRuns": 28,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "BOS-2021-H06",
+          "name": "헌터 렌프로",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.257,
+            "homeRuns": 31,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "BOS-2021-H07",
+          "name": "바비 달벡",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.229,
+            "homeRuns": 25,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "BOS-2021-H08",
+          "name": "크리스티안 바스케스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.266,
+            "homeRuns": 6,
+            "eye": 4,
+            "speed": 4
+          }
+        },
+        {
+          "id": "BOS-2021-H09",
+          "name": "크리스티안 아로요",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.231,
+            "homeRuns": 6,
+            "eye": 5,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "BOS-2021-P01",
+          "name": "네이선 이볼디",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 78,
+          "movement": 77,
+          "control": 100,
+          "stamina": 93,
+          "grade": "S"
+        },
+        {
+          "id": "BOS-2021-P02",
+          "name": "에두아르도 로드리게스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 69,
+          "control": 86,
+          "stamina": 90,
+          "grade": "A"
+        },
+        {
+          "id": "BOS-2021-P03",
+          "name": "닉 피베타",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 71,
+          "control": 62,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2021-P04",
+          "name": "개릿 리차즈",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 68,
+          "control": 58,
+          "stamina": 87,
+          "grade": "C"
+        },
+        {
+          "id": "BOS-2021-P05",
+          "name": "마틴 페레스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 69,
+          "control": 83,
+          "stamina": 83,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2021-P06",
+          "name": "개릿 위틀록",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 80,
+          "movement": 92,
+          "control": 98,
+          "stamina": 73,
+          "grade": "S"
+        },
+        {
+          "id": "BOS-2021-P07",
+          "name": "애덤 오타비노",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 73,
+          "control": 35,
+          "stamina": 74,
+          "grade": "C"
+        },
+        {
+          "id": "BOS-2021-P08",
+          "name": "사와무라 히로카즈",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 83,
+          "control": 29,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "BOS-2021-P09",
+          "name": "조시 테일러",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 87,
+          "movement": 80,
+          "control": 52,
+          "stamina": 75,
+          "grade": "B"
+        },
+        {
+          "id": "BOS-2021-P10",
+          "name": "맷 반스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 100,
+          "movement": 77,
+          "control": 73,
+          "stamina": 54,
+          "grade": "A"
+        }
+      ]
+    },
+    "ATL": {
+      "id": "ATL",
+      "name": "애틀랜타 브레이브스",
+      "shortName": "애틀랜타",
+      "city": "애틀랜타",
+      "primary": "#ce1141",
+      "accent": "#13274f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "ATL-2021-H01",
+          "name": "로날드 아쿠냐 주니어",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.257,
+            "homeRuns": 24,
+            "eye": 8,
+            "speed": 6
+          }
+        },
+        {
+          "id": "ATL-2021-H02",
+          "name": "아지 알비스",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.256,
+            "homeRuns": 30,
+            "eye": 4,
+            "speed": 7
+          }
+        },
+        {
+          "id": "ATL-2021-H03",
+          "name": "프레디 프리먼",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.3,
+            "homeRuns": 31,
+            "eye": 8,
+            "speed": 4
+          }
+        },
+        {
+          "id": "ATL-2021-H04",
+          "name": "오스틴 라일리",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.298,
+            "homeRuns": 33,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ATL-2021-H05",
+          "name": "댄스비 스완슨",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.248,
+            "homeRuns": 27,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "ATL-2021-H06",
+          "name": "호르헤 솔레어",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 14,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ATL-2021-H07",
+          "name": "애덤 듀발",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.214,
+            "homeRuns": 16,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ATL-2021-H08",
+          "name": "에디 로사리오",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.225,
+            "homeRuns": 7,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "ATL-2021-H09",
+          "name": "트래비스 다노",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.192,
+            "homeRuns": 7,
+            "eye": 7,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "ATL-2021-P01",
+          "name": "찰리 모튼",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 81,
+          "control": 83,
+          "stamina": 94,
+          "grade": "A"
+        },
+        {
+          "id": "ATL-2021-P02",
+          "name": "맥스 프리드",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 83,
+          "control": 96,
+          "stamina": 91,
+          "grade": "A"
+        },
+        {
+          "id": "ATL-2021-P03",
+          "name": "이안 앤더슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 79,
+          "control": 65,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "ATL-2021-P04",
+          "name": "드류 스마일리",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 71,
+          "control": 81,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "ATL-2021-P05",
+          "name": "우아스카 이노아",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 80,
+          "movement": 75,
+          "control": 90,
+          "stamina": 83,
+          "grade": "A"
+        },
+        {
+          "id": "ATL-2021-P06",
+          "name": "루크 잭슨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 80,
+          "movement": 92,
+          "control": 56,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "ATL-2021-P07",
+          "name": "타일러 마첵",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 85,
+          "movement": 87,
+          "control": 31,
+          "stamina": 73,
+          "grade": "C"
+        },
+        {
+          "id": "ATL-2021-P08",
+          "name": "A.J. 민터",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 77,
+          "control": 71,
+          "stamina": 74,
+          "grade": "B"
+        },
+        {
+          "id": "ATL-2021-P09",
+          "name": "조시 톰린",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 63,
+          "movement": 54,
+          "control": 100,
+          "stamina": 74,
+          "grade": "B"
+        },
+        {
+          "id": "ATL-2021-P10",
+          "name": "윌 스미스",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 88,
+          "movement": 80,
+          "control": 65,
+          "stamina": 56,
+          "grade": "B"
+        }
+      ]
+    },
+    "HOU": {
+      "id": "HOU",
+      "name": "휴스턴 애스트로스",
+      "shortName": "휴스턴",
+      "city": "휴스턴",
+      "primary": "#002d62",
+      "accent": "#eb6e1f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "HOU-2021-H01",
+          "name": "호세 알투베",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.278,
+            "homeRuns": 31,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "HOU-2021-H02",
+          "name": "마이클 브랜틀리",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.294,
+            "homeRuns": 8,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "HOU-2021-H03",
+          "name": "알렉스 브레그먼",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 12,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "HOU-2021-H04",
+          "name": "요르단 알바레스",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.269,
+            "homeRuns": 33,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "HOU-2021-H05",
+          "name": "카를로스 코레아",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.274,
+            "homeRuns": 26,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "HOU-2021-H06",
+          "name": "카일 터커",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.29,
+            "homeRuns": 30,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "HOU-2021-H07",
+          "name": "율리에스키 구리엘",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.309,
+            "homeRuns": 15,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "HOU-2021-H08",
+          "name": "제이크 마이어스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 6,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "HOU-2021-H09",
+          "name": "마틴 말도나도",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.189,
+            "homeRuns": 12,
+            "eye": 9,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "HOU-2021-P01",
+          "name": "잭 그레인키",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 74,
+          "control": 100,
+          "stamina": 92,
+          "grade": "A"
+        },
+        {
+          "id": "HOU-2021-P02",
+          "name": "랜스 맥컬러스 주니어",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 82,
+          "control": 54,
+          "stamina": 91,
+          "grade": "B"
+        },
+        {
+          "id": "HOU-2021-P03",
+          "name": "루이스 가르시아",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 79,
+          "movement": 80,
+          "control": 81,
+          "stamina": 90,
+          "grade": "A"
+        },
+        {
+          "id": "HOU-2021-P04",
+          "name": "제이크 오도리지",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 73,
+          "control": 81,
+          "stamina": 84,
+          "grade": "B"
+        },
+        {
+          "id": "HOU-2021-P05",
+          "name": "프람버 발데스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 82,
+          "control": 60,
+          "stamina": 88,
+          "grade": "B"
+        },
+        {
+          "id": "HOU-2021-P06",
+          "name": "라인 스타넥",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 85,
+          "movement": 80,
+          "control": 39,
+          "stamina": 74,
+          "grade": "C"
+        },
+        {
+          "id": "HOU-2021-P07",
+          "name": "브랜던 빌락",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 71,
+          "control": 62,
+          "stamina": 76,
+          "grade": "C"
+        },
+        {
+          "id": "HOU-2021-P08",
+          "name": "브룩스 레일리",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 90,
+          "movement": 69,
+          "control": 81,
+          "stamina": 76,
+          "grade": "A"
+        },
+        {
+          "id": "HOU-2021-P09",
+          "name": "블레이크 테일러",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 82,
+          "control": 46,
+          "stamina": 76,
+          "grade": "C"
+        },
+        {
+          "id": "HOU-2021-P10",
+          "name": "라이언 프레슬리",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 87,
+          "movement": 90,
+          "control": 100,
+          "stamina": 54,
+          "grade": "S"
+        }
+      ]
+    },
+    "DET": {
+      "id": "DET",
+      "name": "디트로이트 타이거스",
+      "shortName": "디트로이트",
+      "city": "디트로이트",
+      "primary": "#0c2340",
+      "accent": "#fa4616",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "DET-2021-H01",
+          "name": "로비 그로스먼",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.234,
+            "homeRuns": 23,
+            "eye": 9,
+            "speed": 7
+          }
+        },
+        {
+          "id": "DET-2021-H02",
+          "name": "조너선 스쿱",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.272,
+            "homeRuns": 22,
+            "eye": 3,
+            "speed": 2
+          }
+        },
+        {
+          "id": "DET-2021-H03",
+          "name": "제이머 칸델라리오",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.27,
+            "homeRuns": 16,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "DET-2021-H04",
+          "name": "미겔 카브레라",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 15,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "DET-2021-H05",
+          "name": "에릭 하스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.226,
+            "homeRuns": 22,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "DET-2021-H06",
+          "name": "아킬 바두",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.246,
+            "homeRuns": 13,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "DET-2021-H07",
+          "name": "빅터 레예스",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 5,
+            "eye": 4,
+            "speed": 5
+          }
+        },
+        {
+          "id": "DET-2021-H08",
+          "name": "윌리 카스트로",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.222,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "DET-2021-H09",
+          "name": "니코 구드럼",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.226,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "DET-2021-P01",
+          "name": "케이시 마이즈",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 78,
+          "control": 90,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "DET-2021-P02",
+          "name": "타릭 스쿠발",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 80,
+          "movement": 72,
+          "control": 83,
+          "stamina": 89,
+          "grade": "A"
+        },
+        {
+          "id": "DET-2021-P03",
+          "name": "호세 우레냐",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 59,
+          "movement": 60,
+          "control": 62,
+          "stamina": 82,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2021-P04",
+          "name": "윌리 페랄타",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 57,
+          "movement": 83,
+          "control": 65,
+          "stamina": 81,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2021-P05",
+          "name": "맷 매닝",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 59,
+          "movement": 60,
+          "control": 69,
+          "stamina": 80,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2021-P06",
+          "name": "마이클 풀머",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 84,
+          "control": 88,
+          "stamina": 79,
+          "grade": "A"
+        },
+        {
+          "id": "DET-2021-P07",
+          "name": "카일 펑크하우저",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 80,
+          "control": 37,
+          "stamina": 79,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2021-P08",
+          "name": "호세 시스네로",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 75,
+          "movement": 78,
+          "control": 48,
+          "stamina": 80,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2021-P09",
+          "name": "데릭 홀랜드",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 66,
+          "control": 67,
+          "stamina": 82,
+          "grade": "C"
+        },
+        {
+          "id": "DET-2021-P10",
+          "name": "그레고리 소토",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 84,
+          "movement": 80,
+          "control": 23,
+          "stamina": 54,
+          "grade": "C"
+        }
+      ]
+    },
+    "LAD": {
+      "id": "LAD",
+      "name": "LA 다저스",
+      "shortName": "다저스",
+      "city": "로스앤젤레스",
+      "primary": "#005a9c",
+      "accent": "#ffffff",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "LAD-2021-H01",
+          "name": "무키 베츠",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.236,
+            "homeRuns": 23,
+            "eye": 8,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LAD-2021-H02",
+          "name": "코리 시거",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.278,
+            "homeRuns": 16,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAD-2021-H03",
+          "name": "저스틴 터너",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 27,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAD-2021-H04",
+          "name": "맥스 먼시",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 36,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAD-2021-H05",
+          "name": "윌 스미스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 25,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAD-2021-H06",
+          "name": "A.J. 폴락",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.27,
+            "homeRuns": 21,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "LAD-2021-H07",
+          "name": "트레이 터너",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.286,
+            "homeRuns": 10,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LAD-2021-H08",
+          "name": "코디 벨린저",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.167,
+            "homeRuns": 10,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAD-2021-H09",
+          "name": "크리스 테일러",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.245,
+            "homeRuns": 20,
+            "eye": 7,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "LAD-2021-P01",
+          "name": "워커 뷸러",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 88,
+          "control": 94,
+          "stamina": 99,
+          "grade": "S"
+        },
+        {
+          "id": "LAD-2021-P02",
+          "name": "훌리오 우리아스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 84,
+          "control": 100,
+          "stamina": 94,
+          "grade": "S"
+        },
+        {
+          "id": "LAD-2021-P03",
+          "name": "클레이튼 커쇼",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 84,
+          "movement": 79,
+          "control": 100,
+          "stamina": 88,
+          "grade": "S"
+        },
+        {
+          "id": "LAD-2021-P04",
+          "name": "트레버 바우어",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 87,
+          "control": 77,
+          "stamina": 87,
+          "grade": "A"
+        },
+        {
+          "id": "LAD-2021-P05",
+          "name": "맥스 슈어저",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 89,
+          "movement": 92,
+          "control": 100,
+          "stamina": 82,
+          "grade": "S"
+        },
+        {
+          "id": "LAD-2021-P06",
+          "name": "블레이크 트라이넨",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 83,
+          "movement": 92,
+          "control": 77,
+          "stamina": 73,
+          "grade": "A"
+        },
+        {
+          "id": "LAD-2021-P07",
+          "name": "필 빅포드",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 83,
+          "movement": 88,
+          "control": 75,
+          "stamina": 74,
+          "grade": "A"
+        },
+        {
+          "id": "LAD-2021-P08",
+          "name": "미치 화이트",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 78,
+          "control": 73,
+          "stamina": 75,
+          "grade": "B"
+        },
+        {
+          "id": "LAD-2021-P09",
+          "name": "조 켈리",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 81,
+          "movement": 85,
+          "control": 77,
+          "stamina": 75,
+          "grade": "A"
+        },
+        {
+          "id": "LAD-2021-P10",
+          "name": "켄리 잰슨",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 86,
+          "movement": 90,
+          "control": 44,
+          "stamina": 56,
+          "grade": "B"
+        }
+      ]
+    },
+    "MIL": {
+      "id": "MIL",
+      "name": "밀워키 브루어스",
+      "shortName": "밀워키",
+      "city": "밀워키",
+      "primary": "#12284b",
+      "accent": "#ffc52f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "MIL-2021-H01",
+          "name": "콜튼 웡",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 14,
+            "eye": 6,
+            "speed": 7
+          }
+        },
+        {
+          "id": "MIL-2021-H02",
+          "name": "윌리 아다메스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.272,
+            "homeRuns": 20,
+            "eye": 7,
+            "speed": 3
+          }
+        },
+        {
+          "id": "MIL-2021-H03",
+          "name": "크리스티안 옐리치",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.236,
+            "homeRuns": 9,
+            "eye": 8,
+            "speed": 6
+          }
+        },
+        {
+          "id": "MIL-2021-H04",
+          "name": "아비사일 가르시아",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 29,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "MIL-2021-H05",
+          "name": "에두아르도 에스코바",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 6,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "MIL-2021-H06",
+          "name": "오마르 나바에스",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 11,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIL-2021-H07",
+          "name": "라우디 텔레즈",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.223,
+            "homeRuns": 7,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIL-2021-H08",
+          "name": "다니엘 보겔백",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.217,
+            "homeRuns": 9,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIL-2021-H09",
+          "name": "로렌조 케인",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.211,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 7
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "MIL-2021-P01",
+          "name": "브랜던 우드러프",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 87,
+          "control": 96,
+          "stamina": 93,
+          "grade": "S"
+        },
+        {
+          "id": "MIL-2021-P02",
+          "name": "코빈 번스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 94,
+          "movement": 88,
+          "control": 100,
+          "stamina": 91,
+          "grade": "S"
+        },
+        {
+          "id": "MIL-2021-P03",
+          "name": "프레디 페랄타",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 92,
+          "movement": 85,
+          "control": 69,
+          "stamina": 88,
+          "grade": "A"
+        },
+        {
+          "id": "MIL-2021-P04",
+          "name": "애드리안 하우저",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 82,
+          "control": 58,
+          "stamina": 88,
+          "grade": "C"
+        },
+        {
+          "id": "MIL-2021-P05",
+          "name": "브렛 앤더슨",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 56,
+          "movement": 73,
+          "control": 88,
+          "stamina": 81,
+          "grade": "B"
+        },
+        {
+          "id": "MIL-2021-P06",
+          "name": "브렌트 수터",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 83,
+          "control": 81,
+          "stamina": 74,
+          "grade": "A"
+        },
+        {
+          "id": "MIL-2021-P07",
+          "name": "브래드 박스버거",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 89,
+          "movement": 81,
+          "control": 69,
+          "stamina": 75,
+          "grade": "A"
+        },
+        {
+          "id": "MIL-2021-P08",
+          "name": "데빈 윌리엄스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 100,
+          "movement": 88,
+          "control": 44,
+          "stamina": 77,
+          "grade": "B"
+        },
+        {
+          "id": "MIL-2021-P09",
+          "name": "헌터 스트릭랜드",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 77,
+          "movement": 94,
+          "control": 79,
+          "stamina": 78,
+          "grade": "A"
+        },
+        {
+          "id": "MIL-2021-P10",
+          "name": "조시 헤이더",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 100,
+          "movement": 98,
+          "control": 65,
+          "stamina": 54,
+          "grade": "S"
+        }
+      ]
+    },
+    "STL": {
+      "id": "STL",
+      "name": "세인트루이스 카디널스",
+      "shortName": "세인트루이스",
+      "city": "세인트루이스",
+      "primary": "#c41e3a",
+      "accent": "#0c2340",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "STL-2021-H01",
+          "name": "토미 에드먼",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 11,
+            "eye": 4,
+            "speed": 8
+          }
+        },
+        {
+          "id": "STL-2021-H02",
+          "name": "폴 골드슈미트",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.294,
+            "homeRuns": 31,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "STL-2021-H03",
+          "name": "타일러 오닐",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.276,
+            "homeRuns": 34,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "STL-2021-H04",
+          "name": "놀란 아레나도",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 34,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "STL-2021-H05",
+          "name": "딜런 칼슨",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 18,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "STL-2021-H06",
+          "name": "야디어 몰리나",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "STL-2021-H07",
+          "name": "에드문도 소사",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.234,
+            "homeRuns": 6,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "STL-2021-H08",
+          "name": "해리슨 베이더",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 16,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "STL-2021-H09",
+          "name": "맷 카펜터",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.177,
+            "homeRuns": 3,
+            "eye": 10,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "STL-2021-P01",
+          "name": "애덤 웨인라이트",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 83,
+          "control": 96,
+          "stamina": 98,
+          "grade": "A"
+        },
+        {
+          "id": "STL-2021-P02",
+          "name": "김광현",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 80,
+          "control": 73,
+          "stamina": 88,
+          "grade": "B"
+        },
+        {
+          "id": "STL-2021-P03",
+          "name": "카를로스 마르티네스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 60,
+          "movement": 56,
+          "control": 60,
+          "stamina": 86,
+          "grade": "D"
+        },
+        {
+          "id": "STL-2021-P04",
+          "name": "잭 플래허티",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 79,
+          "movement": 82,
+          "control": 79,
+          "stamina": 85,
+          "grade": "A"
+        },
+        {
+          "id": "STL-2021-P05",
+          "name": "존 갠트",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 80,
+          "control": 4,
+          "stamina": 85,
+          "grade": "D"
+        },
+        {
+          "id": "STL-2021-P06",
+          "name": "지오바니 가예고스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 83,
+          "movement": 83,
+          "control": 96,
+          "stamina": 72,
+          "grade": "S"
+        },
+        {
+          "id": "STL-2021-P07",
+          "name": "헤네시스 카브레라",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 80,
+          "movement": 77,
+          "control": 46,
+          "stamina": 73,
+          "grade": "C"
+        },
+        {
+          "id": "STL-2021-P08",
+          "name": "라이언 헬슬리",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 70,
+          "control": 35,
+          "stamina": 74,
+          "grade": "D"
+        },
+        {
+          "id": "STL-2021-P09",
+          "name": "T.J. 맥팔랜드",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 53,
+          "movement": 87,
+          "control": 98,
+          "stamina": 75,
+          "grade": "A"
+        },
+        {
+          "id": "STL-2021-P10",
+          "name": "알렉스 레예스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 90,
+          "movement": 82,
+          "control": 6,
+          "stamina": 57,
+          "grade": "D"
+        }
+      ]
+    },
+    "CWS": {
+      "id": "CWS",
+      "name": "시카고 화이트삭스",
+      "shortName": "화이트삭스",
+      "city": "시카고",
+      "primary": "#27251f",
+      "accent": "#c4ced4",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "CWS-2021-H01",
+          "name": "팀 앤더슨",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.301,
+            "homeRuns": 17,
+            "eye": 3,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CWS-2021-H02",
+          "name": "루이스 로버트",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.288,
+            "homeRuns": 13,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CWS-2021-H03",
+          "name": "호세 아브레우",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 30,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CWS-2021-H04",
+          "name": "엘로이 히메네스",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.234,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CWS-2021-H05",
+          "name": "요안 몬카다",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 14,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CWS-2021-H06",
+          "name": "야스마니 그랜달",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.22,
+            "homeRuns": 23,
+            "eye": 10,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CWS-2021-H07",
+          "name": "앤드루 본",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.226,
+            "homeRuns": 15,
+            "eye": 7,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CWS-2021-H08",
+          "name": "예르민 메르세데스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 7,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CWS-2021-H09",
+          "name": "레우리 가르시아",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 5,
+            "eye": 5,
+            "speed": 4
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "CWS-2021-P01",
+          "name": "딜런 시즈",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 92,
+          "movement": 76,
+          "control": 65,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "CWS-2021-P02",
+          "name": "루카스 지올리토",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 79,
+          "control": 88,
+          "stamina": 92,
+          "grade": "A"
+        },
+        {
+          "id": "CWS-2021-P03",
+          "name": "댈러스 카이클",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 55,
+          "movement": 64,
+          "control": 73,
+          "stamina": 89,
+          "grade": "C"
+        },
+        {
+          "id": "CWS-2021-P04",
+          "name": "랜스 린",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 86,
+          "control": 88,
+          "stamina": 88,
+          "grade": "S"
+        },
+        {
+          "id": "CWS-2021-P05",
+          "name": "카를로스 로돈",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 94,
+          "movement": 89,
+          "control": 92,
+          "stamina": 83,
+          "grade": "S"
+        },
+        {
+          "id": "CWS-2021-P06",
+          "name": "마이클 코펙",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 98,
+          "movement": 79,
+          "control": 77,
+          "stamina": 73,
+          "grade": "A"
+        },
+        {
+          "id": "CWS-2021-P07",
+          "name": "호세 루이스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 83,
+          "control": 69,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "CWS-2021-P08",
+          "name": "애런 버머",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 91,
+          "movement": 79,
+          "control": 46,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "CWS-2021-P09",
+          "name": "개럿 크로셰",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 84,
+          "movement": 85,
+          "control": 48,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "CWS-2021-P10",
+          "name": "리암 헨드릭스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 100,
+          "movement": 87,
+          "control": 100,
+          "stamina": 57,
+          "grade": "S"
+        }
+      ]
+    },
+    "SEA": {
+      "id": "SEA",
+      "name": "시애틀 매리너스",
+      "shortName": "시애틀",
+      "city": "시애틀",
+      "primary": "#0c2c56",
+      "accent": "#005c5c",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "SEA-2021-H01",
+          "name": "J.P. 크로퍼드",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.265,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "SEA-2021-H02",
+          "name": "타이 프랑스",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.26,
+            "homeRuns": 18,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "SEA-2021-H03",
+          "name": "미치 해니거",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 39,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "SEA-2021-H04",
+          "name": "카일 시거",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.21,
+            "homeRuns": 35,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "SEA-2021-H05",
+          "name": "아브라함 토로",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.213,
+            "homeRuns": 5,
+            "eye": 7,
+            "speed": 7
+          }
+        },
+        {
+          "id": "SEA-2021-H06",
+          "name": "재러드 켈레닉",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.189,
+            "homeRuns": 14,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SEA-2021-H07",
+          "name": "제이크 프레일리",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.203,
+            "homeRuns": 9,
+            "eye": 9,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SEA-2021-H08",
+          "name": "루이스 토렌스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.224,
+            "homeRuns": 15,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "SEA-2021-H09",
+          "name": "톰 머피",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.192,
+            "homeRuns": 11,
+            "eye": 7,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SEA-2021-P01",
+          "name": "크리스 플렉센",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 78,
+          "control": 100,
+          "stamina": 93,
+          "grade": "A"
+        },
+        {
+          "id": "SEA-2021-P02",
+          "name": "기쿠치 유세이",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 72,
+          "control": 67,
+          "stamina": 90,
+          "grade": "B"
+        },
+        {
+          "id": "SEA-2021-P03",
+          "name": "마르코 곤잘레스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 76,
+          "control": 88,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "SEA-2021-P04",
+          "name": "로건 길버트",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 79,
+          "movement": 69,
+          "control": 98,
+          "stamina": 86,
+          "grade": "A"
+        },
+        {
+          "id": "SEA-2021-P05",
+          "name": "저스터스 셰필드",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 51,
+          "control": 41,
+          "stamina": 81,
+          "grade": "D"
+        },
+        {
+          "id": "SEA-2021-P06",
+          "name": "폴 시월드",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 100,
+          "movement": 83,
+          "control": 73,
+          "stamina": 73,
+          "grade": "S"
+        },
+        {
+          "id": "SEA-2021-P07",
+          "name": "앤서니 미시에비츠",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 70,
+          "control": 90,
+          "stamina": 74,
+          "grade": "B"
+        },
+        {
+          "id": "SEA-2021-P08",
+          "name": "라파엘 몬테로",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 68,
+          "movement": 48,
+          "control": 77,
+          "stamina": 74,
+          "grade": "C"
+        },
+        {
+          "id": "SEA-2021-P09",
+          "name": "케이시 새들러",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 100,
+          "control": 96,
+          "stamina": 74,
+          "grade": "S"
+        },
+        {
+          "id": "SEA-2021-P10",
+          "name": "드류 스테켄라이더",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 68,
+          "movement": 92,
+          "control": 94,
+          "stamina": 67,
+          "grade": "A"
+        }
+      ]
+    },
+    "SD": {
+      "id": "SD",
+      "name": "샌디에이고 파드리스",
+      "shortName": "샌디에이고",
+      "city": "샌디에이고",
+      "primary": "#002d62",
+      "accent": "#ffffff",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "SD-2021-H01",
+          "name": "토미 팸",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.225,
+            "homeRuns": 15,
+            "eye": 9,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SD-2021-H02",
+          "name": "페르난도 타티스 주니어",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 42,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "SD-2021-H03",
+          "name": "제이크 크로넨워스",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 21,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SD-2021-H04",
+          "name": "매니 마차도",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.275,
+            "homeRuns": 28,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SD-2021-H05",
+          "name": "윌 마이어스",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 17,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "SD-2021-H06",
+          "name": "에릭 호스머",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.269,
+            "homeRuns": 12,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "SD-2021-H07",
+          "name": "오스틴 놀라",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.231,
+            "homeRuns": 2,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SD-2021-H08",
+          "name": "주릭슨 프로파",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.221,
+            "homeRuns": 4,
+            "eye": 9,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SD-2021-H09",
+          "name": "트렌트 그리샴",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.241,
+            "homeRuns": 15,
+            "eye": 7,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SD-2021-P01",
+          "name": "조 머스그로브",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 82,
+          "control": 86,
+          "stamina": 92,
+          "grade": "A"
+        },
+        {
+          "id": "SD-2021-P02",
+          "name": "다르빗슈 유",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 84,
+          "movement": 73,
+          "control": 92,
+          "stamina": 90,
+          "grade": "A"
+        },
+        {
+          "id": "SD-2021-P03",
+          "name": "블레이크 스넬",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 90,
+          "movement": 74,
+          "control": 41,
+          "stamina": 84,
+          "grade": "C"
+        },
+        {
+          "id": "SD-2021-P04",
+          "name": "크리스 패댁",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 66,
+          "control": 100,
+          "stamina": 81,
+          "grade": "A"
+        },
+        {
+          "id": "SD-2021-P05",
+          "name": "라이언 웨더스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 64,
+          "control": 81,
+          "stamina": 79,
+          "grade": "C"
+        },
+        {
+          "id": "SD-2021-P06",
+          "name": "크레이그 스탬먼",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 83,
+          "control": 100,
+          "stamina": 76,
+          "grade": "S"
+        },
+        {
+          "id": "SD-2021-P07",
+          "name": "나빌 크리스맷",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 77,
+          "control": 86,
+          "stamina": 77,
+          "grade": "B"
+        },
+        {
+          "id": "SD-2021-P08",
+          "name": "에밀리오 파간",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 68,
+          "control": 88,
+          "stamina": 82,
+          "grade": "A"
+        },
+        {
+          "id": "SD-2021-P09",
+          "name": "팀 힐",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 78,
+          "control": 69,
+          "stamina": 82,
+          "grade": "B"
+        },
+        {
+          "id": "SD-2021-P10",
+          "name": "마크 멜란슨",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 71,
+          "movement": 90,
+          "control": 69,
+          "stamina": 54,
+          "grade": "B"
+        }
+      ]
+    },
+    "NYY": {
+      "id": "NYY",
+      "name": "뉴욕 양키스",
+      "shortName": "양키스",
+      "city": "뉴욕",
+      "primary": "#0c2340",
+      "accent": "#ffffff",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "NYY-2021-H01",
+          "name": "DJ 르메이휴",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 10,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "NYY-2021-H02",
+          "name": "앤서니 리조",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.216,
+            "homeRuns": 8,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYY-2021-H03",
+          "name": "애런 저지",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.277,
+            "homeRuns": 39,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "NYY-2021-H04",
+          "name": "지안카를로 스탠튼",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 35,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYY-2021-H05",
+          "name": "조이 갈로",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.191,
+            "homeRuns": 13,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYY-2021-H06",
+          "name": "글레이버 토레스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 9,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "NYY-2021-H07",
+          "name": "지오 우르셸라",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.259,
+            "homeRuns": 14,
+            "eye": 3,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NYY-2021-H08",
+          "name": "게리 산체스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.195,
+            "homeRuns": 23,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NYY-2021-H09",
+          "name": "브렛 가드너",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.22,
+            "homeRuns": 10,
+            "eye": 8,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "NYY-2021-P01",
+          "name": "게릿 콜",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 91,
+          "movement": 82,
+          "control": 100,
+          "stamina": 93,
+          "grade": "S"
+        },
+        {
+          "id": "NYY-2021-P02",
+          "name": "조던 몽고메리",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 77,
+          "control": 81,
+          "stamina": 90,
+          "grade": "A"
+        },
+        {
+          "id": "NYY-2021-P03",
+          "name": "제임슨 타이욘",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 73,
+          "control": 86,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "NYY-2021-P04",
+          "name": "도밍고 헤르만",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 70,
+          "control": 90,
+          "stamina": 83,
+          "grade": "A"
+        },
+        {
+          "id": "NYY-2021-P05",
+          "name": "코리 클루버",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 77,
+          "control": 65,
+          "stamina": 81,
+          "grade": "B"
+        },
+        {
+          "id": "NYY-2021-P06",
+          "name": "채드 그린",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 83,
+          "movement": 83,
+          "control": 100,
+          "stamina": 75,
+          "grade": "S"
+        },
+        {
+          "id": "NYY-2021-P07",
+          "name": "루카스 루트지",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 86,
+          "control": 100,
+          "stamina": 77,
+          "grade": "S"
+        },
+        {
+          "id": "NYY-2021-P08",
+          "name": "조너선 로아이시가",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 91,
+          "control": 100,
+          "stamina": 77,
+          "grade": "S"
+        },
+        {
+          "id": "NYY-2021-P09",
+          "name": "완디 페랄타",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 66,
+          "movement": 84,
+          "control": 62,
+          "stamina": 81,
+          "grade": "B"
+        },
+        {
+          "id": "NYY-2021-P10",
+          "name": "아롤디스 채프먼",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 100,
+          "movement": 81,
+          "control": 14,
+          "stamina": 54,
+          "grade": "C"
+        }
+      ]
+    },
+    "TOR": {
+      "id": "TOR",
+      "name": "토론토 블루제이스",
+      "shortName": "토론토",
+      "city": "토론토",
+      "primary": "#134a8e",
+      "accent": "#e8291c",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "TOR-2021-H01",
+          "name": "조지 스프링어",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 22,
+            "eye": 8,
+            "speed": 5
+          }
+        },
+        {
+          "id": "TOR-2021-H02",
+          "name": "마커스 시미언",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.265,
+            "homeRuns": 45,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TOR-2021-H03",
+          "name": "블라디미르 게레로 주니어",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.295,
+            "homeRuns": 48,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "TOR-2021-H04",
+          "name": "보 비셋",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.293,
+            "homeRuns": 29,
+            "eye": 4,
+            "speed": 8
+          }
+        },
+        {
+          "id": "TOR-2021-H05",
+          "name": "테오스카 에르난데스",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.289,
+            "homeRuns": 32,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TOR-2021-H06",
+          "name": "루르데스 구리엘 주니어",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.272,
+            "homeRuns": 21,
+            "eye": 4,
+            "speed": 3
+          }
+        },
+        {
+          "id": "TOR-2021-H07",
+          "name": "랜달 그리칙",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 22,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "TOR-2021-H08",
+          "name": "산티아고 에스피날",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 2,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "TOR-2021-H09",
+          "name": "대니 잰슨",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 11,
+            "eye": 6,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "TOR-2021-P01",
+          "name": "로비 레이",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 88,
+          "movement": 85,
+          "control": 92,
+          "stamina": 95,
+          "grade": "S"
+        },
+        {
+          "id": "TOR-2021-P02",
+          "name": "류현진",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 72,
+          "control": 100,
+          "stamina": 91,
+          "grade": "A"
+        },
+        {
+          "id": "TOR-2021-P03",
+          "name": "스티븐 마츠",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 77,
+          "control": 88,
+          "stamina": 89,
+          "grade": "A"
+        },
+        {
+          "id": "TOR-2021-P04",
+          "name": "알렉 마노아",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 82,
+          "control": 75,
+          "stamina": 84,
+          "grade": "A"
+        },
+        {
+          "id": "TOR-2021-P05",
+          "name": "로스 스트리플링",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 68,
+          "control": 86,
+          "stamina": 83,
+          "grade": "B"
+        },
+        {
+          "id": "TOR-2021-P06",
+          "name": "팀 메이자",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 80,
+          "control": 100,
+          "stamina": 73,
+          "grade": "S"
+        },
+        {
+          "id": "TOR-2021-P07",
+          "name": "트렌트 손튼",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 78,
+          "movement": 69,
+          "control": 81,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "TOR-2021-P08",
+          "name": "애덤 심버",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 65,
+          "movement": 95,
+          "control": 100,
+          "stamina": 73,
+          "grade": "S"
+        },
+        {
+          "id": "TOR-2021-P09",
+          "name": "트레버 리차즈",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 81,
+          "movement": 81,
+          "control": 83,
+          "stamina": 74,
+          "grade": "A"
+        },
+        {
+          "id": "TOR-2021-P10",
+          "name": "조던 로마노",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 91,
+          "movement": 91,
+          "control": 67,
+          "stamina": 54,
+          "grade": "A"
+        }
+      ]
+    },
+    "BAL": {
+      "id": "BAL",
+      "name": "볼티모어 오리올스",
+      "shortName": "볼티모어",
+      "city": "볼티모어",
+      "primary": "#df4601",
+      "accent": "#000000",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "BAL-2021-H01",
+          "name": "세드릭 멀린스",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.281,
+            "homeRuns": 30,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "BAL-2021-H02",
+          "name": "트레이 맨시니",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 21,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "BAL-2021-H03",
+          "name": "라이언 마운트캐슬",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 33,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "BAL-2021-H04",
+          "name": "앤서니 산탄데르",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 18,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "BAL-2021-H05",
+          "name": "오스틴 헤이스",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 22,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "BAL-2021-H06",
+          "name": "라몬 우리아스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.222,
+            "homeRuns": 7,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "BAL-2021-H07",
+          "name": "마이켈 프랑코",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.212,
+            "homeRuns": 11,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "BAL-2021-H08",
+          "name": "페드로 세베리노",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.223,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "BAL-2021-H09",
+          "name": "프레디 갈비스",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.24,
+            "homeRuns": 9,
+            "eye": 4,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "BAL-2021-P01",
+          "name": "맷 하비",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 56,
+          "control": 88,
+          "stamina": 87,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2021-P02",
+          "name": "존 민스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 78,
+          "control": 100,
+          "stamina": 89,
+          "grade": "A"
+        },
+        {
+          "id": "BAL-2021-P03",
+          "name": "호르헤 로페스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 58,
+          "control": 56,
+          "stamina": 86,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2021-P04",
+          "name": "키건 에이킨",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 53,
+          "control": 62,
+          "stamina": 83,
+          "grade": "C"
+        },
+        {
+          "id": "BAL-2021-P05",
+          "name": "브루스 짐머맨",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 66,
+          "control": 77,
+          "stamina": 79,
+          "grade": "B"
+        },
+        {
+          "id": "BAL-2021-P06",
+          "name": "딜런 테이트",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 62,
+          "movement": 72,
+          "control": 77,
+          "stamina": 75,
+          "grade": "B"
+        },
+        {
+          "id": "BAL-2021-P07",
+          "name": "타일러 웰스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 74,
+          "control": 100,
+          "stamina": 76,
+          "grade": "S"
+        },
+        {
+          "id": "BAL-2021-P08",
+          "name": "애덤 플럿코",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 64,
+          "movement": 52,
+          "control": 52,
+          "stamina": 76,
+          "grade": "D"
+        },
+        {
+          "id": "BAL-2021-P09",
+          "name": "태너 스콧",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 89,
+          "movement": 65,
+          "control": 12,
+          "stamina": 76,
+          "grade": "D"
+        },
+        {
+          "id": "BAL-2021-P10",
+          "name": "콜 설서",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 82,
+          "movement": 86,
+          "control": 73,
+          "stamina": 67,
+          "grade": "A"
+        }
+      ]
+    },
+    "OAK": {
+      "id": "OAK",
+      "name": "오클랜드 애슬레틱스",
+      "shortName": "오클랜드",
+      "city": "오클랜드",
+      "primary": "#003831",
+      "accent": "#efb21e",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "OAK-2021-H01",
+          "name": "마크 칸하",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.228,
+            "homeRuns": 17,
+            "eye": 9,
+            "speed": 6
+          }
+        },
+        {
+          "id": "OAK-2021-H02",
+          "name": "스탈링 마르테",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.296,
+            "homeRuns": 5,
+            "eye": 4,
+            "speed": 8
+          }
+        },
+        {
+          "id": "OAK-2021-H03",
+          "name": "맷 올슨",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.271,
+            "homeRuns": 39,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "OAK-2021-H04",
+          "name": "맷 채프먼",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.213,
+            "homeRuns": 27,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "OAK-2021-H05",
+          "name": "제드 라우리",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.232,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "OAK-2021-H06",
+          "name": "라몬 로리아노",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.232,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "OAK-2021-H07",
+          "name": "조시 해리슨",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 2,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "OAK-2021-H08",
+          "name": "션 머피",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.216,
+            "homeRuns": 17,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "OAK-2021-H09",
+          "name": "엘비스 앤드루스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.239,
+            "homeRuns": 3,
+            "eye": 5,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "OAK-2021-P01",
+          "name": "프랭키 몬타스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 80,
+          "movement": 80,
+          "control": 86,
+          "stamina": 94,
+          "grade": "A"
+        },
+        {
+          "id": "OAK-2021-P02",
+          "name": "션 머나야",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 79,
+          "movement": 76,
+          "control": 98,
+          "stamina": 93,
+          "grade": "A"
+        },
+        {
+          "id": "OAK-2021-P03",
+          "name": "콜 어빈",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 73,
+          "control": 98,
+          "stamina": 92,
+          "grade": "B"
+        },
+        {
+          "id": "OAK-2021-P04",
+          "name": "크리스 배싯",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 82,
+          "control": 96,
+          "stamina": 90,
+          "grade": "A"
+        },
+        {
+          "id": "OAK-2021-P05",
+          "name": "제임스 카프리엘리안",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 75,
+          "control": 77,
+          "stamina": 84,
+          "grade": "B"
+        },
+        {
+          "id": "OAK-2021-P06",
+          "name": "유스메이로 페팃",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 50,
+          "movement": 76,
+          "control": 100,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "OAK-2021-P07",
+          "name": "데올리스 게라",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 74,
+          "control": 86,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "OAK-2021-P08",
+          "name": "세르히오 로모",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 70,
+          "control": 77,
+          "stamina": 70,
+          "grade": "B"
+        },
+        {
+          "id": "OAK-2021-P09",
+          "name": "제이크 디크먼",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 92,
+          "movement": 76,
+          "control": 37,
+          "stamina": 70,
+          "grade": "C"
+        },
+        {
+          "id": "OAK-2021-P10",
+          "name": "루 트리비노",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 71,
+          "movement": 82,
+          "control": 54,
+          "stamina": 67,
+          "grade": "C"
+        }
+      ]
+    },
+    "CIN": {
+      "id": "CIN",
+      "name": "신시내티 레즈",
+      "shortName": "신시내티",
+      "city": "신시내티",
+      "primary": "#c6011f",
+      "accent": "#ffffff",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "CIN-2021-H01",
+          "name": "조너선 인디아",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.262,
+            "homeRuns": 21,
+            "eye": 9,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CIN-2021-H02",
+          "name": "제시 윙커",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.275,
+            "homeRuns": 24,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CIN-2021-H03",
+          "name": "니콜라스 카스테야노스",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.295,
+            "homeRuns": 34,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CIN-2021-H04",
+          "name": "조이 보토",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 36,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CIN-2021-H05",
+          "name": "에우헤니오 수아레스",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.199,
+            "homeRuns": 31,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CIN-2021-H06",
+          "name": "타일러 스티븐슨",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.263,
+            "homeRuns": 10,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CIN-2021-H07",
+          "name": "타일러 네이퀸",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 19,
+            "eye": 6,
+            "speed": 5
+          }
+        },
+        {
+          "id": "CIN-2021-H08",
+          "name": "카일 파머",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 16,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CIN-2021-H09",
+          "name": "터커 반하트",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.247,
+            "homeRuns": 7,
+            "eye": 6,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "CIN-2021-P01",
+          "name": "루이스 카스티요",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 75,
+          "control": 67,
+          "stamina": 93,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2021-P02",
+          "name": "타일러 말리",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 77,
+          "control": 75,
+          "stamina": 92,
+          "grade": "A"
+        },
+        {
+          "id": "CIN-2021-P03",
+          "name": "웨이드 마일리",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 64,
+          "movement": 80,
+          "control": 83,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2021-P04",
+          "name": "소니 그레이",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 74,
+          "control": 73,
+          "stamina": 84,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2021-P05",
+          "name": "블라디미르 구티에레스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 64,
+          "movement": 69,
+          "control": 67,
+          "stamina": 81,
+          "grade": "C"
+        },
+        {
+          "id": "CIN-2021-P06",
+          "name": "아미르 개럿",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 88,
+          "movement": 58,
+          "control": 27,
+          "stamina": 76,
+          "grade": "D"
+        },
+        {
+          "id": "CIN-2021-P07",
+          "name": "루카스 심스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 100,
+          "movement": 72,
+          "control": 71,
+          "stamina": 76,
+          "grade": "A"
+        },
+        {
+          "id": "CIN-2021-P08",
+          "name": "토니 산티얀",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 89,
+          "movement": 84,
+          "control": 50,
+          "stamina": 76,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2021-P09",
+          "name": "히스 헴브리",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 100,
+          "movement": 55,
+          "control": 58,
+          "stamina": 77,
+          "grade": "B"
+        },
+        {
+          "id": "CIN-2021-P10",
+          "name": "마이칼 기븐스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 72,
+          "movement": 73,
+          "control": 27,
+          "stamina": 54,
+          "grade": "D"
+        }
+      ]
+    },
+    "KC": {
+      "id": "KC",
+      "name": "캔자스시티 로열스",
+      "shortName": "캔자스시티",
+      "city": "캔자스시티",
+      "primary": "#004687",
+      "accent": "#bd9b60",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "KC-2021-H01",
+          "name": "휘트 메리필드",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.277,
+            "homeRuns": 10,
+            "eye": 3,
+            "speed": 9
+          }
+        },
+        {
+          "id": "KC-2021-H02",
+          "name": "니키 로페스",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.294,
+            "homeRuns": 2,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "KC-2021-H03",
+          "name": "살바도르 페레스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.264,
+            "homeRuns": 48,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "KC-2021-H04",
+          "name": "앤드루 베닌텐디",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 17,
+            "eye": 4,
+            "speed": 5
+          }
+        },
+        {
+          "id": "KC-2021-H05",
+          "name": "카를로스 산타나",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.214,
+            "homeRuns": 19,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "KC-2021-H06",
+          "name": "헌터 도저",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.23,
+            "homeRuns": 16,
+            "eye": 4,
+            "speed": 7
+          }
+        },
+        {
+          "id": "KC-2021-H07",
+          "name": "호르헤 솔레어",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.207,
+            "homeRuns": 13,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "KC-2021-H08",
+          "name": "마이클 A. 테일러",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 12,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "KC-2021-H09",
+          "name": "라이언 오헌",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.232,
+            "homeRuns": 9,
+            "eye": 4,
+            "speed": 4
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "KC-2021-P01",
+          "name": "마이크 마이너",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 66,
+          "control": 94,
+          "stamina": 91,
+          "grade": "B"
+        },
+        {
+          "id": "KC-2021-P02",
+          "name": "브래디 싱어",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 68,
+          "control": 65,
+          "stamina": 87,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2021-P03",
+          "name": "브래드 켈러",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 70,
+          "movement": 64,
+          "control": 52,
+          "stamina": 88,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2021-P04",
+          "name": "크리스 부빅",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 72,
+          "control": 56,
+          "stamina": 87,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2021-P05",
+          "name": "다니엘 린치",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 61,
+          "control": 56,
+          "stamina": 80,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2021-P06",
+          "name": "조시 스타우몬트",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 80,
+          "movement": 85,
+          "control": 65,
+          "stamina": 76,
+          "grade": "B"
+        },
+        {
+          "id": "KC-2021-P07",
+          "name": "어빈 산타나",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 65,
+          "movement": 69,
+          "control": 79,
+          "stamina": 76,
+          "grade": "B"
+        },
+        {
+          "id": "KC-2021-P08",
+          "name": "제이크 브렌츠",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 84,
+          "movement": 78,
+          "control": 33,
+          "stamina": 76,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2021-P09",
+          "name": "그렉 홀랜드",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 68,
+          "control": 54,
+          "stamina": 77,
+          "grade": "C"
+        },
+        {
+          "id": "KC-2021-P10",
+          "name": "스콧 발로",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 85,
+          "movement": 88,
+          "control": 71,
+          "stamina": 58,
+          "grade": "A"
+        }
+      ]
+    },
+    "ARI": {
+      "id": "ARI",
+      "name": "애리조나 다이아몬드백스",
+      "shortName": "애리조나",
+      "city": "피닉스",
+      "primary": "#a71930",
+      "accent": "#e3d4ad",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "ARI-2021-H01",
+          "name": "조시 로하스",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.241,
+            "homeRuns": 11,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "ARI-2021-H02",
+          "name": "케텔 마르테",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 14,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "ARI-2021-H03",
+          "name": "에두아르도 에스코바",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.225,
+            "homeRuns": 22,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ARI-2021-H04",
+          "name": "데이비드 페랄타",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 8,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "ARI-2021-H05",
+          "name": "크리스티안 워커",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 10,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ARI-2021-H06",
+          "name": "콜 칼훈",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.232,
+            "homeRuns": 5,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "ARI-2021-H07",
+          "name": "카슨 켈리",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.236,
+            "homeRuns": 13,
+            "eye": 7,
+            "speed": 3
+          }
+        },
+        {
+          "id": "ARI-2021-H08",
+          "name": "아스드루발 카브레라",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 7,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "ARI-2021-H09",
+          "name": "닉 아메드",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.219,
+            "homeRuns": 5,
+            "eye": 5,
+            "speed": 4
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "ARI-2021-P01",
+          "name": "메릴 켈리",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 71,
+          "control": 94,
+          "stamina": 92,
+          "grade": "B"
+        },
+        {
+          "id": "ARI-2021-P02",
+          "name": "매디슨 범가너",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 70,
+          "control": 92,
+          "stamina": 92,
+          "grade": "B"
+        },
+        {
+          "id": "ARI-2021-P03",
+          "name": "잭 갤런",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 73,
+          "control": 67,
+          "stamina": 90,
+          "grade": "B"
+        },
+        {
+          "id": "ARI-2021-P04",
+          "name": "케일럽 스미스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 79,
+          "movement": 68,
+          "control": 37,
+          "stamina": 89,
+          "grade": "C"
+        },
+        {
+          "id": "ARI-2021-P05",
+          "name": "테일러 와이드너",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 72,
+          "control": 44,
+          "stamina": 86,
+          "grade": "C"
+        },
+        {
+          "id": "ARI-2021-P06",
+          "name": "테일러 클라크",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 67,
+          "control": 81,
+          "stamina": 72,
+          "grade": "B"
+        },
+        {
+          "id": "ARI-2021-P07",
+          "name": "알렉스 영",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 56,
+          "control": 52,
+          "stamina": 72,
+          "grade": "D"
+        },
+        {
+          "id": "ARI-2021-P08",
+          "name": "조 맨티플라이",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 80,
+          "control": 60,
+          "stamina": 72,
+          "grade": "B"
+        },
+        {
+          "id": "ARI-2021-P09",
+          "name": "노에 라미레스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 86,
+          "control": 79,
+          "stamina": 73,
+          "grade": "A"
+        },
+        {
+          "id": "ARI-2021-P10",
+          "name": "타일러 클리파드",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 67,
+          "movement": 82,
+          "control": 60,
+          "stamina": 54,
+          "grade": "C"
+        }
+      ]
+    },
+    "CLE": {
+      "id": "CLE",
+      "name": "클리블랜드 인디언스",
+      "shortName": "클리블랜드",
+      "city": "클리블랜드",
+      "primary": "#0c2340",
+      "accent": "#e31937",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "CLE-2021-H01",
+          "name": "마일스 스트로",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.242,
+            "homeRuns": 2,
+            "eye": 8,
+            "speed": 8
+          }
+        },
+        {
+          "id": "CLE-2021-H02",
+          "name": "아메드 로사리오",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.265,
+            "homeRuns": 11,
+            "eye": 4,
+            "speed": 7
+          }
+        },
+        {
+          "id": "CLE-2021-H03",
+          "name": "호세 라미레스",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.262,
+            "homeRuns": 36,
+            "eye": 7,
+            "speed": 8
+          }
+        },
+        {
+          "id": "CLE-2021-H04",
+          "name": "프란밀 레예스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.247,
+            "homeRuns": 30,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CLE-2021-H05",
+          "name": "바비 브래들리",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.213,
+            "homeRuns": 16,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "CLE-2021-H06",
+          "name": "에디 로사리오",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.24,
+            "homeRuns": 7,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CLE-2021-H07",
+          "name": "해롤드 라미레스",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 7,
+            "eye": 4,
+            "speed": 4
+          }
+        },
+        {
+          "id": "CLE-2021-H08",
+          "name": "세자르 에르난데스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.225,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "CLE-2021-H09",
+          "name": "오스틴 헤지스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.183,
+            "homeRuns": 10,
+            "eye": 5,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "CLE-2021-P01",
+          "name": "잭 플리색",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 70,
+          "control": 98,
+          "stamina": 91,
+          "grade": "B"
+        },
+        {
+          "id": "CLE-2021-P02",
+          "name": "트리스턴 맥켄지",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 67,
+          "control": 50,
+          "stamina": 89,
+          "grade": "C"
+        },
+        {
+          "id": "CLE-2021-P03",
+          "name": "칼 퀀트릴",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 85,
+          "control": 83,
+          "stamina": 92,
+          "grade": "A"
+        },
+        {
+          "id": "CLE-2021-P04",
+          "name": "애런 시베일",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 77,
+          "control": 96,
+          "stamina": 90,
+          "grade": "A"
+        },
+        {
+          "id": "CLE-2021-P05",
+          "name": "셰인 비버",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 93,
+          "movement": 82,
+          "control": 77,
+          "stamina": 88,
+          "grade": "A"
+        },
+        {
+          "id": "CLE-2021-P06",
+          "name": "브라이언 쇼",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 71,
+          "movement": 79,
+          "control": 50,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "CLE-2021-P07",
+          "name": "트레버 스테판",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 84,
+          "movement": 72,
+          "control": 50,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "CLE-2021-P08",
+          "name": "닉 위트그렌",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 66,
+          "control": 90,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "CLE-2021-P09",
+          "name": "제임스 카린책",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 94,
+          "movement": 75,
+          "control": 33,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "CLE-2021-P10",
+          "name": "엠마누엘 클라세",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 78,
+          "movement": 98,
+          "control": 98,
+          "stamina": 56,
+          "grade": "S"
+        }
+      ]
+    },
+    "LAA": {
+      "id": "LAA",
+      "name": "LA 에인절스",
+      "shortName": "에인절스",
+      "city": "애너하임",
+      "primary": "#ba0021",
+      "accent": "#003263",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "LAA-2021-H01",
+          "name": "데이비드 플레처",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.257,
+            "homeRuns": 2,
+            "eye": 3,
+            "speed": 6
+          }
+        },
+        {
+          "id": "LAA-2021-H02",
+          "name": "오타니 쇼헤이",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 46,
+            "eye": 8,
+            "speed": 8
+          }
+        },
+        {
+          "id": "LAA-2021-H03",
+          "name": "마이크 트라웃",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.258,
+            "homeRuns": 8,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "LAA-2021-H04",
+          "name": "재러드 월시",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.267,
+            "homeRuns": 29,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAA-2021-H05",
+          "name": "저스틴 업턴",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 17,
+            "eye": 5,
+            "speed": 5
+          }
+        },
+        {
+          "id": "LAA-2021-H06",
+          "name": "앤서니 렌던",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.231,
+            "homeRuns": 6,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "LAA-2021-H07",
+          "name": "호세 이글레시아스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.245,
+            "homeRuns": 8,
+            "eye": 3,
+            "speed": 3
+          }
+        },
+        {
+          "id": "LAA-2021-H08",
+          "name": "맥스 스타시",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.225,
+            "homeRuns": 13,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "LAA-2021-H09",
+          "name": "테일러 워드",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 8,
+            "eye": 5,
+            "speed": 3
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "LAA-2021-P01",
+          "name": "오타니 쇼헤이",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 84,
+          "movement": 82,
+          "control": 79,
+          "stamina": 89,
+          "grade": "A"
+        },
+        {
+          "id": "LAA-2021-P02",
+          "name": "딜런 번디",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 58,
+          "control": 71,
+          "stamina": 85,
+          "grade": "C"
+        },
+        {
+          "id": "LAA-2021-P03",
+          "name": "앤드루 히니",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 84,
+          "movement": 65,
+          "control": 79,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "LAA-2021-P04",
+          "name": "알렉스 콥",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 77,
+          "control": 75,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "LAA-2021-P05",
+          "name": "호세 수아레스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 77,
+          "control": 73,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "LAA-2021-P06",
+          "name": "마이크 마이어스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 84,
+          "movement": 77,
+          "control": 77,
+          "stamina": 75,
+          "grade": "A"
+        },
+        {
+          "id": "LAA-2021-P07",
+          "name": "스티브 시섹",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 80,
+          "control": 29,
+          "stamina": 76,
+          "grade": "C"
+        },
+        {
+          "id": "LAA-2021-P08",
+          "name": "주니어 게라",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 58,
+          "control": 10,
+          "stamina": 77,
+          "grade": "D"
+        },
+        {
+          "id": "LAA-2021-P09",
+          "name": "토니 왓슨",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 63,
+          "movement": 70,
+          "control": 62,
+          "stamina": 81,
+          "grade": "C"
+        },
+        {
+          "id": "LAA-2021-P10",
+          "name": "라이셀 이글레시아스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 97,
+          "movement": 87,
+          "control": 100,
+          "stamina": 56,
+          "grade": "S"
+        }
+      ]
+    },
+    "MIA": {
+      "id": "MIA",
+      "name": "마이애미 말린스",
+      "shortName": "마이애미",
+      "city": "마이애미",
+      "primary": "#000000",
+      "accent": "#f9423a",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "MIA-2021-H01",
+          "name": "재즈 치좀 주니어",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 18,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "MIA-2021-H02",
+          "name": "스탈링 마르테",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.276,
+            "homeRuns": 7,
+            "eye": 6,
+            "speed": 8
+          }
+        },
+        {
+          "id": "MIA-2021-H03",
+          "name": "헤수스 아길라",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.251,
+            "homeRuns": 22,
+            "eye": 5,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIA-2021-H04",
+          "name": "애덤 듀발",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 22,
+            "eye": 4,
+            "speed": 5
+          }
+        },
+        {
+          "id": "MIA-2021-H05",
+          "name": "브라이언 앤더슨",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.217,
+            "homeRuns": 7,
+            "eye": 8,
+            "speed": 6
+          }
+        },
+        {
+          "id": "MIA-2021-H06",
+          "name": "헤수스 산체스",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.248,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIA-2021-H07",
+          "name": "개릿 쿠퍼",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.245,
+            "homeRuns": 9,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIA-2021-H08",
+          "name": "미겔 로하스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.257,
+            "homeRuns": 9,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "MIA-2021-H09",
+          "name": "호르헤 알파로",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.212,
+            "homeRuns": 4,
+            "eye": 5,
+            "speed": 5
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "MIA-2021-P01",
+          "name": "샌디 알칸타라",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 74,
+          "movement": 82,
+          "control": 96,
+          "stamina": 98,
+          "grade": "A"
+        },
+        {
+          "id": "MIA-2021-P02",
+          "name": "트레버 로저스",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 87,
+          "control": 77,
+          "stamina": 88,
+          "grade": "A"
+        },
+        {
+          "id": "MIA-2021-P03",
+          "name": "파블로 로페스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 81,
+          "movement": 83,
+          "control": 94,
+          "stamina": 85,
+          "grade": "S"
+        },
+        {
+          "id": "MIA-2021-P04",
+          "name": "잭 톰슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 82,
+          "control": 71,
+          "stamina": 82,
+          "grade": "B"
+        },
+        {
+          "id": "MIA-2021-P05",
+          "name": "헤수스 루자르도",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 55,
+          "control": 37,
+          "stamina": 80,
+          "grade": "D"
+        },
+        {
+          "id": "MIA-2021-P06",
+          "name": "앤서니 벤더",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 85,
+          "control": 81,
+          "stamina": 73,
+          "grade": "A"
+        },
+        {
+          "id": "MIA-2021-P07",
+          "name": "앤서니 배스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 77,
+          "control": 69,
+          "stamina": 73,
+          "grade": "B"
+        },
+        {
+          "id": "MIA-2021-P08",
+          "name": "리처드 블레이어",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 63,
+          "movement": 84,
+          "control": 100,
+          "stamina": 73,
+          "grade": "A"
+        },
+        {
+          "id": "MIA-2021-P09",
+          "name": "잭 팝",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 74,
+          "control": 58,
+          "stamina": 74,
+          "grade": "C"
+        },
+        {
+          "id": "MIA-2021-P10",
+          "name": "딜런 플로로",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 73,
+          "movement": 85,
+          "control": 69,
+          "stamina": 67,
+          "grade": "B"
+        }
+      ]
+    },
+    "PIT": {
+      "id": "PIT",
+      "name": "피츠버그 파이리츠",
+      "shortName": "피츠버그",
+      "city": "피츠버그",
+      "primary": "#27251f",
+      "accent": "#fdb827",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "PIT-2021-H01",
+          "name": "애덤 프레이저",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.284,
+            "homeRuns": 4,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "PIT-2021-H02",
+          "name": "키브라이언 헤이스",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.248,
+            "homeRuns": 6,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "PIT-2021-H03",
+          "name": "브라이언 레이놀즈",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.289,
+            "homeRuns": 24,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "PIT-2021-H04",
+          "name": "콜린 모란",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.234,
+            "homeRuns": 10,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "PIT-2021-H05",
+          "name": "제이콥 스탈링스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.211,
+            "homeRuns": 8,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "PIT-2021-H06",
+          "name": "벤 가멜",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.234,
+            "homeRuns": 8,
+            "eye": 8,
+            "speed": 4
+          }
+        },
+        {
+          "id": "PIT-2021-H07",
+          "name": "그레고리 폴랑코",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.201,
+            "homeRuns": 11,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "PIT-2021-H08",
+          "name": "케빈 뉴먼",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.229,
+            "homeRuns": 5,
+            "eye": 4,
+            "speed": 4
+          }
+        },
+        {
+          "id": "PIT-2021-H09",
+          "name": "쓰쓰고 요시토모",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.234,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "PIT-2021-P01",
+          "name": "윌 크로우",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 63,
+          "control": 50,
+          "stamina": 86,
+          "grade": "C"
+        },
+        {
+          "id": "PIT-2021-P02",
+          "name": "JT 브루베이커",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 64,
+          "control": 83,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "PIT-2021-P03",
+          "name": "미치 켈러",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 57,
+          "control": 50,
+          "stamina": 84,
+          "grade": "D"
+        },
+        {
+          "id": "PIT-2021-P04",
+          "name": "타일러 앤더슨",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 72,
+          "control": 96,
+          "stamina": 84,
+          "grade": "A"
+        },
+        {
+          "id": "PIT-2021-P05",
+          "name": "채드 쿨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 68,
+          "control": 44,
+          "stamina": 81,
+          "grade": "C"
+        },
+        {
+          "id": "PIT-2021-P06",
+          "name": "크리스 스트래튼",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 78,
+          "control": 65,
+          "stamina": 77,
+          "grade": "B"
+        },
+        {
+          "id": "PIT-2021-P07",
+          "name": "듀웨인 언더우드 주니어",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 72,
+          "control": 73,
+          "stamina": 78,
+          "grade": "B"
+        },
+        {
+          "id": "PIT-2021-P08",
+          "name": "데이비드 베드나",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 87,
+          "movement": 90,
+          "control": 83,
+          "stamina": 80,
+          "grade": "S"
+        },
+        {
+          "id": "PIT-2021-P09",
+          "name": "체이슨 슈리브",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 65,
+          "movement": 82,
+          "control": 48,
+          "stamina": 81,
+          "grade": "C"
+        },
+        {
+          "id": "PIT-2021-P10",
+          "name": "리처드 로드리게스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 68,
+          "movement": 85,
+          "control": 100,
+          "stamina": 54,
+          "grade": "A"
+        }
+      ]
+    },
+    "WSH": {
+      "id": "WSH",
+      "name": "워싱턴 내셔널스",
+      "shortName": "워싱턴",
+      "city": "워싱턴 D.C.",
+      "primary": "#ab0003",
+      "accent": "#14225a",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "WSH-2021-H01",
+          "name": "트레이 터너",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.301,
+            "homeRuns": 18,
+            "eye": 4,
+            "speed": 7
+          }
+        },
+        {
+          "id": "WSH-2021-H02",
+          "name": "레인 토마스",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 7,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "WSH-2021-H03",
+          "name": "후안 소토",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.297,
+            "homeRuns": 29,
+            "eye": 10,
+            "speed": 6
+          }
+        },
+        {
+          "id": "WSH-2021-H04",
+          "name": "조시 벨",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.261,
+            "homeRuns": 27,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "WSH-2021-H05",
+          "name": "카일 슈워버",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.253,
+            "homeRuns": 25,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "WSH-2021-H06",
+          "name": "라이언 짐머맨",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 14,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "WSH-2021-H07",
+          "name": "조시 해리슨",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.269,
+            "homeRuns": 6,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "WSH-2021-H08",
+          "name": "카터 키붐",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.245,
+            "homeRuns": 6,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "WSH-2021-H09",
+          "name": "얀 곰스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.26,
+            "homeRuns": 9,
+            "eye": 8,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "WSH-2021-P01",
+          "name": "패트릭 코빈",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 60,
+          "control": 77,
+          "stamina": 93,
+          "grade": "C"
+        },
+        {
+          "id": "WSH-2021-P02",
+          "name": "에릭 페디",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 63,
+          "control": 75,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "WSH-2021-P03",
+          "name": "맥스 슈어저",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 90,
+          "movement": 86,
+          "control": 94,
+          "stamina": 87,
+          "grade": "S"
+        },
+        {
+          "id": "WSH-2021-P04",
+          "name": "파올로 에스피노",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 73,
+          "control": 96,
+          "stamina": 86,
+          "grade": "A"
+        },
+        {
+          "id": "WSH-2021-P05",
+          "name": "조 로스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 75,
+          "movement": 74,
+          "control": 83,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "WSH-2021-P06",
+          "name": "카일 피니건",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 79,
+          "control": 46,
+          "stamina": 73,
+          "grade": "C"
+        },
+        {
+          "id": "WSH-2021-P07",
+          "name": "오스틴 보스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 64,
+          "control": 50,
+          "stamina": 73,
+          "grade": "C"
+        },
+        {
+          "id": "WSH-2021-P08",
+          "name": "샘 클레이",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 63,
+          "movement": 62,
+          "control": 50,
+          "stamina": 73,
+          "grade": "D"
+        },
+        {
+          "id": "WSH-2021-P09",
+          "name": "완더 수에로",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 56,
+          "control": 75,
+          "stamina": 74,
+          "grade": "C"
+        },
+        {
+          "id": "WSH-2021-P10",
+          "name": "브래드 핸드",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 74,
+          "movement": 79,
+          "control": 62,
+          "stamina": 54,
+          "grade": "B"
+        }
+      ]
+    },
+    "TB": {
+      "id": "TB",
+      "name": "탬파베이 레이스",
+      "shortName": "탬파베이",
+      "city": "세인트피터즈버그",
+      "primary": "#092c5c",
+      "accent": "#8fbce6",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "TB-2021-H01",
+          "name": "브랜던 라우",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 39,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "TB-2021-H02",
+          "name": "완더 프랑코",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 7,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "TB-2021-H03",
+          "name": "랜디 아로사레나",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.269,
+            "homeRuns": 20,
+            "eye": 7,
+            "speed": 7
+          }
+        },
+        {
+          "id": "TB-2021-H04",
+          "name": "오스틴 메도스",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.231,
+            "homeRuns": 27,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "TB-2021-H05",
+          "name": "얀디 디아스",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.255,
+            "homeRuns": 13,
+            "eye": 7,
+            "speed": 4
+          }
+        },
+        {
+          "id": "TB-2021-H06",
+          "name": "최지만",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.221,
+            "homeRuns": 11,
+            "eye": 9,
+            "speed": 1
+          }
+        },
+        {
+          "id": "TB-2021-H07",
+          "name": "마누엘 마고",
+          "position": "RF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 10,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TB-2021-H08",
+          "name": "마이크 주니노",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.234,
+            "homeRuns": 33,
+            "eye": 6,
+            "speed": 1
+          }
+        },
+        {
+          "id": "TB-2021-H09",
+          "name": "케빈 키어마이어",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.241,
+            "homeRuns": 4,
+            "eye": 6,
+            "speed": 7
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "TB-2021-P01",
+          "name": "셰인 맥클라나한",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 80,
+          "control": 86,
+          "stamina": 88,
+          "grade": "A"
+        },
+        {
+          "id": "TB-2021-P02",
+          "name": "마이클 와카",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 66,
+          "control": 96,
+          "stamina": 89,
+          "grade": "A"
+        },
+        {
+          "id": "TB-2021-P03",
+          "name": "라이언 야브로",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 63,
+          "movement": 66,
+          "control": 100,
+          "stamina": 91,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2021-P04",
+          "name": "리치 힐",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 76,
+          "control": 71,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2021-P05",
+          "name": "타일러 글래스노",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 94,
+          "movement": 86,
+          "control": 83,
+          "stamina": 85,
+          "grade": "S"
+        },
+        {
+          "id": "TB-2021-P06",
+          "name": "앤드루 키트리지",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 79,
+          "movement": 93,
+          "control": 100,
+          "stamina": 75,
+          "grade": "S"
+        },
+        {
+          "id": "TB-2021-P07",
+          "name": "제프리 스프링스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 94,
+          "movement": 80,
+          "control": 83,
+          "stamina": 79,
+          "grade": "S"
+        },
+        {
+          "id": "TB-2021-P08",
+          "name": "피트 페어뱅크스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 90,
+          "movement": 79,
+          "control": 50,
+          "stamina": 79,
+          "grade": "B"
+        },
+        {
+          "id": "TB-2021-P09",
+          "name": "J.P. 파이어라이젠",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 70,
+          "movement": 88,
+          "control": 29,
+          "stamina": 79,
+          "grade": "C"
+        },
+        {
+          "id": "TB-2021-P10",
+          "name": "디에고 카스티요",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 91,
+          "movement": 86,
+          "control": 90,
+          "stamina": 54,
+          "grade": "S"
+        }
+      ]
+    },
+    "NYM": {
+      "id": "NYM",
+      "name": "뉴욕 메츠",
+      "shortName": "메츠",
+      "city": "뉴욕",
+      "primary": "#002d72",
+      "accent": "#ff5910",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "NYM-2021-H01",
+          "name": "브랜던 니모",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.249,
+            "homeRuns": 8,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "NYM-2021-H02",
+          "name": "프란시스코 린도어",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 20,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "NYM-2021-H03",
+          "name": "피트 알론소",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.262,
+            "homeRuns": 37,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYM-2021-H04",
+          "name": "마이클 콘포토",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.224,
+            "homeRuns": 14,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYM-2021-H05",
+          "name": "J.D. 데이비스",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 5,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "NYM-2021-H06",
+          "name": "제프 맥닐",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 7,
+            "eye": 5,
+            "speed": 4
+          }
+        },
+        {
+          "id": "NYM-2021-H07",
+          "name": "도미닉 스미스",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.237,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "NYM-2021-H08",
+          "name": "조너선 비야",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.252,
+            "homeRuns": 18,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "NYM-2021-H09",
+          "name": "제임스 맥캔",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.222,
+            "homeRuns": 10,
+            "eye": 5,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "NYM-2021-P01",
+          "name": "마커스 스트로먼",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 83,
+          "control": 96,
+          "stamina": 93,
+          "grade": "A"
+        },
+        {
+          "id": "NYM-2021-P02",
+          "name": "타이후안 워커",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 71,
+          "control": 77,
+          "stamina": 90,
+          "grade": "B"
+        },
+        {
+          "id": "NYM-2021-P03",
+          "name": "타일러 메길",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 80,
+          "movement": 71,
+          "control": 86,
+          "stamina": 82,
+          "grade": "A"
+        },
+        {
+          "id": "NYM-2021-P04",
+          "name": "제이콥 디그롬",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 100,
+          "movement": 100,
+          "control": 100,
+          "stamina": 82,
+          "grade": "S"
+        },
+        {
+          "id": "NYM-2021-P05",
+          "name": "데이비드 피터슨",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 62,
+          "control": 60,
+          "stamina": 79,
+          "grade": "C"
+        },
+        {
+          "id": "NYM-2021-P06",
+          "name": "미겔 카스트로",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 80,
+          "movement": 80,
+          "control": 27,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "NYM-2021-P07",
+          "name": "트레버 메이",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 90,
+          "movement": 79,
+          "control": 71,
+          "stamina": 76,
+          "grade": "A"
+        },
+        {
+          "id": "NYM-2021-P08",
+          "name": "쥬리스 파밀리아",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 85,
+          "movement": 76,
+          "control": 56,
+          "stamina": 76,
+          "grade": "B"
+        },
+        {
+          "id": "NYM-2021-P09",
+          "name": "애런 루프",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 75,
+          "movement": 100,
+          "control": 90,
+          "stamina": 77,
+          "grade": "S"
+        },
+        {
+          "id": "NYM-2021-P10",
+          "name": "에드윈 디아스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 95,
+          "movement": 80,
+          "control": 73,
+          "stamina": 54,
+          "grade": "A"
+        }
+      ]
+    },
+    "SF": {
+      "id": "SF",
+      "name": "샌프란시스코 자이언츠",
+      "shortName": "샌프란시스코",
+      "city": "샌프란시스코",
+      "primary": "#fd5a1e",
+      "accent": "#27251f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "SF-2021-H01",
+          "name": "토미 라 스텔라",
+          "position": "2B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.265,
+            "homeRuns": 7,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SF-2021-H02",
+          "name": "브랜던 벨트",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.274,
+            "homeRuns": 29,
+            "eye": 9,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SF-2021-H03",
+          "name": "버스터 포지",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.271,
+            "homeRuns": 18,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "SF-2021-H04",
+          "name": "브랜던 크로퍼드",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.289,
+            "homeRuns": 24,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "SF-2021-H05",
+          "name": "에반 롱고리아",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.257,
+            "homeRuns": 13,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "SF-2021-H06",
+          "name": "마이크 야스트렘스키",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.233,
+            "homeRuns": 25,
+            "eye": 7,
+            "speed": 5
+          }
+        },
+        {
+          "id": "SF-2021-H07",
+          "name": "알렉스 디커슨",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.225,
+            "homeRuns": 13,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "SF-2021-H08",
+          "name": "다린 러프",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.26,
+            "homeRuns": 16,
+            "eye": 8,
+            "speed": 2
+          }
+        },
+        {
+          "id": "SF-2021-H09",
+          "name": "스티븐 더거",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.246,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 7
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "SF-2021-P01",
+          "name": "케빈 가우스먼",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 83,
+          "movement": 85,
+          "control": 94,
+          "stamina": 94,
+          "grade": "S"
+        },
+        {
+          "id": "SF-2021-P02",
+          "name": "앤서니 디스클라파니",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 71,
+          "movement": 82,
+          "control": 94,
+          "stamina": 91,
+          "grade": "A"
+        },
+        {
+          "id": "SF-2021-P03",
+          "name": "로건 웹",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 78,
+          "movement": 83,
+          "control": 96,
+          "stamina": 88,
+          "grade": "S"
+        },
+        {
+          "id": "SF-2021-P04",
+          "name": "알렉스 우드",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 80,
+          "movement": 77,
+          "control": 90,
+          "stamina": 86,
+          "grade": "A"
+        },
+        {
+          "id": "SF-2021-P05",
+          "name": "조니 쿠에토",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 75,
+          "control": 92,
+          "stamina": 82,
+          "grade": "A"
+        },
+        {
+          "id": "SF-2021-P06",
+          "name": "타일러 로저스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 60,
+          "movement": 90,
+          "control": 100,
+          "stamina": 75,
+          "grade": "A"
+        },
+        {
+          "id": "SF-2021-P07",
+          "name": "하를린 가르시아",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 87,
+          "control": 92,
+          "stamina": 77,
+          "grade": "A"
+        },
+        {
+          "id": "SF-2021-P08",
+          "name": "호세 알바레스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 58,
+          "movement": 89,
+          "control": 88,
+          "stamina": 78,
+          "grade": "A"
+        },
+        {
+          "id": "SF-2021-P09",
+          "name": "잭 리텔",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 84,
+          "control": 69,
+          "stamina": 78,
+          "grade": "B"
+        },
+        {
+          "id": "SF-2021-P10",
+          "name": "제이크 맥기",
+          "throws": "L",
+          "role": "CP",
+          "stuff": 73,
+          "movement": 86,
+          "control": 100,
+          "stamina": 54,
+          "grade": "S"
+        }
+      ]
+    },
+    "MIN": {
+      "id": "MIN",
+      "name": "미네소타 트윈스",
+      "shortName": "미네소타",
+      "city": "미니애폴리스",
+      "primary": "#002b5c",
+      "accent": "#d31145",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "MIN-2021-H01",
+          "name": "바이런 벅스턴",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.254,
+            "homeRuns": 19,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "MIN-2021-H02",
+          "name": "루이스 아라에스",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 2,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "MIN-2021-H03",
+          "name": "호르헤 폴랑코",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.269,
+            "homeRuns": 33,
+            "eye": 4,
+            "speed": 6
+          }
+        },
+        {
+          "id": "MIN-2021-H04",
+          "name": "넬슨 크루즈",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.272,
+            "homeRuns": 19,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIN-2021-H05",
+          "name": "조시 도널드슨",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 26,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIN-2021-H06",
+          "name": "맥스 케플러",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.215,
+            "homeRuns": 19,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "MIN-2021-H07",
+          "name": "미겔 사노",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.231,
+            "homeRuns": 30,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "MIN-2021-H08",
+          "name": "미치 가버",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.215,
+            "homeRuns": 13,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "MIN-2021-H09",
+          "name": "안드렐톤 시몬스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.225,
+            "homeRuns": 3,
+            "eye": 5,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "MIN-2021-P01",
+          "name": "마이클 피네다",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 65,
+          "movement": 78,
+          "control": 100,
+          "stamina": 87,
+          "grade": "A"
+        },
+        {
+          "id": "MIN-2021-P02",
+          "name": "마에다 겐타",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 78,
+          "movement": 70,
+          "control": 86,
+          "stamina": 87,
+          "grade": "A"
+        },
+        {
+          "id": "MIN-2021-P03",
+          "name": "호세 베리오스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 80,
+          "control": 92,
+          "stamina": 88,
+          "grade": "A"
+        },
+        {
+          "id": "MIN-2021-P04",
+          "name": "베일리 오버",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 74,
+          "control": 100,
+          "stamina": 85,
+          "grade": "A"
+        },
+        {
+          "id": "MIN-2021-P05",
+          "name": "J.A. 햅",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 64,
+          "movement": 52,
+          "control": 83,
+          "stamina": 86,
+          "grade": "C"
+        },
+        {
+          "id": "MIN-2021-P06",
+          "name": "케일럽 실바",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 84,
+          "movement": 82,
+          "control": 83,
+          "stamina": 74,
+          "grade": "A"
+        },
+        {
+          "id": "MIN-2021-P07",
+          "name": "타일러 더피",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 82,
+          "control": 58,
+          "stamina": 74,
+          "grade": "B"
+        },
+        {
+          "id": "MIN-2021-P08",
+          "name": "호르헤 알칼라",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 76,
+          "movement": 76,
+          "control": 100,
+          "stamina": 75,
+          "grade": "A"
+        },
+        {
+          "id": "MIN-2021-P09",
+          "name": "한셀 로블레스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 68,
+          "control": 39,
+          "stamina": 76,
+          "grade": "C"
+        },
+        {
+          "id": "MIN-2021-P10",
+          "name": "알렉스 콜로메",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 70,
+          "movement": 74,
+          "control": 75,
+          "stamina": 67,
+          "grade": "B"
+        }
+      ]
+    },
+    "CHC": {
+      "id": "CHC",
+      "name": "시카고 컵스",
+      "shortName": "컵스",
+      "city": "시카고",
+      "primary": "#0e3386",
+      "accent": "#cc3433",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "CHC-2021-H01",
+          "name": "라파엘 오르테가",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.27,
+            "homeRuns": 11,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CHC-2021-H02",
+          "name": "크리스 브라이언트",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.273,
+            "homeRuns": 18,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CHC-2021-H03",
+          "name": "앤서니 리조",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.284,
+            "homeRuns": 14,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CHC-2021-H04",
+          "name": "하비에르 바에스",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.235,
+            "homeRuns": 22,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CHC-2021-H05",
+          "name": "윌슨 콘트레라스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.217,
+            "homeRuns": 21,
+            "eye": 8,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CHC-2021-H06",
+          "name": "이안 햅",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.227,
+            "homeRuns": 25,
+            "eye": 7,
+            "speed": 6
+          }
+        },
+        {
+          "id": "CHC-2021-H07",
+          "name": "패트릭 위즈덤",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.246,
+            "homeRuns": 28,
+            "eye": 6,
+            "speed": 3
+          }
+        },
+        {
+          "id": "CHC-2021-H08",
+          "name": "제이슨 헤이워드",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.214,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "CHC-2021-H09",
+          "name": "데이비드 보트",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.225,
+            "homeRuns": 8,
+            "eye": 6,
+            "speed": 4
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "CHC-2021-P01",
+          "name": "카일 헨드릭스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 69,
+          "control": 96,
+          "stamina": 93,
+          "grade": "B"
+        },
+        {
+          "id": "CHC-2021-P02",
+          "name": "잭 데이비스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 64,
+          "movement": 60,
+          "control": 46,
+          "stamina": 89,
+          "grade": "D"
+        },
+        {
+          "id": "CHC-2021-P03",
+          "name": "애드버트 알조레이",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 76,
+          "movement": 70,
+          "control": 92,
+          "stamina": 87,
+          "grade": "A"
+        },
+        {
+          "id": "CHC-2021-P04",
+          "name": "알렉 밀스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 62,
+          "movement": 66,
+          "control": 88,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "CHC-2021-P05",
+          "name": "제이크 아리에타",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 68,
+          "movement": 51,
+          "control": 56,
+          "stamina": 82,
+          "grade": "D"
+        },
+        {
+          "id": "CHC-2021-P06",
+          "name": "렉스 브라더스",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 94,
+          "movement": 65,
+          "control": 18,
+          "stamina": 75,
+          "grade": "D"
+        },
+        {
+          "id": "CHC-2021-P07",
+          "name": "라이언 테페라",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 82,
+          "movement": 84,
+          "control": 90,
+          "stamina": 76,
+          "grade": "S"
+        },
+        {
+          "id": "CHC-2021-P08",
+          "name": "댄 윙클러",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 75,
+          "movement": 65,
+          "control": 1,
+          "stamina": 76,
+          "grade": "D"
+        },
+        {
+          "id": "CHC-2021-P09",
+          "name": "앤드루 샤핀",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 72,
+          "movement": 91,
+          "control": 86,
+          "stamina": 76,
+          "grade": "A"
+        },
+        {
+          "id": "CHC-2021-P10",
+          "name": "크레이그 킴브럴",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 100,
+          "movement": 100,
+          "control": 75,
+          "stamina": 54,
+          "grade": "S"
+        }
+      ]
+    },
+    "COL": {
+      "id": "COL",
+      "name": "콜로라도 로키스",
+      "shortName": "콜로라도",
+      "city": "덴버",
+      "primary": "#33006f",
+      "accent": "#c4ced4",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "COL-2021-H01",
+          "name": "라이멜 타피아",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.266,
+            "homeRuns": 6,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "COL-2021-H02",
+          "name": "브렌던 로저스",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.279,
+            "homeRuns": 15,
+            "eye": 4,
+            "speed": 1
+          }
+        },
+        {
+          "id": "COL-2021-H03",
+          "name": "찰리 블랙먼",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.265,
+            "homeRuns": 13,
+            "eye": 6,
+            "speed": 2
+          }
+        },
+        {
+          "id": "COL-2021-H04",
+          "name": "트레버 스토리",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.25,
+            "homeRuns": 24,
+            "eye": 6,
+            "speed": 7
+          }
+        },
+        {
+          "id": "COL-2021-H05",
+          "name": "C.J. 크론",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.281,
+            "homeRuns": 28,
+            "eye": 8,
+            "speed": 1
+          }
+        },
+        {
+          "id": "COL-2021-H06",
+          "name": "라이언 맥마흔",
+          "position": "3B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.244,
+            "homeRuns": 23,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "COL-2021-H07",
+          "name": "개릿 햄슨",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 11,
+            "eye": 5,
+            "speed": 7
+          }
+        },
+        {
+          "id": "COL-2021-H08",
+          "name": "엘리아스 디아스",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.223,
+            "homeRuns": 18,
+            "eye": 7,
+            "speed": 1
+          }
+        },
+        {
+          "id": "COL-2021-H09",
+          "name": "코너 조",
+          "position": "DH",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.256,
+            "homeRuns": 8,
+            "eye": 7,
+            "speed": 1
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "COL-2021-P01",
+          "name": "헤르만 마르케스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 74,
+          "movement": 72,
+          "control": 75,
+          "stamina": 92,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2021-P02",
+          "name": "존 그레이",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 70,
+          "control": 69,
+          "stamina": 88,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2021-P03",
+          "name": "안토니오 센자텔라",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 59,
+          "movement": 72,
+          "control": 100,
+          "stamina": 89,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2021-P04",
+          "name": "카일 프리랜드",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 72,
+          "control": 83,
+          "stamina": 83,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2021-P05",
+          "name": "오스틴 곰버",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 74,
+          "movement": 71,
+          "control": 75,
+          "stamina": 82,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2021-P06",
+          "name": "타일러 킨리",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 73,
+          "movement": 69,
+          "control": 73,
+          "stamina": 74,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2021-P07",
+          "name": "줄리스 차신",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 62,
+          "movement": 72,
+          "control": 60,
+          "stamina": 74,
+          "grade": "C"
+        },
+        {
+          "id": "COL-2021-P08",
+          "name": "카를로스 에스테베스",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 72,
+          "control": 77,
+          "stamina": 75,
+          "grade": "B"
+        },
+        {
+          "id": "COL-2021-P09",
+          "name": "옌시 알몬테",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 74,
+          "movement": 45,
+          "control": 27,
+          "stamina": 76,
+          "grade": "D"
+        },
+        {
+          "id": "COL-2021-P10",
+          "name": "다니엘 바드",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 85,
+          "movement": 65,
+          "control": 39,
+          "stamina": 54,
+          "grade": "C"
+        }
+      ]
+    },
+    "TEX": {
+      "id": "TEX",
+      "name": "텍사스 레인저스",
+      "shortName": "텍사스",
+      "city": "알링턴",
+      "primary": "#003278",
+      "accent": "#c0111f",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "TEX-2021-H01",
+          "name": "아이재아 카이너-팔레파",
+          "position": "SS",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.266,
+            "homeRuns": 8,
+            "eye": 4,
+            "speed": 7
+          }
+        },
+        {
+          "id": "TEX-2021-H02",
+          "name": "조이 갈로",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.214,
+            "homeRuns": 25,
+            "eye": 10,
+            "speed": 4
+          }
+        },
+        {
+          "id": "TEX-2021-H03",
+          "name": "아돌리스 가르시아",
+          "position": "CF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.225,
+            "homeRuns": 31,
+            "eye": 4,
+            "speed": 7
+          }
+        },
+        {
+          "id": "TEX-2021-H04",
+          "name": "네이트 로우",
+          "position": "1B",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.259,
+            "homeRuns": 18,
+            "eye": 8,
+            "speed": 4
+          }
+        },
+        {
+          "id": "TEX-2021-H05",
+          "name": "닉 솔락",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.242,
+            "homeRuns": 11,
+            "eye": 6,
+            "speed": 4
+          }
+        },
+        {
+          "id": "TEX-2021-H06",
+          "name": "윌리 칼훈",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.222,
+            "homeRuns": 6,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "TEX-2021-H07",
+          "name": "앤디 이바녜스",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.238,
+            "homeRuns": 7,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "TEX-2021-H08",
+          "name": "데이비드 달",
+          "position": "LF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.197,
+            "homeRuns": 4,
+            "eye": 4,
+            "speed": 5
+          }
+        },
+        {
+          "id": "TEX-2021-H09",
+          "name": "조나 하임",
+          "position": "C",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.22,
+            "homeRuns": 10,
+            "eye": 3,
+            "speed": 2
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "TEX-2021-P01",
+          "name": "조던 라일스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 66,
+          "movement": 66,
+          "control": 83,
+          "stamina": 93,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2021-P02",
+          "name": "데인 더닝",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 73,
+          "movement": 71,
+          "control": 73,
+          "stamina": 86,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2021-P03",
+          "name": "마이크 폴티네비치",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 61,
+          "movement": 63,
+          "control": 94,
+          "stamina": 88,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2021-P04",
+          "name": "카일 깁슨",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 85,
+          "control": 73,
+          "stamina": 85,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2021-P05",
+          "name": "콜비 앨러드",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 67,
+          "movement": 63,
+          "control": 96,
+          "stamina": 87,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2021-P06",
+          "name": "브렛 마틴",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 60,
+          "movement": 82,
+          "control": 100,
+          "stamina": 75,
+          "grade": "A"
+        },
+        {
+          "id": "TEX-2021-P07",
+          "name": "조시 스보즈",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 83,
+          "movement": 75,
+          "control": 39,
+          "stamina": 75,
+          "grade": "C"
+        },
+        {
+          "id": "TEX-2021-P08",
+          "name": "존 킹",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 79,
+          "control": 94,
+          "stamina": 76,
+          "grade": "A"
+        },
+        {
+          "id": "TEX-2021-P09",
+          "name": "스펜서 패튼",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 81,
+          "movement": 77,
+          "control": 75,
+          "stamina": 77,
+          "grade": "B"
+        },
+        {
+          "id": "TEX-2021-P10",
+          "name": "이안 케네디",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 79,
+          "movement": 88,
+          "control": 100,
+          "stamina": 54,
+          "grade": "S"
+        }
+      ]
+    },
+    "PHI": {
+      "id": "PHI",
+      "name": "필라델피아 필리스",
+      "shortName": "필라델피아",
+      "city": "필라델피아",
+      "primary": "#e81828",
+      "accent": "#002d72",
+      "strength": 72,
+      "hitters": [
+        {
+          "id": "PHI-2021-H01",
+          "name": "진 세구라",
+          "position": "2B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.282,
+            "homeRuns": 14,
+            "eye": 5,
+            "speed": 6
+          }
+        },
+        {
+          "id": "PHI-2021-H02",
+          "name": "J.T. 리얼무토",
+          "position": "C",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.236,
+            "homeRuns": 17,
+            "eye": 6,
+            "speed": 6
+          }
+        },
+        {
+          "id": "PHI-2021-H03",
+          "name": "브라이스 하퍼",
+          "position": "RF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.292,
+            "homeRuns": 35,
+            "eye": 10,
+            "speed": 6
+          }
+        },
+        {
+          "id": "PHI-2021-H04",
+          "name": "리스 호스킨스",
+          "position": "1B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.247,
+            "homeRuns": 27,
+            "eye": 7,
+            "speed": 2
+          }
+        },
+        {
+          "id": "PHI-2021-H05",
+          "name": "앤드루 맥커친",
+          "position": "LF",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.22,
+            "homeRuns": 27,
+            "eye": 9,
+            "speed": 4
+          }
+        },
+        {
+          "id": "PHI-2021-H06",
+          "name": "디디 그레고리우스",
+          "position": "SS",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.214,
+            "homeRuns": 13,
+            "eye": 5,
+            "speed": 2
+          }
+        },
+        {
+          "id": "PHI-2021-H07",
+          "name": "브래드 밀러",
+          "position": "DH",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.228,
+            "homeRuns": 20,
+            "eye": 7,
+            "speed": 3
+          }
+        },
+        {
+          "id": "PHI-2021-H08",
+          "name": "알렉 봄",
+          "position": "3B",
+          "bats": "R",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 7,
+            "eye": 5,
+            "speed": 3
+          }
+        },
+        {
+          "id": "PHI-2021-H09",
+          "name": "오두벨 에레라",
+          "position": "CF",
+          "bats": "L",
+          "availability": "REGULAR",
+          "statProfile": {
+            "games": 162,
+            "avg": 0.243,
+            "homeRuns": 13,
+            "eye": 5,
+            "speed": 6
+          }
+        }
+      ],
+      "pitchers": [
+        {
+          "id": "PHI-2021-P01",
+          "name": "잭 휠러",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 82,
+          "movement": 85,
+          "control": 100,
+          "stamina": 100,
+          "grade": "S"
+        },
+        {
+          "id": "PHI-2021-P02",
+          "name": "애런 놀라",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 86,
+          "movement": 70,
+          "control": 100,
+          "stamina": 93,
+          "grade": "S"
+        },
+        {
+          "id": "PHI-2021-P03",
+          "name": "잭 에플린",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 72,
+          "movement": 74,
+          "control": 100,
+          "stamina": 86,
+          "grade": "A"
+        },
+        {
+          "id": "PHI-2021-P04",
+          "name": "빈스 벨라스케스",
+          "throws": "R",
+          "role": "SP",
+          "stuff": 77,
+          "movement": 59,
+          "control": 37,
+          "stamina": 84,
+          "grade": "D"
+        },
+        {
+          "id": "PHI-2021-P05",
+          "name": "맷 무어",
+          "throws": "L",
+          "role": "SP",
+          "stuff": 69,
+          "movement": 56,
+          "control": 44,
+          "stamina": 82,
+          "grade": "D"
+        },
+        {
+          "id": "PHI-2021-P06",
+          "name": "코너 브록던",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 69,
+          "movement": 80,
+          "control": 83,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "PHI-2021-P07",
+          "name": "호세 알바라도",
+          "throws": "L",
+          "role": "RP",
+          "stuff": 85,
+          "movement": 74,
+          "control": 1,
+          "stamina": 71,
+          "grade": "D"
+        },
+        {
+          "id": "PHI-2021-P08",
+          "name": "아치 브래들리",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 65,
+          "movement": 78,
+          "control": 60,
+          "stamina": 71,
+          "grade": "C"
+        },
+        {
+          "id": "PHI-2021-P09",
+          "name": "샘 쿤로드",
+          "throws": "R",
+          "role": "RP",
+          "stuff": 81,
+          "movement": 75,
+          "control": 75,
+          "stamina": 71,
+          "grade": "B"
+        },
+        {
+          "id": "PHI-2021-P10",
+          "name": "헥터 네리스",
+          "throws": "R",
+          "role": "CP",
+          "stuff": 90,
+          "movement": 78,
+          "control": 60,
+          "stamina": 67,
+          "grade": "B"
+        }
+      ]
+    }
+  }
+}
