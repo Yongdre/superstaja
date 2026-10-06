@@ -6,7 +6,7 @@ export function Standings({ state, compact = false }: { state: SeasonState; comp
   const rows = calculateStandings(state.teamRecords);
   const shown = compact ? rows.slice(0, 5) : rows;
   return (
-    <section className="card table-card">
+    <section className="card table-card team-standings">
       <header className="section-header"><div><span className="eyebrow">LEAGUE TABLE</span><h2>{state.season} KBO 순위</h2></div><small>{state.teamRecords[state.config.userTeam].games}경기 진행</small></header>
       <div className="table-wrap"><table>
         <thead><tr><th>순위</th><th className="align-left">팀</th><th>경기</th><th>승</th><th>패</th><th>무</th><th>승률</th><th>게임차</th><th>연속</th></tr></thead>

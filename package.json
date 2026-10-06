@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "dev:cloud": "vite --host 0.0.0.0 --port 5174 --strictPort",
     "build": "tsc -b && vite build",
     "generate:template": "node scripts/generate-league-template.mjs",
     "test": "vitest run",

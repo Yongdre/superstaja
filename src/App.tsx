@@ -189,7 +189,7 @@ export default function App({ onLeagueChange }: BattingAppProps = {}) {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <div className="app-brand"><span className="brand-ball">K</span><div><strong>KBO SIM</strong><small>{state.season} SEASON</small></div></div>
+        <div className="app-brand"><span className="brand-ball">K</span><div><strong>슈퍼스타자</strong><small>KBO CAREER SIM</small></div></div>
         <Navigation tab={tab} onNavigate={setTab} awaitingAtBat={state.game?.phase === "USER_AT_BAT"} />
         <div className="sidebar-season"><span>{state.progress === "REGULAR_SEASON" ? "REGULAR SEASON" : state.progress === "POSTSEASON" ? "POSTSEASON" : "SEASON COMPLETE"}</span><strong>{state.progress === "REGULAR_SEASON" ? state.teamRecords[state.config.userTeam].games : state.postseason?.games.length ?? 0}<small>{state.progress === "REGULAR_SEASON" ? " / 144 G" : " PS GAMES"}</small></strong><div><i style={{ width: `${state.progress === "REGULAR_SEASON" ? state.teamRecords[state.config.userTeam].games / 144 * 100 : 100}%` }} /></div></div>
         <div className="seed-label">SEED · {state.config.seed}<span>{state.leagueData.label}</span></div>

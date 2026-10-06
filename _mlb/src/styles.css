@@ -289,7 +289,7 @@ tr.user-row td { color: var(--green); }
 .mlb-standings { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; }
 .mlb-standings .table-card { margin-bottom:16px; }
 .league-heading { margin:18px 0; font-size:20px; }
-@media(max-width:900px) { .mlb-standings { grid-template-columns:1fr; } }
+@media(max-width:900px) { .mlb-standings { grid-template-columns:minmax(0,1fr); } }
 @media(max-width:760px) { .mobile-nav { grid-template-columns:repeat(7,minmax(0,1fr)); } .bracket-card { padding:14px; } .bracket-card .section-header { align-items:flex-start; flex-direction:column; gap:10px; } .mlb-edition { letter-spacing:2px; } }
 
 .league-data-picker { min-width: 0; display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
@@ -310,3 +310,7 @@ tr.user-row td { color: var(--green); }
 .career-milestone-list article { padding: 14px 16px; border: 1px solid #e5bd6544; border-radius: 10px; background: #e5bd6508; }
 .career-milestone-list strong { display: block; color: #e5bd65; font-size: 16px; }
 .career-milestone-list span { display: block; margin-top: 7px; font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+
+/* Keep standings headings, records and streaks on one line on narrow screens. */
+.team-standings th, .team-standings td { white-space: nowrap; }
+.team-standings .table-wrap { -webkit-overflow-scrolling: touch; }

@@ -1,4 +1,4 @@
-import { era, kPerNine, pitcherKey, USER_PITCHER_ID } from "./engine";
+import { era, eraLabel, kPerNine, kPerNineLabel, pitcherKey, USER_PITCHER_ID } from "./engine";
 import type { PitcherState, PitchingStats } from "./types";
 
 export type PitcherRankingCategory = "era" | "wins" | "strikeouts" | "kPerNine" | "qualityStarts" | "qualityStartsPlus";
@@ -9,6 +9,10 @@ export const pitcherRankingCategories: { value: PitcherRankingCategory; label: s
 export interface PitcherRankingRow {
   key: string; name: string; teamId: string; user: boolean; stats: PitchingStats;
   qualified: boolean; requiredInnings: number; rank: number | null;
+}
+
+export function pitcherRankingValueLabel(stats: PitchingStats, category: PitcherRankingCategory): string {
+  return category === "era" ? eraLabel(stats) : category === "kPerNine" ? kPerNineLabel(stats) : String(stats[category]);
 }
 
 export function pitcherRankings(state: PitcherState, category: PitcherRankingCategory = "era", qualifiedOnly = true): PitcherRankingRow[] {

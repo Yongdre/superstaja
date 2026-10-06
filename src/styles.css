@@ -16,6 +16,29 @@
   --red: #ff716f;
 }
 
+.menu-game-link { display: flex; justify-content: space-between; gap: 12px; align-items: center; padding: 14px 17px; color: #62e3c6; background: #62e3c60a; border: 1px solid #62e3c635; border-radius: 8px; text-decoration: none; font-size: 13px; }
+.menu-game-link b { font-size: 9px; font-weight: 600; }
+.menu-game-link:hover { background: #62e3c617; }
+
+.league-data-picker { min-width: 0; display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+.league-data-picker label { display: flex; flex-direction: column; gap: 6px; font-size: 12px; color: var(--muted); }
+.league-data-picker select { width: 100%; min-width: 0; border: 1px solid var(--line); border-radius: 7px; padding: 10px; background: var(--panel); color: var(--text); }
+.league-data-picker button { white-space: normal; }
+.user-streaks { margin: 10px 0; color: var(--accent, #bfdf61); font-size: 13px; }
+.user-streaks p { margin: 4px 0; }
+.batting-restriction { border: 1px solid #e97567; background: #e9756714; padding: 12px; border-radius: 8px; }
+.batting-restriction strong, .batting-restriction span { display: block; }
+.batting-restriction strong { color: #ff8c7b; }
+.batting-restriction span { margin-top: 5px; font-size: 12px; }
+.cycle-celebration { position: fixed; inset: 0; z-index: 1000; display: grid; place-items: center; padding: 20px; background: #0009; pointer-events: none; }
+.cycle-celebration > div { border: 2px solid #e5bd65; border-radius: 16px; padding: 28px; text-align: center; background: #171b23; box-shadow: 0 0 70px #e5bd6544; }
+.cycle-celebration span { display: block; color: #e5bd65; letter-spacing: 2px; font-size: 12px; }
+.cycle-celebration strong { display: block; margin-top: 12px; font-size: clamp(22px, 5vw, 38px); color: #fff; }
+.career-milestone-list { display: grid; gap: 12px; }
+.career-milestone-list article { padding: 14px 16px; border: 1px solid #e5bd6544; border-radius: 10px; background: #e5bd6508; }
+.career-milestone-list strong { display: block; color: #e5bd65; font-size: 16px; }
+.career-milestone-list span { display: block; margin-top: 7px; font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+
 * { box-sizing: border-box; }
 html, body, #root { min-height: 100%; margin: 0; }
 body { min-width: 320px; background: var(--bg); }
@@ -277,3 +300,7 @@ tr.user-row td { color: var(--green); }
   .save-slot { margin: 16px; padding: 14px; }.save-icon { flex-shrink: 0; }.save-slot > div:last-child { min-width: 0; overflow-wrap: anywhere; }.save-slot strong { font-size: 13px; }
   .records-layout { grid-template-columns: 1fr; }.full-width { grid-column: auto; }.opponent-grid { grid-template-columns: 1fr 1fr; }.game-end { margin: 10px auto; padding: 28px 18px; }.final-score { grid-template-columns: 1fr 45px 1fr; padding: 18px 10px; }.final-score > div { flex-direction: column; gap: 8px; }.final-score > div:last-child { flex-direction: column; }.final-score strong { font-size: 32px; }.final-score span { font-size: 10px; }.decisions { flex-direction: column; gap: 5px; }.other-ballparks > div { grid-template-columns: 1fr; }.end-player { grid-template-columns: 1fr; }.end-player > div + div { border-left: 0; border-top: 1px solid var(--line); }.offseason-fields { grid-template-columns: 1fr; }.save-actions { flex-direction: column; }.manual-save-section > header { align-items: flex-start; flex-direction: column; }.manual-save-grid, .menu-slot-grid { grid-template-columns: 1fr; }.menu-card { padding: 27px 22px 20px; }.menu-brand { margin-bottom: 35px; }.menu-copy p br { display: none; }.menu-card footer { gap: 13px; flex-wrap: wrap; }.form-row { grid-template-columns: 1fr; }.league-data-box { align-items: stretch; flex-direction: column; }.league-data-box > div:last-child { display: grid; grid-template-columns: 1fr 1fr; }
 }
+
+/* Keep standings headings, records and streaks on one line on narrow screens. */
+.team-standings th, .team-standings td { white-space: nowrap; }
+.team-standings .table-wrap { -webkit-overflow-scrolling: touch; }

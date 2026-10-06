@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.vite/
+.pnpm-store/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+*.local
+*.log
+
+# Local research, credentials, and non-runtime backups
+tmp/
+docs/sources/*.pdf
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.codex/
+.agents/
+/CODE_REVIEW_*.md
+/src/data/년도별/
